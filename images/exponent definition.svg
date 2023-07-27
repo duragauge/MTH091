@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="65.401436mm"
+   height="19.235619mm"
+   viewBox="0 0 65.401436 19.235618"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="exponent definition.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.5835831"
+     inkscape:cx="123.59326"
+     inkscape:cy="36.434378"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path21968" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path21941" />
+    </marker>
+    <path
+       id="MJX-43-TEX-I-62"
+       d="m 73,647 q 0,10 4,23 4,13 12,13 1,0 72,5 71,5 73,6 12,0 12,-9 0,-9 -34,-143 -8,-34 -17,-70 -9,-36 -15,-54 l -4,-19 q 0,-3 6,3 49,40 101,40 62,0 100,-46 38,-46 39,-116 Q 422,169 343,79 264,-11 173,-11 123,-11 82,27 41,65 40,150 v 9 q 0,21 8,58 8,37 49,197 50,197 50,209 0,12 -38,14 -5,0 -8,0 h -5 q -10,0 -13,0 -3,0 -7,3 -4,3 -3,7 z M 336,325 v 6 q 0,74 -61,74 -17,0 -35,-8 -18,-8 -33,-21 -15,-13 -26,-24 -11,-11 -18,-22 l -6,-8 -21,-86 q -22,-86 -22,-122 0,-48 24,-72 16,-16 40,-16 33,0 67,32 25,23 40,56 15,33 33,105 18,72 18,106 z" />
+    <path
+       id="MJX-43-TEX-I-6E"
+       d="m 21,287 q 1,6 3,16 2,10 12,38 10,28 20,47 10,19 33,37 23,18 46,17 36,0 60,-18 24,-18 30,-34 6,-16 6,-21 0,-2 1,-2 l 11,11 q 61,64 139,64 54,0 87,-27 33,-27 34,-79 1,-52 -38,-157 -39,-105 -38,-127 0,-26 17,-26 6,0 9,1 29,5 52,38 23,33 35,80 2,8 20,8 20,0 20,-8 0,-1 -4,-15 -8,-29 -22,-57 -14,-28 -46,-56 -32,-28 -69,-27 -47,0 -68,27 -21,27 -21,56 0,19 36,120 36,101 37,152 0,59 -44,59 h -5 Q 288,404 229,303 L 222,291 189,157 Q 156,26 151,16 138,-11 108,-11 95,-11 87,-5 79,1 76,7 q -3,6 -2,10 0,13 38,163 38,150 40,163 1,5 1,23 0,39 -24,39 -38,0 -63,-100 -6,-20 -6,-21 -2,-6 -19,-6 H 27 q -6,6 -6,9 z" />
+    <path
+       id="MJX-43-TEX-N-3D"
+       d="m 56,347 q 0,13 14,20 h 637 q 15,-8 15,-20 0,-11 -14,-19 L 390,327 H 72 q -16,5 -16,20 z m 0,-194 q 0,15 16,20 h 636 q 14,-10 14,-20 0,-13 -15,-20 H 70 q -14,7 -14,20 z" />
+    <path
+       id="MJX-43-TEX-N-A0"
+       d="" />
+    <path
+       id="MJX-43-TEX-N-22C5"
+       d="m 78,250 q 0,24 17,42 17,18 43,18 24,0 42,-16 18,-16 19,-43 0,-25 -17,-43 -17,-18 -43,-18 -26,0 -43,17 -17,17 -18,43 z" />
+    <path
+       id="MJX-43-TEX-N-2026"
+       d="m 78,60 q 0,24 17,42 17,18 43,18 24,0 42,-16 Q 198,88 199,61 199,36 182,18 165,0 139,0 113,0 96,17 79,34 78,60 Z m 447,0 q 0,24 17,42 17,18 43,18 24,0 42,-16 Q 645,88 646,61 646,36 629,18 612,0 586,0 560,0 543,17 526,34 525,60 Z m 447,0 q 0,24 17,42 17,18 43,18 24,0 42,-16 18,-16 19,-43 0,-25 -17,-43 -17,-18 -43,-18 -26,0 -43,17 -17,17 -18,43 z" />
+    <path
+       id="MJX-43-TEX-S4-E152"
+       d="m -24,327 6,6 h 17 q 12,0 16,0 4,0 7,-4 3,-4 5,-7 2,-3 8,-14 6,-11 19,-24 61,-81 171,-122 110,-41 216,-42 13,0 16,-3 3,-3 3,-22 V 60 28 Q 460,8 457,4 454,0 442,0 355,0 260,36 75,118 -16,278 l -8,14 z" />
+    <path
+       id="MJX-43-TEX-S4-E153"
+       d="m -10,60 v 35 q 0,18 3,21 3,3 16,4 142,0 241,51 99,51 146,113 8,9 16,21 8,12 12,19 4,7 7,7 2,2 20,2 h 17 l 6,-6 v -35 l -8,-14 Q 375,118 190,36 95,0 8,0 -5,0 -7,3 -9,6 -10,24 Z" />
+    <path
+       id="MJX-43-TEX-S4-E151"
+       d="m -10,60 q 0,44 0,51 0,7 5,7 4,2 15,2 86,0 180,-36 185,-82 276,-242 l 8,-14 v -35 l -6,-6 h -17 -4 q -10,0 -13,0 -3,0 -6,4 -3,4 -5,7 -2,3 -9,15 -7,12 -18,24 Q 331,-82 224,-41 117,0 9,0 -4,0 -7,3 q -3,3 -3,22 z" />
+    <path
+       id="MJX-43-TEX-S4-E150"
+       d="m -18,-213 -6,6 v 35 l 8,14 Q 75,2 260,84 q 74,29 155,35 3,0 12,0 9,0 13,1 14,0 17,-3 3,-3 3,-19 V 60 25 Q 460,7 457,4 454,1 441,0 308,0 193,-55 78,-110 25,-205 q -4,-6 -7,-7 -3,-1 -19,-1 z" />
+    <path
+       id="MJX-43-TEX-S4-E154"
+       d="M -10,0 V 120 H 410 V 0 Z" />
+    <path
+       id="MJX-43-TEX-N-74"
+       d="m 27,422 q 53,4 82,56 29,52 32,122 v 15 h 40 V 431 H 316 V 385 H 181 V 241 q 1,-125 1,-141 0,-16 7,-32 14,-39 49,-39 44,0 54,71 1,8 1,46 v 35 h 40 v -35 -12 q 0,-77 -42,-117 -27,-27 -70,-27 -34,0 -59,12 -25,12 -38,31 -13,19 -19,35 -6,16 -7,32 -1,7 -1,148 V 385 H 18 v 37 z" />
+    <path
+       id="MJX-43-TEX-N-69"
+       d="m 69,609 q 0,28 18,44 18,16 44,16 23,-2 40,-17 17,-15 17,-43 0,-30 -17,-45 -17,-15 -42,-15 -25,0 -42,15 -17,15 -18,45 z M 247,0 Q 232,3 143,3 132,3 106,3 80,3 56,1 L 34,0 h -8 v 46 h 16 q 28,0 49,3 9,4 11,11 2,7 2,42 v 103 88 q 0,52 -2,66 -2,14 -14,19 -14,7 -47,7 H 30 v 23 q 0,23 2,23 l 10,1 q 10,1 28,2 18,1 36,2 17,1 36,2 19,1 29,3 10,2 11,1 h 3 V 62 q 5,-10 12,-12 7,-2 35,-4 h 23 V 0 Z" />
+    <path
+       id="MJX-43-TEX-N-6D"
+       d="m 41,46 h 14 q 39,0 47,14 v 8 q 0,9 0,23 0,14 0,31 0,17 1,39 1,22 0,42 0,31 0,66 0,35 -1,59 v 23 q -3,19 -14,25 -11,6 -45,9 H 25 v 23 q 0,23 2,23 l 10,1 q 10,1 28,2 18,1 37,2 17,1 36,2 19,1 29,3 10,2 11,1 h 3 v -40 q 0,-38 1,-38 1,0 5,5 4,5 12,15 8,10 19,18 11,8 29,19 18,11 38,16 20,5 51,5 15,0 28,-2 13,-2 23,-6 10,-4 19,-8 9,-4 15,-9 6,-5 11,-11 5,-6 9,-11 4,-5 7,-11 3,-6 4,-10 1,-4 3,-8 l 2,-5 3,4 q 3,4 6,8 3,4 9,11 6,7 13,13 7,6 15,13 8,7 20,12 12,5 23,10 11,5 26,7 15,2 31,3 126,0 137,-113 1,-7 1,-139 v -86 q 0,-38 2,-45 2,-7 11,-10 21,-3 49,-3 h 16 V 0 h -8 L 788,1 Q 764,2 737,2 710,2 699,3 596,3 587,0 h -8 v 46 h 16 q 61,0 61,16 1,2 1,138 -1,135 -2,143 -6,28 -20,42 -14,14 -24,17 -10,3 -26,2 -45,0 -79,-34 -27,-27 -34,-55 -7,-28 -8,-83 v -64 -60 q 0,-30 1,-40 1,-10 3,-13 2,-3 9,-6 21,-3 49,-3 h 16 V 0 h -8 L 510,1 Q 487,2 460,2 433,2 422,3 319,3 310,0 h -8 v 46 h 16 q 61,0 61,16 1,2 1,138 -1,135 -2,143 -6,28 -20,42 -14,14 -24,17 -10,3 -26,2 -45,0 -79,-34 -27,-27 -34,-55 -7,-28 -8,-83 v -64 -60 q 0,-30 1,-40 1,-10 3,-13 2,-3 9,-6 21,-3 49,-3 h 16 V 0 h -8 L 234,1 Q 210,2 183,2 156,2 145,3 42,3 33,0 h -8 v 46 z" />
+    <path
+       id="MJX-43-TEX-N-65"
+       d="m 28,218 q 0,55 20,100 20,45 50,73 30,28 65,42 35,14 66,15 53,0 91,-18 38,-18 58,-50 20,-32 28,-64 8,-32 9,-71 0,-7 -7,-14 H 126 v -15 q 0,-148 100,-180 20,-6 44,-6 42,0 72,32 17,17 27,42 l 10,24 q 3,3 16,3 h 3 q 17,0 17,-10 0,-4 -3,-13 Q 393,53 349,21 305,-11 250,-11 155,-11 92,58 29,127 28,218 Z m 305,57 q -11,128 -95,136 h -2 q -8,0 -16,-1 -8,-1 -25,-8 -17,-7 -29,-21 -12,-14 -23,-41 -11,-27 -16,-66 v -7 h 206 z" />
+    <path
+       id="MJX-43-TEX-N-73"
+       d="m 295,316 q 0,40 -27,69 -27,29 -78,29 -36,0 -62,-13 -30,-19 -30,-52 -1,-5 0,-13 1,-8 16,-24 15,-16 43,-25 18,-5 44,-9 26,-4 44,-9 18,-5 32,-13 17,-8 33,-20 16,-12 32,-41 16,-29 17,-62 Q 359,71 321,31 283,-9 198,-10 h -8 q -52,0 -96,36 L 86,19 77,10 Q 71,4 65,-1 L 54,-11 h -8 -4 q -3,0 -9,6 v 79 58 q 0,21 2,25 2,4 10,5 h 9 q 12,0 16,-4 4,-4 5,-12 1,-8 7,-27 6,-19 19,-42 35,-51 97,-51 97,0 97,78 0,29 -18,47 -20,24 -83,36 -63,12 -83,23 -36,17 -57,46 -21,29 -21,62 0,39 17,66 17,27 43,40 26,13 50,18 24,5 44,5 h 11 q 40,0 70,-15 l 15,-8 9,7 q 10,9 22,17 h 8 4 q 3,0 9,-6 V 310 l -6,-6 h -28 q -6,6 -6,12 z" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-64.654824,-167.19132)">
+    <use
+       xlink:href="#MJX-43-TEX-I-62"
+       id="use10310"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,81.876286,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-I-6E"
+       id="use10314"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.00410965,0,0,-0.00410965,84.369977,175.23049)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-3D"
+       id="use10320"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,88.741203,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-A0"
+       id="use10324"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,94.878357,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <use
+       xlink:href="#MJX-43-TEX-I-62"
+       id="use10328"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,96.331557,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-22C5"
+       id="use10332"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,100.11685,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-I-62"
+       id="use10336"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,103.02441,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-22C5"
+       id="use10340"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,106.81029,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-I-62"
+       id="use10344"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,109.71785,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-22C5"
+       id="use10348"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,113.50315,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-2026"
+       id="use10352"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,116.41071,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-22C5"
+       id="use10358"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,124.5155,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-I-62"
+       id="use10362"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,127.42306,178.68952)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-S4-E152"
+       id="use10368"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.0058128,0,0,-0.0058128,96.331557,180.96232)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-S4-E153"
+       transform="matrix(0.0058128,0,0,-0.0058128,127.30099,180.96232)"
+       id="use10370"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <g
+       data-c="E156"
+       transform="matrix(0.0058128,0,0,-0.0058128,110.50839,180.96232)"
+       id="g10376"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <use
+         xlink:href="#MJX-43-TEX-S4-E151"
+         id="use10372"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         xlink:href="#MJX-43-TEX-S4-E150"
+         transform="translate(450)"
+         id="use10374"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       data-mml-node="mi"
+       id="g10394"
+       transform="matrix(0.00410965,0,0,-0.00410965,106.57255,186.38173)"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <use
+         xlink:href="#MJX-43-TEX-I-6E"
+         id="use10392"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <use
+       xlink:href="#MJX-43-TEX-N-A0"
+       id="use10398"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(0.00410965,0,0,-0.00410965,109.03834,186.42694)"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <use
+       xlink:href="#MJX-43-TEX-N-74"
+       transform="matrix(0.00410965,0,0,-0.00410965,110.06575,186.38584)"
+       id="use10400"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-69"
+       transform="matrix(0.00410965,0,0,-0.00410965,111.66441,186.42694)"
+       id="use10402"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-6D"
+       transform="matrix(0.00410965,0,0,-0.00410965,112.80689,186.42694)"
+       id="use10404"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-65"
+       transform="matrix(0.00410965,0,0,-0.00410965,116.23023,186.38173)"
+       id="use10406"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <use
+       xlink:href="#MJX-43-TEX-N-73"
+       transform="matrix(0.00410965,0,0,-0.00410965,118.05491,186.38173)"
+       id="use10408"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#000000;stroke:#000000;stroke-width:0"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.69;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 98.692895,180.59905 11.980845,0.0145"
+       id="path12147"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.69;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 115.62633,180.59905 11.98085,0.0145"
+       id="path12229"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.88056px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+       x="69.157036"
+       y="184.25725"
+       id="text13725"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         sodipodi:role="line"
+         id="tspan13723"
+         style="font-size:3.88056px;stroke-width:0.264583"
+         x="69.157036"
+         y="184.25725">base</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.88056px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+       x="64.510818"
+       y="169.4973"
+       id="text18277"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"><tspan
+         sodipodi:role="line"
+         id="tspan18275"
+         style="font-size:3.88056px;stroke-width:0.264583"
+         x="64.510818"
+         y="169.4973">exponent</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 77.198555,182.72112 4.110109,-3.75271"
+       id="path21939"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 79.363318,169.31546 4.11011,3.12726"
+       id="path22297"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\exponent definition.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+  </g>
+</svg>
