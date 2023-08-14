@@ -1,0 +1,8 @@
+{
+    "javascript.suggest.completeJSDocs": false,
+    "typescript.suggest.completeJSDocs": false,
+    "less.completion.completePropertyWithSemicolon": false,
+    "scss.completion.completePropertyWithSemicolon": false,
+    "javascript.suggest.enabled": false,
+    "typescript.suggest.enabled": false
+}

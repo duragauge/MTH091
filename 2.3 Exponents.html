@@ -1,0 +1,216 @@
+<h1>2.3 Exponents</h1>
+
+<h3>Introduction</h3>
+<p>Earlier in this chapter we saw that terms can be added and subtracted only when they have the same variables and the same powers.  We called those <b>like terms</b>.</p>
+
+<p>Things get a bit more interesting when we start multiplying and dividing terms because there is no requirement that the powers and variables match.  With multiplication and division, we'll be able to combine terms even when the exponents and bases are different!</p>
+
+<h3>Definition of an Exponent</h3>
+<p>The nice thing about all rules of exponents is that if you ever forget any of them (and we'll have a handful of rules to remember) you can always figure them out by going back to the basic definition of an exponent.</p>
+
+<div style="width: 600px; margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+    <strong>Definition of an Exponent</strong>
+    
+    <p>For any natural number \(n\), \(b^n = b \cdot b \cdot b \cdot \ldots \cdot b\) where \(b\) is a factor \(n\) times.</p>
+    
+    <p style="padding-left: 80px;"><img src="https://myopenmaths3.s3.amazonaws.com/ufiles/84239/mceclip1-1690266542243.png" alt="image" width="290" height="93" /></p>
+    
+    <p>We call \(b\) the base and \(n\) the exponent  and say that \(b\) is being raised to the \(n \text{th}\)power.</p>
+</div>
+
+<p>In fact, we'll use this definition to spot the patterns that make up the rules.</p>
+
+<h3>The Product Rule</h3>
+<p>Consider the product \(b^3 \cdot b^4\). Both terms have the same base, \(b\), but are raised to different exponents. Notice what happens when we expand each of them using the definition of an exponent.</p>
+
+\begin{align}
+    b^3 \cdot b^4 &= (b \cdot b \cdot b)(b \cdot b \cdot b \cdot b)  \\
+    &= b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \\
+    &= b^7
+\end{align}
+
+<p>Is there a pattern we could use as a shortcut to go from \(b^3 \cdot b^4\) to \(b^7\) without having to expand each term?</p>
+
+<p>Notice that \(3+4=7\).  That's the shortcut! when multiplying exponential expressions with the same base, the result has the same base and the new power is the sum of the two exponents. This is the <strong>product rule</strong> of exponents.
+
+<div style="width:600px; margin:1.2em 1.2em 0 1.2em; background:#cceeff; border-radius:15px 15px 0px 0px; border:1px solid #0066ff; border-width:2px 2px 0 2px; padding:5px 10px 15px 10px;">
+    <strong>Example 1</strong>
+    <p>Use the product rule to simplify \(2^3 \cdot 2^8\).</p>
+</div>
+<div style="width:600px; margin:0 1.2em 1.2em 1.2em; background:#cceeff; border-radius: 0px 0px 15px 15px; border:1px solid #0066ff;border-width:0 2px 2px 2px; padding:5px 10px 15px 10px;">
+    <strong>Solution</strong>
+    \begin{align}
+        2^3 \cdot 2^8 &= 2^{3+8} \\
+        &= 2^{11} \\
+        &= 2048
+    \end{align}
+</div>
+    
+
+<h3>The Quotient Rule</h3>
+<p>Let's try a similar technique on the quotient of two terms. Consider the example \(\frac{b^7}{b^4}\).  Just like we did above, we'll expand both parts, simplify the result, and look for a pattern to use as a shortcut.</p>
+
+\begin{align}
+    \frac{b^7}{b^4} &= \frac{b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b}{b \cdot b \cdot b \cdot b} \\
+    &= \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{b}{b} \cdot b \cdot b \\
+    &= 1 \cdot 1 \cdot 1 \cdot 1 \cdot b \cdot b \cdot b \\
+    &= b \cdot b \cdot b \\
+    &= b^3
+\end{align}
+
+<p>Notice that the exponent of the quotient is \(3\) which happens to be the difference of the original powers \(7-4=3\). That's the shortcut!</p>
+
+<p>In other words, when dividing exponential expressions with the same base, we write the result with the same base and subtract the exponents. This is the <strong>quotient rule</strong> for exponents.
+
+<div style="width:600px; margin:1.2em 1.2em 0 1.2em; background:#cceeff; border-radius:15px 15px 0px 0px; border:1px solid #0066ff; border-width:2px 2px 0 2px; padding:5px 10px 15px 10px;">
+    <strong>Example 2</strong>
+    <p>Use the quotient rule to simplify \(\frac{{5^6}}{{5^2}}\).</p>
+</div>
+<div style="width:600px; margin:0 1.2em 1.2em 1.2em; background:#cceeff; border-radius: 0px 0px 15px 15px; border:1px solid #0066ff;border-width:0 2px 2px 2px; padding:5px 10px 15px 10px;">
+    <strong>Solution</strong>
+    \begin{align}
+        \frac{{5^6}}{{5^2}} &= 5^{6-2} \\
+        &= 5^4 \\
+        &= 625
+    \end{align}
+</div>
+
+
+<h3>Power of a Power Rule</h3>
+<p>Next, let's explore raising a term with a power to another power. For example, what happens if we raise \(b^3\) to the 4th power?  This would mean repeating \(b^3\) as a factor 4 times and then expanding each of those \(b^3\).</p>
+
+\begin{align}
+(b^3)^4 &= b^3 \cdot b^3 \cdot b^3 \cdot b^3  \\ 
+    &= (b \cdot b \cdot b)(b \cdot b \cdot b)(b \cdot b \cdot b)(b \cdot b \cdot b) &&  \\
+    &= \underbrace{b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b}_{12 \ times} \\
+    &= b^{12}
+\end{align}
+
+<p>That was a lot of expanding, but hopefully, you can spot the shortcut.  The shortcut is simply to multiply the exponents.</p>
+
+<div style="width:600px; margin:1.2em 1.2em 0 1.2em; background:#cceeff; border-radius:15px 15px 0px 0px; border:1px solid #0066ff; border-width:2px 2px 0 2px; padding:5px 10px 15px 10px;">
+    <strong>Example 3</strong>
+    <p>Simplify \((5^2)^3\).</p>
+</div>
+<div style="width:600px; margin:0 1.2em 1.2em 1.2em; background:#cceeff; border-radius: 0px 0px 15px 15px; border:1px solid #0066ff;border-width:0 2px 2px 2px; padding:5px 10px 15px 10px;">
+    <strong>Solution</strong>
+    \begin{align}
+    (5^2)^3 &= 5^{2 \cdot 3} \\
+        &= 5^6 \\
+        &= 15625
+    \end{align}
+</div>
+
+
+<h3>Power of a Product Rule</h3>
+<p>When a product of variables and/or real numbers is in parentheses and raised to a power, then all the factors are raised to that power.  This rule, like the others, becomes apparent by going back to the definition of an exponent and making use the commutative property of multiplication.</p>
+
+<p>For instance, </p>
+
+\begin{align}
+    (4b)^3 &= (4b)(4b)(4b) && \small \color{#5fa2ce} {\text{Use the definition of an exponent}} \\
+    &= 4 \cdot 4 \cdot 4 \cdot b \cdot b \cdot b && \small \color{#5fa2ce} {\text{Apply the commutative property of multiplication}}\\
+    &= 4^3 \, b^3 && \small \color{#5fa2ce} {\text{Use the definition of an exponent}} \\
+    &= 64 b^3
+\end{align}
+
+<p>The shortcut here, of course, is that the power could have been applied to each part of the product.</p>
+
+<div style="width:600px; margin:1.2em 1.2em 0 1.2em; background:#cceeff; border-radius:15px 15px 0px 0px; border:1px solid #0066ff; border-width:2px 2px 0 2px; padding:5px 10px 15px 10px;">
+    <strong>Example 4</strong>
+    <p>Simplify \((5xy)^3\).</p>
+</div>
+<div style="width:600px; margin:0 1.2em 1.2em 1.2em; background:#cceeff; border-radius: 0px 0px 15px 15px; border:1px solid #0066ff;border-width:0 2px 2px 2px; padding:5px 10px 15px 10px;">
+    <strong>Solution</strong>
+    \begin{align}
+    (5xy)^3 &= 5^3 \, x^3 \, y^3  \\
+        &= 125 \, x^3 \, y^3 
+    \end{align}
+</div>
+
+
+<h3>Power of a Quotient Rule</h3>
+<p>When a quotient of variables and/or real numbers is in parentheses and raised to a power, then that power applies to all parts of the quotient.</p>  
+
+<p>This works the same as it did for the power of a product rule and can be seen by expanding and simplifying.</p>
+
+\begin{align}
+    \left(\frac{2}{b}\right)^5 &= \left(\frac{2}{b}\right)\left(\frac{2}{b}\right)\left(\frac{2}{b}\right)\left(\frac{2}{b}\right)\left(\frac{2}{b}\right) \\
+    &= \frac{2 \cdot 2 \cdot 2 \cdot 2 \cdot 2}{b \cdot b \cdot b \cdot b \cdot b} \\
+    &= \frac{2^5}{b^5} \\
+    &= \frac{32}{b^5}
+\end{align}
+
+<p>Notice how it would have been much shorter to simply apply the power of \(5\) to all parts of the quotient.</p>
+
+<div style="width:600px; margin:1.2em 1.2em 0 1.2em; background:#cceeff; border-radius:15px 15px 0px 0px; border:1px solid #0066ff; border-width:2px 2px 0 2px; padding:5px 10px 15px 10px;">
+    <strong>Example 5</strong>
+    <p>Simplify \(\left(\frac{3a}{4}\right)^2\).</p>
+</div>
+<div style="width:600px; margin:0 1.2em 1.2em 1.2em; background:#cceeff; border-radius: 0px 0px 15px 15px; border:1px solid #0066ff;border-width:0 2px 2px 2px; padding:5px 10px 15px 10px;">
+    <strong>Solution</strong>
+    \begin{align}
+    \left(\frac{3a}{4}\right)^2 &= \frac{3^2 \, a^2}{4^2} \\
+        &= \frac{9 \, a^2}{16} 
+    \end{align}
+</div>
+
+<h3>Simplifying Exponents</h3>
+<p>While our examples so far have focused on each property individually, there's no reason to expect that will always be the case.  In many instances we will need to deploy multiple rules in order to fully simplify an expression with exponents.</p>
+
+<p>Before we finish with one of these more complicated examples, let's list all of the rules we've discovered so far.</p>
+
+<div style="margin: 1.2em;width: 600px;padding:5px 10px 10px 10px;border: 2px solid #228b22; border-radius: 15px; overflow: hidden;background:#d8f7d8;">
+    <strong>Rules of Exponents</strong>
+    <table style="width: 100%; border-collapse: collapse; border: 2px solid #d8f7d8;; border-radius: 15px; overflow: hidden; ">
+    <tr>
+      <th style="border: 1px solid #228b22; padding: 8px;">Exponent Rule</th>
+      <th style="border: 1px solid #228b22; padding: 8px;">Formula</th>
+      <th style="border: 1px solid #228b22; padding: 8px;">Example</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #228b22; padding: 8px;">Product of Powers</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(a^m \cdot a^n = a^{m+n}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(2^3 \cdot 2^4 = 2^{3+4}\)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #228b22; padding: 8px;">Quotient of Powers</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(\frac{a^m}{a^n} = a^{m-n}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(\frac{5^7}{5^2} = 5^{7-2}\)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #228b22; padding: 8px;">Power of a Power</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\((a^m)^n = a^{m \cdot n}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\((3^2)^4 = 3^{2 \cdot 4}\)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #228b22; padding: 8px;">Power of a Product</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\((a \cdot b)^n = a^n \cdot b^n\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\((2 \cdot 4)^3 = 2^3 \cdot 4^3\)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #228b22; padding: 8px;">Power of a Quotient</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\((\frac{a}{b})^n = \frac{a^n}{b^n}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\((\frac{6}{3})^4 = \frac{6^4}{3^4}\)</td>
+    </tr>
+  </table>
+</div>
+
+<p>Now that we have all of the rules available for quick reference, we'll dive into our final example.</p>
+
+<div style="width:600px; margin:1.2em 1.2em 0 1.2em; background:#cceeff; border-radius:15px 15px 0px 0px; border:1px solid #0066ff; border-width:2px 2px 0 2px; padding:5px 10px 15px 10px;">
+    <strong>Example 6</strong>
+    <p>Simplify \(\left(\frac{-3 w^3}{5w}\right)^4 \).</p>
+</div>
+<div style="width:600px; margin:0 1.2em 1.2em 1.2em; background:#cceeff; border-radius: 0px 0px 15px 15px; border:1px solid #0066ff;border-width:0 2px 2px 2px; padding:5px 10px 15px 10px;">
+    <strong>Solution</strong>
+    \begin{align}
+    \left(\frac{-3 w^3}{5w}\right)^4 &= \left(\frac{-3 w^2}{5}\right)^4 && \small \color{#5fa2ce} {\text{Use the Quotient Rule to simplify } \frac{w^3}{w}=w^2} \\
+    &= \frac{\left(-3 w^2 \right)^4}{5^4} && \small \color{#5fa2ce} {\text{Use the Power of a Quotient Rule.}} \\
+    &= \frac{(-3)^4 \left(w^2 \right)^4}{5^4} && \small \color{#5fa2ce} {\text{Use the Power of a Product Rule.}} \\
+    &= \frac{(-3)^4 w^8}{5^4} && \small \color{#5fa2ce} {\text{Use the Power of a Power Rule.}} \\
+    &= \frac{81 w^8}{625} && \small \color{#5fa2ce} {\text{Evaluate the powers.}} \\
+    \end{align}
+</div>
+
+<p>It's important to emphasize that there is no fixed sequence for simplifying exponents. In many cases, especially when dealing with intricate expressions, multiple pathways can lead to the final answer. And when in doubt, a reliable approach is to revert back to the fundamental definition of an exponent, expand the expression, and then simplify. That same strategy will continue help us in the next section as we tackle negative exponents.</p>
