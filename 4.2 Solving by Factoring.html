@@ -1,89 +1,164 @@
 <h1>4.2 Solving by Factoring</h1>
-<p>An equation containing a polynomial where the highest power on the variable is 2 is called a quadratic equation. Sometimes the easiest method of solving a quadratic equation is by factoring. Recall that factoring means finding expressions that can be multiplied together to give the original polynomial. When we factor, we change an expression that is the sum of terms into an expression that is the product of terms.</p>
-<p>For example, the quadratic equation \(x^2+8x+15=0\)can be factored and written as: \((x+5)(x+3)=0\).</p>
-<p>Solving by factoring depends on the zero-product property, which states that if \(a \cdot b = 0\), then \(a = 0\) or \(b = 0\), where \(a\) and \(b\) are real numbers or algebraic expressions. In other words, if the product of two numbers or two expressions equals zero, then one of the numbers or one of the expressions must equal zero because zero multiplied by anything equals zero.</p>
-<p>Zero-Product Property</p>
-<blockquote>
-<p>If \(a \cdot b = 0\), then \(a = 0\) or \(b = 0\), where \(a\) and \(b\) are real numbers or algebraic expressions.</p>
-</blockquote>
-<h3>Example 1</h3>
-<p>(a) Solve for\(x\).\((x+3)(x-7)=0\)</p>
-<p>Solution Applying the zero-product property, we know that either</p>
-<p>\(x+3=0\) or\(x-7=0\)</p>
-<p>We can solve each of these linear equations using one step.</p>
-<p>\(x+3=0-&gt;x=-3\)</p>
-<p>\(x-7=0-&gt;x=7\)</p>
-<p>So the solutions are \(x = -3\) and \(x = 7\).</p>
-<p>(b)Solve for\(x\). \(2x(3x-4)=0\)</p>
-<p>Solution Applying the zero-product property, we know that either</p>
-<p>\(2x=0\) or\(3x-4=0\)</p>
-<p>We can solve each of these linear equations. For the first, we divide both sides of the equation by 2.</p>
-<p>\((2x)/2 = 0/2\)</p>
-<p>\(x=0\)</p>
-<p>We solve the second equation with two steps. First add 4 to both sides of the equation, then divide by 3.</p>
-<p>\(3x-4+4=0+4\)</p>
-<p>\(3x=4\)</p>
-<p>\(x=3/4\)</p>
-<p>So the solutions are: \(x\) = 0 and \(x\) = 3/4.</p>
-<p>In Example 1, the given equations were already in factored form. However, you will often need to find the factored form yourself.</p>
-<h6>Solving a Quadratic Equation by Factoring</h6>
-<p>Given a quadratic equation that has a factorable expression when set equal to 0, we solve it by following these steps.</p>
+
+<h3>Introduction</h3>
+<p>A surprising number of applications in real life involve equations where the variable is raised to a power of \(2\). These are called <em>quadratic equations</em> and are used when launching rockets, maximizing profits, minimizing costs, and making smooth computer animations, to name just a few.</p>
+
+<p>We've seen a few simple quadratic equations, situations where there was a single \(x^2\) and it could be solved by taking a square root.  In this section we'll look at equations that have \(x^2\) and \(x\) in them and let factoring help us solve them.</p>
+
+<p>But first we need to establish a very helpful fact.</p>
+
+
+<h3>Solving with the Zero-Product Principle</h3>
+<p>Suppose we have two quantities, \(A\) and \(B\), and that their product is \(A \cdot B=0\).  Does that tell us anything about \(A\) and/or \(B\)?</p>
+    
+<p>It does!  If \(A\cdot B=0\), then it must be that \(A=0\) or \(B=0\) or, perhaps, both are equal to zero.  There's no alternative; one (or both) must be equal to zero, guaranteed.</p>
+
+<p>This is fact is known as the <em>zero-product property</em>
+
+<div style="min-width:600px;width:80%; margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+    <strong>Zero-Product Property</strong>
+    <p>If \(a \cdot b = 0\), then \(a = 0\) or \(b = 0\).</p>
+</div>
+
+<p>It's important to point out that this only works for the number \(0\), hence the name <em><strong>zero</strong>-product property</em>.  If \(A\cdot B=6\) then there's no guarantee that either \(A=6\) or \(B=6\).</p>
+
+<p>If we encounter an equation where a product equals zero, then we can, with confidence, say that each factor of that product must be zero.  Let's walk through a few examples.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 1</strong>
+    <p>Solve \((x+5)(x-7)=0\)</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>Applying the zero-product property, we know that either \(x+3=0\) or \(x-7=0\).</p>
+    \begin{align}
+        && (x+5)(x-& 7) = 0 &&&& \quad \color{#5fa2ce} {\text{Original equation}}\\
+        x+5 = 0 && \text{ or } && x-7 &= 0 && \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}}\\
+        x = -5 && \text{ or }  && x   &= 7 && \quad \color{#5fa2ce} {\text{Solve each equation}}
+    \end{align}
+    <p>The two solutions are \(x=-5\) and \(x=7\).</p>
+    </div>
+
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 2</strong>
+    <p>Solve \(2x(3x-4)=0\)</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>Applying the zero-product property, we know that either \(2x=0\) or \(3x-4=0\).</p>
+    \begin{align}
+        && 2x(3x-& 4) = 0 &&&& \quad \color{#5fa2ce} {\text{Original equation}}\\
+        2x= 0 && \text{ or } && 3x-4 &= 0 && \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}} \\
+        x = 0 && \text{ or }  && x   &= \frac{4}{3} && \quad \color{#5fa2ce} {\text{Solve each equation}}
+    \end{align}
+    <p>The two solutions are \(x=0\) and \(x=\frac{4}{3}\).</p>
+</div>
+
+
+<p>This process can be extended to more than two factors, as we'll see in the next example.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 3</strong>
+    <p>Solve \((x+2)(x-6)(x-9)=0\)</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>Applying the zero-product property, we know that \(x+2=0\) or \(x-6=0\) or \(x-9\).</p>
+    \begin{align}
+        x+2 = 0 & \quad \text{ or } & x-6 &= 0 & \text{ or }  && x-9 = 0 &&& \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}} \\
+        x = -2 & \quad \text{ or }  & x   &= 6 & \text{ or }  && x = 9   &&& \quad \color{#5fa2ce} {\text{Solve each equation}}
+    \end{align}
+    <p>The three solutions are \(x=-2\), \(x=6\), and \(x=9\).</p>
+</div>
+
+
+<h3>Solving a Quadratic Equation by Factoring</h3>
+<p>In Examples 1-3, the equations were given to us factored. Most of the time, however, we will need to find the factored form ourselves.</p>
+
+<p>As a refresher, recall that factoring entails finding expressions that can be multiplied together to give the original expression. We learned about two types of factoring in section 2.6 and a given problem could require one or a combination of both.</p>
+
+<p>The first type was factoring out the greatest common factor (GCF). This should be used when all  terms share a common factor.  For instance, in \(3x^2 + 6x\), the GCF is \(3x\) allowing us to factor it as \(3x(x+2)\).</p>
+
+<p>The second method deals with the special case of a trinomial in the form \(x^2+bx+c\).  In such cases, we try to find two numbers that multiply to \(b\) and add up to \(c\).  Take \(x^2+5x+6\) as an example. It factors as \((x+2)(x+3)\) since \(2*3=6\) and \(2+3\)=5.</p>
+
+<p>If we can factor an expression that's equal to zero, then we can finish solving it using the zero-factor priciple as we did earlier.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 4</strong>
+    <p>Solve the equation \(x^2+x-6=0\) by factoring.</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>To factor, we need two numbers that multiply to \(-6\) and add up to \(1\). These numbers are \(3\) and \(-2\).</p>   
+    \begin{align}
+        && x^2 + x \,    - \, &6 = 0 &&&& \quad \color{#5fa2ce} {\text{Original equation}}\\
+        && (x+3)(x-& 2) = 0 &&&& \quad \color{#5fa2ce} {\text{Factored equation}}\\
+        x+3 = 0 && \text{ or } && x-2 &= 0 && \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}}\\
+        x = -3 && \text{ or }  && x   &= 2 && \quad \color{#5fa2ce} {\text{Solve each equation}}
+    \end{align}
+    <p>The solutions are \(x=-3\) and \(x=2\).</p>
+</div>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 5</strong>
+    <p>Solve \(x^2-100=0\).</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>The right side can be factored using \(10\) and \(-10\).</p>   
+    \begin{align}
+        && x^2 -100 - \, &= 0 &&&& \quad \color{#5fa2ce} {\text{Original equation}}\\
+        && (x+10)(x-10) &= 0 &&&& \quad \color{#5fa2ce} {\text{Factored equation}}\\
+        x+10 = 0 && \text{ or } && x-10 &= 0 && \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}}\\
+        x = -10 && \text{ or }  && x   &= 10 && \quad \color{#5fa2ce} {\text{Solve each equation}}
+    \end{align}
+<p>The solutions are \(x=-10\) and \(x=10\).</p>
+</div>
+
+
+<p>Throughout math, whenever we encounter a new problem we always want to turn it into a problem we've solved before. It's no different here. In the next example the equation is not equal to zero, so what do we do?  We move terms to the other side of the equation so that it does equal zero, and the proceed as before.</p>
+
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 6</strong>
+    <p>Solve \(4x^2=28x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>We'll have to set the equation equal to \(0\) by subtracting the term \(28x\) from both sides of the equation.</p>
+    \begin{align}
+        && 4x^2 &= 28x &&&& \quad \color{#5fa2ce} {\text{Original equation}}\\
+        && 4x^2 -28x &= 0 &&&& \quad \color{#5fa2ce} {\text{Subtract }28x}\\
+        && 4x(x -7) &= 0 &&&& \quad \color{#5fa2ce} {\text{Factor the GCF of }4x}\\
+        4x = 0 && \text{ or } && x-7 &= 0 && \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}}\\
+        x = 0 && \text{ or }  && x   &= 7 && \quad \color{#5fa2ce} {\text{Solve each equation}}
+    \end{align}
+    <p>The solutions are \(x=0\) and \(x=7\).</p>
+</div>
+
+<p>In this last example, it might appear that the equation is beyond our skills. But if we work with it carefully, we can turn it into something that looks more familiar.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 7</strong>
+    <p>Solve \(5x^3+10x^2-75x = 0\).</p>
+    <hr>
+    <strong>Solution</strong>
+    \begin{align}
+        &&&& 5x^3+10x^2-75x   &= 0 &&&&& \quad \color{#5fa2ce} {\text{Original equation}}\\
+        &&&& 5x(x^2 + 2x -15) &= 0 &&&&& \quad \color{#5fa2ce} {\text{Factor the GCF of }5x}\\
+        &&&& 5x(x+5)(x-3)     &= 0 &&&&& \quad \color{#5fa2ce} {\text{Factor the trinomial}}\\ \\
+        5x &= 0 & \text{ or } && x+5 &= 0 & \text{ or } && x-3 &= 0 & \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}}\\
+        x  &= 0 & \text{ or } && x   &= 5 & \text{ or } && x   &= 3 & \quad \color{#5fa2ce} {\text{Solve each equation}}
+    \end{align}
+<p>The solutions are \(x=0\) and \(x=7\).</p>
+</div>
+
+<p>We now have a process for trying to solve an equation by factoring.  Here's a summary of the steps:</p>
+<div style="min-width:600px;width:80%; margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+    <strong>Steps for Solving Factorable Equations</strong>
 <ol>
-<li>
-<p>Set the equation equal to zero (if not already done).</p>
-</li>
-<li>
-<p>Factor the polynomial.</p>
-</li>
-<li>
-<p>Solve using the zero-product property by setting each factor equal to zero and solving for the variable.</p>
-</li>
+    <li><strong>Set Up:</strong> Use addition and/or subtraction to move all terms to one side of the equation so the equation is equal to zero.</li>
+    <li><strong>Factor:</strong> Factor the expression.</li>
+    <li><strong>Zero-Product Property:</strong> Set each factor equal to zero separately.</li>
+    <li><strong>Solve:</strong> Solve for the variable in each equation from step 3.</li>
 </ol>
-<h4>Example 2</h4>
-<p>Factor and solve the equation:\(x^2+x-6=0\)</p>
-<h5>Solution</h5>
-<p>To factor, we look for two numbers whose product equals -6 and whose sum equals 1. These numbers are 3 and -2. Note that only one pair of numbers will work. Next, we write the factors:</p>
-<p>\((x - 2)(x + 3) = 0\)</p>
-<p>By the zero-product property, one or both of these factors must be 0. We set each factor equal to zero and solve.</p>
-<p>\(x - 2 = 0\)or \(x + 3 = 0\)</p>
-<p>\(x = 2\) or \(x = -3\)</p>
-<p>We can check our solutions in the original equation as follows:</p>
-<p>Check \(x\) = 2: \((2)^2+2-6=4+2-6=0\)</p>
-<p>Check \(x\) = -3:\((3)^2+-3-6=9-3-6=0\)</p>
-<p>In both cases, we get a true statement, which means that both 2 and -3 are solutions to the original equation.</p>
-<h4>Example 3</h4>
-<p>Solve the quadratic equations by factoring. Remember, you can check your solution(s).</p>
-<ol>
-<li>
-<p>\(x^2-100=0\)</p>
-</li>
-<li>
-<p>\(4x^2=28x\)</p>
-</li>
-<li>
-<p>\(x^3+14x^2+45x=0\)</p>
-</li>
-</ol>
-<h5>Solution</h5>
-<ol>
-<li>The polynomial in the equation has the form of the difference of squares. It factors to give:</li>
-</ol>
-<p>\(x^2-100=(x+10)(x-10)=0\)</p>
-<p>By the zero product property:</p>
-<p>\(x\) + 10 = 0 or \(x\) - 10 = 0</p>
-<p>\(x\) = 10 or \(x\) = -10.</p>
-<p>2. First, set the equation equal to 0 by subtracting the term 28\(x\) from both sides of the equation.</p>
-<p>\(4x^2-28x=0\)</p>
-<p>The GCF of the polynomial is \(4x\) so the equation can be written in factor form:</p>
-<p>\(4x(x-7)=0\)</p>
-<p>Using the zero product property we know:</p>
-<p>4\(x\) = 0 or \(x\) - 7 = 0</p>
-<p>So \(x\) = 0 or \(x\) = 7</p>
-<p>3. TheGCF of the polynomial is \(x\) so the equation can be written in factor form:</p>
-<p>\(x^3+14x^2+45x=x(x^2+14x+45)=0\)</p>
-<p>We factor the trinomial further into two binomials.</p>
-<p>\(x(x+9)(x+5)=0\)</p>
-<p>Expanding the zero product property to a product of three factors we know:</p>
-<p>\(x = 0\) or \(x + 5 = 0\) or \(x + 9 = 0\)</p>
-<p>So there are three solutions: \(x\) = 0 or \(x\) = -5 or \(x\) = -9</p>
-<p>You can check all three solutions in the original equation.</p>
+</div>
+
+
+<h3>Conclusion</h3>
+<p>In the last two sections we've greatly expanded the type and variety of equations we can solve, but we're not done yet.  There's one final tool we need to add, and that will come in the next section.</p>

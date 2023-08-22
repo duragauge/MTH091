@@ -1,89 +1,155 @@
-<p>Now that we know how to apply an inverse process in order to solve a multi-step equation in which the variable occurs just once, it's time to consider equations with more than one variable.</p>
+<h1>Solving Literal Equations and Formulas</h1>
 
-<p>These equations are known as literal equations. When a literal equation is applicable in a particular situation, it is typically called a formula.</p>
+<h3>Introduction</h3>
+<p>If you were to stop a random person on the street and ask them to give you a fact from math, there's a good chance they'd give you an equation with lots of letters in it like \(a^2+b^2=c^2\) that they memorized in school.</p>
 
-<p>For example, we can calculate the distance traveled if we know the rate of travel and the time spent traveling:</p>
-\[ "distance" = ("rate")("time") \]
-<p>This can be written more efficiently as the literal equation (or formula)</p>
+<p>Equations like this, that have more than one variable, are called <strong>literal equations</strong>. Literal equations that expresses well-defined rules in specific contexts, like geometry, physics, or finance, are called <strong>formulas.</strong></p>
+
+<p>From adjusting recipes and paying taxes to predicting planetary orbits and biochemical reactions, formulas are versatile tools used in a wide range of fields. In this section, we'll explore some of these practical formulas and learn how to work with and solve literal equations.</p>
+
+
+<h3>Solving Literal Equations</h3>
+<p>In this section, we'll take the strategies and rules we've already learned about solving equations and transfer them over to solving formulas and other literal equations.</p>
+
+<p>Formulas are often written with one variable isolated to make the calculations straightforward. For instance, the classic formula for calculating distance traveled \(d\) using rate \(r\) and time \(t\) is</p>
+
 \[ d = rt \]
 
-<p>It is often necessary, or at least desirable, to solve a literal equation for a particular variable.</p>
+<p>This formula quickly gives the distance for any rate and time.</p>
 
-<p>In this section, we will focus on solving literal equations for a variable that only occurs once - which is good news, because it means that we already know all of the strategies & rules that are needed.</p>
+<p>But what if we needed to find \(t\)?  If we knew that \(d=100\) and \(r=50\), for instance, then solving \(100=50t\) once would be manageable.</p> 
 
-<p>The main difficulty will be in keeping our expressions neat and organized, because - unlike equations with a single variable and a bunch of constants - the solution for a literal equation is a mathematical expression that can't be simplified down to a single number or symbol.</p>
+\begin{align}
+  d &= r t && \small \color{#5fa2ce} {\text{Original formula}} \\
+  100 &= 50t && \small \color{#5fa2ce} {\text{Substitute} d=100 \text{ and }r=50} \\
+  \frac{100}{50} &= \frac{50t}{50} && \small \color{#5fa2ce} {\text{Divide to isolate }t} \\
+  2 &= t && \small \color{#5fa2ce} {\text{Simplify}}
+\end{align}
 
-<p>Consider the equation</p>
-\[ -7x + 11 = -3 \]
-<p>First, we subtract \( 11\) from both sides to get</p>
-\[ -7x = -14 \]
-<p>Next, we divide both sides by \( -7\) to get our solution:</p>
-\[ x = 2 \]
-<p>Each step of solving involved operations performed with constants, so the final solution was a single constant.</p>
+<p>But if we needed to find \(t\) for several different values it would be more convenient if we had a formula for that specific purpose.  To create a formula like that we can take the distance formula and solve for \(t\) without putting in any values for \(d\) and \(r\).  We follow the same steps as in the specific case above, dividing to isolate \(t\) and simplifying.</p>
 
-<p>Now suppose we are trying to solve</p>
-\[ ax + b = c \]
-<p>First of all, there are multiple variables in this equation, so we need to specify which variable we're solving for. Let's solve it for \( x\).</p>
-<p>First, we'll subtract \( b\) from both sides to get</p>
-\[ ax = c-b \]
-<p>Notice that since \( c\) and \( b\) are different variables, we can't combine them into a single term.</p>
-<p>Next, we divide both sides by \( a\) (and at this point we have to assume that \( a \neq 0\) ) to get our solution:</p>
-\[ x = (c-b)/a \]
-<p>We cannot simplify this solution, because \( c\), \( b\), and \( a\) are different variables, and cannot be combined.</p>
-<p>If we want to, we can write an equivalent expression \( (c - b)/a - &gt; c/a - b/a\), but that's about all we can do with our solution.</p>
+\begin{align}
+  d &= r t && \small \color{#5fa2ce} {\text{Original formula}} \\
+  \frac{d}{r} &= \frac{rt}{r} && \small \color{#5fa2ce} {\text{Divide to isolate }t} \\
+  \frac{d}{r} &= t && \small \color{#5fa2ce} {\text{Simplify}} \\
+  t &= \frac{d}{r} && \small \color{#5fa2ce} {\text{Final answer}}
+\end{align}
 
-<p>Notice that both of the equations above were solved using the same process:</p>
-<ol>
-  <li>Subtract something from both sides of the equation</li>
-  <li>Divide both sides of the equation by something</li>
-</ol>
-<p>However, because the second equation had multiple variables, the solution looked a lot more complicated.</p>
+<p>As we can see from this example, solving formulas with generic values transforms specific cases into universal rules. Unlike single-variable equations where the answer is a number, solutions for formulas usually don't simplify to a single value. Isolating a variable in a formula creates a new formula!</p>
 
-<p><strong>Example 2</strong></p>
+<p>And since we already know how to use inverse operations to solve, the primary challenge with formulas lies in maintaining clarity and organization.</p>
 
-<p>(a) Solve for \( n\): \( 3n-5=7t\)<br />
-(b) Solve for \( W\): \( P = 2L + 2W\)</p>
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 1</strong>
+    <p>Solve the literal equation \(ax + b = c\) for \(x\)</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        ax + b &= c && \small \color{#5fa2ce} {\text{Original equation}} \\
+        ax &= c - b && \small \color{#5fa2ce} {\text{Subtract }b} \\
+        x &= \frac{c-b}{a} && \small \color{#5fa2ce} {\text{Divide by }a}
+    \end{align}
+    <p>This solution cannot be simplified further since \(a\), \(b\), and \(c\) are distinct variables that cannot be combined.</p>
+</div>
 
-<p><strong>Solutions</strong></p>
 
-<p>(a) \( 3n-5 = 7t\)<br />
-\( 3n - 5\)<br />
-\( ul(" "+5)\)<br />
-\( =\)<br />
-\( 7t\)<br />
-\( ul(+5)\)<br />
-Add 5 to both sides.<br />
-\( 3n\)<br />
-\( =\)<br />
-\( 7t+5\)<br />
-Divide both sides by 3.<br />
-\( n\)<br />
-\( =\)<br />
-\( (7t+5)/3\)</p>
+<h3>Practical Examples</h3>
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 2</strong>
+    <p>The formula \(I = Prt\) gives the amount of simple interest produced by a prinicipal balance \(P\) earning an interest rate of \(r\) for \(t\) years.  Solve the formula for \(P\)</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        I &= Prt && \small \color{#5fa2ce} {\text{Original formula}} \\
+        \frac{I}{rt} &= P && \small \color{#5fa2ce} {\text{Divide by }rt} \\
+        P &= \frac{I}{rt} && \small \color{#5fa2ce} {\text{New formula}}
+    \end{align}
+</div>
 
-<p>(b) \( P = 2L + 2W\)<br />
-\( P\)<br />
-\( ul(" "-2L)\)<br />
-\( =\)<br />
-\( 2L + 2W\)<br />
-\( ul(-2L)\)<br />
-Subtract \( 2L\) from both sides.<br />
-\( P - 2L\)<br />
-\( =\)<br />
-\( 2W\)<br />
-Divide both sides by 2.<br />
-\( (P-2L)/2\)<br />
-\( =\)<br />
-\( (2W)/2\)<br />
-Divide both sides by 2.<br />
-\( (P-2L)/2\)<br />
-\( =\)<br />
-\( W\)<br />
-If desired, we could write the solution with an equivalent expression: \( W = P/2 - (2L)/2\).<br />
-After simplifying the last fraction, this becomes \( W = P/2 - L\)</p>
 
-<p><strong>Solving for \( y\)</strong></p>
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 3</strong>
+    <p>The perimeter of a rectangle is given by the formula \(P = 2L + 2W\) where \(L\) is the length and \(W\) is the width.  Solve the formula for the width \(W\).</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        P &= 2L + 2W && \small \color{#5fa2ce} {\text{Original formula}} \\
+        P - 2L &= 2W && \small \color{#5fa2ce} {\text{Subtract }2L} \\
+        \frac{P-2L}{2} &= W && \small \color{#5fa2ce} {\text{Divide by }2} \\
+        W &= \frac{P-2L}{2} && \small \color{#5fa2ce} {\text{New formula}}
+    \end{align}
+</div>
 
-<p>Later on in this course, we will be learning about graphing equations. Those equations will typically contain the variables \( x\) and \( y\).<br />
-It is frequently very desirable to have these equations solved for \( y\). In many cases, an equation solved for \( y\) is easier to graph by hand.<br />
-Also - it is necessary to have an equation solved for \( y\) when entering it into a graphing calculator.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 4</strong>
+    <p>Newtons's Second Law of Motion states that force \(F\) is equal to the product of mass \(m\) and acceleration \(a\), i.e., \(F = ma\). Solve this formula for \(m\).</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        F &= ma && \small \color{#5fa2ce} {\text{Original formula}} \\
+        \frac{F}{a} &= m && \small \color{#5fa2ce} {\text{Divide by }a} \\
+        m &= \frac{F}{a} && \small \color{#5fa2ce} {\text{New formula}}
+    \end{align}
+</div>
+
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 5</strong>
+    <p>The formula for calculating the area \(A\) of a triangle is \(A = \frac{1}{2}bh\), where \(b\) is the base length and \(h\) is the height. Solve this formula for \(h\).</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        A &= \frac{1}{2}bh && \small \color{#5fa2ce} {\text{Original formula}} \\
+        2A &= bh && \small \color{#5fa2ce} {\text{Multiply by }2} \\
+        \frac{2A}{b} &= h && \small \color{#5fa2ce} {\text{Divide by }b} \\
+        h &= \frac{2A}{b} && \small \color{#5fa2ce} {\text{New formula}}
+    \end{align}
+</div>
+
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 6</strong>
+    <p>The formula for converting temperature from degrees Celsius \(C\) to degrees Fahrenheit \(F\) is \(F = \frac{9}{5}C + 32\). Solve this formula for \(C\).</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        F &= \frac{9}{5}C + 32 && \small \color{#5fa2ce} {\text{Original formula}} \\
+        F - 32 &= \frac{9}{5}C && \small \color{#5fa2ce} {\text{Subtract }32} \\
+        \frac{5}{9}(F - 32) &= C && \small \color{#5fa2ce} {\text{Divide by }\frac{9}{5}\text{ or multiply by }\frac{5}{9}} \\
+        C &= \frac{5}{9}(F - 32) && \small \color{#5fa2ce} {\text{New formula}}
+    \end{align}
+</div>
+
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 7</strong>
+    <p>The Pythagorean Theorem states that in a right triangle, the square of the length of the hypotenuse \(c\) is equal to the sum of the squares of the other two sides \(a\) and \(b\), i.e., \(c^2 = a^2 + b^2\). Solve this formula for \(a\).</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        c^2 &= a^2 + b^2 && \small \color{#5fa2ce} {\text{Original formula}} \\
+        c^2 - b^2 &= a^2 && \small \color{#5fa2ce} {\text{Subtract }b^2} \\
+        \sqrt{c^2 - b^2} &= a && \small \color{#5fa2ce} {\text{Take the square root}} \\
+        a &= \sqrt{c^2 - b^2} && \small \color{#5fa2ce} {\text{New formula}}
+    \end{align}
+    <p>Normally when using a square root to solve we would take the \(\pm\) root.  In this case, we are solving for the side of a triangle which must be positive.</p>
+</div>
+
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+	<strong>Example 8</strong>
+    <p>The formula for calculating the volume \(V\) of a cylinder is \(V = \pi r^2 h\), where \(r\) is the radius and \(h\) is the height. Solve this formula for \(r\).</p>
+    <hr>
+	<strong>Solution</strong>
+    \begin{align}
+        V &= \pi r^2 h && \small \color{#5fa2ce} {\text{Original formula}} \\
+        \frac{V}{\pi h} &= r^2 && \small \color{#5fa2ce} {\text{Divide by }\pi h} \\
+        \sqrt{\frac{V}{\pi h}} &= r && \small \color{#5fa2ce} {\text{Take the square root}} \\
+        r &= \sqrt{\frac{V}{\pi h}} && \small \color{#5fa2ce} {\text{New formula}}
+    \end{align}
+</div>
+
+
+<h3>Conclusion</h3>
+<p>Later in Chapter 5 we will explore graphing equations containing variables \( x\) and \( y\). Having equations solved for \( y\) often makes them easier to graph by hand or input into a graphing calculator.</p>
