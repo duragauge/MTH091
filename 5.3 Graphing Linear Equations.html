@@ -1,18 +1,128 @@
-<h1>5.3 The Slope-Intercept Form</h1>
+<h1>5.3 Graphing Linear Equations</h1>
 
 <h3>Introduction</h3>
-<p>The slope-intercept form is a powerful tool for understanding and working with linear equations. This form allows us to easily glean important information about a line just by looking at its equation.</p>
+<p>In the prior section we used equations to plot points.  We saw that some equations produce graphs of lines while others create graphs with curves.  In this section we will introduce a powerful tool that allows us to easily glean important information about a line just by looking at its equation, without having to calculate multiple points.  That tool is called the <strong>slope-intercept</strong> form of a line.</p>
+
+
+<h3>The Slope Intercept Form</h3>
+<p>Let's begin with a practical situation.  As we walk through this carefully we'll uncover exacty what this slope intercept form is.</p>
+
+<p>Suppose a landscape supply company charges \(\$25\) per cubic yard for bark mulch and a flat \(\$35\) delivery fee. Then, when ordering bark, the total cost will start at \(\$35\) and will go up at a rate of \($25\) for each cubic yard ordered.</p>
+
+<p>If we let \(x\) represent the number of cubic yards of bark and let \(y\) represent the total cost, then the equation for total cost becomes \(y=25x+35\).</p>
+
+<p>Continuing what we did in the last section, let's make a table of values.</p>
+
+<table style="border-collapse: collapse; width: 52.8795%; height: 54px;margin:1.2em;" border="1">
+    <tr>
+        <td>\(x\) <br> Cubic Yards of Bark</td>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>\(y=25x+35\) <br> Total Cost ($)</td>
+        <td>$35</td>
+        <td>$60</td>
+        <td>$85</td>
+        <td>$110</td>
+        <td>$135</td>
+        <td>$160</td>
+        <td>$285</td>
+    </tr>
+</table>
+
+<p>If we plot these points, we see that the relationship between the amount of bark ordered and the total cost is a perfectly straight line.</p>
+
+<p style="text-align: center;"><img src="https://myopenmaths3.s3.amazonaws.com/ufiles/34769/desmos-graph_46.png" alt="" width="378" height="378" /></p>
+
+<p>A close examination of this example where \(y=25x+35\) will give us insight into how all linear equations behave.</p>
+
+<p>Notice that the point where the line crosses the \(y\)-axis is \((0,35)\). We call this the \(y\)-intercept and the \(y\)-coordinate of this point is the constant in our equation. It represents the fixed \(\$35\) delivery fee added to every order.</p>
+
+<p>What is the slope of the line? We can use any two points from the table. Let's use \((5, 160)\) and \((10, 285\)).</p> 
+\begin{align}
+    m &= \frac{y_2 - y_1}{x_2 - x_1} \\
+    &= \frac{285-160}{10-5} \\
+    &= \frac{125}{5} \\
+    &= 25
+\end{align}
+
+<p>Notice that this value is also in our equation, it is the coefficient of \(x\).  In our scenario, it represents the rate of change of the cost: \(\$25\) <em>per</em> cubic yard of bark.</p>
+
+<p>The fact that the slope and \(y\)-intercept can both be identified simply by looking at the equation is an amazing shortcut. This is true for any equation written in the form \(y=mx+b\).
+
+<div style="min-width:600px;width:80%; margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+    <strong>Linear Equations:</strong>
+    <p>Any equation that can be put in the form \(y=mx+b\) is a <strong>linear equation</strong>.  Its graph will be a straight line.  Additionally,</p>
+    <ul>
+        <li>\(m\) represents the slope or rate of change of the line.</li>
+        <li>The point \((0,b)\) is the \(y\)-intercept of the line.</li>
+    </ul>
+    <p>The format \(y=mx+b\) is called the <strong>slope-intercept</strong> form of a line</p>
+</div>
+
+<p>The slope-intercept form is a powerful tool for understanding and working with linear equations and their graphs.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 1</strong>
+    <p>Identify the slope and \(y\)-intercept of the following lines.</p>
+    <p><b>(a)</b> \(y=-2x+31\)</p>
+    <p><b>(b)</b> \(y=\frac{2}{5}x-7\)</p>
+    <hr>
+    <strong>Solution:</strong>
+    <p>Since both equations are in the slope-intercept form, the slope and \(y\)-intercept can be identified from the equation without any calculations.</p>
+    <p><b>(a)</b> \(y=-2x+31\) has a slope of \(m=-2\) and a \(y\)-intercept at \((0,3)\).</p>
+    <p><b>(b)</b> \(y=\frac{2}{5}x-7\) has a slope of \(m=\frac{2}{5}\) and a \(y\)-intercept at \((0,-7)\).</p>
+</div>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 2</strong>
+    <p><b>(a)</b> Write the equation of a line with a slope of \(3\) and a \(y\)-intercept at \((0,12)\).</p>
+    <p><b>(b)</b> Write the equation of a line with a slope of \(\frac{-5}{6}\) and a \(y\)-intercept at \((0,8)\).</p>
+    <hr>
+    <strong>Solution:</strong>
+    <p>If we use the slope intercept form, the values for \(m\) and \(b\) can be substituted in directly.</p>
+    <p><b>(a)</b> \(y=3x+12\) has a slope of \(m=3) and a \(y\)-intercept at \((0,12)\).</p>
+    <p><b>(b)</b> \(y=\frac{-5}{6}x+8\) has a slope of \(m=\frac{-5}{6}\) and a \(y\)-intercept at \((0,8)\).</p>
+</div>
+
 
 <h3>Graphing Linear Equations in Slope-Intercept Form</h3>
-<p>Graphing linear equations becomes intuitive when they're in slope-intercept form, \(y = mx + b\). Here's how to graph using this form and what the parameters \(m\) and \(b\) signify:</p>
-<ul>
-    <li><strong>Slope (\(m\))</strong>: The slope determines the line's steepness and direction.</li>
-    <li><strong>Y-Intercept (\(b\))</strong>: The y-intercept is where the line crosses the y-axis.</li>
-    <li><strong>Graph Interpretation</strong>: The slope gives the rate of change, while the y-intercept is the initial value.</li>
-</ul>
+<p>Graphing linear equations becomes intuitive when they're in slope-intercept form.</p>
+
+<p>To graph a line in slope-intercept form, first plot the point \((0,b)\), which is the \(y\)-intercept. Then, starting from the \(y\)-intercept, use the rise of the slope to move up or down and the run of the slope to move side-to-side and plot a second point.  Use those two points to draw the line.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 3</strong>
+    <p>Graph the line \(y=\frac{3}{2}x+1\).</p>
+    <hr>
+    <strong>Solution:</strong>
+    <p>Since this is in the slope-intercept form we know the y-intercept is \(\color{blue}{(0,1)}\). Starting from that point we'll use the slope \(\color{red}{\frac{3}{2}}\) and move up \(\color{red}{3}\) spaces and right \(\color{red}{2}\) to plot a second point.</p>
+    <img src="https://raw.githubusercontent.com/duragauge/MTH091/4b2dd2e78167d9ed6beaa2641d446c549fc22312/images/slope_intercept_example_1.svg" alt="Slope Example" style="float: right; display: block; width: 260px; margin: 1.2em;"> 
+</div>
+
 
 <h3>Writing the Slope-Intercept Form of a Line Given Its Graph</h3>
-<p>If you're given the graph of a line, it's possible to extract the slope and y-intercept directly from it. Understanding how to do this is vital for analyzing graphs and equations.</p>
+<p>If you're given the graph of a line, it's possible to extract the slope and \(y\)-intercept directly from it.  The \(y\)-intercept should be straighforward to spot, since it is where the line crosses the \(y\)-aixis.  The slope is not much harder, but we need to be precise.</p>
+
+<p>To find the slope, find another point on the line where you are confident of it's coordinates.  Then carefully count the rise and run between that point and your \(y\)-intercept.  Make sure the sign of your final slope value matches the direction of the line.  As we saw in the last section, lines with positive slope rise when moving left to right while lines with negative slope go down.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 3</strong>
+    <p>Graph the line \(y=\frac{3}{2}x+1\).</p>
+    <hr>
+    <strong>Solution:</strong>
+    <p>Since this is in the slope-intercept form we know the y-intercept is \(\color{blue}{(0,1)}\). Starting from that point we'll use the slope \(\color{red}{\frac{3}{2}}\) and move up \(\color{red}{3}\) spaces and right \(\color{red}{2}\) to plot a second point.</p>
+    <img src="https://raw.githubusercontent.com/duragauge/MTH091/4b2dd2e78167d9ed6beaa2641d446c549fc22312/images/slope_intercept_example_1.svg" alt="Slope Example" style="float: right; display: block; width: 260px; margin: 1.2em;"> 
+</div>
+
+
+
 
 <h3>Finding the Slope-Intercept Form Given Two Points</h3>
 <p>Starting with two points on a line, we can determine its slope and then use one of the points to find the y-intercept. This process allows us to write the slope-intercept equation for the line.</p>
@@ -24,7 +134,11 @@
     </align}>
 </div>
 
+
 <h3>Interpreting the Slope and Y-Intercept</h3>
+
+The slope gives the rate of change, while the y-intercept is the initial value.</li>
+
 <p>Understanding what the slope and y-intercept mean in context is crucial for making sense of linear equations. Here are some scenarios where these parameters have real-world significance:</p>
 <ul>
     <li><strong>Slope Interpretation</strong>: How does the rate of change relate to the situation being modeled?</li>
@@ -33,6 +147,8 @@
 
 <h3>Modeling Scenarios with Linear Equations</h3>
 <p>Linear equations are used to model various real-world situations. We can take information from a scenario and use it to construct an equation in slope-intercept form, providing a mathematical representation of the situation.</p>
+
+
 
 <h3>Homework</h3>
 <p>Practice the concepts you've learned with the following problems:</p>
@@ -43,6 +159,7 @@
     <li>Interpret the slope and y-intercept of the equation \(y = -0.5x + 10\) within a real-world scenario.</li>
     <li>Create a linear equation in slope-intercept form to model a scenario where the initial value is \(12\) and the rate of change is \(\frac{1}{2}\).</li>
 </ol>
+
 
 <h3>Conclusion</h3>
 <p>The slope-intercept form brings us deeper into the realm of linear equations, allowing us to capture and comprehend relationships between variables. In the next section, we'll extend our knowledge to parallel and perpendicular lines.</p>
