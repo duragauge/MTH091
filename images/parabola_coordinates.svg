@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="11.986974906632913cm"
-   height="7.01396133625523cm"
-   viewBox="0 0 832 485"
+   width="11.401531cm"
+   height="7.1079135cm"
+   viewBox="0 0 791.36513 491.49659"
    id="svg854"
    sodipodi:docname="parabola_coordinates.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
@@ -13,78 +13,40 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs858">
-    <marker
-       style="overflow:visible"
-       id="marker3350"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path3348" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow2"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="arrow2L" />
-    </marker>
     <clipPath
        id="clipb9eae613-5281-4cc2-8468-55a78bf12f6e">
       <path
-         d="M 0.0000 0.0000 L 0.0000 488.00 L 834.00 488.00 L 834.00 0.0000 z"
+         d="M 0,0 V 488 H 834 V 0 Z"
          id="path4" />
     </clipPath>
     <clipPath
        id="clipe5f59b71-6fea-40b7-a9bf-a5b006e5d40c">
       <path
-         d="M 0.0000 0.0000 L 0.0000 488.00 L 834.00 488.00 L 834.00 0.0000 z"
+         d="M 0,0 V 488 H 834 V 0 Z"
          id="path13" />
     </clipPath>
     <clipPath
        id="clip63c9655f-de76-4f95-a218-c687524e0ca5">
       <path
-         d="M 0.0000 0.0000 L 0.0000 488.00 L 834.00 488.00 L 834.00 0.0000 z"
+         d="M 0,0 V 488 H 834 V 0 Z"
          id="path22" />
     </clipPath>
     <clipPath
        id="clipdb324384-f3af-46cf-abe3-fef2bb80ecd9">
       <path
-         d="M 0.0000 0.0000 L 0.0000 488.00 L 834.00 488.00 L 834.00 0.0000 z"
+         d="M 0,0 V 488 H 834 V 0 Z"
          id="path31" />
     </clipPath>
     <clipPath
        id="clipf9ed7215-7455-44fb-ad66-2a9ce365655b">
       <path
-         d="M 0.0000 0.0000 L 0.0000 488.00 L 834.00 488.00 L 834.00 0.0000 z"
+         d="M 0,0 V 488 H 834 V 0 Z"
          id="path40" />
     </clipPath>
     <clipPath
        id="clipa7a77aed-1074-46c6-a8a9-cd326682450f">
       <path
-         d="M 0.0000 0.0000 L 0.0000 488.00 L 834.00 488.00 L 834.00 0.0000 z"
+         d="M 0,0 V 488 H 834 V 0 Z"
          id="path49" />
     </clipPath>
     <clipPath
@@ -411,6 +373,139 @@
          d="M -803.23,-147.89 V 1426.3 H 1887.1 V -147.89 Z"
          id="path536" />
     </clipPath>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="marker721383"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="marker721383">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#666666;fill-rule:evenodd;stroke:#666666"
+         id="path14569" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="marker72135730"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="marker72135730">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#cc79a7;fill-rule:evenodd;stroke:#cc79a7"
+         id="path15735" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="marker72132989"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="marker72132989">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#d55e00;fill-rule:evenodd;stroke:#d55e00"
+         id="path16921" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="marker72138545"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="marker72138545">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#009e73;fill-rule:evenodd;stroke:#009e73"
+         id="path18129" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="marker721366983921"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="marker721366983921">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#666666;fill-rule:evenodd;stroke:#666666"
+         id="path19337" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="marker33505353"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="marker33505353">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff"
+         id="path21533" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow24223"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="Arrow24223">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff"
+         id="path21536" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="namedview856"
@@ -423,921 +518,1010 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="cm"
      showgrid="false"
-     inkscape:zoom="2.2592668"
-     inkscape:cx="229.72054"
-     inkscape:cy="131.01595"
+     inkscape:zoom="2.0740938"
+     inkscape:cx="205.63197"
+     inkscape:cy="150.90928"
      inkscape:window-width="1920"
      inkscape:window-height="986"
-     inkscape:window-x="780"
-     inkscape:window-y="1609"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg854" />
   <title
      id="title2" />
   <path
-     d="M 322.29,3 V 488"
+     d="M 322.29,1.1298346 V 486.12983"
      id="path3978"
-     style="fill:none;stroke:#ff0000;stroke-width:4.09511155;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:4.09511137, 8.19022274;stroke-dashoffset:0;stroke-opacity:1;opacity:0.33870968" />
+     style="opacity:1;fill:none;stroke:#cc79a7;stroke-width:4.09511;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:4.09511, 8.19022;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="M 199.5,3 V 488"
+     d="M 199.5,1.1298346 V 486.12983"
      id="path7"
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 199.5,2 -8,8"
+     d="m 199.5,0.12983456 -8,8.00000004"
      id="path16"
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 199.5,2 8,8"
+     d="m 199.5,0.12983456 8,8.00000004"
      id="path25"
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="M 0,389 H 831"
+     d="M 0,387.12983 H 655.10944"
      id="path34"
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="fill:none;stroke:#000000;stroke-width:2.01285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 832,389 -8,-8"
+     d="m 655.70181,387.12983 -8,-8"
      id="path43"
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 832,389 -8,8"
+     d="m 655.70181,387.12983 -8,8"
      id="path52"
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 115.65,458.51 1.63,-5.04 3.26,-9.96 3.26,-9.8 3.25,-9.64 3.26,-9.48 3.26,-9.32 3.26,-9.16 3.26,-9 3.25,-8.84 3.26,-8.68 3.26,-8.52 3.26,-8.36 3.26,-8.21 3.25,-8.04 3.26,-7.88 3.26,-7.73 3.26,-7.56 3.25,-7.41 3.26,-7.25 3.26,-7.08 3.26,-6.93 3.26,-6.77 3.25,-6.6 3.26,-6.45 3.26,-6.29 3.26,-6.13 3.25,-5.97 3.26,-5.81 3.26,-5.65 3.26,-5.49 3.26,-5.34 3.25,-5.17 3.26,-5.01 3.26,-4.86 3.26,-4.69 3.25,-4.53 3.26,-4.38 3.26,-4.21 3.26,-4.06 3.26,-3.9 3.25,-3.73 3.26,-3.58 3.26,-3.42 3.26,-3.26 3.25,-3.1 3.26,-2.93 3.26,-2.78 3.26,-2.63 3.26,-2.46 3.25,-2.3 3.26,-2.14 3.26,-1.98 3.26,-1.82 3.26,-1.67 3.25,-1.5 3.26,-1.35 3.26,-1.18 3.26,-1.03 3.25,-0.86 3.26,-0.71 3.26,-0.54 3.26,-0.39 3.26,-0.23 3.25,-0.07 3.26,0.09 3.26,0.25 3.26,0.41 3.25,0.57 3.26,0.73 3.26,0.89 3.26,1.05 3.26,1.21 3.25,1.37 3.26,1.52 3.26,1.69 3.26,1.85 3.26,2 3.25,2.17 3.26,2.32 3.26,2.48 3.26,2.65 3.25,2.8 3.26,2.96 3.26,3.12 3.26,3.29 3.26,3.44 3.25,3.6 3.26,3.76 3.26,3.92 3.26,4.08 3.25,4.23 3.26,4.4 3.26,4.56 3.26,4.72 3.26,4.87 3.25,5.04 3.26,5.19 3.26,5.36 3.26,5.51 3.25,5.68 3.26,5.83 3.26,6 3.26,6.15 3.26,6.31 3.25,6.47 3.26,6.63 3.26,6.79 3.26,6.95 3.25,7.11 3.26,7.27 3.26,7.43 3.26,7.59 3.26,7.75 3.25,7.9 3.26,8.07 3.26,8.23 3.26,8.38 3.26,8.55 3.25,8.7 3.26,8.87 3.26,9.02 3.26,9.18 3.25,9.35 3.26,9.5 3.26,9.66 3.26,9.82 3.26,9.98"
+     d="m 115.65,456.63983 1.63,-5.04 3.26,-9.96 3.26,-9.8 3.25,-9.64 3.26,-9.48 3.26,-9.32 3.26,-9.16 3.26,-9 3.25,-8.84 3.26,-8.68 3.26,-8.52 3.26,-8.36 3.26,-8.21 3.25,-8.04 3.26,-7.88 3.26,-7.73 3.26,-7.56 3.25,-7.41 3.26,-7.25 3.26,-7.08 3.26,-6.93 3.26,-6.77 3.25,-6.6 3.26,-6.45 3.26,-6.29 3.26,-6.13 3.25,-5.97 3.26,-5.81 3.26,-5.65 3.26,-5.49 3.26,-5.34 3.25,-5.17 3.26,-5.01 3.26,-4.86 3.26,-4.69 3.25,-4.53 3.26,-4.38 3.26,-4.21 3.26,-4.06 3.26,-3.9 3.25,-3.73 3.26,-3.58 3.26,-3.42 3.26,-3.26 3.25,-3.1 3.26,-2.93 3.26,-2.78 3.26,-2.63 3.26,-2.46 3.25,-2.3 3.26,-2.14 3.26,-1.98 3.26,-1.82 3.26,-1.67 3.25,-1.5 3.26,-1.35 3.26,-1.18 3.26,-1.03 3.25,-0.86 3.26,-0.71 3.26,-0.54 3.26,-0.39 3.26,-0.23 3.25,-0.07 3.26,0.09 3.26,0.25 3.26,0.41 3.25,0.57 3.26,0.73 3.26,0.89 3.26,1.05 3.26,1.21 3.25,1.37 3.26,1.52 3.26,1.69 3.26,1.85 3.26,2 3.25,2.17 3.26,2.32 3.26,2.48 3.26,2.65 3.25,2.8 3.26,2.96 3.26,3.12 3.26,3.29 3.26,3.44 3.25,3.6 3.26,3.76 3.26,3.92 3.26,4.08 3.25,4.23 3.26,4.4 3.26,4.56 3.26,4.72 3.26,4.87 3.25,5.04 3.26,5.19 3.26,5.36 3.26,5.51 3.25,5.68 3.26,5.83 3.26,6 3.26,6.15 3.26,6.31 3.25,6.47 3.26,6.63 3.26,6.79 3.26,6.95 3.25,7.11 3.26,7.27 3.26,7.43 3.26,7.59 3.26,7.75 3.25,7.9 3.26,8.07 3.26,8.23 3.26,8.38 3.26,8.55 3.25,8.7 3.26,8.87 3.26,9.02 3.26,9.18 3.25,9.35 3.26,9.5 3.26,9.66 3.26,9.82 3.26,9.98"
      id="path62"
-     style="fill:none;stroke:#0000ff;stroke-width:5.13624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.69804;marker-start:url(#marker3350);marker-end:url(#Arrow2)"
+     style="fill:none;stroke:#0000ff;stroke-width:5.13624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.69804;marker-start:url(#marker33505353);marker-end:url(#Arrow24223)"
      sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
   <path
-     d="m 331.29,137.65 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 331.29,135.77983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path75"
      style="fill:#444444;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
   <path
-     d="m 331.29,137.65 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 331.29,135.77983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path88"
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="fill:#d55e00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 208.5,250.95 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 208.5,249.07983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path101"
      style="fill:#444444;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
   <path
-     d="m 208.5,250.95 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 208.5,249.07983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path114"
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="fill:#009e73;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 148.4,389 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 148.4,387.12983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path127"
      style="fill:#444444;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
   <path
-     d="m 148.4,389 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 148.4,387.12983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path140"
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="fill:#666666;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
-     d="m 514.18,389 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 514.18,387.12983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path153"
      style="fill:#444444;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
   <path
-     d="m 514.18,389 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+     d="m 514.18,387.12983 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
      id="path166"
-     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="fill:#666666;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <!-- default stroke -->
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;line-height:1.01;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;stroke-width:1.83644"
+     x="17.91276"
+     y="344.24023"
+     id="text7067"><tspan
+       sodipodi:role="line"
+       id="tspan7065"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;font-family:Arial;-inkscape-font-specification:Arial;fill:#666666;stroke-width:1.83644"
+       x="17.91276"
+       y="344.24023">x-intercept</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;line-height:1.01;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#666666;stroke-width:1.83644"
+     x="509.20334"
+     y="336.89447"
+     id="text7133"><tspan
+       sodipodi:role="line"
+       id="tspan7131"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;font-family:Arial;-inkscape-font-specification:Arial;fill:#666666;stroke-width:1.83644"
+       x="509.20334"
+       y="336.89447">x-intercept</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;line-height:1.01;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#009e73;fill-opacity:1;stroke-width:1.83644"
+     x="57.76474"
+     y="211.67404"
+     id="text7149"><tspan
+       sodipodi:role="line"
+       id="tspan7147"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;font-family:Arial;-inkscape-font-specification:Arial;fill:#009e73;fill-opacity:1;stroke-width:1.83644"
+       x="57.76474"
+       y="211.67404">y-intercept</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;line-height:1.01;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#d55e00;fill-opacity:1;stroke-width:1.83644"
+     x="216.60861"
+     y="96.773643"
+     id="text7165"><tspan
+       sodipodi:role="line"
+       id="tspan7163"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;font-family:Arial;-inkscape-font-specification:Arial;fill:#d55e00;fill-opacity:1;stroke-width:1.83644"
+       x="216.60861"
+       y="96.773643">vertex</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;line-height:1.01;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#cc79a7;fill-opacity:1;stroke-width:1.83644"
+     x="438.64719"
+     y="41.921566"
+     id="text7181"><tspan
+       sodipodi:role="line"
+       id="tspan7179"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#cc79a7;fill-opacity:1;stroke-width:1.83644"
+       x="438.64719"
+       y="41.921566">axis of </tspan><tspan
+       sodipodi:role="line"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.9344px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#cc79a7;fill-opacity:1;stroke-width:1.83644"
+       x="438.64719"
+       y="69.125305"
+       id="tspan7195">symmetry</tspan></text>
+  <path
+     style="fill:none;stroke:#009e73;stroke-width:2.08226;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker72138545)"
+     d="m 143.06103,216.30222 36.03812,19.24122"
+     id="path7197"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#666666;stroke-width:2.08226;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker721366983921)"
+     d="m 99.263708,350.57346 21.924412,18.9379"
+     id="path7279"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#666666;stroke-width:2.08226;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker721383)"
+     d="m 570.29934,341.68924 -43.45729,30.38302"
+     id="path7307"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#d55e00;stroke-width:2.08226;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker72132989)"
+     d="m 260.60006,104.89898 38.64759,19.28717"
+     id="path8103"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#cc79a7;stroke-width:2.08226;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker72135730)"
+     d="m 382.87007,43.894635 -40.08451,0.0324"
+     id="path8129"
+     sodipodi:nodetypes="cc" />
   <g
-     id="g3579"
-     transform="matrix(0.84935938,0,0,0.84935938,-272.21867,277.40022)">
+     id="g28965"
+     transform="translate(-120.05811,5.9709219)">
     <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g185"
-       transform="matrix(0.42,0,0,0.42,363.32712,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
-         id="path179" />
-      <title
-         id="title181">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc183">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       id="g3518"
-       transform="translate(-0.0472925)">
+       id="g3579"
+       transform="matrix(0.84935938,0,0,0.84935938,-152.19795,270.75837)">
       <g
          fill-opacity="1"
          fill-rule="nonzero"
          stroke="none"
          fill="#000000"
-         id="g200"
-         transform="matrix(0.42,0,0,0.42,383.34,108.5)"
+         id="g185"
+         transform="matrix(0.42,0,0,0.42,363.32712,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path179" />
+        <title
+           id="title181">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc183">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         id="g3518"
+         transform="translate(-0.0472925)">
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g200"
+           transform="matrix(0.42,0,0,0.42,383.34,108.5)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
+             id="path194" />
+          <title
+             id="title196">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc198">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g215"
+           transform="matrix(0.26056653,0,0,0.26056653,403.98489,119.91929)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="m 29.406,-64 v 56.0938 q 0,3 1.188,3.8124 1.703,1 8.109,1 h 3.203 V 0 Q 38.406,-0.29688 25.703,-0.29688 13,-0.29688 9.5,0 v -3.0938 h 3.203 q 7.703,0 8.797,-1.8124 L 21.594,-5 Q 22,-5.7969 22,-7.9062 V -59.703 q -5.203,2.609 -13.0938,2.609 v -3.109 q 11.9998,0 18.1878,-6.391 1.906,0 2.203,0.688 v 0 0.109 q 0.109,0.297 0.109,1.797 z"
+             id="path209" />
+          <title
+             id="title211">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc213">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g230"
+         transform="matrix(0.42,0,0,0.42,420.94598,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
+           id="path224" />
+        <title
+           id="title226">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc228">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g245"
+         transform="matrix(0.42,0,0,0.42,437.53018,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 46,-32 Q 46,-17.406 42.297,-9.4062 36.406,1.7969 24.906,2.2031 15.797,2.2031 10.297,-5 9.2031,-6.2969 8.4062,-7.9062 3.9062,-16.203 3.9062,-32 q 0,-14.703 3.6876,-22.703 5.0002,-11.203 16.2032,-11.891 H 25 q 8.906,0 14.5,7.094 v 0.094 q 1.406,1.812 2.5,4 4,8.5 4,23.406 z M 24.906,0 v 0 q 6.297,0 9.688,-6.0938 1.406,-2.7031 2,-6.4062 1.109,-6.406 1.109,-20.703 0,-13.891 -1,-19.5 -1.797,-9.5 -9.203,-11.391 -1.297,-0.312 -2.594,-0.312 -7,0 -10.203,7 -1.109,2.406 -1.703,5.812 -0.797,5.391 -0.797,18.391 0,15.109 1.094,21.109 1.797,9.594 8.797,11.68775 Q 23.5,0 24.906,0 Z"
+           id="path239" />
+        <title
+           id="title241">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc243">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g260"
+         transform="matrix(0.42,0,0,0.42,461.74,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path254" />
+        <title
+           id="title256">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc258">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+    </g>
+    <g
+       id="g3813"
+       transform="matrix(0.84935938,0,0,0.84935938,-271.68642,142.32858)">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g365"
+         transform="matrix(0.42,0,0,0.42,581.80424,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path359" />
+        <title
+           id="title361">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc363">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g380"
+         transform="matrix(0.42,0,0,0.42,598.14424,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 46,-32 Q 46,-17.406 42.297,-9.4062 36.406,1.7969 24.906,2.2031 15.797,2.2031 10.297,-5 9.2031,-6.2969 8.4062,-7.9062 3.9062,-16.203 3.9062,-32 q 0,-14.703 3.6876,-22.703 5.0002,-11.203 16.2032,-11.891 H 25 q 8.906,0 14.5,7.094 v 0.094 q 1.406,1.812 2.5,4 4,8.5 4,23.406 z M 24.906,0 v 0 q 6.297,0 9.688,-6.0938 1.406,-2.7031 2,-6.4062 1.109,-6.406 1.109,-20.703 0,-13.891 -1,-19.5 -1.797,-9.5 -9.203,-11.391 -1.297,-0.312 -2.594,-0.312 -7,0 -10.203,7 -1.109,2.406 -1.703,5.812 -0.797,5.391 -0.797,18.391 0,15.109 1.094,21.109 1.797,9.594 8.797,11.68775 Q 23.5,0 24.906,0 Z"
+           id="path374" />
+        <title
+           id="title376">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc378">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g395"
+         transform="matrix(0.42,0,0,0.42,622.81712,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
+           id="path389" />
+        <title
+           id="title391">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc393">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g410"
+         transform="matrix(0.42,0,0,0.42,645.17,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 39.594,-38 v 0 q -2.797,-3.594 -8.594,-4 -6.5,0 -11.797,6.594 -1.297,1.609 -2.297,3.406 -4,7.297 -5.203,17.203 -0.203,1.594 -0.203,2.797 0,8.2031 5.594,10.2969 1.406,0.6093 3.406,0.6093 9,0 16.203,-6 2.094,-1.7031 3.797,-3.9062 0.703,-1 1.297,-1 0.906,0 1.203,1.297 0,1.1092 -3.406,4.2968 -8.297,7.5 -19.297,7.5 -9.5,0 -13.797,-7.5938 -2.4062,-4.094 -2.4062,-9.297 0,-10.203 7.8122,-18.906 7.688,-8.594 17.188,-9.391 0.906,-0.109 1.812,-0.109 7.688,0 10.688,4.703 1.109,1.797 1.109,3.906 0,4.391 -3.5,6 -1,0.391 -2.109,0.391 -3,0 -3.594,-2.594 -0.094,-0.406 -0.094,-0.906 0,-2.203 1.797,-3.891 Q 36.594,-38 39.594,-38 Z"
+           id="path404" />
+        <title
+           id="title406">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc408">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g425"
+         transform="matrix(0.42,0,0,0.42,663.35,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path419" />
+        <title
+           id="title421">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc423">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+    </g>
+    <g
+       id="g3901"
+       transform="matrix(0.84935938,0,0,0.84935938,-124.45326,21.214412)">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g440"
+         transform="matrix(0.42,0,0,0.42,679.69,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path434" />
+        <title
+           id="title436">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc438">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         id="g3835"
+         transform="translate(-0.60566717)">
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g455"
+           transform="matrix(0.42,0,0,0.42,696.03,108.5)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
+             id="path449" />
+          <title
+             id="title451">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc453">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g470"
+           transform="matrix(0.294,0,0,0.294,716.37712,122.14576)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="m 46.797,-37.203 q 0,5.5 -3,15.406 Q 38,-2.4062 27.703,0.59375 26.094,1.0938 24.297,1.0938 q -9.094,0 -12.094,-6.2969 -1.297,-2.5938 -1.297,-6.0939 0,-5.203 4.594,-17.609 l 1.094,-2.891 q 1.703,-4.406 1.703,-7 0,-3.203 -2.5,-3.203 -5.391,0 -8.8908,8.906 -0.7031,1.594 -1.2031,3.5 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.1876,-6.297 4.3124,-9.109 11.0002,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -1.203,5 -5.391,14.406 -5.797,19.906 v 1.2971 q 0,8 6.406,8.7031 h 1 q 8.094,0 14,-13.6092 3.5,-8 3.797,-13.5 0,-5 -3.406,-8.203 -1.594,-1.594 -1.594,-3 0,-2.5 2.594,-4.094 1.109,-0.703 2.312,-0.703 2.891,0 4,3.703 0.391,1.406 0.391,3.297 z"
+             id="path464" />
+          <title
+             id="title466">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc468">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g485"
+         transform="matrix(0.42,0,0,0.42,735.06047,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
+           id="path479" />
+        <title
+           id="title481">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc483">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         id="g3857"
+         transform="translate(6.5204583)">
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g500"
+           transform="matrix(0.42,0,0,0.42,754.05,108.5)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="M 48.594,-38.094 39,0.09375 Q 36.594,9.9062 28.297,16 22.203,20.5 15.594,20.5 8.9062,20.5 6.0938,15.906 5,14 5,11.797 5,6.7031 9.0938,5.5 9.9062,5.2969 10.594,5.2969 q 3.203,0 3.609,2.7969 0.094,0.3124 0.094,0.7031 0,2.2971 -2,4.1091 -1.391,1.188 -4.297,1.188 1.7969,4.203 7.594,4.203 6.203,0 11,-6.297 3.906,-5.2031 6.203,-14.0938 0.109,-0.4062 0.297,-1.3124 -4.5,4.5 -10.094,4.5 -8,0 -10.906,-5.8907 -1.297,-2.6093 -1.297,-6.0001 0,-5.5 5.297,-19.703 0.203,-0.594 0.5,-1.297 1.703,-4.609 1.703,-7 0,-3.203 -2.5,-3.203 -5.5,0 -9.0001,9.094 v 0.109 q -0.5938,1.5 -1.0938,3.203 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.0938,-6.297 4.4062,-9.109 11.094,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -2,7.203 -5.094,13.203 -5.094,19.5939 0,8.1093 6.203,8.1093 5.797,0 10.094,-6.2031 1,-1.5 1.203,-2.2969 l 4.5,-18.0002 q 0.703,-3.312 2,-8 1,-4.312 1.391,-5.406 1.312,-2.094 3.5,-2.094 2.5,0.5 2.906,2.688 0,0.906 -0.406,2.312 z"
+             id="path494" />
+          <title
+             id="title496">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc498">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g515"
+           transform="matrix(0.294,0,0,0.294,770.95712,122.14576)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="m 46.797,-37.203 q 0,5.5 -3,15.406 Q 38,-2.4062 27.703,0.59375 26.094,1.0938 24.297,1.0938 q -9.094,0 -12.094,-6.2969 -1.297,-2.5938 -1.297,-6.0939 0,-5.203 4.594,-17.609 l 1.094,-2.891 q 1.703,-4.406 1.703,-7 0,-3.203 -2.5,-3.203 -5.391,0 -8.8908,8.906 -0.7031,1.594 -1.2031,3.5 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.1876,-6.297 4.3124,-9.109 11.0002,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -1.203,5 -5.391,14.406 -5.797,19.906 v 1.2971 q 0,8 6.406,8.7031 h 1 q 8.094,0 14,-13.6092 3.5,-8 3.797,-13.5 0,-5 -3.406,-8.203 -1.594,-1.594 -1.594,-3 0,-2.5 2.594,-4.094 1.109,-0.703 2.312,-0.703 2.891,0 4,3.703 0.391,1.406 0.391,3.297 z"
+             id="path509" />
+          <title
+             id="title511">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc513">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g530"
+         transform="matrix(0.42,0,0,0.42,793.61288,108.5)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path524" />
+        <title
+           id="title526">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc528">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+    </g>
+    <g
+       id="g5220"
+       transform="matrix(1.0843524,0,0,1.0843524,373.68318,31.619015)">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g545"
+         transform="matrix(0.31,0,0,0.31,249,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 48.594,-38.094 39,0.09375 Q 36.594,9.9062 28.297,16 22.203,20.5 15.594,20.5 8.9062,20.5 6.0938,15.906 5,14 5,11.797 5,6.7031 9.0938,5.5 9.9062,5.2969 10.594,5.2969 q 3.203,0 3.609,2.7969 0.094,0.3124 0.094,0.7031 0,2.2971 -2,4.1091 -1.391,1.188 -4.297,1.188 1.7969,4.203 7.594,4.203 6.203,0 11,-6.297 3.906,-5.2031 6.203,-14.0938 0.109,-0.4062 0.297,-1.3124 -4.5,4.5 -10.094,4.5 -8,0 -10.906,-5.8907 -1.297,-2.6093 -1.297,-6.0001 0,-5.5 5.297,-19.703 0.203,-0.594 0.5,-1.297 1.703,-4.609 1.703,-7 0,-3.203 -2.5,-3.203 -5.5,0 -9.0001,9.094 v 0.109 q -0.5938,1.5 -1.0938,3.203 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.0938,-6.297 4.4062,-9.109 11.094,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -2,7.203 -5.094,13.203 -5.094,19.5939 0,8.1093 6.203,8.1093 5.797,0 10.094,-6.2031 1,-1.5 1.203,-2.2969 l 4.5,-18.0002 q 0.703,-3.312 2,-8 1,-4.312 1.391,-5.406 1.312,-2.094 3.5,-2.094 2.5,0.5 2.906,2.688 0,0.906 -0.406,2.312 z"
+           id="path539" />
+        <title
+           id="title541">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc543">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g560"
+         transform="matrix(0.31,0,0,0.31,273.92,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 68.703,-32.703 H 9 q -3.2031,0 -3.4062,-2 0,-2 3.3124,-2 H 68.797 q 3.203,0 3.297,2 0,2 -3.391,2 z m 0.094,19.406 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.4062,-2 h 59.703 q 3.203,0 3.391,2 0,2 -3.297,2 z"
+           id="path554" />
+        <title
+           id="title556">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc558">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g575"
+         transform="matrix(0.31,0,0,0.31,306.65,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 37.297,-37.797 q 0.5,-3.406 3.109,-4.203 0.5,-0.203 1.094,-0.203 2.594,0 2.906,2.703 0,0.594 -0.703,3.406 l -3.609,14 q -1.5,6.297 -2.188,9 -1.312,5.1878 -1.312,7.3909 0,4.6093 3,4.6093 3.812,0 6.406,-8 0.5,-1.7032 1.203,-4.4062 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.5 -1.797,7.0001 -0.594,1.7031 -1.203,2.8907 -2.797,5.5 -7.391,5.5 -5.609,0 -8.109,-4.7969 -0.703,-1.2031 -1,-2.7031 -6.297,7.5 -13,7.5 -7.5001,0 -11.0939,-6.7969 Q 4,-9.7031 4,-14.906 q 0,-10.797 7.5,-20 7,-8.391 15.203,-9.188 0.703,-0.109 1.391,-0.109 6.109,0 9.203,6.406 z m -6.5,25.891 v 0 l 5,-19.594 q 0.297,-1.5 0.297,-1.703 0,-2.094 -1.797,-5.094 Q 32.094,-42 28.203,-42 q -5.203,0 -9.906,6.797 -0.891,1.297 -1.703,2.797 -2.891,5.812 -4.891,16.5 -0.609,3.406 -0.609,5.406 0,6.7969 3.812,8.7969 1.094,0.6093 2.594,0.6093 5.594,0 11.297,-7.1093 1.406,-1.5938 1.906,-3.2969 v -0.094 q 0.094,-0.203 0.094,-0.312 z"
+           id="path569" />
+        <title
+           id="title571">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc573">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g590"
+         transform="matrix(0.31,0,0,0.31,323.05,45.846)"
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
         <path
            d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
-           id="path194" />
+           id="path584" />
         <title
-           id="title196">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+           id="title586">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
         <desc
-           id="desc198">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+           id="desc588">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
       </g>
       <g
          fill-opacity="1"
          fill-rule="nonzero"
          stroke="none"
          fill="#000000"
-         id="g215"
-         transform="matrix(0.26056653,0,0,0.26056653,403.98489,119.91929)"
+         id="g605"
+         transform="matrix(0.217,0,0,0.217,340.78,33.047)"
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
         <path
-           d="m 29.406,-64 v 56.0938 q 0,3 1.188,3.8124 1.703,1 8.109,1 h 3.203 V 0 Q 38.406,-0.29688 25.703,-0.29688 13,-0.29688 9.5,0 v -3.0938 h 3.203 q 7.703,0 8.797,-1.8124 L 21.594,-5 Q 22,-5.7969 22,-7.9062 V -59.703 q -5.203,2.609 -13.0938,2.609 v -3.109 q 11.9998,0 18.1878,-6.391 1.906,0 2.203,0.688 v 0 0.109 q 0.109,0.297 0.109,1.797 z"
-           id="path209" />
+           d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
+           id="path599" />
         <title
-           id="title211">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+           id="title601">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
         <desc
-           id="desc213">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+           id="desc603">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
       </g>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g230"
-       transform="matrix(0.42,0,0,0.42,420.94598,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
-         id="path224" />
-      <title
-         id="title226">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc228">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g245"
-       transform="matrix(0.42,0,0,0.42,437.53018,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 46,-32 Q 46,-17.406 42.297,-9.4062 36.406,1.7969 24.906,2.2031 15.797,2.2031 10.297,-5 9.2031,-6.2969 8.4062,-7.9062 3.9062,-16.203 3.9062,-32 q 0,-14.703 3.6876,-22.703 5.0002,-11.203 16.2032,-11.891 H 25 q 8.906,0 14.5,7.094 v 0.094 q 1.406,1.812 2.5,4 4,8.5 4,23.406 z M 24.906,0 v 0 q 6.297,0 9.688,-6.0938 1.406,-2.7031 2,-6.4062 1.109,-6.406 1.109,-20.703 0,-13.891 -1,-19.5 -1.797,-9.5 -9.203,-11.391 -1.297,-0.312 -2.594,-0.312 -7,0 -10.203,7 -1.109,2.406 -1.703,5.812 -0.797,5.391 -0.797,18.391 0,15.109 1.094,21.109 1.797,9.594 8.797,11.68775 Q 23.5,0 24.906,0 Z"
-         id="path239" />
-      <title
-         id="title241">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc243">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g260"
-       transform="matrix(0.42,0,0,0.42,461.74,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
-         id="path254" />
-      <title
-         id="title256">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc258">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-  </g>
-  <g
-     id="g3813"
-     transform="matrix(0.84935938,0,0,0.84935938,-391.70714,148.97043)">
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g365"
-       transform="matrix(0.42,0,0,0.42,581.80424,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
-         id="path359" />
-      <title
-         id="title361">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc363">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g380"
-       transform="matrix(0.42,0,0,0.42,598.14424,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 46,-32 Q 46,-17.406 42.297,-9.4062 36.406,1.7969 24.906,2.2031 15.797,2.2031 10.297,-5 9.2031,-6.2969 8.4062,-7.9062 3.9062,-16.203 3.9062,-32 q 0,-14.703 3.6876,-22.703 5.0002,-11.203 16.2032,-11.891 H 25 q 8.906,0 14.5,7.094 v 0.094 q 1.406,1.812 2.5,4 4,8.5 4,23.406 z M 24.906,0 v 0 q 6.297,0 9.688,-6.0938 1.406,-2.7031 2,-6.4062 1.109,-6.406 1.109,-20.703 0,-13.891 -1,-19.5 -1.797,-9.5 -9.203,-11.391 -1.297,-0.312 -2.594,-0.312 -7,0 -10.203,7 -1.109,2.406 -1.703,5.812 -0.797,5.391 -0.797,18.391 0,15.109 1.094,21.109 1.797,9.594 8.797,11.68775 Q 23.5,0 24.906,0 Z"
-         id="path374" />
-      <title
-         id="title376">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc378">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g395"
-       transform="matrix(0.42,0,0,0.42,622.81712,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
-         id="path389" />
-      <title
-         id="title391">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc393">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g410"
-       transform="matrix(0.42,0,0,0.42,645.17,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 39.594,-38 v 0 q -2.797,-3.594 -8.594,-4 -6.5,0 -11.797,6.594 -1.297,1.609 -2.297,3.406 -4,7.297 -5.203,17.203 -0.203,1.594 -0.203,2.797 0,8.2031 5.594,10.2969 1.406,0.6093 3.406,0.6093 9,0 16.203,-6 2.094,-1.7031 3.797,-3.9062 0.703,-1 1.297,-1 0.906,0 1.203,1.297 0,1.1092 -3.406,4.2968 -8.297,7.5 -19.297,7.5 -9.5,0 -13.797,-7.5938 -2.4062,-4.094 -2.4062,-9.297 0,-10.203 7.8122,-18.906 7.688,-8.594 17.188,-9.391 0.906,-0.109 1.812,-0.109 7.688,0 10.688,4.703 1.109,1.797 1.109,3.906 0,4.391 -3.5,6 -1,0.391 -2.109,0.391 -3,0 -3.594,-2.594 -0.094,-0.406 -0.094,-0.906 0,-2.203 1.797,-3.891 Q 36.594,-38 39.594,-38 Z"
-         id="path404" />
-      <title
-         id="title406">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc408">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g425"
-       transform="matrix(0.42,0,0,0.42,663.35,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
-         id="path419" />
-      <title
-         id="title421">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc423">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-  </g>
-  <g
-     id="g3901"
-     transform="matrix(0.84935938,0,0,0.84935938,-244.47398,27.856262)">
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g440"
-       transform="matrix(0.42,0,0,0.42,679.69,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
-         id="path434" />
-      <title
-         id="title436">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc438">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       id="g3835"
-       transform="translate(-0.60566717)">
       <g
          fill-opacity="1"
          fill-rule="nonzero"
          stroke="none"
          fill="#000000"
-         id="g455"
+         id="g620"
+         transform="matrix(0.31,0,0,0.31,359.01,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 40.906,-23 V 5 q 0,3.2031 -2,3.2969 -2,0 -2,-3.2969 V -23 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 v -28 q 0,-3.203 2,-3.297 2,0 2,3.297 v 28 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 z"
+           id="path614" />
+        <title
+           id="title616">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc618">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g635"
+         transform="matrix(0.31,0,0,0.31,390.02,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 23.906,-68.297 16.5,-38.203 q 5.797,-6 11.703,-6 7.5,0 11.203,6.906 2.094,4 2.094,9.094 0,10.609 -7.406,19.7968 Q 27.203,0.09375 18.906,1 q -0.812,0.0938 -1.5,0.0938 -7.203,0 -10.7029,-6.6876 -2,-3.8124 -2,-9.0002 0,-3.406 1.5938,-10.109 L 14.5,-57.297 q 1.406,-5.906 1.406,-6.203 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.2029,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.188,-1 q 1.312,0 1.312,1.109 z M 14.5,-30.5 l -2.203,9.203 q -1.594,6.297 -1.594,10.094 0,8.6092 5.203,9.9061 0.688,0.2031 1.5,0.2031 5.297,0 9.891,-7 1,-1.5 1.906,-3.3122 2.703,-5.688 4.5,-15.391 0.594,-3.5 0.594,-5.797 0,-8 -4.891,-9.203 l -0.109,-0.109 Q 28.703,-42 28,-42 q -6,0 -12,8 -0.797,1 -1.5,3.5 z"
+           id="path629" />
+        <title
+           id="title631">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc633">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g650"
+         transform="matrix(0.31,0,0,0.31,403.32,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
+           id="path644" />
+        <title
+           id="title646">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc648">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g665"
+         transform="matrix(0.31,0,0,0.31,427.94,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 40.906,-23 V 5 q 0,3.2031 -2,3.2969 -2,0 -2,-3.2969 V -23 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 v -28 q 0,-3.203 2,-3.297 2,0 2,3.297 v 28 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 z"
+           id="path659" />
+        <title
+           id="title661">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc663">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g680"
+         transform="matrix(0.31,0,0,0.31,458.95,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 39.594,-38 v 0 q -2.797,-3.594 -8.594,-4 -6.5,0 -11.797,6.594 -1.297,1.609 -2.297,3.406 -4,7.297 -5.203,17.203 -0.203,1.594 -0.203,2.797 0,8.2031 5.594,10.2969 1.406,0.6093 3.406,0.6093 9,0 16.203,-6 2.094,-1.7031 3.797,-3.9062 0.703,-1 1.297,-1 0.906,0 1.203,1.297 0,1.1092 -3.406,4.2968 -8.297,7.5 -19.297,7.5 -9.5,0 -13.797,-7.5938 -2.4062,-4.094 -2.4062,-9.297 0,-10.203 7.8122,-18.906 7.688,-8.594 17.188,-9.391 0.906,-0.109 1.812,-0.109 7.688,0 10.688,4.703 1.109,1.797 1.109,3.906 0,4.391 -3.5,6 -1,0.391 -2.109,0.391 -3,0 -3.594,-2.594 -0.094,-0.406 -0.094,-0.906 0,-2.203 1.797,-3.891 Q 36.594,-38 39.594,-38 Z"
+           id="path674" />
+        <title
+           id="title676">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc678">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+    </g>
+    <g
+       id="g5166"
+       transform="matrix(0.99979316,0,0,0.99979316,152.64316,139.67399)">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g695"
+         transform="matrix(0.31,0,0,0.31,524.02,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 48.594,-38.094 39,0.09375 Q 36.594,9.9062 28.297,16 22.203,20.5 15.594,20.5 8.9062,20.5 6.0938,15.906 5,14 5,11.797 5,6.7031 9.0938,5.5 9.9062,5.2969 10.594,5.2969 q 3.203,0 3.609,2.7969 0.094,0.3124 0.094,0.7031 0,2.2971 -2,4.1091 -1.391,1.188 -4.297,1.188 1.7969,4.203 7.594,4.203 6.203,0 11,-6.297 3.906,-5.2031 6.203,-14.0938 0.109,-0.4062 0.297,-1.3124 -4.5,4.5 -10.094,4.5 -8,0 -10.906,-5.8907 -1.297,-2.6093 -1.297,-6.0001 0,-5.5 5.297,-19.703 0.203,-0.594 0.5,-1.297 1.703,-4.609 1.703,-7 0,-3.203 -2.5,-3.203 -5.5,0 -9.0001,9.094 v 0.109 q -0.5938,1.5 -1.0938,3.203 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.0938,-6.297 4.4062,-9.109 11.094,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -2,7.203 -5.094,13.203 -5.094,19.5939 0,8.1093 6.203,8.1093 5.797,0 10.094,-6.2031 1,-1.5 1.203,-2.2969 l 4.5,-18.0002 q 0.703,-3.312 2,-8 1,-4.312 1.391,-5.406 1.312,-2.094 3.5,-2.094 2.5,0.5 2.906,2.688 0,0.906 -0.406,2.312 z"
+           id="path689" />
+        <title
+           id="title691">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc693">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g710"
+         transform="matrix(0.31,0,0,0.31,548.93,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 68.703,-32.703 H 9 q -3.2031,0 -3.4062,-2 0,-2 3.3124,-2 H 68.797 q 3.203,0 3.297,2 0,2 -3.391,2 z m 0.094,19.406 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.4062,-2 h 59.703 q 3.203,0 3.391,2 0,2 -3.297,2 z"
+           id="path704" />
+        <title
+           id="title706">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc708">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g725"
+         transform="matrix(0.31,0,0,0.31,581.66,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 37.297,-37.797 q 0.5,-3.406 3.109,-4.203 0.5,-0.203 1.094,-0.203 2.594,0 2.906,2.703 0,0.594 -0.703,3.406 l -3.609,14 q -1.5,6.297 -2.188,9 -1.312,5.1878 -1.312,7.3909 0,4.6093 3,4.6093 3.812,0 6.406,-8 0.5,-1.7032 1.203,-4.4062 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.5 -1.797,7.0001 -0.594,1.7031 -1.203,2.8907 -2.797,5.5 -7.391,5.5 -5.609,0 -8.109,-4.7969 -0.703,-1.2031 -1,-2.7031 -6.297,7.5 -13,7.5 -7.5001,0 -11.0939,-6.7969 Q 4,-9.7031 4,-14.906 q 0,-10.797 7.5,-20 7,-8.391 15.203,-9.188 0.703,-0.109 1.391,-0.109 6.109,0 9.203,6.406 z m -6.5,25.891 v 0 l 5,-19.594 q 0.297,-1.5 0.297,-1.703 0,-2.094 -1.797,-5.094 Q 32.094,-42 28.203,-42 q -5.203,0 -9.906,6.797 -0.891,1.297 -1.703,2.797 -2.891,5.812 -4.891,16.5 -0.609,3.406 -0.609,5.406 0,6.7969 3.812,8.7969 1.094,0.6093 2.594,0.6093 5.594,0 11.297,-7.1093 1.406,-1.5938 1.906,-3.2969 v -0.094 q 0.094,-0.203 0.094,-0.312 z"
+           id="path719" />
+        <title
+           id="title721">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc723">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g740"
+         transform="matrix(0.31,0,0,0.31,598.06,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path734" />
+        <title
+           id="title736">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc738">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g755"
+         transform="matrix(0.31,0,0,0.31,610.12,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
+           id="path749" />
+        <title
+           id="title751">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc753">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g770"
+         transform="matrix(0.31,0,0,0.31,634.74,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 66.094,-23 h -54.5 q -3.1878,0 -3.2971,-2 0,-2 3.2971,-2 h 54.5 q 3.203,0 3.312,2 0,2 -3.312,2 z"
+           id="path764" />
+        <title
+           id="title766">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc768">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g785"
+         transform="matrix(0.31,0,0,0.31,665.75,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 28.703,-68.297 20.906,-36.5 q 6.188,-7.703 14.797,-7.703 8.891,0 11,6.906 v 0.094 q 0.5,1.703 0.5,3.703 0,5.594 -6.109,22 -1.797,4.4062 -1.797,7.0938 0,3.3124 2.406,3.3124 6.203,0 9.797,-11.0002 l 0.406,-1.406 q 0.5,-1.594 1,-1.703 v -0.094 h 0.5 q 1.188,0 1.188,1 0,1.703 -2.094,6.297 -4.297,9.0938 -11,9.0938 -5.094,0 -7.297,-4.2969 Q 33.297,-5 33.297,-7.0938 q 0,-1.8124 1.297,-5.5002 6.203,-15.812 6.203,-22.406 0,-7 -5.391,-7 -4.812,0 -9.609,3.5 -3.703,2.906 -6.5,8.594 L 19,-29.297 q -0.406,2.391 -1.094,4.5 -0.5,2.297 -1.703,6.703 L 14,-9.0938 12.094,-1.5 Q 11.406,0.59375 9,1 8.7031,1.0938 8.4062,1.0938 6,1.0938 5.5938,-1 5.5,-1.4062 5.5,-1.7031 5.5,-2.5 5.9062,-3.9062 L 20.406,-61.5 l 0.297,-2 q 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.203,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.203,-1 q 1.297,0 1.297,1.109 z"
+           id="path779" />
+        <title
+           id="title781">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc783">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g800"
+         transform="matrix(0.31,0,0,0.31,683.6,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path794" />
+        <title
+           id="title796">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc798">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g815"
+         transform="matrix(0.217,0,0,0.217,695.66,30.975)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
+           id="path809" />
+        <title
+           id="title811">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc813">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g830"
+         transform="matrix(0.31,0,0,0.31,712.18,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 40.906,-23 V 5 q 0,3.2031 -2,3.2969 -2,0 -2,-3.2969 V -23 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 v -28 q 0,-3.203 2,-3.297 2,0 2,3.297 v 28 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 z"
+           id="path824" />
+        <title
+           id="title826">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc828">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g845"
+         transform="matrix(0.31,0,0,0.31,743.19,45.846)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 28.703,-68.297 -10.406,42.203 q 4.297,-1.703 11.109,-9.312 7.891,-8.797 14.594,-8.797 4.797,0 6.406,4 0.391,1.109 0.391,2.297 0,4.109 -3.391,5.703 -1.109,0.406 -2.109,0.406 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-2.797 2.5,-4.406 l 0.094,-0.094 v 0 q 1.312,-0.797 3.109,-0.906 l -0.406,-0.391 Q 46,-41.703 44.703,-41.906 44.5,-42 43.797,-42 38.5,-42 30.906,-33.906 30.5,-33.5 30.094,-33 L 29.5,-32.406 Q 24.297,-27 20.906,-25 q 14.797,1.906 14.797,10.5 0,1.406 -0.406,3.094 -0.797,3.2029 -0.797,5.6091 0,4.7031 3.203,4.7031 4.594,0 7.391,-8.3124 0.703,-1.6878 1.312,-4.0938 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.594 -1.906,6.5001 -0.797,2 -1.688,3.5938 -3.203,5.2969 -7.906,5.2969 -5.5,0 -8,-4.7969 Q 28.297,-6 28.297,-8.7969 q 0,-1.1093 0.406,-3.5001 0.297,-1 0.297,-2.109 0,-6.297 -9,-8.094 -1.297,-0.297 -2.594,-0.406 -5,20.8122 -5.609,21.906 -1,1.90625 -3.3908,2.0938 Q 6,1.0938 5.5938,-1 5.5,-1.4062 5.5,-1.7031 5.5,-2.5 5.9062,-3.9062 L 20.406,-61.5 l 0.297,-2 q 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.203,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.203,-1 q 1.297,0 1.297,1.109 z"
+           id="path839" />
+        <title
+           id="title841">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
+        <desc
+           id="desc843">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
+      </g>
+    </g>
+    <g
+       id="g3731"
+       transform="matrix(0.84935938,0,0,0.84935938,209.51886,203.09927)">
+      <g
+         id="g3540"
+         transform="translate(25.44097,79.658982)">
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g290"
+           transform="matrix(0.42,0,0,0.42,494.41,108.5)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
+             id="path284" />
+          <title
+             id="title286">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc288">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+        <g
+           fill-opacity="1"
+           fill-rule="nonzero"
+           stroke="none"
+           fill="#000000"
+           id="g305"
+           transform="matrix(0.26056653,0,0,0.26056653,514.93429,119.91929)"
+           style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+          <path
+             d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
+             id="path299" />
+          <title
+             id="title301">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+          <desc
+             id="desc303">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+        </g>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g3599"
+         transform="matrix(0.42,0,0,0.42,499.88538,188.15898)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path3593" />
+        <title
+           id="title3595">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc3597">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g3625"
+         transform="matrix(0.42,0,0,0.42,557.50424,188.15898)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
+           id="path3619" />
+        <title
+           id="title3621">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc3623">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g3633"
+         transform="matrix(0.42,0,0,0.42,574.08844,188.15898)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="M 46,-32 Q 46,-17.406 42.297,-9.4062 36.406,1.7969 24.906,2.2031 15.797,2.2031 10.297,-5 9.2031,-6.2969 8.4062,-7.9062 3.9062,-16.203 3.9062,-32 q 0,-14.703 3.6876,-22.703 5.0002,-11.203 16.2032,-11.891 H 25 q 8.906,0 14.5,7.094 v 0.094 q 1.406,1.812 2.5,4 4,8.5 4,23.406 z M 24.906,0 v 0 q 6.297,0 9.688,-6.0938 1.406,-2.7031 2,-6.4062 1.109,-6.406 1.109,-20.703 0,-13.891 -1,-19.5 -1.797,-9.5 -9.203,-11.391 -1.297,-0.312 -2.594,-0.312 -7,0 -10.203,7 -1.109,2.406 -1.703,5.812 -0.797,5.391 -0.797,18.391 0,15.109 1.094,21.109 1.797,9.594 8.797,11.68775 Q 23.5,0 24.906,0 Z"
+           id="path3627" />
+        <title
+           id="title3629">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc3631">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g3641"
+         transform="matrix(0.42,0,0,0.42,598.29826,188.15898)"
+         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path3635" />
+        <title
+           id="title3637">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+        <desc
+           id="desc3639">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.47043;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 442.31072,368.56367 v 27.58895"
+       id="path4942" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.47043;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 305.72624,131.00815 h 27.58895"
+       id="path4956" />
+    <g
+       id="g4994"
+       transform="matrix(0.84935938,0,0,0.84935938,-140.41178,318.71633)">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g4984"
          transform="matrix(0.42,0,0,0.42,696.03,108.5)"
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
         <path
            d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
-           id="path449" />
+           id="path4978" />
         <title
-           id="title451">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+           id="title4980">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
         <desc
-           id="desc453">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+           id="desc4982">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
       </g>
       <g
          fill-opacity="1"
          fill-rule="nonzero"
          stroke="none"
          fill="#000000"
-         id="g470"
+         id="g4992"
          transform="matrix(0.294,0,0,0.294,716.37712,122.14576)"
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
         <path
            d="m 46.797,-37.203 q 0,5.5 -3,15.406 Q 38,-2.4062 27.703,0.59375 26.094,1.0938 24.297,1.0938 q -9.094,0 -12.094,-6.2969 -1.297,-2.5938 -1.297,-6.0939 0,-5.203 4.594,-17.609 l 1.094,-2.891 q 1.703,-4.406 1.703,-7 0,-3.203 -2.5,-3.203 -5.391,0 -8.8908,8.906 -0.7031,1.594 -1.2031,3.5 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.1876,-6.297 4.3124,-9.109 11.0002,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -1.203,5 -5.391,14.406 -5.797,19.906 v 1.2971 q 0,8 6.406,8.7031 h 1 q 8.094,0 14,-13.6092 3.5,-8 3.797,-13.5 0,-5 -3.406,-8.203 -1.594,-1.594 -1.594,-3 0,-2.5 2.594,-4.094 1.109,-0.703 2.312,-0.703 2.891,0 4,3.703 0.391,1.406 0.391,3.297 z"
-           id="path464" />
+           id="path4986" />
         <title
-           id="title466">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+           id="title4988">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
         <desc
-           id="desc468">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+           id="desc4990">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
       </g>
     </g>
     <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g485"
-       transform="matrix(0.42,0,0,0.42,735.06047,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
-         id="path479" />
-      <title
-         id="title481">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc483">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       id="g3857"
-       transform="translate(6.5204583)">
+       id="g5020"
+       transform="matrix(0.84935938,0,0,0.84935938,-370.89754,43.974121)">
       <g
          fill-opacity="1"
          fill-rule="nonzero"
          stroke="none"
          fill="#000000"
-         id="g500"
+         id="g5010"
          transform="matrix(0.42,0,0,0.42,754.05,108.5)"
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
         <path
            d="M 48.594,-38.094 39,0.09375 Q 36.594,9.9062 28.297,16 22.203,20.5 15.594,20.5 8.9062,20.5 6.0938,15.906 5,14 5,11.797 5,6.7031 9.0938,5.5 9.9062,5.2969 10.594,5.2969 q 3.203,0 3.609,2.7969 0.094,0.3124 0.094,0.7031 0,2.2971 -2,4.1091 -1.391,1.188 -4.297,1.188 1.7969,4.203 7.594,4.203 6.203,0 11,-6.297 3.906,-5.2031 6.203,-14.0938 0.109,-0.4062 0.297,-1.3124 -4.5,4.5 -10.094,4.5 -8,0 -10.906,-5.8907 -1.297,-2.6093 -1.297,-6.0001 0,-5.5 5.297,-19.703 0.203,-0.594 0.5,-1.297 1.703,-4.609 1.703,-7 0,-3.203 -2.5,-3.203 -5.5,0 -9.0001,9.094 v 0.109 q -0.5938,1.5 -1.0938,3.203 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.0938,-6.297 4.4062,-9.109 11.094,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -2,7.203 -5.094,13.203 -5.094,19.5939 0,8.1093 6.203,8.1093 5.797,0 10.094,-6.2031 1,-1.5 1.203,-2.2969 l 4.5,-18.0002 q 0.703,-3.312 2,-8 1,-4.312 1.391,-5.406 1.312,-2.094 3.5,-2.094 2.5,0.5 2.906,2.688 0,0.906 -0.406,2.312 z"
-           id="path494" />
+           id="path5004" />
         <title
-           id="title496">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+           id="title5006">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
         <desc
-           id="desc498">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+           id="desc5008">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
       </g>
       <g
          fill-opacity="1"
          fill-rule="nonzero"
          stroke="none"
          fill="#000000"
-         id="g515"
+         id="g5018"
          transform="matrix(0.294,0,0,0.294,770.95712,122.14576)"
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
         <path
            d="m 46.797,-37.203 q 0,5.5 -3,15.406 Q 38,-2.4062 27.703,0.59375 26.094,1.0938 24.297,1.0938 q -9.094,0 -12.094,-6.2969 -1.297,-2.5938 -1.297,-6.0939 0,-5.203 4.594,-17.609 l 1.094,-2.891 q 1.703,-4.406 1.703,-7 0,-3.203 -2.5,-3.203 -5.391,0 -8.8908,8.906 -0.7031,1.594 -1.2031,3.5 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.1876,-6.297 4.3124,-9.109 11.0002,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -1.203,5 -5.391,14.406 -5.797,19.906 v 1.2971 q 0,8 6.406,8.7031 h 1 q 8.094,0 14,-13.6092 3.5,-8 3.797,-13.5 0,-5 -3.406,-8.203 -1.594,-1.594 -1.594,-3 0,-2.5 2.594,-4.094 1.109,-0.703 2.312,-0.703 2.891,0 4,3.703 0.391,1.406 0.391,3.297 z"
-           id="path509" />
+           id="path5012" />
         <title
-           id="title511">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
+           id="title5014">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
         <desc
-           id="desc513">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
+           id="desc5016">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
       </g>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g530"
-       transform="matrix(0.42,0,0,0.42,793.61288,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
-         id="path524" />
-      <title
-         id="title526">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc528">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-  </g>
-  <g
-     id="g5220"
-     transform="matrix(1.0843524,0,0,1.0843524,253.66246,38.260865)">
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g545"
-       transform="matrix(0.31,0,0,0.31,249,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 48.594,-38.094 39,0.09375 Q 36.594,9.9062 28.297,16 22.203,20.5 15.594,20.5 8.9062,20.5 6.0938,15.906 5,14 5,11.797 5,6.7031 9.0938,5.5 9.9062,5.2969 10.594,5.2969 q 3.203,0 3.609,2.7969 0.094,0.3124 0.094,0.7031 0,2.2971 -2,4.1091 -1.391,1.188 -4.297,1.188 1.7969,4.203 7.594,4.203 6.203,0 11,-6.297 3.906,-5.2031 6.203,-14.0938 0.109,-0.4062 0.297,-1.3124 -4.5,4.5 -10.094,4.5 -8,0 -10.906,-5.8907 -1.297,-2.6093 -1.297,-6.0001 0,-5.5 5.297,-19.703 0.203,-0.594 0.5,-1.297 1.703,-4.609 1.703,-7 0,-3.203 -2.5,-3.203 -5.5,0 -9.0001,9.094 v 0.109 q -0.5938,1.5 -1.0938,3.203 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.0938,-6.297 4.4062,-9.109 11.094,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -2,7.203 -5.094,13.203 -5.094,19.5939 0,8.1093 6.203,8.1093 5.797,0 10.094,-6.2031 1,-1.5 1.203,-2.2969 l 4.5,-18.0002 q 0.703,-3.312 2,-8 1,-4.312 1.391,-5.406 1.312,-2.094 3.5,-2.094 2.5,0.5 2.906,2.688 0,0.906 -0.406,2.312 z"
-         id="path539" />
-      <title
-         id="title541">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc543">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g560"
-       transform="matrix(0.31,0,0,0.31,273.92,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 68.703,-32.703 H 9 q -3.2031,0 -3.4062,-2 0,-2 3.3124,-2 H 68.797 q 3.203,0 3.297,2 0,2 -3.391,2 z m 0.094,19.406 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.4062,-2 h 59.703 q 3.203,0 3.391,2 0,2 -3.297,2 z"
-         id="path554" />
-      <title
-         id="title556">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc558">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g575"
-       transform="matrix(0.31,0,0,0.31,306.65,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 37.297,-37.797 q 0.5,-3.406 3.109,-4.203 0.5,-0.203 1.094,-0.203 2.594,0 2.906,2.703 0,0.594 -0.703,3.406 l -3.609,14 q -1.5,6.297 -2.188,9 -1.312,5.1878 -1.312,7.3909 0,4.6093 3,4.6093 3.812,0 6.406,-8 0.5,-1.7032 1.203,-4.4062 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.5 -1.797,7.0001 -0.594,1.7031 -1.203,2.8907 -2.797,5.5 -7.391,5.5 -5.609,0 -8.109,-4.7969 -0.703,-1.2031 -1,-2.7031 -6.297,7.5 -13,7.5 -7.5001,0 -11.0939,-6.7969 Q 4,-9.7031 4,-14.906 q 0,-10.797 7.5,-20 7,-8.391 15.203,-9.188 0.703,-0.109 1.391,-0.109 6.109,0 9.203,6.406 z m -6.5,25.891 v 0 l 5,-19.594 q 0.297,-1.5 0.297,-1.703 0,-2.094 -1.797,-5.094 Q 32.094,-42 28.203,-42 q -5.203,0 -9.906,6.797 -0.891,1.297 -1.703,2.797 -2.891,5.812 -4.891,16.5 -0.609,3.406 -0.609,5.406 0,6.7969 3.812,8.7969 1.094,0.6093 2.594,0.6093 5.594,0 11.297,-7.1093 1.406,-1.5938 1.906,-3.2969 v -0.094 q 0.094,-0.203 0.094,-0.312 z"
-         id="path569" />
-      <title
-         id="title571">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc573">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g590"
-       transform="matrix(0.31,0,0,0.31,323.05,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
-         id="path584" />
-      <title
-         id="title586">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc588">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g605"
-       transform="matrix(0.217,0,0,0.217,340.78,33.047)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
-         id="path599" />
-      <title
-         id="title601">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc603">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g620"
-       transform="matrix(0.31,0,0,0.31,359.01,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 40.906,-23 V 5 q 0,3.2031 -2,3.2969 -2,0 -2,-3.2969 V -23 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 v -28 q 0,-3.203 2,-3.297 2,0 2,3.297 v 28 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 z"
-         id="path614" />
-      <title
-         id="title616">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc618">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g635"
-       transform="matrix(0.31,0,0,0.31,390.02,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 23.906,-68.297 16.5,-38.203 q 5.797,-6 11.703,-6 7.5,0 11.203,6.906 2.094,4 2.094,9.094 0,10.609 -7.406,19.7968 Q 27.203,0.09375 18.906,1 q -0.812,0.0938 -1.5,0.0938 -7.203,0 -10.7029,-6.6876 -2,-3.8124 -2,-9.0002 0,-3.406 1.5938,-10.109 L 14.5,-57.297 q 1.406,-5.906 1.406,-6.203 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.2029,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.188,-1 q 1.312,0 1.312,1.109 z M 14.5,-30.5 l -2.203,9.203 q -1.594,6.297 -1.594,10.094 0,8.6092 5.203,9.9061 0.688,0.2031 1.5,0.2031 5.297,0 9.891,-7 1,-1.5 1.906,-3.3122 2.703,-5.688 4.5,-15.391 0.594,-3.5 0.594,-5.797 0,-8 -4.891,-9.203 l -0.109,-0.109 Q 28.703,-42 28,-42 q -6,0 -12,8 -0.797,1 -1.5,3.5 z"
-         id="path629" />
-      <title
-         id="title631">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc633">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g650"
-       transform="matrix(0.31,0,0,0.31,403.32,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
-         id="path644" />
-      <title
-         id="title646">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc648">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g665"
-       transform="matrix(0.31,0,0,0.31,427.94,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 40.906,-23 V 5 q 0,3.2031 -2,3.2969 -2,0 -2,-3.2969 V -23 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 v -28 q 0,-3.203 2,-3.297 2,0 2,3.297 v 28 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 z"
-         id="path659" />
-      <title
-         id="title661">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc663">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g680"
-       transform="matrix(0.31,0,0,0.31,458.95,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 39.594,-38 v 0 q -2.797,-3.594 -8.594,-4 -6.5,0 -11.797,6.594 -1.297,1.609 -2.297,3.406 -4,7.297 -5.203,17.203 -0.203,1.594 -0.203,2.797 0,8.2031 5.594,10.2969 1.406,0.6093 3.406,0.6093 9,0 16.203,-6 2.094,-1.7031 3.797,-3.9062 0.703,-1 1.297,-1 0.906,0 1.203,1.297 0,1.1092 -3.406,4.2968 -8.297,7.5 -19.297,7.5 -9.5,0 -13.797,-7.5938 -2.4062,-4.094 -2.4062,-9.297 0,-10.203 7.8122,-18.906 7.688,-8.594 17.188,-9.391 0.906,-0.109 1.812,-0.109 7.688,0 10.688,4.703 1.109,1.797 1.109,3.906 0,4.391 -3.5,6 -1,0.391 -2.109,0.391 -3,0 -3.594,-2.594 -0.094,-0.406 -0.094,-0.906 0,-2.203 1.797,-3.891 Q 36.594,-38 39.594,-38 Z"
-         id="path674" />
-      <title
-         id="title676">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc678">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-  </g>
-  <g
-     id="g5166"
-     transform="matrix(0.99979316,0,0,0.99979316,32.622445,146.31584)">
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g695"
-       transform="matrix(0.31,0,0,0.31,524.02,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 48.594,-38.094 39,0.09375 Q 36.594,9.9062 28.297,16 22.203,20.5 15.594,20.5 8.9062,20.5 6.0938,15.906 5,14 5,11.797 5,6.7031 9.0938,5.5 9.9062,5.2969 10.594,5.2969 q 3.203,0 3.609,2.7969 0.094,0.3124 0.094,0.7031 0,2.2971 -2,4.1091 -1.391,1.188 -4.297,1.188 1.7969,4.203 7.594,4.203 6.203,0 11,-6.297 3.906,-5.2031 6.203,-14.0938 0.109,-0.4062 0.297,-1.3124 -4.5,4.5 -10.094,4.5 -8,0 -10.906,-5.8907 -1.297,-2.6093 -1.297,-6.0001 0,-5.5 5.297,-19.703 0.203,-0.594 0.5,-1.297 1.703,-4.609 1.703,-7 0,-3.203 -2.5,-3.203 -5.5,0 -9.0001,9.094 v 0.109 q -0.5938,1.5 -1.0938,3.203 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.0938,-6.297 4.4062,-9.109 11.094,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -2,7.203 -5.094,13.203 -5.094,19.5939 0,8.1093 6.203,8.1093 5.797,0 10.094,-6.2031 1,-1.5 1.203,-2.2969 l 4.5,-18.0002 q 0.703,-3.312 2,-8 1,-4.312 1.391,-5.406 1.312,-2.094 3.5,-2.094 2.5,0.5 2.906,2.688 0,0.906 -0.406,2.312 z"
-         id="path689" />
-      <title
-         id="title691">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc693">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g710"
-       transform="matrix(0.31,0,0,0.31,548.93,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 68.703,-32.703 H 9 q -3.2031,0 -3.4062,-2 0,-2 3.3124,-2 H 68.797 q 3.203,0 3.297,2 0,2 -3.391,2 z m 0.094,19.406 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.4062,-2 h 59.703 q 3.203,0 3.391,2 0,2 -3.297,2 z"
-         id="path704" />
-      <title
-         id="title706">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc708">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g725"
-       transform="matrix(0.31,0,0,0.31,581.66,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 37.297,-37.797 q 0.5,-3.406 3.109,-4.203 0.5,-0.203 1.094,-0.203 2.594,0 2.906,2.703 0,0.594 -0.703,3.406 l -3.609,14 q -1.5,6.297 -2.188,9 -1.312,5.1878 -1.312,7.3909 0,4.6093 3,4.6093 3.812,0 6.406,-8 0.5,-1.7032 1.203,-4.4062 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.5 -1.797,7.0001 -0.594,1.7031 -1.203,2.8907 -2.797,5.5 -7.391,5.5 -5.609,0 -8.109,-4.7969 -0.703,-1.2031 -1,-2.7031 -6.297,7.5 -13,7.5 -7.5001,0 -11.0939,-6.7969 Q 4,-9.7031 4,-14.906 q 0,-10.797 7.5,-20 7,-8.391 15.203,-9.188 0.703,-0.109 1.391,-0.109 6.109,0 9.203,6.406 z m -6.5,25.891 v 0 l 5,-19.594 q 0.297,-1.5 0.297,-1.703 0,-2.094 -1.797,-5.094 Q 32.094,-42 28.203,-42 q -5.203,0 -9.906,6.797 -0.891,1.297 -1.703,2.797 -2.891,5.812 -4.891,16.5 -0.609,3.406 -0.609,5.406 0,6.7969 3.812,8.7969 1.094,0.6093 2.594,0.6093 5.594,0 11.297,-7.1093 1.406,-1.5938 1.906,-3.2969 v -0.094 q 0.094,-0.203 0.094,-0.312 z"
-         id="path719" />
-      <title
-         id="title721">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc723">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g740"
-       transform="matrix(0.31,0,0,0.31,598.06,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
-         id="path734" />
-      <title
-         id="title736">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc738">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g755"
-       transform="matrix(0.31,0,0,0.31,610.12,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
-         id="path749" />
-      <title
-         id="title751">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc753">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g770"
-       transform="matrix(0.31,0,0,0.31,634.74,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 66.094,-23 h -54.5 q -3.1878,0 -3.2971,-2 0,-2 3.2971,-2 h 54.5 q 3.203,0 3.312,2 0,2 -3.312,2 z"
-         id="path764" />
-      <title
-         id="title766">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc768">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g785"
-       transform="matrix(0.31,0,0,0.31,665.75,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 28.703,-68.297 20.906,-36.5 q 6.188,-7.703 14.797,-7.703 8.891,0 11,6.906 v 0.094 q 0.5,1.703 0.5,3.703 0,5.594 -6.109,22 -1.797,4.4062 -1.797,7.0938 0,3.3124 2.406,3.3124 6.203,0 9.797,-11.0002 l 0.406,-1.406 q 0.5,-1.594 1,-1.703 v -0.094 h 0.5 q 1.188,0 1.188,1 0,1.703 -2.094,6.297 -4.297,9.0938 -11,9.0938 -5.094,0 -7.297,-4.2969 Q 33.297,-5 33.297,-7.0938 q 0,-1.8124 1.297,-5.5002 6.203,-15.812 6.203,-22.406 0,-7 -5.391,-7 -4.812,0 -9.609,3.5 -3.703,2.906 -6.5,8.594 L 19,-29.297 q -0.406,2.391 -1.094,4.5 -0.5,2.297 -1.703,6.703 L 14,-9.0938 12.094,-1.5 Q 11.406,0.59375 9,1 8.7031,1.0938 8.4062,1.0938 6,1.0938 5.5938,-1 5.5,-1.4062 5.5,-1.7031 5.5,-2.5 5.9062,-3.9062 L 20.406,-61.5 l 0.297,-2 q 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.203,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.203,-1 q 1.297,0 1.297,1.109 z"
-         id="path779" />
-      <title
-         id="title781">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc783">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g800"
-       transform="matrix(0.31,0,0,0.31,683.6,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
-         id="path794" />
-      <title
-         id="title796">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc798">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g815"
-       transform="matrix(0.217,0,0,0.217,695.66,30.975)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
-         id="path809" />
-      <title
-         id="title811">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc813">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g830"
-       transform="matrix(0.31,0,0,0.31,712.18,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 40.906,-23 V 5 q 0,3.2031 -2,3.2969 -2,0 -2,-3.2969 V -23 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 v -28 q 0,-3.203 2,-3.297 2,0 2,3.297 v 28 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 z"
-         id="path824" />
-      <title
-         id="title826">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc828">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g845"
-       transform="matrix(0.31,0,0,0.31,743.19,45.846)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 28.703,-68.297 -10.406,42.203 q 4.297,-1.703 11.109,-9.312 7.891,-8.797 14.594,-8.797 4.797,0 6.406,4 0.391,1.109 0.391,2.297 0,4.109 -3.391,5.703 -1.109,0.406 -2.109,0.406 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-2.797 2.5,-4.406 l 0.094,-0.094 v 0 q 1.312,-0.797 3.109,-0.906 l -0.406,-0.391 Q 46,-41.703 44.703,-41.906 44.5,-42 43.797,-42 38.5,-42 30.906,-33.906 30.5,-33.5 30.094,-33 L 29.5,-32.406 Q 24.297,-27 20.906,-25 q 14.797,1.906 14.797,10.5 0,1.406 -0.406,3.094 -0.797,3.2029 -0.797,5.6091 0,4.7031 3.203,4.7031 4.594,0 7.391,-8.3124 0.703,-1.6878 1.312,-4.0938 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.594 -1.906,6.5001 -0.797,2 -1.688,3.5938 -3.203,5.2969 -7.906,5.2969 -5.5,0 -8,-4.7969 Q 28.297,-6 28.297,-8.7969 q 0,-1.1093 0.406,-3.5001 0.297,-1 0.297,-2.109 0,-6.297 -9,-8.094 -1.297,-0.297 -2.594,-0.406 -5,20.8122 -5.609,21.906 -1,1.90625 -3.3908,2.0938 Q 6,1.0938 5.5938,-1 5.5,-1.4062 5.5,-1.7031 5.5,-2.5 5.9062,-3.9062 L 20.406,-61.5 l 0.297,-2 q 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.203,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.203,-1 q 1.297,0 1.297,1.109 z"
-         id="path839" />
-      <title
-         id="title841">y=ax^2+bx+c \ \ \quad y=a(x-h)^2+k</title>
-      <desc
-         id="desc843">text2 = ây=ax^2+bx+c \ \ \quad y=a(x-h)^2+kâ</desc>
-    </g>
-  </g>
-  <!-- default stroke -->
-  <g
-     id="g3731"
-     transform="matrix(0.84935938,0,0,0.84935938,89.498141,209.74112)">
-    <g
-       id="g3540"
-       transform="translate(25.44097,79.658982)">
-      <g
-         fill-opacity="1"
-         fill-rule="nonzero"
-         stroke="none"
-         fill="#000000"
-         id="g290"
-         transform="matrix(0.42,0,0,0.42,494.41,108.5)"
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-        <path
-           d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
-           id="path284" />
-        <title
-           id="title286">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-        <desc
-           id="desc288">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-      </g>
-      <g
-         fill-opacity="1"
-         fill-rule="nonzero"
-         stroke="none"
-         fill="#000000"
-         id="g305"
-         transform="matrix(0.26056653,0,0,0.26056653,514.93429,119.91929)"
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-        <path
-           d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
-           id="path299" />
-        <title
-           id="title301">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-        <desc
-           id="desc303">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-      </g>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g3599"
-       transform="matrix(0.42,0,0,0.42,499.88538,188.15898)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
-         id="path3593" />
-      <title
-         id="title3595">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc3597">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g3625"
-       transform="matrix(0.42,0,0,0.42,557.50424,188.15898)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 20.297,-0.09375 v 0 q 0,9.68755 -6.297,16.99975 -1.703,2 -2.797,2.391 -1,0 -1,-1.094 0,-0.5 1.094,-1.609 6,-6 6.703,-14.6878 0.094,-0.99995 0.094,-1.99995 0,-1.50005 -0.188,-1.50005 -0.109,0 -0.5,0.2969 Q 16,0 13.906,0 10.203,0 9,-3.4062 8.5938,-4.2969 8.5938,-5.2969 q 0,-3.6093 3.1092,-4.9061 1,-0.391 2.203,-0.391 4.391,0 5.891,5.7971 0.5,2.0938 0.5,4.70315 z"
-         id="path3619" />
-      <title
-         id="title3621">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc3623">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g3633"
-       transform="matrix(0.42,0,0,0.42,574.08844,188.15898)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 46,-32 Q 46,-17.406 42.297,-9.4062 36.406,1.7969 24.906,2.2031 15.797,2.2031 10.297,-5 9.2031,-6.2969 8.4062,-7.9062 3.9062,-16.203 3.9062,-32 q 0,-14.703 3.6876,-22.703 5.0002,-11.203 16.2032,-11.891 H 25 q 8.906,0 14.5,7.094 v 0.094 q 1.406,1.812 2.5,4 4,8.5 4,23.406 z M 24.906,0 v 0 q 6.297,0 9.688,-6.0938 1.406,-2.7031 2,-6.4062 1.109,-6.406 1.109,-20.703 0,-13.891 -1,-19.5 -1.797,-9.5 -9.203,-11.391 -1.297,-0.312 -2.594,-0.312 -7,0 -10.203,7 -1.109,2.406 -1.703,5.812 -0.797,5.391 -0.797,18.391 0,15.109 1.094,21.109 1.797,9.594 8.797,11.68775 Q 23.5,0 24.906,0 Z"
-         id="path3627" />
-      <title
-         id="title3629">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc3631">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g3641"
-       transform="matrix(0.42,0,0,0.42,598.29826,188.15898)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
-         id="path3635" />
-      <title
-         id="title3637">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc3639">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-  </g>
-  <path
-     style="fill:none;stroke:#000000;stroke-width:3.47043;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-     d="m 322.29,375.20552 v 27.58895"
-     id="path4942" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:3.47043;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-     d="m 185.70552,137.65 h 27.58895"
-     id="path4956" />
-  <g
-     id="g4994"
-     transform="matrix(0.84935938,0,0,0.84935938,-260.4325,325.35818)">
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g4984"
-       transform="matrix(0.42,0,0,0.42,696.03,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
-         id="path4978" />
-      <title
-         id="title4980">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc4982">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g4992"
-       transform="matrix(0.294,0,0,0.294,716.37712,122.14576)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 46.797,-37.203 q 0,5.5 -3,15.406 Q 38,-2.4062 27.703,0.59375 26.094,1.0938 24.297,1.0938 q -9.094,0 -12.094,-6.2969 -1.297,-2.5938 -1.297,-6.0939 0,-5.203 4.594,-17.609 l 1.094,-2.891 q 1.703,-4.406 1.703,-7 0,-3.203 -2.5,-3.203 -5.391,0 -8.8908,8.906 -0.7031,1.594 -1.2031,3.5 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.1876,-6.297 4.3124,-9.109 11.0002,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -1.203,5 -5.391,14.406 -5.797,19.906 v 1.2971 q 0,8 6.406,8.7031 h 1 q 8.094,0 14,-13.6092 3.5,-8 3.797,-13.5 0,-5 -3.406,-8.203 -1.594,-1.594 -1.594,-3 0,-2.5 2.594,-4.094 1.109,-0.703 2.312,-0.703 2.891,0 4,3.703 0.391,1.406 0.391,3.297 z"
-         id="path4986" />
-      <title
-         id="title4988">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc4990">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-  </g>
-  <g
-     id="g5020"
-     transform="matrix(0.84935938,0,0,0.84935938,-490.91826,50.615971)">
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g5010"
-       transform="matrix(0.42,0,0,0.42,754.05,108.5)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="M 48.594,-38.094 39,0.09375 Q 36.594,9.9062 28.297,16 22.203,20.5 15.594,20.5 8.9062,20.5 6.0938,15.906 5,14 5,11.797 5,6.7031 9.0938,5.5 9.9062,5.2969 10.594,5.2969 q 3.203,0 3.609,2.7969 0.094,0.3124 0.094,0.7031 0,2.2971 -2,4.1091 -1.391,1.188 -4.297,1.188 1.7969,4.203 7.594,4.203 6.203,0 11,-6.297 3.906,-5.2031 6.203,-14.0938 0.109,-0.4062 0.297,-1.3124 -4.5,4.5 -10.094,4.5 -8,0 -10.906,-5.8907 -1.297,-2.6093 -1.297,-6.0001 0,-5.5 5.297,-19.703 0.203,-0.594 0.5,-1.297 1.703,-4.609 1.703,-7 0,-3.203 -2.5,-3.203 -5.5,0 -9.0001,9.094 v 0.109 q -0.5938,1.5 -1.0938,3.203 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.0938,-6.297 4.4062,-9.109 11.094,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -2,7.203 -5.094,13.203 -5.094,19.5939 0,8.1093 6.203,8.1093 5.797,0 10.094,-6.2031 1,-1.5 1.203,-2.2969 l 4.5,-18.0002 q 0.703,-3.312 2,-8 1,-4.312 1.391,-5.406 1.312,-2.094 3.5,-2.094 2.5,0.5 2.906,2.688 0,0.906 -0.406,2.312 z"
-         id="path5004" />
-      <title
-         id="title5006">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc5008">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
-    </g>
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#000000"
-       id="g5018"
-       transform="matrix(0.294,0,0,0.294,770.95712,122.14576)"
-       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
-      <path
-         d="m 46.797,-37.203 q 0,5.5 -3,15.406 Q 38,-2.4062 27.703,0.59375 26.094,1.0938 24.297,1.0938 q -9.094,0 -12.094,-6.2969 -1.297,-2.5938 -1.297,-6.0939 0,-5.203 4.594,-17.609 l 1.094,-2.891 q 1.703,-4.406 1.703,-7 0,-3.203 -2.5,-3.203 -5.391,0 -8.8908,8.906 -0.7031,1.594 -1.2031,3.5 -1.1093,1.688 -1.6093,1.797 -1.1876,0 -1.1876,-1 0,-1.797 2.1876,-6.297 4.3124,-9.109 11.0002,-9.109 5.312,0 7.406,4.5 0.797,1.703 0.797,3.703 0,2.094 -1.203,5 -5.391,14.406 -5.797,19.906 v 1.2971 q 0,8 6.406,8.7031 h 1 q 8.094,0 14,-13.6092 3.5,-8 3.797,-13.5 0,-5 -3.406,-8.203 -1.594,-1.594 -1.594,-3 0,-2.5 2.594,-4.094 1.109,-0.703 2.312,-0.703 2.891,0 4,3.703 0.391,1.406 0.391,3.297 z"
-         id="path5012" />
-      <title
-         id="title5014">(x_1,0) (x_2,0)(0,c)(x_v,y_v)</title>
-      <desc
-         id="desc5016">text1 = â(x_1,0) (x_2,0)(0,c)(x_v,y_v)â</desc>
     </g>
   </g>
 </svg>
