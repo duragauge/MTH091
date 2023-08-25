@@ -13,25 +13,6 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs37328">
-    <marker
-       style="overflow:visible"
-       id="Arrow2"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow2"
-       markerWidth="7.6999998"
-       markerHeight="5.5999999"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="arrow2L" />
-    </marker>
     <clipPath
        id="clipc0423d08-7211-400e-b945-b00161db67ae">
       <path
@@ -446,6 +427,44 @@
          d="M 0,0 V 594 H 621 V 0 Z"
          id="path37308" />
     </clipPath>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow25845"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="Arrow25845">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff"
+         id="path47902" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow24507"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="Arrow24507">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff"
+         id="path47905" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="namedview37326"
@@ -458,9 +477,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="cm"
      showgrid="false"
-     inkscape:zoom="1.4916308"
-     inkscape:cx="280.9006"
-     inkscape:cy="122.68451"
+     inkscape:zoom="4.218969"
+     inkscape:cx="49.893706"
+     inkscape:cy="46.219823"
      inkscape:window-width="1920"
      inkscape:window-height="986"
      inkscape:window-x="-11"
@@ -1285,7 +1304,7 @@
   <g
      clip-path="url(#clip48)"
      id="g37046"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:6.06141403;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#0000ff;stroke-opacity:1"
      transform="translate(0.02274173,0.5)">
     <g
        stroke-linejoin="round"
@@ -1294,61 +1313,17 @@
        fill="none"
        stroke-opacity="0.69804"
        stroke="#0000ff"
-       id="g37044">
+       id="g37044"
+       style="stroke-width:6.06141403;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
       <path
-         d="m 140.7,46.44 1.21,6.363 1.21,6.322 1.21,6.281 1.22,6.24 1.21,6.199 1.21,6.158 1.22,6.117 1.21,6.077 1.21,6.033 1.21,6 1.22,5.95 1.21,5.91 1.21,5.87 1.22,5.84 1.21,5.79 1.21,5.74 1.21,5.71 1.22,5.67 1.21,5.63 1.21,5.58 1.22,5.55 1.21,5.5 1.21,5.46 1.21,5.42 1.22,5.38 1.21,5.34 1.21,5.3 1.22,5.26 1.21,5.22 1.21,5.17 1.21,5.14 1.22,5.09 1.21,5.06 1.21,5.01 2.43,9.9 2.43,9.74 2.42,9.58 2.43,9.41 2.42,9.25 2.43,9.08 2.42,8.92 2.43,8.76 2.43,8.59 2.42,8.43 2.43,8.26 2.42,8.11 2.43,7.94 2.42,7.77 2.43,7.61 2.43,7.45 2.42,7.28 2.43,7.12 2.42,6.96 2.43,6.79 2.43,6.63 2.42,6.47 2.43,6.3 2.42,6.14 2.43,5.97 2.42,5.81 2.43,5.65 2.43,5.48 2.42,5.32 2.43,5.16 2.42,4.99 4.85,9.5 4.86,8.84 4.85,8.18 4.85,7.53 4.85,6.88 4.85,6.22 4.85,5.56 4.86,4.91 4.85,4.26 4.85,3.6 4.85,2.95 4.85,2.29 4.85,1.64 4.85,0.99 4.86,0.33 4.85,-0.33 4.85,-0.98 4.85,-1.63 4.85,-2.29 4.85,-2.95 4.86,-3.6 4.85,-4.25 4.85,-4.91 4.85,-5.56 4.85,-6.22 4.85,-6.87 4.85,-7.53 4.86,-8.18 4.85,-8.83 4.85,-9.49 2.43,-4.99 2.42,-5.16 2.43,-5.32 2.42,-5.48 2.43,-5.64 2.42,-5.81 2.43,-5.97 2.43,-6.14 2.42,-6.3 2.43,-6.46 2.42,-6.63 2.43,-6.79 2.42,-6.96 2.43,-7.12 2.43,-7.28 2.42,-7.44 2.43,-7.61 2.42,-7.78 2.43,-7.93 2.43,-8.1 2.42,-8.27 2.43,-8.42 2.42,-8.6 2.43,-8.75 2.42,-8.92 2.43,-9.08 2.43,-9.25 2.42,-9.41 2.43,-9.57 2.42,-9.74 2.43,-9.9 1.21,-5.01 1.21,-5.05 1.22,-5.09 1.21,-5.14 1.21,-5.17 1.22,-5.22 1.21,-5.26 1.21,-5.3 1.21,-5.33 1.22,-5.38 1.21,-5.42 1.21,-5.47 1.22,-5.5 1.21,-5.54 1.21,-5.59 1.22,-5.62 1.21,-5.67 1.21,-5.71 1.21,-5.74 1.22,-5.79 1.21,-5.83 1.21,-5.87 1.22,-5.92 1.21,-5.95 1.21,-5.99 1.21,-6.036 1.22,-6.076 1.21,-6.116 1.21,-6.157 1.22,-6.198 1.21,-6.239 1.21,-6.28 1.21,-6.321 1.22,-6.362 1.21,-6.403"
+         d="m 141.91,52.803 1.21,6.322 1.21,6.281 1.22,6.24 1.21,6.199 1.21,6.158 1.22,6.117 1.21,6.077 1.21,6.033 1.21,6 1.22,5.95 1.21,5.91 1.21,5.87 1.22,5.84 1.21,5.79 1.21,5.74 1.21,5.71 1.22,5.67 1.21,5.63 1.21,5.58 1.22,5.55 1.21,5.5 1.21,5.46 1.21,5.42 1.22,5.38 1.21,5.34 1.21,5.3 1.22,5.26 1.21,5.22 1.21,5.17 1.21,5.14 1.22,5.09 1.21,5.06 1.21,5.01 2.43,9.9 2.43,9.74 2.42,9.58 2.43,9.41 2.42,9.25 2.43,9.08 2.42,8.92 2.43,8.76 2.43,8.59 2.42,8.43 2.43,8.26 2.42,8.11 2.43,7.94 2.42,7.77 2.43,7.61 2.43,7.45 2.42,7.28 2.43,7.12 2.42,6.96 2.43,6.79 2.43,6.63 2.42,6.47 2.43,6.3 2.42,6.14 2.43,5.97 2.42,5.81 2.43,5.65 2.43,5.48 2.42,5.32 2.43,5.16 2.42,4.99 4.85,9.5 4.86,8.84 4.85,8.18 4.85,7.53 4.85,6.88 4.85,6.22 4.85,5.56 4.86,4.91 4.85,4.26 4.85,3.6 4.85,2.95 4.85,2.29 4.85,1.64 4.85,0.99 4.86,0.33 4.85,-0.33 4.85,-0.98 4.85,-1.63 4.85,-2.29 4.85,-2.95 4.86,-3.6 4.85,-4.25 4.85,-4.91 4.85,-5.56 4.85,-6.22 4.85,-6.87 4.85,-7.53 4.86,-8.18 4.85,-8.83 4.85,-9.49 2.43,-4.99 2.42,-5.16 2.43,-5.32 2.42,-5.48 2.43,-5.64 2.42,-5.81 2.43,-5.97 2.43,-6.14 2.42,-6.3 2.43,-6.46 2.42,-6.63 2.43,-6.79 2.42,-6.96 2.43,-7.12 2.43,-7.28 2.42,-7.44 2.43,-7.61 2.42,-7.78 2.43,-7.93 2.43,-8.1 2.42,-8.27 2.43,-8.42 2.42,-8.6 2.43,-8.75 2.42,-8.92 2.43,-9.08 2.43,-9.25 2.42,-9.41 2.43,-9.57 2.42,-9.74 2.43,-9.9 1.21,-5.01 1.21,-5.05 1.22,-5.09 1.21,-5.14 1.21,-5.17 1.22,-5.22 1.21,-5.26 1.21,-5.3 1.21,-5.33 1.22,-5.38 1.21,-5.42 1.21,-5.47 1.22,-5.5 1.21,-5.54 1.21,-5.59 1.22,-5.62 1.21,-5.67 1.21,-5.71 1.21,-5.74 1.22,-5.79 1.21,-5.83 1.21,-5.87 1.22,-5.92 1.21,-5.95 1.21,-5.99 1.21,-6.036 1.22,-6.076 1.21,-6.116 1.21,-6.157 1.22,-6.198 1.21,-6.239 1.21,-6.28 1.21,-6.321 1.22,-6.362"
          id="path37038"
-         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-         style="marker-start:url(#Arrow2);marker-end:url(#Arrow2)" />
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+         style="stroke:#0000ff;stroke-width:6.06141;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow25845);marker-end:url(#Arrow24507)" />
       <title
          id="title37040">Function f</title>
       <desc
          id="desc37042">f(x) = (x - 2)Â² - 2 (x - 2) - 3</desc>
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     clip-path="url(#clip49)"
-     id="g37059"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="translate(0.02274173,0.5)">
-    <g
-       fill-opacity="1"
-       fill-rule="nonzero"
-       stroke="none"
-       fill="#444444"
-       id="g37057">
-      <path
-         d="m 156.77,82.981 c 0,4.971 -4.03,9 -9,9 -4.97,0 -9,-4.029 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37051" />
-      <title
-         id="title37053">Point G</title>
-      <desc
-         id="desc37055">Point G: (A3, B3)</desc>
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     clip-path="url(#clip50)"
-     id="g37072"
-     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="translate(0.02274173,0.5)">
-    <g
-       stroke-linejoin="round"
-       stroke-linecap="round"
-       fill="none"
-       stroke-opacity="1"
-       stroke="#000000"
-       id="g37070"
-       style="stroke-width:1.57596766;stroke-dasharray:none">
-      <path
-         d="m 156.77,82.981 c 0,4.971 -4.03,9 -9,9 -4.97,0 -9,-4.029 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37064"
-         style="stroke-width:1.57596766;stroke-dasharray:none" />
-      <title
-         id="title37066">Point G</title>
-      <desc
-         id="desc37068">Point G: (A3, B3)</desc>
     </g>
     <!-- drawing style -->
   </g>
@@ -1378,17 +1353,19 @@
   <g
      clip-path="url(#clip52)"
      id="g37098"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff;fill-opacity:1"
      transform="translate(0.02274173,0.5)">
     <g
        fill-opacity="1"
        fill-rule="nonzero"
        stroke="none"
        fill="#444444"
-       id="g37096">
+       id="g37096"
+       style="fill:#0000ff;fill-opacity:1">
       <path
          d="m 217.49,339.31 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37090" />
+         id="path37090"
+         style="fill:#0000ff;fill-opacity:1" />
       <title
          id="title37092">Point H</title>
       <desc
@@ -1399,7 +1376,7 @@
   <g
      clip-path="url(#clip53)"
      id="g37111"
-     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff;fill-opacity:1"
      transform="translate(0.02274173,0.5)">
     <g
        stroke-linejoin="round"
@@ -1408,11 +1385,11 @@
        stroke-opacity="1"
        stroke="#000000"
        id="g37109"
-       style="stroke-width:1.57596766;stroke-dasharray:none">
+       style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff;fill-opacity:1">
       <path
          d="m 217.49,339.31 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
          id="path37103"
-         style="stroke-width:1.57596766;stroke-dasharray:none" />
+         style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff;fill-opacity:1" />
       <title
          id="title37105">Point H</title>
       <desc
@@ -1446,17 +1423,19 @@
   <g
      clip-path="url(#clip55)"
      id="g37137"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        fill-opacity="1"
        fill-rule="nonzero"
        stroke="none"
        fill="#444444"
-       id="g37135">
+       id="g37135"
+       style="fill:#0000ff">
       <path
          d="m 278.2,493.1 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37129" />
+         id="path37129"
+         style="fill:#0000ff" />
       <title
          id="title37131">Point I</title>
       <desc
@@ -1467,7 +1446,7 @@
   <g
      clip-path="url(#clip56)"
      id="g37150"
-     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        stroke-linejoin="round"
@@ -1476,11 +1455,11 @@
        stroke-opacity="1"
        stroke="#000000"
        id="g37148"
-       style="stroke-width:1.57596766;stroke-dasharray:none">
+       style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff">
       <path
          d="m 278.2,493.1 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
          id="path37142"
-         style="stroke-width:1.57596766;stroke-dasharray:none" />
+         style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff" />
       <title
          id="title37144">Point I</title>
       <desc
@@ -1514,17 +1493,19 @@
   <g
      clip-path="url(#clip58)"
      id="g37176"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        fill-opacity="1"
        fill-rule="nonzero"
        stroke="none"
        fill="#444444"
-       id="g37174">
+       id="g37174"
+       style="fill:#0000ff">
       <path
          d="m 338.92,544.37 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37168" />
+         id="path37168"
+         style="fill:#0000ff" />
       <title
          id="title37170">Point J</title>
       <desc
@@ -1535,7 +1516,7 @@
   <g
      clip-path="url(#clip59)"
      id="g37189"
-     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        stroke-linejoin="round"
@@ -1544,11 +1525,11 @@
        stroke-opacity="1"
        stroke="#000000"
        id="g37187"
-       style="stroke-width:1.57596766;stroke-dasharray:none">
+       style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff">
       <path
          d="m 338.92,544.37 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
          id="path37181"
-         style="stroke-width:1.57596766;stroke-dasharray:none" />
+         style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff" />
       <title
          id="title37183">Point J</title>
       <desc
@@ -1582,17 +1563,19 @@
   <g
      clip-path="url(#clip61)"
      id="g37215"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        fill-opacity="1"
        fill-rule="nonzero"
        stroke="none"
        fill="#444444"
-       id="g37213">
+       id="g37213"
+       style="fill:#0000ff">
       <path
          d="m 399.64,493.1 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37207" />
+         id="path37207"
+         style="fill:#0000ff" />
       <title
          id="title37209">Point K</title>
       <desc
@@ -1603,7 +1586,7 @@
   <g
      clip-path="url(#clip62)"
      id="g37228"
-     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        stroke-linejoin="round"
@@ -1612,11 +1595,11 @@
        stroke-opacity="1"
        stroke="#000000"
        id="g37226"
-       style="stroke-width:1.57596766;stroke-dasharray:none">
+       style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff">
       <path
          d="m 399.64,493.1 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
          id="path37220"
-         style="stroke-width:1.57596766;stroke-dasharray:none" />
+         style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff" />
       <title
          id="title37222">Point K</title>
       <desc
@@ -1650,17 +1633,19 @@
   <g
      clip-path="url(#clip64)"
      id="g37254"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        fill-opacity="1"
        fill-rule="nonzero"
        stroke="none"
        fill="#444444"
-       id="g37252">
+       id="g37252"
+       style="fill:#0000ff">
       <path
          d="m 460.35,339.31 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37246" />
+         id="path37246"
+         style="fill:#0000ff" />
       <title
          id="title37248">Point L</title>
       <desc
@@ -1671,7 +1656,7 @@
   <g
      clip-path="url(#clip65)"
      id="g37267"
-     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        stroke-linejoin="round"
@@ -1680,11 +1665,11 @@
        stroke-opacity="1"
        stroke="#000000"
        id="g37265"
-       style="stroke-width:1.57596766;stroke-dasharray:none">
+       style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff">
       <path
          d="m 460.35,339.31 c 0,4.97 -4.03,9 -9,9 -4.97,0 -9,-4.03 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
          id="path37259"
-         style="stroke-width:1.57596766;stroke-dasharray:none" />
+         style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff" />
       <title
          id="title37261">Point L</title>
       <desc
@@ -1718,17 +1703,19 @@
   <g
      clip-path="url(#clip67)"
      id="g37293"
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        fill-opacity="1"
        fill-rule="nonzero"
        stroke="none"
        fill="#444444"
-       id="g37291">
+       id="g37291"
+       style="fill:#0000ff">
       <path
          d="m 521.07,82.981 c 0,4.971 -4.03,9 -9,9 -4.97,0 -9,-4.029 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
-         id="path37285" />
+         id="path37285"
+         style="fill:#0000ff" />
       <title
          id="title37287">Point M</title>
       <desc
@@ -1739,7 +1726,7 @@
   <g
      clip-path="url(#clip68)"
      id="g37306"
-     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff"
      transform="translate(0.02274173,0.5)">
     <g
        stroke-linejoin="round"
@@ -1748,11 +1735,11 @@
        stroke-opacity="1"
        stroke="#000000"
        id="g37304"
-       style="stroke-width:1.57596766;stroke-dasharray:none">
+       style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff">
       <path
          d="m 521.07,82.981 c 0,4.971 -4.03,9 -9,9 -4.97,0 -9,-4.029 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
          id="path37298"
-         style="stroke-width:1.57596766;stroke-dasharray:none" />
+         style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff" />
       <title
          id="title37300">Point M</title>
       <desc
@@ -1784,6 +1771,53 @@
     <!-- drawing style -->
   </g>
   <!-- default stroke -->
+  <g
+     clip-path="url(#clip49)"
+     id="g37059"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff;fill-opacity:1"
+     transform="translate(0.02274173,0.5)">
+    <g
+       fill-opacity="1"
+       fill-rule="nonzero"
+       stroke="none"
+       fill="#444444"
+       id="g37057"
+       style="fill:#0000ff;fill-opacity:1">
+      <path
+         d="m 156.77,82.981 c 0,4.971 -4.03,9 -9,9 -4.97,0 -9,-4.029 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+         id="path37051"
+         style="fill:#0000ff;fill-opacity:1" />
+      <title
+         id="title37053">Point G</title>
+      <desc
+         id="desc37055">Point G: (A3, B3)</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     clip-path="url(#clip50)"
+     id="g37072"
+     style="stroke-width:1.57596766;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#0000ff;fill-opacity:1"
+     transform="translate(0.02274173,0.5)">
+    <g
+       stroke-linejoin="round"
+       stroke-linecap="round"
+       fill="none"
+       stroke-opacity="1"
+       stroke="#000000"
+       id="g37070"
+       style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff;fill-opacity:1">
+      <path
+         d="m 156.77,82.981 c 0,4.971 -4.03,9 -9,9 -4.97,0 -9,-4.029 -9,-9 0,-4.97 4.03,-9 9,-9 4.97,0 9,4.03 9,9 z"
+         id="path37064"
+         style="stroke-width:1.57596766;stroke-dasharray:none;fill:#0000ff;fill-opacity:1" />
+      <title
+         id="title37066">Point G</title>
+      <desc
+         id="desc37068">Point G: (A3, B3)</desc>
+    </g>
+    <!-- drawing style -->
+  </g>
 </svg>
 <!-- bounding box -->
 
