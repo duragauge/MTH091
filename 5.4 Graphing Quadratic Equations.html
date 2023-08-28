@@ -1,62 +1,256 @@
+<div style="max-width: 900px; margin: 0 auto; padding: 5vw 7vw 0;">
+
 <h1>5.4 Graphing Quadratic Equations</h1>
 
+<h3>Introduction</h3>
 <div style="float:right; text-align:center; width:300px; margin:1.2em;">
     <a href='https://www.flickr.com/photos/nrcs_oregon/34903945890/' target='_blank'>
         <img src='https://farm5.static.flickr.com/4275/34903945890_8c922793ee_m.jpg' alt='Ioka Farms Orchard Cover Crops by NRCS Oregon, on Flickr' border='0' style="display: block; width: 100%; border-radius: 15px; overflow: hidden;"/>
     </a><br/>
     <a href='https://www.flickr.com/photos/nrcs_oregon/34903945890/' target='_blank'>Photo by NRCS Oregon</a><br />
     (<a rel='license' href='https://creativecommons.org/licenses/by-nd/2.0/' target='_blank'>CC BY-ND 2.0</a>)
-</div>
-<h3>Introduction</h3>
-<p>When farmers plant an orchard, they're concerned about how to achieve the largest possible harvest. They don't want to plant too few trees—that's obvious—but they also don't want to plant too many, because overcrowded trees don't produce as much. So how do they determine the right number to maximize the harvest?</p>
+</div><p>When farmers plant an orchard, they're concerned about how to achieve the largest possible harvest. They don't want to plant too few trees—that's obvious—but they also don't want to plant too many, because overcrowded trees don't produce as much. So how do they determine the right number to maximize the harvest?</p>
 
 <p>Questions like this, where optimizing results is important, are often modeled by quadratic equations, and the coordinates of the vertex often hold the answers we are looking for.</p>
 
 
-<h3>Parts of a Parabola</h3>
-<p>In an earlier chapter (sections 4.2 and 4.3) we learned that \(y=ax^2+bx+c\) is the standard form for a quadratic equation and earlier in this chapter (section 5.1) we saw that graphs of quadratic equations are parabolas.</p>
+<h3>Graphing a Quadratic Equation with a Table</h3>
+<p>We discussed graphing in section 5.1, but a short review is in order.  The general process is to use the equation make a table of values, convert those values into \((x,y)\) points, plot the points and then draw a smooth line or curve between them.</p>
 
-<p>There are several key features of the graph of a parabola. Like any graph, the \(y\)-intercept is the point where the graph crosses the \(y\)-axis, and any place it comes in contact with the \(x\)-axis is an \(x\)-intercept. A parabola may have as many as \(2\) \(x\)-intercepts or none at all.</p>
-
-<p>The place where the parabola turns is the <strong>vertex</strong>.  This might be a maximum or a minimum, depending on the direction of the graph.</p>
-
-<p>An imaginary vertical line drawn through the vertex is called the <strong>axis of symmetry</strong> and it divides the parabola into two symmetric halves, making it easier to sketch the graph.</p>
-
-<p>All of those features are labeled in the image below.</p>
-
-<p style="margin:1.2em;"><img src="https://raw.githubusercontent.com/duragauge/MTH091/aea094ccfae3d763852803ac94d0bb21e73288a2/images/parabola_parts.svg" alt="" width="400"/></p>
-
-<p>In contrast to the straightforward slope-intercept form of a line, determining the exact location of most features of a parabola from its equation \(y=ax^2+bx+c\) can be challenging.  There is one feature, however, that we can quicky spot. The constant value \(c\) is always the \(y\)-intercept.</p>
-
-<p>The \(x\)-intercepts are solutions to the equation \(0=ax^2+bx+c\) and can be found either by factoring or by using the quadratic formula.</p>
-
-<p>Each coordinate of the vertex is found separately.  To get the \(x\)-coordinate we use the formula \(x_v=\frac{-b}{2a}\).  Once we have that value, we substitute it back into the quadratic equation to get the \(y\)-coordinate of the vertex: \(y_v=a(x_v)^2+b(x_v)+c\).</p>
-
-
-
-========================
-
-overcrowded trees will yield a lower harvest compared to trees with an optimal amount of space
-
-But it's not as simple as just planting more trees. </p>
-
-<p>When farmers plant an orchard one thing on their mind is maximizing the overall yield of their harvest. Doing so requires balancing two competing factors: increasing the number of trees and giving each tree enough room to grow and mature.</p>
-
-<p>Situations like this, and many others where optimizing results is important, are often modeled by quadratic equations, with the coordinates of the vertex holding the sought after solution.</p>
-
-
-or trees per acre and giving each plant First, You might assume simply increasing the number of plants or trees on an acre would increase the harvest, but that's not the case.  If plants are too close together they won't grow to their potential. But if they give plants as much room as they want, they you might not 
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;overflow:auto;clear:both">
+    <strong>Example 1</strong>
+    <p>Make a table of values and a graph of \(y=x^2-6x+5\).</p>
+    <hr>
+    <strong>Solution:</strong>
+    <p>To make a table of values we need to pick several \(x\)-values and insert each one to the equation. The choice of \(x\)-values is always up to us; we can pick any values we want. For this example we'll start with \(0\) through \(6\). If those don't give us a enough points, we'll return and compute more.</p>
+    <p>For \(x=0\) through \(x=6\), the values of \(y=x^2-6x+5\) are shown in the table below.</p>
+    <table border="1" style="margin: 1.2em;">
+        <tbody>
+            <tr>
+                <th style="padding: 10px; text-align: center;">\(x\)</th>
+                <td style="padding: 10px; text-align: center;">\(0\)</td>
+                <td style="padding: 10px; text-align: center;">\(1\)</td>
+                <td style="padding: 10px; text-align: center;">\(2\)</td>
+                <td style="padding: 10px; text-align: center;">\(3\)</td>
+                <td style="padding: 10px; text-align: center;">\(4\)</td>
+                <td style="padding: 10px; text-align: center;">\(5\)</td>
+                <td style="padding: 10px; text-align: center;">\(6\)</td>
+            </tr>
+            <tr>
+                <th style="padding: 10px; text-align: center;">\(y\)</th>
+                <td style="padding: 10px; text-align: center;">\(5\)</td>
+                <td style="padding: 10px; text-align: center;">\(0\)</td>
+                <td style="padding: 10px; text-align: center;">\(-3\)</td>
+                <td style="padding: 10px; text-align: center;">\(-4\)</td>
+                <td style="padding: 10px; text-align: center;">\(-3\)</td>
+                <td style="padding: 10px; text-align: center;">\(0\)</td>
+                <td style="padding: 10px; text-align: center;">\(5\)</td>
+            </tr>
+        </tbody>
+    </table>
     
-Growers in the Willamette Valley of Oregon produce over \(99\%\) of all the hazelnuts eaten in the U.S.
+    <p>After plotting the points and connecting them with a smooth curve we get the parabola below.</p>
+    <p><img style="display: block;margin:1.2em;" src="https://raw.githubusercontent.com/duragauge/MTH091/a7fba90e3ee97935d47534b191fbc1fc517fe106/images/plot_parabola_1.svg" alt="plot of a parabola" width="368" height="368" /></p>
+</div>
 
-peak production 
+
+<h3>Identifying Parts of a Parabola</h3>
+<p>Every quadratic equation has a graph similar to the one above.  That U-shaped graph is called a <strong>parabola</strong>.</p>
+
+<p>The graph of a parabola has several key features. Similar to any graph, the \(y\)-intercept is the point where the graph crosses the \(y\)-axis.  Additionally, any point where it comes in contact with the \(x\)-axis is an \(x\)-intercept. A parabola may have as many as two \(x\)-intercepts or none at all.</p>
+
+<p>The turning point of a parabola is known as the <strong>vertex</strong>. Depending on the direction of the graph, the vertex can represent a maximum or a minimum.</p>
+
+<p>An imaginary vertical line passing through the vertex is called the <strong>axis of symmetry</strong>.  It divides the parabola into two symmetrical halves, making it easier to sketch the graph.</p>
+
+<p>All of these features are clearly labeled in the image below.</p>
+
+<p style="margin:1.2em;"><img src="https://raw.githubusercontent.com/duragauge/MTH091/a7fba90e3ee97935d47534b191fbc1fc517fe106/images/parabola_parts.svg" alt="" width="400"/></p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 1</strong>
+    <p>Identify the intercepts and vertex of each parabola graphed below.</p>
+    <table>
+        <tr>
+            <th>(a)</th>
+            <th>(b)</th>
+        </tr>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/duragauge/MTH091/7fd10ba42065b27390a8db4107c56aa3c61f4e33/images/parabola_example_1.svg" alt="Parabola Example 1a" style="width: 300px; margin: 1.2em;"></td>
+            <td><img src="https://raw.githubusercontent.com/duragauge/MTH091/7fd10ba42065b27390a8db4107c56aa3c61f4e33/images/parabola_example_2.svg" alt="Parabola Example 1b" style="width: 300px; margin: 1.2em;"></td>
+        </tr>
+    </table>
+    <hr>
+    <strong>Solution:</strong>
+    <p><b>(a)</b> The \(x\)-intercepts are at \((-1,0)\) and \((7,0)\). The \(y\)-intercept appears to be around \((0,2.5)\), but it's hard to be exact.  The vertex is at \((3,6)\).</p>
+    <p><b>(b)</b> This parabola does not have any \(x\)-intercepts. The \(y\)-intercept is \((0,3)\).  The vertex is at \((2,1)\).</p>
+</div>
+
+<h3>Locating Key Points on a Parabola</h3>
+<p>In contrast to the straightforward slope-intercept form of a line, determining most features of a parabola from its equation \(y=ax^2+bx+c\) can be challenging, but two are straightforward.</p>
+
+<p>Parabolas either open up, like a cup, or down, like a frown.  That direction is determined entirely by the leading coefficient \(a\).  If it is positive, \(a \gt 0\), then the parabola opens upward.  If it is negative, \(a \lt 0\), then the parabola opens downward.</p>
+
+<p>The only point that is simple to find is the \(y\)-intercept. If \(y=ax^2+bx+c\), then the constant value \(c\) is always the \(y\)-intercept.</p>
+
+<p>Since \(x\)-intercepts always have a \(y\)-coordinate of \(0\), they are solutions to the equation \(0=ax^2+bx+c\).  To find them we either solve by factoring or by using the quadratic formula.</p>
+
+<p>For the vertex it is common to use \((h,k)\) for its coordinates.  Each coordinate is computed separately.  Starting with the \(x\)-coordinate of the vertex, we use the formula</p>
+
+\[h=\frac{-b}{2a}\]  
+
+<p>Once we know \(h\), we substitute it back into the quadratic equation to get the \(y\)-coordinate of the vertex.</p>
+
+\[k=a(h)^2+b(h)+c\]
+
+<p>An alternate way to calculate the \(y\)-coordinate of the vertex is to substitute \(\frac{-b}{2a}\) into the quadratic equation to obtain this equivalent formula for \(k\)</p>  
+
+\[k=c-\frac{b^2}{4a}\]
+
+<p>Some people find it more straightforward to recall that substituting \(h\) into the original quadratic equation yields \(k\), while others prefer using this equivalent formula. Since both methods lead to identical values, you have the flexibility to choose the approach that suits your personal preference.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 2</strong>
+    <p>Find the intercepts and vertex of \(y=2x^{2}-4x-16\).</p>
+    <hr>
+    <strong>Solution:</strong>
+    <p>Since the constant \(c=-16\), the \(y\)-intercept is at \((0,-16)\).</p>
+    <p>The \(x\)-intercepts can be found using the quadratic formula with \(a = 2\), \(b = -4\), and \(c = -16\).</p>
+        \begin{align}
+            x &= \frac{-b \pm \sqrt{b^2-4ac}}{2a} && \small \color{#5fa2ce} {\text{The quadratic formula}} \\
+            x &= \frac{-(-4) \pm \sqrt{(-4)^2-4(4)(-16)}}{2(2)} && \small \color{#5fa2ce} {\text{Substitute } a = 2, b = -4, c = -16} \\
+            x &= \frac{4 \pm \sqrt{144}}{4} && \small \color{#5fa2ce} {\text{Simplify}} \\
+            x &= \frac{4 \pm 12}{4} && \small \color{#5fa2ce} {\text{Evaluate the square root}} \\
+            x &= \frac{4 + 12}{4} \text{ or } x = \frac{4 - 12}{4} && \small \color{#5fa2ce}{\text{Write as two equations.}} \\
+            x &= 4 \text{ or } x = -2 && \small \color{#5fa2ce} {\text{Compute}}
+        \end{align}
+    <p>To find the \(x\)-coordinate of the vertex we use the formula \(h=\frac{-b}{2a}\).</p>
+    \begin{align}
+        h &= \frac{-b}{2a} && \small \color{#5fa2ce} {\text{Formula for }h}\\
+        &= \frac{-(-4)}{2(2)} && \small \color{#5fa2ce} {\text{Substitute } a = 2, b = -4} \\
+        &= \frac{4}{4} && \small \color{#5fa2ce} {\text{Simplify}} \\
+        &= 1
+    \end{align}
+    <p>Finally, to obtain the \(y\)-coordinate of the vertex we can either put this value into the equation or use the formula given earlier.  We will do both just to demonstrate that they produce identical results.  Starting with substituting \(h=1\) into the original equation we have:</p>
+    \begin{align}
+        k &= 2x^{2}-4x-16 && \small \color{#5fa2ce} {\text{Original equation}} \\
+        &= 2(1)^2-4(1)-16 && \small \color{#5fa2ce} {\text{Substitute }h=1 \text{ for }x} \\
+        &= 2 - 4 - 16 \\
+        &= -18
+    \end{align}
+    <p>Now, using the alternative formula for \(k\), we get</p>
+    \begin{align}
+        k &= c-\frac{b^2}{4a} && \small \color{#5fa2ce} {\text{Alternative formula for }k} \\
+        &= (-16) - \frac{(-4)^2}{4(2)} && \small \color{#5fa2ce} {\text{Substitute } a = 2, b = -4, c = -16} \\
+        &= -16 - \frac{16}{8} && \small \color{#5fa2ce} {\text{Simplfy}}\\
+        &= -16 - 2 && \small \color{#5fa2ce} {\text{Reduce the fraction}}\\
+        &= -18
+    \end{align}
+</div>
 
 
-nuts
-<div about='https://farm8.static.flickr.com/7548/15791806529_33737f2803_m.jpg'><a href='https://www.flickr.com/photos/19779889@N00/15791806529/' target='_blank'><img xmlns:dct='http://purl.org/dc/terms/' href='http://purl.org/dc/dcmitype/StillImage' rel='dct:type' src='https://farm8.static.flickr.com/7548/15791806529_33737f2803_m.jpg' alt='Oregon Filberts by arbyreed, on Flickr' title='Oregon Filberts by arbyreed, on Flickr' border='0'/></a><br/>&quot;<a href='https://www.flickr.com/photos/19779889@N00/15791806529/' target='_blank'>Oregon Filberts</a>&quot;&nbsp;(<a rel='license' href='https://creativecommons.org/licenses/by-nc-sa/2.0/' target='_blank'>CC BY-NC-SA 2.0</a>)&nbsp;by&nbsp;<a xmlns:cc='http://creativecommons.org/ns#' rel='cc:attributionURL' property='cc:attributionName' href='https://www.flickr.com/people/19779889@N00/' target='_blank'>arbyreed</a></div>
+<h3>Graphing with Symmetry</h3>
+<p>You might have noticed something intriguing about the values in the table from Example 1. However, if you didn't spot it, don't worry. Let's take another look at the table for \(y=x^2-6x+5\), this time with a splash of color.</p>
 
-Oregon produces 99% of all hazelnuts in the United States and, likewise, the hazelnut is Oregon's state nut. Specifically, the Willamette Valley to the south of Portland provides the ideal moderate climate for the trees to flourish. This special corner of the world is where river, mountain, and ocean climates combine with rich volcanic soils to produce the right conditions for a large hazelnut crop production. Currently about 1000 Oregon farms grow hazelnuts on 87,000 acres.
+<table border="1" style="margin: 1.2em;">
+    <tbody>
+        <tr>
+            <th style="padding: 10px; text-align: center;">\(x\)</th>
+            <td style="padding: 10px; text-align: center;">\(0\)</td>
+            <td style="padding: 10px; text-align: center;">\(1\)</td>
+            <td style="padding: 10px; text-align: center;">\(2\)</td>
+            <td style="padding: 10px; text-align: center;">\(3\)</td>
+            <td style="padding: 10px; text-align: center;">\(4\)</td>
+            <td style="padding: 10px; text-align: center;">\(5\)</td>
+            <td style="padding: 10px; text-align: center;">\(6\)</td>
+        </tr>
+        <tr>
+            <th style="padding: 10px; text-align: center;">\(y\)</th>
+            <td style="padding: 10px; text-align: center; background-color:#009e73;">\(5\)</td>
+            <td style="padding: 10px; text-align: center; background-color:#d55e00">\(0\)</td>
+            <td style="padding: 10px; text-align: center; background-color:#cc79a7">\(-3\)</td>
+            <td style="padding: 10px; text-align: center; background-color:#f0e442">\(-4\)</td>
+            <td style="padding: 10px; text-align: center; background-color:#cc79a7">\(-3\)</td>
+            <td style="padding: 10px; text-align: center; background-color:#d55e00">\(0\)</td>
+            <td style="padding: 10px; text-align: center; background-color:#009e73;">\(5\)</td>
+        </tr>
+    </tbody>
+</table>
 
-Imagine you're in charge of designing a fireworks display for a grand celebration. To create a dazzling spectacle, you need to carefully calculate the paths of the fireworks as they burst into the night sky. The fireworks shoot up in the air, explode, and create a beautiful display of lights. But how can you predict the height they'll reach, the time they'll take to reach their peak, and where they'll fall back to the ground?
+<p>Notice the matching colors that highlight the repeated \(y\)-coordinates. The reason some values are repeated lies in the fact that the vertex rests upon the axis of symmetry. This axis serves as a dividing line, and every point to the right of it has a mirror copy on the left-hand side. As a consequence, \(x\)-values that are equally distanced from the vertex will have the same \(y\)-value.  In essence, if you know where the vertex is you can reduce the number of calculations needed by half.</p>  
 
-===========================
+<p>Combining symmetry with our previous discoveries gives an efficient process for graphing quadratic equations precisely with a minimum of effort.</p>
+
+<div style="min-width:600px;width:80%; margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+    <strong>Efficiently Graphing Quadratics</strong>
+    <ol>
+        <li>Notice the sign of the leading coefficient \(a\). This will guide the general shape of the parabola, whether it opens upward (\(a \gt 0\)) or downward (\(a \lt 0\)).</li>
+        <li>Plot the \(y\)-intercept \((0, c)\).</li>
+        <li>Find and plot the vertex \(h,k\).</li>
+        <li>Choose a few \(x\)-values to the right of the vertex, compute their \(y\)-values, and plot those points.</li>
+        <li>Use symmetry to plot the mirrored copies of the points from step 4.</li>
+        <li>If desired, use the quadratic formula or factoring to locate and plot the \(x\)-intercepts.</li>
+    </ol>
+</div>
+
+
+<h3>Other Quadratic Forms</h3>
+<p>While our focus here has been on quadratics in the standard form \(y=ax^2+bx+c\), you should know that quadratics can come in many formats, each with it's own plusses and minuses.  We will mention two here for your reference.</p>
+
+<p>>A factored quadratic would have the form \(y=a(x-x_1)(x-x_2)\).  In that form it is easy to find the two \(x\)-intercepts, \((x_10)\) and \((x_2)\), but more challenging to locate the vertex.</p>
+
+<p>Another form, called the <strong>vertex form</strong>, makes it easy to find the vertex (\h,k\), but more challenging to locate the \(x\)-intercepts.  That form is \(y=a(x-h)^2+k\).</p>
+
+<p>The factored and vertex forms represent alternative ways to express quadratic equations.  And while you might encounter them in other settings, we will not discuss them further.</p>
+
+
+<h3>Practical Application of Vertex</h3>
+<div style="float:right; text-align:center; width:300px; margin:1.2em;">
+    <a href='https://www.flickr.com/photos/19779889@N00/15791806529/' target='_blank'><img  src='https://farm8.static.flickr.com/7548/15791806529_33737f2803_m.jpg' alt='Oregon Filberts by arbyreed, on Flickr' border='0'style="display: block; width: 100%; border-radius: 15px; overflow: hidden;"/>
+    </a><br/>
+    <a href='https://www.flickr.com/photos/19779889@N00/15791806529/' target='_blank'>Photo by abbyreed</a><br />
+    (<a rel='license' href='https://creativecommons.org/licenses/by-nc-sa/2.0/' target='_blank'>CC BY-NC-SA 2.0</a>
+</div>
+
+<p>We will finish this section by returning to the example in the introduction.</p>
+
+<p>Growers in Oregon's Willamette Valley produce over \(99\%\) of all the hazelnuts (also called filberts) eaten in the United States.  The rich volcanic soils and moderate climate are perfect combination for large harvests.</p>
+
+<p>A mature hazelnut tree (\(12\) years or older) can produce \(32\) pounds of nuts per year if has plenty of space.  In fact, putting \(80\) trees on an acre of land provides enough space to produce the maximum yield of \(32\) pounds of nuts per tree.</p>
+
+<p>But hazelnut farmers don't plant \(80\) trees per acre. Why? Because their goal is not to make sure each individual tree has a maximum yield, but rather to maximize the yield of each acre of land.It may make sense to plant a few more trees per acre, even if doing so means each tree doesn't give the full \(32\) pounds.</p>
+
+<p>If the average yield per tree drops \(0.2\) pounds for each extra tree planted, then the total pounds of hazelnuts harvested per acre is given by \(y=-0.2x^2+16x+2560\) where \(x\) is the number of extra trees planted above \(80\).</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;clear:both">
+    <strong>Example 3</strong>
+    <p><b>(a)</b> In the scenario described above, what will the harvest per acre be if no additional trees are planted?</p>
+    <p><b>(b)</b> How many additional trees should be planted per acre in order to maximize the harvest?</p>
+    <p><b>(c)</b> What is the size of that maximum harvest per acre?</p>
+    <hr>
+    <strong>Solution:</strong>
+    <p><b>(a)</b> If no additional trees are planted then \(x=0\), so finding the \(y\)-intercept would give us the answer.  Since the constant is \(c=2560\), the \(y\)-intercept is at \((0,2560)\), so \(2560\) pounds of hazelnuts would be harvested if no additional trees were planted.</p>
+    <p>The maximum harvest occurs at the vertex of \(y=-0.2x^2+16x+2560\). The \(x\)-coordinate will tell us how many extra trees to plant and the \(y\)-coordinate gives the size of the harvest.</p>
+    <p><b>(b)</b> Since the \(x\)-coordinate of the vertex is</p>
+    \begin{align}
+        h &= \frac{-b}{2a}\\
+        &= \frac{-16}{2(0.2)}\\
+        &= 40
+    \end{align}
+    <p>we can see that \(40\) extra trees should be planted.</p>
+    <p><b>(c)</b> Lastly, since the \(y\)-coordinate of the vertex is</p>        
+    \begin{align}
+        k &= -0.2h^2+16h+2560 \\
+        &= -0.2(40)^2+16(40)+2560 \\
+        &= 2880
+    \end{align}
+    <p>then the maximum harvest would be \(2880\) pounds per acre.</p>
+    <p>In summary, planting \(40\) additional trees beyond the initial \(80\) (\(120\) total) will lead to the maximum harvest of \(2880\) pounds per acre, significantly more than the \(2560\) pounds we started with.</p>
+</div>
+
+<h3>Conclusion</h3>
+<p>In this section we've seen how to graph quadratic equations and identify features of their graphs. We've also seen how to locate those points precisely from the equation and interpret their meaning in real life situations.</p>
+
+<p>In our next, and final, section, we will explore different ways technology can be used to simplify the process even further.</p>
+
+</div>

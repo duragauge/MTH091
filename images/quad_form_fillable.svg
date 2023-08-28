@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="12cm"
+   height="2.5cm"
+   viewBox="0 0 584.14917 121.81165"
+   id="svg53532"
+   sodipodi:docname="quad_form_fillable.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs53536" />
+  <sodipodi:namedview
+     id="namedview53534"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="cm"
+     showgrid="false"
+     inkscape:zoom="3.0584403"
+     inkscape:cx="227.89394"
+     inkscape:cy="67.681557"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg53532" />
+  <title
+     id="title53136" />
+  <g
+     transform="matrix(0.31,0,0,0.31,33.335587,82.222253)"
+     id="g53152"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clip56dc4461-9fe9-457a-a40d-c2ffa71249b1">
+      <path
+         d="M -232.26,-513.32 V 1170.5 H 2032.3 V -513.32 Z"
+         id="path53139" />
+    </clipPath>
+    <g
+       clip-path="url(#clip1)"
+       id="g53150">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53148">
+        <path
+           d="M 33.406,-30.203 30,-16.5 q -1.703,6.7969 -1.703,8.7969 0,5.2031 3.703,6.2969 0.797,0.3124 1.797,0.3124 5,0 9.109,-5 2.688,-3.2031 4.188,-8.1092 0.312,-1.094 1.312,-1.094 1.188,0 1.188,1 0,2.5 -3.094,7.2032 -5.406,8.1876 -12.906,8.1876 -6.797,0 -9.891,-5.6876 Q 23.094,-5.5 22.797,-6.5 20.406,-1.7031 16.203,0.20312 14.297,1.0938 12.297,1.0938 q -6.0001,0 -8.3908,-3.5 -1,-1.2969 -1,-3.0938 0,-3.7031 3.1876,-5.203 1.1093,-0.594 2.3124,-0.594 2.9998,0 3.5938,2.5001 0.094,0.5 0.094,1 0,3.3907 -3.3909,5 -0.6093,0.2969 -1.2969,0.3907 2.0938,1.3124 4.9998,1.3124 5.297,0 8.391,-7.1093 0.609,-1.5 1.109,-3.2969 5.391,-20.406 5.391,-23.797 -0.594,-6.203 -5.391,-6.703 -5.203,0 -9.5,5.297 v 0.109 q 0,0.094 -0.109,0.094 -1.5,2 -2.7032,4.594 -0.5,1.203 -0.8907,2.406 L 8.5,-28.906 q -0.2031,1.109 -1.2969,1.109 -1.2031,0 -1.2031,-1 0,-2.5 3.2031,-7.203 5.3909,-8.203 12.8909,-8.203 7.703,0 10.812,7.609 3.188,-6.203 8.5,-7.406 1,-0.203 2,-0.203 5.891,0 8.297,3.297 1,1.406 1,3.312 0,4.094 -3.703,5.5 -0.906,0.297 -1.703,0.297 -3.094,0 -3.703,-2.703 -0.094,-0.406 -0.094,-0.797 0,-3 2.906,-4.703 0.891,-0.5 1.891,-0.703 -2.094,-1.297 -5,-1.297 -6.797,0 -9.594,10.594 -0.203,0.609 -0.297,1.203 z"
+           id="path53142" />
+        <title
+           id="title53144">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53146">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip1 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,59.678587,82.222253)"
+     id="g53167"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clipe44e2279-f1f8-4e5f-9822-5dcc5aa080b7">
+      <path
+         d="M -317.24,-513.32 V 1170.5 H 1947.3 V -513.32 Z"
+         id="path53154" />
+    </clipPath>
+    <g
+       clip-path="url(#clip2)"
+       id="g53165">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53163">
+        <path
+           d="M 68.703,-32.703 H 9 q -3.2031,0 -3.4062,-2 0,-2 3.3124,-2 H 68.797 q 3.203,0 3.297,2 0,2 -3.391,2 z m 0.094,19.406 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.4062,-2 h 59.703 q 3.203,0 3.391,2 0,2 -3.297,2 z"
+           id="path53157" />
+        <title
+           id="title53159">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53161">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip2 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,93.605587,54.172253)"
+     id="g53182"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clipd22d89ee-7ef7-43c6-8ffc-42a7c3b03824">
+      <path
+         d="M -426.67,-422.85 V 1261 H 1837.8 V -422.85 Z"
+         id="path53169" />
+    </clipPath>
+    <g
+       clip-path="url(#clip3)"
+       id="g53180">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53178">
+        <path
+           d="m 66.094,-23 h -54.5 q -3.1878,0 -3.2971,-2 0,-2 3.2971,-2 h 54.5 q 3.203,0 3.312,2 0,2 -3.312,2 z"
+           id="path53172" />
+        <title
+           id="title53174">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53176">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip3 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,117.72559,54.172253)"
+     id="g53197"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#0000ff;stroke-opacity:1">
+    <clipPath
+       id="clip9c8e71d7-c5df-4326-9395-e0056598f0ee">
+      <path
+         d="M -504.47,-422.85 V 1261 H 1760 V -422.85 Z"
+         id="path53184" />
+    </clipPath>
+    <g
+       clip-path="url(#clip4)"
+       id="g53195"
+       style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#0000ff"
+         id="g53193"
+         style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path53187"
+           style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1" />
+        <title
+           id="title53189">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53191">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip4 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,147.00559,54.172253)"
+     id="g53212"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#cccccc;stroke:#878787;stroke-opacity:1;opacity:0.5">
+    <clipPath
+       id="clip2a578652-695a-4ef2-9618-0d958f37253f">
+      <path
+         d="M -598.93,-422.85 V 1261 H 1665.6 V -422.85 Z"
+         id="path53199" />
+    </clipPath>
+    <g
+       clip-path="url(#clip5)"
+       id="g53210"
+       style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#808080"
+         id="g53208"
+         style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="M 23.906,-68.297 16.5,-38.203 q 5.797,-6 11.703,-6 7.5,0 11.203,6.906 2.094,4 2.094,9.094 0,10.609 -7.406,19.7968 Q 27.203,0.09375 18.906,1 q -0.812,0.0938 -1.5,0.0938 -7.203,0 -10.7029,-6.6876 -2,-3.8124 -2,-9.0002 0,-3.406 1.5938,-10.109 L 14.5,-57.297 q 1.406,-5.906 1.406,-6.203 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.2029,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.188,-1 q 1.312,0 1.312,1.109 z M 14.5,-30.5 l -2.203,9.203 q -1.594,6.297 -1.594,10.094 0,8.6092 5.203,9.9061 0.688,0.2031 1.5,0.2031 5.297,0 9.891,-7 1,-1.5 1.906,-3.3122 2.703,-5.688 4.5,-15.391 0.594,-3.5 0.594,-5.797 0,-8 -4.891,-9.203 l -0.109,-0.109 Q 28.703,-42 28,-42 q -6,0 -12,8 -0.797,1 -1.5,3.5 z"
+           id="path53202"
+           style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53204">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53206">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip5 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,177.52559,54.172253)"
+     id="g53227"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#0000ff;stroke-opacity:1">
+    <clipPath
+       id="clipaa4686cc-1392-434b-aa84-a5c0526e5318">
+      <path
+         d="M -697.38,-422.85 V 1261 H 1567.1 V -422.85 Z"
+         id="path53214" />
+    </clipPath>
+    <g
+       clip-path="url(#clip6)"
+       id="g53225"
+       style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#0000ff"
+         id="g53223"
+         style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path53217"
+           style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1" />
+        <title
+           id="title53219">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53221">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip6 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,196.47559,54.172253)"
+     id="g53242"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clip85323a5e-dd41-48c8-8c41-a67fca2c046f">
+      <path
+         d="M -758.5,-422.85 V 1261 H 1506 V -422.85 Z"
+         id="path53229" />
+    </clipPath>
+    <g
+       clip-path="url(#clip7)"
+       id="g53240">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53238">
+        <path
+           d="M 40.906,-31.297 V -4 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 V -31.297 H 8.9062 q -3.2031,0 -3.3124,-2 0,-2 3.3124,-2 H 36.906 v -28.109 q 0,-3 2,-3.188 2,0 2,3.594 v 27.703 h 27.891 q 3.203,0 3.297,2 0,2 -3.297,2 z"
+           id="path53232" />
+        <title
+           id="title53234">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53236">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip7 -->
+  </g>
+  <g
+     transform="matrix(31,0,0,31,227.47559,15.572253)"
+     id="g53257"
+     style="stroke-width:0.02514821;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#000000;stroke-opacity:1">
+    <clipPath
+       id="clip71dd5ed1-12cf-4092-a294-66a1fa35df78">
+      <path
+         d="M -8.5853,-2.9832 V 13.855 H 14.06 V -2.9832 Z"
+         id="path53244" />
+    </clipPath>
+    <g
+       clip-path="url(#clip8)"
+       id="g53255"
+       style="stroke:#000000;stroke-opacity:1;stroke-width:0.02514821;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53253"
+         style="stroke:#000000;stroke-opacity:1;stroke-width:0.02514821;stroke-dasharray:none">
+        <path
+           d="m 1,-0.04 q -0.01469,0 -0.01812,0.012187 L 0.46578,1.6041 0.25297,0.85984 0.10984,1.0278 0.12797,1.0469 0.19672,0.96688 0.42391,1.7598 h 0.02187 q 0.01125,0 0.01719,-0.0117 L 1.02,-0.016094 V -0.02 Q 1.02,-0.028281 1.0141,-0.034141 1.0083,-0.04 1,-0.04 Z"
+           id="path53247"
+           style="stroke:#000000;stroke-opacity:1;stroke-width:0.02514821;stroke-dasharray:none" />
+        <title
+           id="title53249">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53251">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip8 -->
+  </g>
+  <g
+     transform="matrix(31,0,0,31,-38.664413,-76.907747)"
+     id="g53272"
+     style="stroke-width:0.02514821;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#000000;stroke-opacity:1">
+    <clipPath
+       id="clip4bad1889-bebd-400d-af56-aef362eb441f">
+      <path
+         d="M 0,0 V 16.839 H 22.645 V 0 Z"
+         id="path53259" />
+    </clipPath>
+    <g
+       clip-path="url(#clip9)"
+       id="g53270"
+       style="stroke:#000000;stroke-opacity:1;stroke-width:0.02514821;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53268"
+         style="stroke:#000000;stroke-opacity:1;stroke-width:0.02514821;stroke-dasharray:none">
+        <path
+           d="m 9.5853,2.9432 h 9.2027 v 0.04 H 9.5853 Z"
+           id="path53262"
+           style="stroke:#000000;stroke-opacity:1;stroke-width:0.02514821;stroke-dasharray:none" />
+        <title
+           id="title53264">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53266">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip9 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,258.47559,54.172253)"
+     id="g53287"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#0000ff;stroke-opacity:1">
+    <clipPath
+       id="clip37f6e7a6-8017-443f-88ec-d47b418880d6">
+      <path
+         d="M -958.53,-422.85 V 1261 H 1306 V -422.85 Z"
+         id="path53274" />
+    </clipPath>
+    <g
+       clip-path="url(#clip10)"
+       id="g53285"
+       style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#0000ff"
+         id="g53283"
+         style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path53277"
+           style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1" />
+        <title
+           id="title53279">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53281">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip10 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,287.75559,54.172253)"
+     id="g53302"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#cccccc;stroke:#878787;stroke-opacity:1;opacity:0.5">
+    <clipPath
+       id="clipfc8f087d-83c1-4c96-a84d-3b6a4bd2bed9">
+      <path
+         d="M -1053,-422.85 V 1261 H 1211.5 V -422.85 Z"
+         id="path53289" />
+    </clipPath>
+    <g
+       clip-path="url(#clip11)"
+       id="g53300"
+       style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#808080"
+         id="g53298"
+         style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="M 23.906,-68.297 16.5,-38.203 q 5.797,-6 11.703,-6 7.5,0 11.203,6.906 2.094,4 2.094,9.094 0,10.609 -7.406,19.7968 Q 27.203,0.09375 18.906,1 q -0.812,0.0938 -1.5,0.0938 -7.203,0 -10.7029,-6.6876 -2,-3.8124 -2,-9.0002 0,-3.406 1.5938,-10.109 L 14.5,-57.297 q 1.406,-5.906 1.406,-6.203 0,-1.094 -1.406,-1.406 v 0 q -1.203,-0.297 -3.594,-0.297 -2.2029,0 -2.406,-1.203 0,-1.688 1.906,-2 l 12.188,-1 q 1.312,0 1.312,1.109 z M 14.5,-30.5 l -2.203,9.203 q -1.594,6.297 -1.594,10.094 0,8.6092 5.203,9.9061 0.688,0.2031 1.5,0.2031 5.297,0 9.891,-7 1,-1.5 1.906,-3.3122 2.703,-5.688 4.5,-15.391 0.594,-3.5 0.594,-5.797 0,-8 -4.891,-9.203 l -0.109,-0.109 Q 28.703,-42 28,-42 q -6,0 -12,8 -0.797,1 -1.5,3.5 z"
+           id="path53292"
+           style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53294">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53296">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip11 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,318.28559,54.172253)"
+     id="g53317"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#0000ff;stroke-opacity:1">
+    <clipPath
+       id="clipfc8d7cb9-711a-4285-81b8-45e50b34c581">
+      <path
+         d="M -1151.4,-422.85 V 1261 H 1113.1 V -422.85 Z"
+         id="path53304" />
+    </clipPath>
+    <g
+       clip-path="url(#clip12)"
+       id="g53315"
+       style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#0000ff"
+         id="g53313"
+         style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path53307"
+           style="stroke-width:2.51482114;stroke-dasharray:none;stroke:#0000ff;stroke-opacity:1" />
+        <title
+           id="title53309">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53311">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip12 -->
+  </g>
+  <g
+     transform="matrix(0.217,0,0,0.217,330.33559,39.302253)"
+     id="g53332"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clip325795fe-cdd0-4451-9c78-0e60d007d210">
+      <path
+         d="M -1700.5,-535.54 V 1870 h 3235 V -535.54 Z"
+         id="path53319" />
+    </clipPath>
+    <g
+       clip-path="url(#clip13)"
+       id="g53330">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53328">
+        <path
+           d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
+           id="path53322" />
+        <title
+           id="title53324">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53326">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip13 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,348.57559,54.172253)"
+     id="g53347"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clip531d9c76-76d7-41e3-8a30-43e91aead101">
+      <path
+         d="M -1249.2,-422.85 V 1261 H 1015.4 V -422.85 Z"
+         id="path53334" />
+    </clipPath>
+    <g
+       clip-path="url(#clip14)"
+       id="g53345">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53343">
+        <path
+           d="m 66.094,-23 h -54.5 q -3.1878,0 -3.2971,-2 0,-2 3.2971,-2 h 54.5 q 3.203,0 3.312,2 0,2 -3.312,2 z"
+           id="path53337" />
+        <title
+           id="title53339">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53341">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip14 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,379.58559,54.172253)"
+     id="g53362"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clip4d729947-9e3e-4a5e-9196-174b4afe3fb0">
+      <path
+         d="M -1349.2,-422.85 V 1261 H 915.33 V -422.85 Z"
+         id="path53349" />
+    </clipPath>
+    <g
+       clip-path="url(#clip15)"
+       id="g53360">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53358">
+        <path
+           d="m 2.7969,-16.5 v -3.094 L 33.5,-66.5 q 0.797,-1.203 2,-1.203 1.406,0 1.594,1.109 v 1.5 45.5 h 10 v 3.094 h -10 v 8.7031 q 0,3.0938 1.203,3.7969 1.406,0.9062 6.406,0.9062 h 2.094 V 0 q -4.094,-0.29688 -13.594,-0.29688 -9.406,0 -13.5,0.29688 v -3.0938 h 2.094 q 6.203,0 7.203,-1.7031 0.406,-0.7031 0.406,-3 V -16.5 Z M 30,-19.594 V -56.906 L 5.5938,-19.594 Z"
+           id="path53352" />
+        <title
+           id="title53354">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53356">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip15 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,395.08559,54.172253)"
+     id="g53377"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1">
+    <clipPath
+       id="clip295507d0-149d-4927-87e0-018a256bc188">
+      <path
+         d="M -1399.2,-422.85 V 1261 H 865.33 V -422.85 Z"
+         id="path53364" />
+    </clipPath>
+    <g
+       clip-path="url(#clip16)"
+       id="g53375"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#ff0000"
+         id="g53373"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path53367"
+           style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53369">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53371">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip16 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,424.36559,54.172253)"
+     id="g53392"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#cccccc;stroke:#878787;stroke-opacity:1;opacity:0.5">
+    <clipPath
+       id="clipf86cd061-5df4-428a-9722-c95e5e0b94ec">
+      <path
+         d="M -1493.6,-422.85 V 1261 H 770.87 V -422.85 Z"
+         id="path53379" />
+    </clipPath>
+    <g
+       clip-path="url(#clip17)"
+       id="g53390"
+       style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#808080"
+         id="g53388"
+         style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 37.297,-37.797 q 0.5,-3.406 3.109,-4.203 0.5,-0.203 1.094,-0.203 2.594,0 2.906,2.703 0,0.594 -0.703,3.406 l -3.609,14 q -1.5,6.297 -2.188,9 -1.312,5.1878 -1.312,7.3909 0,4.6093 3,4.6093 3.812,0 6.406,-8 0.5,-1.7032 1.203,-4.4062 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.5 -1.797,7.0001 -0.594,1.7031 -1.203,2.8907 -2.797,5.5 -7.391,5.5 -5.609,0 -8.109,-4.7969 -0.703,-1.2031 -1,-2.7031 -6.297,7.5 -13,7.5 -7.5001,0 -11.0939,-6.7969 Q 4,-9.7031 4,-14.906 q 0,-10.797 7.5,-20 7,-8.391 15.203,-9.188 0.703,-0.109 1.391,-0.109 6.109,0 9.203,6.406 z m -6.5,25.891 v 0 l 5,-19.594 q 0.297,-1.5 0.297,-1.703 0,-2.094 -1.797,-5.094 Q 32.094,-42 28.203,-42 q -5.203,0 -9.906,6.797 -0.891,1.297 -1.703,2.797 -2.891,5.812 -4.891,16.5 -0.609,3.406 -0.609,5.406 0,6.7969 3.812,8.7969 1.094,0.6093 2.594,0.6093 5.594,0 11.297,-7.1093 1.406,-1.5938 1.906,-3.2969 v -0.094 q 0.094,-0.203 0.094,-0.312 z"
+           id="path53382"
+           style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53384">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53386">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip17 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,457.98559,54.172253)"
+     id="g53407"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1">
+    <clipPath
+       id="clipc24364e4-03f7-4325-a5d4-16498f346b8b">
+      <path
+         d="M -1602.1,-422.85 V 1261 H 662.42 V -422.85 Z"
+         id="path53394" />
+    </clipPath>
+    <g
+       clip-path="url(#clip18)"
+       id="g53405"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#ff0000"
+         id="g53403"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path53397"
+           style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53399">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53401">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip18 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,470.04559,54.172253)"
+     id="g53422"
+     style="fill:#008000;stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#008000;stroke-opacity:1">
+    <clipPath
+       id="clipa1b1985c-76fb-4ffb-a98e-fa228cbcc8d9">
+      <path
+         d="M -1641,-422.85 V 1261 H 623.52 V -422.85 Z"
+         id="path53409" />
+    </clipPath>
+    <g
+       clip-path="url(#clip19)"
+       id="g53420"
+       style="fill:#008000;stroke:#008000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#00ff00"
+         id="g53418"
+         style="fill:#008000;stroke:#008000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path53412"
+           style="fill:#008000;stroke:#008000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53414">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53416">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip19 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,499.32559,54.172253)"
+     id="g53437"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#cccccc;stroke:#878787;stroke-opacity:1;opacity:0.5">
+    <clipPath
+       id="clipd653dbc6-5aef-413d-8302-29ca0339b3db">
+      <path
+         d="M -1735.5,-422.85 V 1261 H 529.06 V -422.85 Z"
+         id="path53424" />
+    </clipPath>
+    <g
+       clip-path="url(#clip20)"
+       id="g53435"
+       style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#808080"
+         id="g53433"
+         style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 39.594,-38 v 0 q -2.797,-3.594 -8.594,-4 -6.5,0 -11.797,6.594 -1.297,1.609 -2.297,3.406 -4,7.297 -5.203,17.203 -0.203,1.594 -0.203,2.797 0,8.2031 5.594,10.2969 1.406,0.6093 3.406,0.6093 9,0 16.203,-6 2.094,-1.7031 3.797,-3.9062 0.703,-1 1.297,-1 0.906,0 1.203,1.297 0,1.1092 -3.406,4.2968 -8.297,7.5 -19.297,7.5 -9.5,0 -13.797,-7.5938 -2.4062,-4.094 -2.4062,-9.297 0,-10.203 7.8122,-18.906 7.688,-8.594 17.188,-9.391 0.906,-0.109 1.812,-0.109 7.688,0 10.688,4.703 1.109,1.797 1.109,3.906 0,4.391 -3.5,6 -1,0.391 -2.109,0.391 -3,0 -3.594,-2.594 -0.094,-0.406 -0.094,-0.906 0,-2.203 1.797,-3.891 Q 36.594,-38 39.594,-38 Z"
+           id="path53427"
+           style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53429">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53431">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip20 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,529.97559,54.172253)"
+     id="g53452"
+     style="fill:#008000;stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#008000;stroke-opacity:1">
+    <clipPath
+       id="clip6e591586-16ec-4f0f-acac-dd19fe0dc4c7">
+      <path
+         d="M -1834.3,-422.85 V 1261 H 430.21 V -422.85 Z"
+         id="path53439" />
+    </clipPath>
+    <g
+       clip-path="url(#clip21)"
+       id="g53450"
+       style="fill:#008000;stroke:#008000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#00ff00"
+         id="g53448"
+         style="fill:#008000;stroke:#008000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path53442"
+           style="fill:#008000;stroke:#008000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53444">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53446">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip21 -->
+  </g>
+  <g
+     transform="matrix(31,0,0,31,-38.664413,-76.907747)"
+     id="g53467"
+     style="stroke-width:0.04086584;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke:#000000;stroke-opacity:1">
+    <clipPath
+       id="clip7755ccf2-91be-487d-b1f5-da618adefeb2">
+      <path
+         d="M 0,0 V 16.839 H 22.645 V 0 Z"
+         id="path53454" />
+    </clipPath>
+    <g
+       clip-path="url(#clip22)"
+       id="g53465"
+       style="stroke-width:0.04086584;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;stroke-linecap:round">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53463"
+         style="stroke-width:0.04086584;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;stroke-linecap:round">
+        <path
+           d="M 4.2667,4.8632 H 18.788 v 0.04 H 4.2667 Z"
+           id="path53457"
+           style="stroke-width:0.04086584;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;stroke-linecap:round" />
+        <title
+           id="title53459">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53461">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip22 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,273.44559,103.48225)"
+     id="g53482"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <clipPath
+       id="clip580a5e11-4be7-4451-9c12-b883b8a20962">
+      <path
+         d="M -1006.8,-581.92 V 1102 H 1257.7 V -581.92 Z"
+         id="path53469" />
+    </clipPath>
+    <g
+       clip-path="url(#clip23)"
+       id="g53480">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#000000"
+         id="g53478">
+        <path
+           d="m 44.906,-17.406 v 0 L 42.094,0 H 5 q 0,-2.5 0.5938,-3.2031 l 0.5,-0.5 19.2032,-21.3909 q 10.5,-11.812 10.5,-22.109 0,-8.891 -5.391,-13.5 l -0.109,-0.094 H 30.203 Q 27,-63.5 22.406,-63.5 q -7.203,0 -11.5,6.203 -1.2029,1.797 -1.9998,4 0.2969,-0.109 1.2968,-0.109 4,0 5.094,3.609 v 0.094 q 0.203,0.703 0.203,1.5 0,4 -3.797,5.109 -0.797,0.188 -1.406,0.188 -3.7032,0 -4.8908,-3.094 Q 5,-47.094 5,-48.5 q 0,-7.703 5.906,-13.203 5.297,-4.891 12.797,-4.891 11,0 17.094,7.391 3.5,4.297 4,10.203 0.109,0.906 0.109,1.797 0,7.297 -5.5,13.906 -2.906,3.391 -9,9 l -6.109,5.391 -1,0.906 -10.594,10.2969 h 18 q 8.797,0 9.5,-0.7969 1,-1.4062 2.203,-8.906 z"
+           id="path53472" />
+        <title
+           id="title53474">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53476">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip23 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,288.94559,103.48225)"
+     id="g53497"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1">
+    <clipPath
+       id="clip4ac44607-a161-4bcd-9298-56d99469df45">
+      <path
+         d="M -1056.8,-581.92 V 1102 H 1207.7 V -581.92 Z"
+         id="path53484" />
+    </clipPath>
+    <g
+       clip-path="url(#clip24)"
+       id="g53495"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#ff0000"
+         id="g53493"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 33.094,24 v 0 q 0,1 -1,1 -1.188,0 -5.297,-4.094 Q 20.594,14.703 16.5,6.2031 9.9062,-7.4062 9.9062,-25 q 0,-16.906 6.2968,-30.5 5.203,-11.094 13.203,-17.797 Q 31.5,-75 32.094,-75 q 1,0 1,1 0,0.5 -1.297,1.703 -16.094,16.391 -16.094,47.297 0,30.7969 15.703,46.797 1.688,1.703 1.688,2.203 z"
+           id="path53487"
+           style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53489">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53491">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip24 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,318.22559,103.48225)"
+     id="g53512"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#cccccc;stroke:#878787;stroke-opacity:1;opacity:0.5">
+    <clipPath
+       id="clipba952f13-c4ec-4884-927b-823a43f6a99e">
+      <path
+         d="M -1151.3,-581.92 V 1102 H 1113.2 V -581.92 Z"
+         id="path53499" />
+    </clipPath>
+    <g
+       clip-path="url(#clip25)"
+       id="g53510"
+       style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#808080"
+         id="g53508"
+         style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 37.297,-37.797 q 0.5,-3.406 3.109,-4.203 0.5,-0.203 1.094,-0.203 2.594,0 2.906,2.703 0,0.594 -0.703,3.406 l -3.609,14 q -1.5,6.297 -2.188,9 -1.312,5.1878 -1.312,7.3909 0,4.6093 3,4.6093 3.812,0 6.406,-8 0.5,-1.7032 1.203,-4.4062 0.797,-1.703 1.391,-1.797 1.203,0 1.203,1 0,1.5 -1.797,7.0001 -0.594,1.7031 -1.203,2.8907 -2.797,5.5 -7.391,5.5 -5.609,0 -8.109,-4.7969 -0.703,-1.2031 -1,-2.7031 -6.297,7.5 -13,7.5 -7.5001,0 -11.0939,-6.7969 Q 4,-9.7031 4,-14.906 q 0,-10.797 7.5,-20 7,-8.391 15.203,-9.188 0.703,-0.109 1.391,-0.109 6.109,0 9.203,6.406 z m -6.5,25.891 v 0 l 5,-19.594 q 0.297,-1.5 0.297,-1.703 0,-2.094 -1.797,-5.094 Q 32.094,-42 28.203,-42 q -5.203,0 -9.906,6.797 -0.891,1.297 -1.703,2.797 -2.891,5.812 -4.891,16.5 -0.609,3.406 -0.609,5.406 0,6.7969 3.812,8.7969 1.094,0.6093 2.594,0.6093 5.594,0 11.297,-7.1093 1.406,-1.5938 1.906,-3.2969 v -0.094 q 0.094,-0.203 0.094,-0.312 z"
+           id="path53502"
+           style="fill:#cccccc;stroke:#878787;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53504">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53506">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip25 -->
+  </g>
+  <g
+     transform="matrix(0.31,0,0,0.31,351.84559,103.48225)"
+     id="g53527"
+     style="stroke-width:2.51482114;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1">
+    <clipPath
+       id="clipb3c8b592-eba2-4249-8960-6cf0986ea890">
+      <path
+         d="M -1259.7,-581.92 V 1102 H 1004.8 V -581.92 Z"
+         id="path53514" />
+    </clipPath>
+    <g
+       clip-path="url(#clip26)"
+       id="g53525"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+      <g
+         fill-opacity="1"
+         fill-rule="nonzero"
+         stroke="none"
+         fill="#ff0000"
+         id="g53523"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none">
+        <path
+           d="m 28.906,-25 v 0 q 0,16.9062 -6.312,30.5 Q 17.406,16.594 9.4062,23.297 7.2969,25 6.7031,25 q -1,0 -1,-1 Q 5.7031,23.5 7,22.297 23.094,5.9062 23.094,-25 q 0,-30.5 -15.0002,-46.203 l -0.5,-0.5 Q 5.7031,-73.5 5.7031,-74 q 0,-1 1,-1 1.2031,0 5.2969,4.094 6.203,6.203 10.297,14.703 6.609,13.609 6.609,31.203 z"
+           id="path53517"
+           style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-opacity:1;stroke-width:2.51482114;stroke-dasharray:none" />
+        <title
+           id="title53519">x=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}</title>
+        <desc
+           id="desc53521">text2 = âx=\frac{-\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}\pm \sqrt{\fgcolor{blue}{(\;\;\fgcolor{gray}{b}\;\;)}^2-4\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)\fgcolor{green}{(\;\;\fgcolor{gray}{c}\;\;)}}}}{2\fgcolor{red}{(\;\;\fgcolor{gray}{a}\;\;)}}â</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip26 -->
+  </g>
+  <!-- default stroke -->
+</svg>
+<!-- bounding box -->
+
