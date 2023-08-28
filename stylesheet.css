@@ -18,23 +18,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #c94d00;
 }
 
-#eeead9
-
-#522c1b
-
 /* Media query for small screens */
 @media (max-width: 720px) {
     body {
         font-size: 14px;
         max-width: 100%;
         padding: 10px;
+        padding-top: 60px;
         background: #fefefe;
     }
 }
 
 /* Site title styles */
 .site-title {
-    background-color: #333;
+    background-color: #522c1b;
     color: white;
     text-align: center;
     padding: 10px 0; 
@@ -48,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Styles for the navigation menu */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #00b1c1;
     position: fixed;
     top: 30px;
     width: 100%;
