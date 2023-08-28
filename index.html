@@ -1,104 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<style>
-	         /* Base styles */
-	      body {
-	         font-family: Lato,sans-serif;
-	         font-display: swap;
-	         font-size: 1rem;
-	         line-height: 1.6em;
-	         max-width: 900px;
-	         margin: 0 auto;
-	         padding: 5vw 5vw 0;
-	      }
-
-	      /* Media query for small screens */
-	      @media (max-width: 768px) {
-	         body {
-	             font-size: 14px;
-	             max-width: 100%;
-	             padding: 10px;
-	         }
-	      }
-	         
-	      /* Styles for the navigation menu */
-	   .navbar {
-	    overflow: hidden;
-	    background-color: #333;
-	   }
-
-	   .navbar a {
-	    float: left;
-	    font-size: 16px;
-	    color: white;
-	    text-align: center;
-	    padding: 14px 16px;
-	    text-decoration: none;
-	   }
-
-	   .dropdown {
-	    float: left;
-	    overflow: hidden;
-	   }
-
-	   .dropdown .dropbtn {
-	    font-size: 16px;  
-	    border: none;
-	    outline: none;
-	    color: white;
-	    padding: 14px 16px;
-	    background-color: inherit;
-	    font-family: inherit;
-	    margin: 0;
-	   }
-
-	   .navbar a:hover, .dropdown:hover .dropbtn {
-	    background-color: red;
-	   }
-
-	   .dropdown-content {
-	    display: none;
-	    position: absolute;
-	    background-color: #f9f9f9;
-	    min-width: 160px;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	    z-index: 1;
-	   }
-
-	   .dropdown-content a {
-	    float: none;
-	    color: black;
-	    padding: 12px 16px;
-	    text-decoration: none;
-	    display: block;
-	    text-align: left;
-	   }
-
-	   .dropdown-content a:hover {
-	    background-color: #ddd;
-	   }
-
-	   .dropdown:hover .dropdown-content {
-	    display: block;
-	   }
-	</style>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script type="text/x-mathjax-config">
-	         MathJax.Hub.Config({
-	             tex2jax: {
-	                 inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                 displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                 processEscapes: true,
-	                 skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	             }
-	         });
-	</script>
-	<title></title>
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+        <script async type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+                    displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
+                    processEscapes: true,
+                    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+                }
+            });
+        </script>
+        <title>MTH091 Algebraic Literacy</title>
+    </head>
+    
 <body>
 	<div class="navbar">
 		MTH091 Algebraic Literacy <a href="./"> Home </a>
