@@ -4,18 +4,31 @@ body {
     font-display: swap;
     font-size: 1rem;
     line-height: 1.6em;
-    max-width: 900px;
+    max-width: 860px;
     margin: 0 auto;
     padding: 5vw 5vw 0;
 }
 
 /* Media query for small screens */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     body {
         font-size: 14px;
         max-width: 100%;
         padding: 10px;
     }
+}
+
+/* Site title styles */
+.site-title {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Place above other content */
 }
 
 /* Styles for the navigation menu */
