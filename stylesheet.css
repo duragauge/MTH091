@@ -10,7 +10,7 @@ body {
     line-height: 1.6em;
     max-width: 860px;
     margin: 0 auto;
-    padding: 5vw 5vw 0;
+    padding: 10vw 5vw 0;
     background-color: #fefefe; 
 }
 
@@ -24,14 +24,13 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 14px;
         max-width: 100%;
         padding: 10px;
-        padding-top: 60px;
         background: #fefefe;
     }
 }
 
 /* Site title styles */
 .site-title {
-    background-color: #522c1b;
+    background-color: #00b1c1;
     color: white;
     text-align: center;
     padding: 10px 0; 
