@@ -172,11 +172,10 @@ and a more detailed TOC with learning objectives.
 
 ## 5.4 Graphing Quadratic Equations
 **Objectives:**
-- Locate the coordinates of the vertex of a parabola from a graph.
-- Find the coordinates of the vertex of a standard quadratic equation.
-- Graph a quadratic equation given in vertex form.
-- Write the vertex form of a quadratic equation.
-- Solve quadratic equations by graphing.
+- Graph quadratic equations from a table of values
+- Understand the parts of a parabola
+- Locate the coordinates of the intercepts and vertex of a parabola from a graph.
+- Find the coordinates of the intercepts and vertex of a standard quadratic equation.
 
 ## 5.5 Graphing Equations with Technology
 **Objectives:**
