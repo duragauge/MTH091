@@ -26,7 +26,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 0;
     padding: 14px 0;
-    flex: 1; /* Take up remaining space */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 /* Navigation bar */
