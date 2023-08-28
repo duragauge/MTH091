@@ -12,44 +12,49 @@ body {
     margin: 60px auto;
     padding: 10vw 5vw 0;
     background-color: #fefefe;
-    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #c94d00;
 }
 
+
+
+/* Site title */
+.title {
+    font-size: 24px;
+    background-color: #00b1c1;
+    color: white;
+    text-align: center;
+    margin: 0; 
+}
+
+
 /* Media query for small screens */
 @media (max-width: 720px) {
     body {
         font-size: 14px;
         max-width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
         padding: 10px;
         background: #fefefe;
     }
 }
 
-/* Site title styles */
-.site-title {
-    background-color: #00b1c1;
-    color: white;
-    text-align: center;
-    padding: 10px 0; 
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000; 
-}
 
 /* Styles for the navigation menu */
 .navbar {
-    overflow: hidden;
-    background-color: #00b1c1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
-    width: 100%;
-    top: 30px;
+    top: 0;
     left: 0;
+    width: 100%;
+    background-color: #00b1c1;
+    z-index: 1000;
+    padding: 10px 20px;
 }
 
 
