@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation bar */
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #00b1c1;
     padding: 10px 0;
     position: fixed;
@@ -37,12 +37,17 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     text-align: center;
     padding: 14px 0;
+    flex: 1; /* Take up remaining space */
     z-index: 1001;
 }
 
 .nav-links {
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 860px;
+    padding: 0 20px;
 }
 
 .navbar a {
@@ -52,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 
 /* Dropdown styles */
 .dropdown {
