@@ -9,9 +9,10 @@ body {
     font-size: 1rem;
     line-height: 1.6em;
     max-width: 860px;
-    margin: 0 auto;
+    margin: 60px auto;
     padding: 10vw 5vw 0;
-    background-color: #fefefe; 
+    background-color: #fefefe;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,8 +47,9 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     background-color: #00b1c1;
     position: fixed;
-    top: 30px;
     width: 100%;
+    top: 30px;
+    left: 0;
 }
 
 
