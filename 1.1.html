@@ -1,4 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+	         /* Base styles */
+	      body {
+	         font-family: Lato,sans-serif;
+	         font-display: swap;
+	         font-size: 1rem;
+	         line-height: 1.6em;
+	         max-width: 900px;
+	         margin: 0 auto;
+	         padding: 5vw 5vw 0;
+	      }
+
+	      /* Media query for small screens */
+	      @media (max-width: 768px) {
+	         body {
+	             font-size: 14px;
+	             max-width: 100%;
+	             padding: 10px;
+	         }
+	      }
+	         
+	      /* Styles for the navigation menu */
+	   .navbar {
+	    overflow: hidden;
+	    background-color: #333;
+	   }
+
+	   .navbar a {
+	    float: left;
+	    font-size: 16px;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	   }
+
+	   .dropdown {
+	    float: left;
+	    overflow: hidden;
+	   }
+
+	   .dropdown .dropbtn {
+	    font-size: 16px;  
+	    border: none;
+	    outline: none;
+	    color: white;
+	    padding: 14px 16px;
+	    background-color: inherit;
+	    font-family: inherit;
+	    margin: 0;
+	   }
+
+	   .navbar a:hover, .dropdown:hover .dropbtn {
+	    background-color: red;
+	   }
+
+	   .dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    z-index: 1;
+	   }
+
+	   .dropdown-content a {
+	    float: none;
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+	   }
+
+	   .dropdown-content a:hover {
+	    background-color: #ddd;
+	   }
+
+	   .dropdown:hover .dropdown-content {
+	    display: block;
+	   }
+	</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	<script type="text/x-mathjax-config">
+	         MathJax.Hub.Config({
+	             tex2jax: {
+	                 inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+	                 displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
+	                 processEscapes: true,
+	                 skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+	             }
+	         });
+	</script>
+	<title></title>
+</head>
+<body>
+	<div class="navbar">
+		MTH091 Algebraic Literacy <a href="./"> Home </a>
+		<div class="dropdown">
+			<button class="dropbtn"> Content <i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content">
+				 Chapter 1 Real Numbers
+                <a href="1.1.html">1.1 Subsets of Real Numbers</a>
+                <a href="1.2.html">1.2 Operations with Integers</a>
+                <a href="1.3.html">1.3 Operations with Fractions</a>
+
+                Chapter 2 Algebraic Expressions
+                <a href="2.1.html">2.1 Algebra Terminology</a>
+                <a href="2.2.html">2.2 The Distributive Property</a>
+                <a href="2.3.html">2.3 Factoring</a>
+                <a href="2.4.html">2.4 Exponents</a>
+                <a href="2.5.html">2.5 Negative Exponents</a>
+                <a href="2.6.html">2.6 Creating and Using Algebraic Expressions</a>
+
+                Chapter 3 Elementary Equations
+                <a href="3.1.html">3.1 One-Step Equations</a>
+                <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
+                <a href="3.3.html">3.3 Formulas</a>
+
+                Chapter 4 Intermediate Equations
+                <a href="4.1.html">4.1 Multi-Step Linear Equations</a>
+                <a href="4.2.html">4.2 Factorable Equations</a>
+                <a href="4.3.html">4.3 The Quadratic Formula</a>
+                <a href="4.4.html">4.4 Special Cases</a>
+
+                Chapter 5 Graphing
+                <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
+                <a href="5.2.html">5.2 Slope</a>
+                <a href="5.3.html">5.3 Graphing Linear Equations</a>
+                <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
+                <a href="5.5.html">5.5 Graphing Equations with Technology</a>
+            </div>
+        </div>
+    </div>
+
+
 <h1>1.1 Subsets of Real Numbers</h1>
+
+
 <h3>Introduction</h3>
 <p>The history of numbers is a long and fascinating one, with roots stretching back into prehistoric times.</p>
 
@@ -7,6 +151,7 @@
 <p>As the concept of numbers evolved over time, symbols were created to represent specific values. The numerals we commonly use today, \(0, 1, 2, 3, 4, 5, 6, 7, 8, 9\) were developed in India about 1500 years ago and spread throughout Southeast Asia, China, Africa, and Europe along Arab trade routes.</p>
 
 <p>As science, technology, and commerce have advanced, mathematical thought has expanded the types of numbers available and the operations for combining them. The numbers discussed in this section are all part of the set of real numbers.</p>
+
 
 <h3>Natural Numbers</h3>
 <p>Natural numbers are the numbers we usually count with: \(1, 2, 3, 4, ...\) and so on. Natural numbers are one of the oldest and most studied sets of real numbers. No doubt you already know a few facts about natural numbers.</p>
@@ -19,6 +164,7 @@
 
 <p>If we add \(0\) to the natural numbers we call that new set thewhole numbers.</p>
 
+
 <h3>Integers</h3>
 <p>Today the number \(0\) and negative values are ideas we are familiar with and encounter regularly: a microwave timer beeps when it gets down to \(0\) seconds, the temperature outside might be \(-15\) degrees, etc.</p>
 
@@ -27,6 +173,7 @@
 <p>When you include all the natural numbers, along with their negatives and the number \(0\), you create a set called the integers, which looks something like this: \(..., -4, -3, -2, -1, 0, 1, 2, 3, 4, ...\)</p>
 
 <p>Any combination of adding, subtracting, and multiplying integers always results in another integer. Division, however, can sometimes produce fractions that are not integers.</p>
+
 
 <h3>Rational Numbers</h3>
 <p>Any number that can be written as a fraction, such as \(\frac{1}{2}\), \(\frac{2}{3}\), or \(\frac{3}{4}\), is considered a rational number. Every rational number can also be expressed as a decimal that either terminates or repeat. For example, \(\frac{3}{4}\) as a decimal is \(0.75\), which terminates, and \(\frac{2}{3}\) as a decimal is \(0.666...\), which repeats.</p>
@@ -39,6 +186,7 @@
 
 <p>And since we can add, subtract, multiply, and divide rational numbers as much as we want (provided we don't divide by \(0\)), you might assume the story is over. If so, you're in good company--Pythagoras thought the same thing--but there's still more to explore.</p>
 
+
 <h3>Irrational Numbers</h3>
 <p>You might be surprised to learn that some quantities cannot be expressed as whole numbers or as fractions. For instance, the length of the diagonal of a square is often not a rational number.</p>
 
@@ -47,6 +195,7 @@
 <p>Many irrational numbers are the result of taking square roots, like \(\sqrt 2\), but several more come from other mathematical concepts and techniques. Perhaps the most famous irrational number is \(\pi\), which is the ratio of the circumference of a circle to its diameter.</p>
 
 <p><img style="display: block;margin:1.2em;" src="https://myopenmaths3.s3.amazonaws.com/ufiles/84239/Subsets_of_real_numbers.png" alt="" width="450" height="170"/></p>
+
 
 <h3>The Real Number Line</h3>
 <p>A number line is a useful tool for visualizing real numbers. It is nothing more than a straight line with marks that correspond to specific numbers. Positive numbers are positioned to the right of zero while negative numbers are placed to the left with arrows on either end indicating the line extends in both directions.</p>
@@ -57,6 +206,7 @@
 
 <p><img style="display: block;margin:1.2em;" src="https://myopenmaths3.s3.amazonaws.com/ufiles/84239/numberline_with_real_numbers.svg" alt="numberline with a few values marked" width="353" height="75"/></p>
 
+
 <h3>Inequality</h3>
 <p>Real numbers can be ordered based on their position on the number line. Numbers on the left are considered smaller than numbers on the right.</p>
 
@@ -66,9 +216,12 @@
 
 <p>The symbol \(\lt\) means that the value on the left is less than the value on the right. For example, \(4 \lt 8\) indicates that \(4\) is less than \(8\).</p>
 
+
 <h3>Absolute Value</h3>
 <p>The number line also helps us find the size, or magnitude, of a number. The distance between \(0\) and a number is called the absolute value of the number and is written as \(|x|\). For example,\(|3|=3\) since the number \(3\) is three spaces away from \(0\). Similarly, \(|-3|=3\) because \(-3\) is also three spaces from \(0\).</p>
 
 <p><img style="display: block;margin:1.2em;" src="https://myopenmaths3.s3.amazonaws.com/ufiles/84239/AbsoluteValueDiagram_1.png" alt="absolute value of negative 3" width="293" height="83"/></p>
 
 <p>In practice, finding the "absolute value" means removing any negative sign in front of a number.</p>
+
+</body>
