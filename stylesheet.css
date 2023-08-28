@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navigation bar */
 .navbar {
-    display: flex;
+
     justify-content: space-between;
     background-color: #00b1c1;
     padding: 10px 0;
@@ -36,8 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #00b1c1;
     color: white;
     text-align: center;
-    padding: 14px 0;
-    flex: 1; /* Take up remaining space */
+    padding: 10px 0;
     z-index: 1001;
 }
 
