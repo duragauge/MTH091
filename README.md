@@ -20,10 +20,10 @@ Chapter 2 - Algebraic Expressions
 Chapter 3 - Elementary Equations
 3.1 One-Step Equations
 3.2 Solving Multi-Step Equations by Inverse Operations
-3.3 Formulas
+3.3 Solving Literal Equations and Formulas
 
 Chapter 4 - Intermediate Equations
-4.1 Multi-Step Linear Equations
+4.1 Solving through Simplification
 4.2 Factorable Equations
 4.3 The Quadratic Formula
 4.4 Special Cases
@@ -112,19 +112,19 @@ and a more detailed TOC with learning objectives.
 ## 3.2 Solving Multi-Step Equations by Inverse Operations
 **Objectives:**
 - Use inverse operations to solve multi-step equations where the variable can be isolated, including 
-  - multi-step linear equations
+  - Solving through Simplification
   - multi-step equations with one radical
   - and multi-step equations with one power
 - Check solutions for validity.
 
-## 3.3 Formulas
+## 3.3 Solving Literal Equations and Formulas
 **Objectives:**
 - Evaluate formulas.
 - Solve formulas for a specified variable.
 
 # Chapter 4 - Intermediate Equations
 
-## 4.1 Multi-Step Linear Equations
+## 4.1 Solving through Simplification
 **Objectives:**
 - Solve linear equations with the variable on both sides.
 - Solve linear equations by combining like terms.
