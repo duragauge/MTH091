@@ -67,13 +67,13 @@
                             <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
                         </li>
                         <li>
-                            <a href="3.3.html">3.3 Formulas</a>
+                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
                         </li>
                     </ul>
                     Chapter 4 Intermediate Equations
                     <ul>
                         <li>
-                            <a href="4.1.html">4.1 Multi-Step Linear Equations</a>
+                            <a href="4.1.html">4.1 Solving through Simplification</a>
                         </li>
                         <li>
                             <a href="4.2.html">4.2 Factorable Equations</a>
@@ -107,10 +107,182 @@
             </nav>
         </header>
     <div class="main-content">
-        <h1>4.4 Special Cases</h1>
+        <h1>4.4 Beyond the Basics</h1>
+
 
 <h3>Introduction</h3>
+<p>In this section, we will introduce three types of equations that are just a little bit different than what we've seen before.</p>
 
+<p>These new equations can easily be confused for one of the earlier types, so we will have to proceed with caution to identify them correctly.</p>
+
+
+<h3>Equations with Negative Coefficients</h3>
+<p>One thing that is common to every equation is that we always solve for the positive value of an unknown variable, typically \(x\).</p>
+
+<p>If we are able to isolate \(-x\), then both sides should be divide by \(-1\), so we end with the value for positive \(x\).  This is because \(-x\) should be viewed as the product of \(-1\) and \(x)\ since \(-1\cdot x=-x\).</p>
+
+<p>When the variable in an equation has a negative coefficient there are a few common errors that should be avoided.The first error is copying the equation incorrectly.  For instance, \(2-x=9\) is not the same as \(x-2=9\).</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 1</strong>
+    <p>Solve \(2 - x = 9\) for \(x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    \begin{align}
+        2 - x &= 9\ && \small \color{#5fa2ce} {\text{Original equation}} \\
+        -x &= 7 && \small \color{#5fa2ce} {\text{Subtract }2} \\
+        x &= -7 && \small \color{#5fa2ce} {\text{Divide by }-1}
+    \end{align}
+</div>
+
+<p>The second error is not following the proper order of operations.  For example, it is very tempting to simplify \(5-2x\) as \(3x\), but that places subtraction before multiplication, which is not the correct order.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 2</strong>
+    <p>Solve \(5 - 2x = 21\) for \(x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    \begin{align}
+        5 - 2x &= 21 && \small \color{#5fa2ce} {\text{Given equation}} \\
+        -2x &= 16 && \small \color{#5fa2ce} {\text{Subtract }5} \\
+        x &= -8 && \small \color{#5fa2ce} {\text{Divide by }-2}
+    \end{align}
+    <p>Some prefer to rewrite the left side of the equation as \(-2x+5\) to make the operations easier to see.</p>
+    \begin{align}
+        -2x + 5 &= 21 && \small \color{#5fa2ce} {\text{Rewritten equation}} \\
+        -2x &= 16 && \small \color{#5fa2ce} {\text{Subtract }5} \\
+        x &= -8 && \small \color{#5fa2ce} {\text{Divide by }-2}
+    \end{align}
+    <p>Both produce the same result.</p>
+</div>
+
+<p>This same error is also possible in situations where distribution could be used.  In the next example we will solve \(7-3(x-1)=34\).  Note that the \(7\) and the \(-3\) cannot be combined since the \(-3\) is multiplying \(x-1\) and \(7\) is not.</p>>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 3</strong>
+    <p>Solve \(7-3(x-1)=34\) for \(x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    \begin{align}
+        7-3(x-1) &= 34 && \small \color{#5fa2ce} {\text{Given equation}} \\
+        -3(x-1) &= 27 && \small \color{#5fa2ce} {\text{Subtract }7} \\
+        x -1 &= -9 && \small \color{#5fa2ce} {\text{Divide by }-3} \\
+        x &= -8 && \small \color{#5fa2ce} {\text{Add }1}
+    \end{align}
+    <p>Or, if you prefer to use distribution:</p>
+    \begin{align}
+        7-3(x-1) &= 34 && \small \color{#5fa2ce} {\text{Given equation}} \\
+        7-3x+3 &= 34 && \small \color{#5fa2ce} {\text{Distribute }-3} \\
+        10-3x &= 34 && \small \color{#5fa2ce} {\text{Combine constants}} \\
+        -3x &= 24 && \small \color{#5fa2ce} {\text{Subtract }10} \\
+        x &= -8 && \small \color{#5fa2ce} {\text{Divide by }-3}
+    \end{align}
+</div>
+
+
+<h3>Equations with a Variable in the Denominator</h3>
+<p>The next type of equation to watch out for is one where the variable is in the denominator.  It's critical to recognize that dividing something by \(x\) is not the same as dividing \(x\) by something.  For instance, \(\frac{5}{x}\) is not the same as \(\frac{x}{5}\).</p>
+
+<p>Luckily, equations with a variable in the denominator can usually be converted into ones where the variable isn't in the denominator.</p>
+
+<p>This is done by "clearing the fractions" by multiplying each term by the least common denominator (LCD).  We did a similar step to simplify equations in section 4.1.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 4</strong>
+    <p>Solve \(\frac{5}{x} = 8\) for \(x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>Since the denominators are \(x\) and \(1\), the LCD is \(x\).</p>
+    \begin{align}
+        \frac{5}{x} &= 8 && \small \color{#5fa2ce} {\text{Given equation}} \\
+        x\cdot \frac{5}{x} &= x\cdot 8 && \small \color{#5fa2ce} {\text{Multiply by }x} \\
+        5 &= 8x && \small \color{#5fa2ce} {\text{Simplfy}} \\
+        x &= \frac{5}{8} && \small \color{#5fa2ce} {\text{Divide by }8}
+    \end{align}
+</div>
+
+<p>Equations where both sides are fractions are known as <strong>proportions</strong>.  With proportions, the process of clearing the fractions can be viewed as <strong>cross multiplication</strong>.</p>
+
+<p>To cross multiply fractions, multiply the top of each fraction with the bottom of the other fraction.  This converts an equation like \(\frac{a}{b}=\frac{c}{d}\) into one of the form \(a\cdot d = b\cdot c\).</p>
+
+<p style="text-align: center;"><img width="400px" src="images/cross_multiplying.png" alt="cross multiplying"></p>
+
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 5</strong>
+    <p>Solve \(\frac{10}{x} = \frac{2}{7}\) for \(x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    \begin{align}
+        \frac{10}{x} &= \frac{2}{7} && \small \color{#5fa2ce} {\text{Given equation}} \\
+        10 \cdot 7 &= 2 \cdot x && \small \color{#5fa2ce} {\text{cross multiply to eliminate the denominator}} \\
+        70 &= 2x && \small \color{#5fa2ce} {\text{Simplify}} \\
+        35 &= x && \small \color{#5fa2ce} {\text{Divide by }2}
+    \end{align}
+</div>
+
+<p>Sometimes cross multiplication will lead to situations where distribution and/or combining like terms is necessary.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 6</strong>
+    <p>Solve \(\frac{3}{x+1} = \frac{4}{3x}\) for \(x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    \begin{align}
+        \frac{3}{x+1} &= \frac{4}{3x} && \small \color{#5fa2ce} {\text{Given equation}} \\
+        9x &= 4(x+1) && \small \color{#5fa2ce} {\text{cross multiply to eliminate the denominator}} \\
+        9x &= 4x + 4 && \small \color{#5fa2ce} {\text{Distribute }4} \\
+        5x &= 4 && \small \color{#5fa2ce} {\text{Subtract }4x} \\
+        x &= \frac{4}{5} && \small \color{#5fa2ce} {\text{Divide by }5}
+    \end{align}
+</div>
+
+<p>Cross multiplication is a handy tool, but don't forget that it can only be used when both sides are single fractions.  If one side has two or more terms then we cannot use cross multiplication and need to fall back on the method of multiplying by a common denominator.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 6</strong>
+    <p>Solve \(\frac{4}{x} + 3 = \frac{23}{5x}\) \(x\).</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>Since the left side is not a single fraction, we cannot cross multiply.  Instead, we'll multiply by the common denominator, which is \(5x\).</p>
+    \begin{align}
+        \frac{4}{x} + 3 &= \frac{23}{5x} && \small \color{#5fa2ce} {\text{Given equation}} \\
+        5x\left(\frac{4}{x} + 3\right) &= 5x \cdot \frac{23}{5x} && \small \color{#5fa2ce} {\text{Multiply both sides by } 5x} \\
+        5x \cdot \frac{4}{x} + 5x\cdot 3 &= 5x \cdot \frac{23}{5x} && \small \color{#5fa2ce} {\text{On the left, distribute} 5x} \\
+        \frac{20x}{x} + 15x &= \frac{115x}{5x} && \small \color{#5fa2ce} {\text{Multiply}} \\
+        20 + 15x &= 23 && \small \color{#5fa2ce} {\text{Simplify fractions}} \\
+        15x &= -3 && \small \color{#5fa2ce} {\text{Subtract 20 from both sides}} \\
+        x &= \frac{-3}{15} \small \color{#5fa2ce} {\text{Divide both sides by }15} \\
+        x &= \frac{-1}{5}  && \small \color{#5fa2ce} {\text{Reduce fraction} x}
+    \end{align}
+</div>
+
+
+<h3>Equations with a Variable in the Exponent</h3>
+<p>This final type of equation might look familiar, and that's the challenge.  It takes a careful eye to notice that expressions like \(x^2\) and \(2^x\) are not the same.  The first has a variable based with fixed power of \(2\). The other has a fixed base of \(2\) and a variable exponent.</p>
+
+<p>Since equations with variable exponents are not the same as ones with fixed powers, we cannot use roots to solve them.</p>
+
+<p>Complete methods for solving these <strong>exponential equations</strong> are covered in a precalculus course and involve something called <strong>logarithms</strong>.  For now, however, we will rely on our background knowledge and employ a guess-and-check method.</p>
+
+<div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+    <strong>Example 7</strong>
+    <p><b>(a)</b> Solve \(2^x = 8\)</p>
+	<p><b>(b)</b> Solve \(2^x = 32\)</p>
+	<p><b>(c)</b> Solve \(3^x = 81\)</p>
+    <p><b>(d)</b> Solve \(5^x = 125\)</p>
+    <hr>
+    <strong>Solution</strong>
+    <p>Since the variables are in the exponent, these are all exponential equation. We will use guessing and checking to find the solutions.</p>
+    <p><b>(a)</b> \(x = 3\) because \(2^3 = 8\).</p>
+	<p><b>(b)</b> \(x = 5\) because \(2^5 = 32\).</p>
+	<p><b>(c)</b> \(x = 4\) because \(3^4 = 81\).</p>
+    <p><b>(d)</b> \(x = 3\) because \(5^3 = 125\).</p>
+</div>
+
+
+<h3>Conclusion</h3>
+<p>The main point of this section is to emphasize the importance of recognizing the type of equation you are asked to solve.  Knowing the type of equation helps you choose the proper tools for solving it.</p>
 
 </div>
 </div>

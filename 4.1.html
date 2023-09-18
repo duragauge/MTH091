@@ -215,7 +215,7 @@
 
 <div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
     <strong>Example 5</strong>
-    <p>Use distribution to solve the equation \(2(x + 3) = 4x\).</p>
+    <p>Use distribution to solve the equation \(2(x + 3) = 10\).</p>
     <hr>
     <strong>Solution</strong>
     \begin{align}
@@ -234,7 +234,7 @@
     x &= 2  && \small \color{#5fa2ce} {\text{Subtract }3}
 \end{align}
 
-<p>So why don't we do it that way all of the time?  Early division certainly can be an effective option, especially if doing so will simplify both sides, but frequently it will generate fractions which can make the equation unnececarilly complicated.</p>
+<p>So why don't we do it that way all of the time?  Early division certainly can be an effective option, especially if doing so will simplify both sides, but frequently it will generate fractions which can make the equation unnecessarily complicated.</p>
 
 <div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
     <strong>Example 6</strong>
@@ -286,9 +286,10 @@
     <p>The denominators are \(2\), \(4\), and \(6\), and their LCM is \(12\). Multiplying both sides of the equation by \(12\) will clear the fractions:</p>
     \begin{align}
         \frac{3}{2}x - \frac{1}{4} = \frac{5}{6} \\
-        12 \cdot \left(\frac{3}{2}x - 12 \cdot \frac{1}{4}\right) &= 12 \cdot \frac{5}{6} && \small \color{#5fa2ce} {\text{Multiply all terms by the LCM }12} \\
-        \left(\frac{36}{2}x - \cdot \frac{12}{4}\right) &= \cdot \frac{60}{6} && \small \color{#5fa2ce} {\text{Perform the multiplication}} \\
-        18x - 3 &= 10 && \small \color{#5fa2ce} {\text{Simplify}}
+        12 \cdot \left(\frac{3}{2}x - \frac{1}{4}\right) &= 12 \cdot \frac{5}{6} && \small \color{#5fa2ce} {\text{Multiply both sides by the LCM }12} \\
+        12 \cdot \frac{3}{2}x - 12 \cdot \frac{1}{4} &= 12 \cdot \frac{5}{6} && \small \color{#5fa2ce} {\text{On the left, distribute }12} \\
+        \frac{36}{2}x - \frac{12}{4} &= \frac{60}{6} && \small \color{#5fa2ce} {\text{Perform the multiplications}} \\
+        18x - 3 &= 10 && \small \color{#5fa2ce} {\text{Simplify each fraction}}
     \end{align}
     Now, we can solve for \(x\) as usual:
     \begin{align}
@@ -298,7 +299,7 @@
     \end{align}
 </div>
 
-<p>Clearing fractions might introduce larger coefficients, but that's generally a worth while trade to avoid fractions.</p>
+<p>Clearing fractions might introduce larger coefficients, but that's generally a worthwhile tradeoff.</p>
 
 <div style="min-width:600px;width:80%; margin:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
     <strong>Example 9</strong>
@@ -307,10 +308,12 @@
     <strong>Solution</strong>
     <p>The denominators are \(3\), \(5\), and \(4\), and their LCM is \(60\).</p>
     \begin{align}
-        60 \cdot \left(\frac{2}{3}x + \frac{1}{5}\right) &= 60 \cdot \left(\frac{x}{4} + \frac{3}{10}\right) && \small \color{#5fa2ce} {\text{Multiply each term by the LCM }60} \\
-        40x + 12 &= 15x + 18 && \small \color{#5fa2ce} {\text{Simplify }18} \\
+        60 \cdot \left(\frac{2}{3}x + \frac{1}{5}\right) &= 60 \cdot \left(\frac{x}{4} + \frac{3}{10}\right) && \small \color{#5fa2ce} {\text{Multiply side by the LCM }60} \\
+        60 \cdot \frac{2}{3}x + 60 \cdot \frac{1}{5} &= 60 \cdot \frac{x}{4} + 60 \cdot \frac{3}{10} && \small \color{#5fa2ce} {\text{Distribute }60\text{ to each term}} \\
+        \frac{120}{3}x + \frac{60}{5} &= \frac{60x}{4} + \frac{180}{10} && \small \color{#5fa2ce} {\text{Perform the multiplications}} \\        
+        40x + 12 &= 15x + 18 && \small \color{#5fa2ce} {\text{Simplify each fraction}} \\
         40x - 15x + 12 &= 18 && \small \color{#5fa2ce} {\text{Subtract }15x} \\
-        40x - 15x &= 18 -12 && \small \color{#5fa2ce} {\text{Subtract }12} \\
+        40x - 15x &= 18 - 12 && \small \color{#5fa2ce} {\text{Subtract }12} \\
         25x &= 6 && \small \color{#5fa2ce} {\text{Combine like terms}} \\
         x &= \frac{6}{25} && \small \color{#5fa2ce} {\text{Divide by }25} \\
     \end{align}
@@ -322,8 +325,9 @@
     <strong>Equation Solving Process</strong>
 <ul>
     <li>Use distribution to remove any parenthesis.</li>
-    <li>Add/subtract to combine all variable terms on one side of the equation.</li>
+    <li>Add/subtract to put all variable terms on one side of the equation.</li>
     <li>If desired, multiply by the LCM of the denominators to eliminate fractions.</li>
+    <li>Combine any like terms.</li>
     <li>Use inverse operations in the reverse order to isolate the variable.</li>
 </ul>
 </div>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="173.82671"
+   height="26.848"
+   viewBox="0 -1118 9604.1072 1483.473"
+   aria-hidden="true"
+   version="1.1"
+   id="svg255"
+   sodipodi:docname="cross_multiplication.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview257"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.210251"
+     inkscape:cx="60.091429"
+     inkscape:cy="17.813665"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg255" />
+  <defs
+     id="defs189">
+    <marker
+       style="overflow:visible"
+       id="Arrow2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="3.3247497"
+       markerHeight="3.418"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="none"
+       markerUnits="strokeWidth">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L" />
+    </marker>
+    <path
+       id="MJX-33-TEX-I-1D44E"
+       d="m 33,157 q 0,101 76,192 76,91 171,92 51,0 90,-49 16,30 46,30 13,0 23,-8 10,-8 10,-20 0,-13 -37,-160 -37,-147 -38,-166 0,-25 7,-33 7,-8 21,-9 9,1 20,9 21,20 41,96 6,20 10,21 2,1 10,1 h 4 q 19,0 19,-9 0,-6 -5,-27 Q 496,96 481,63 466,30 449,13 436,0 417,-8 q -8,-2 -24,-2 -34,0 -57,15 -23,15 -30,31 l -6,15 q -1,1 -4,-1 -2,-2 -4,-4 -59,-56 -120,-56 -55,0 -97,40 -42,40 -42,127 z m 318,171 q 0,6 -5,22 -5,16 -23,35 -18,19 -46,20 -35,0 -67,-31 -32,-31 -50,-81 -29,-79 -41,-164 0,-3 0,-11 0,-8 -1,-12 0,-45 18,-62 18,-17 43,-18 38,0 75,33 37,33 44,51 2,4 27,107 25,103 26,111 z" />
+    <path
+       id="MJX-33-TEX-I-1D44F"
+       d="m 73,647 q 0,10 4,23 4,13 12,13 1,0 72,5 71,5 73,6 12,0 12,-9 0,-9 -34,-143 -8,-34 -17,-70 -9,-36 -15,-54 l -4,-19 q 0,-3 6,3 49,40 101,40 62,0 100,-46 38,-46 39,-116 Q 422,169 343,79 264,-11 173,-11 123,-11 82,27 41,65 40,150 v 9 q 0,21 8,58 8,37 49,197 50,197 50,209 0,12 -38,14 -5,0 -8,0 h -5 q -10,0 -13,0 -3,0 -7,3 -4,3 -3,7 z M 336,325 v 6 q 0,74 -61,74 -17,0 -35,-8 -18,-8 -33,-21 -15,-13 -26,-24 -11,-11 -18,-22 l -6,-8 -21,-86 q -22,-86 -22,-122 0,-48 24,-72 16,-16 40,-16 33,0 67,32 25,23 40,56 15,33 33,105 18,72 18,106 z" />
+    <path
+       id="MJX-33-TEX-N-3D"
+       d="m 56,347 q 0,13 14,20 h 637 q 15,-8 15,-20 0,-11 -14,-19 L 390,327 H 72 q -16,5 -16,20 z m 0,-194 q 0,15 16,20 h 636 q 14,-10 14,-20 0,-13 -15,-20 H 70 q -14,7 -14,20 z" />
+    <path
+       id="MJX-33-TEX-I-1D450"
+       d="m 34,159 q 0,109 86,196 86,87 186,87 56,0 88,-24 32,-24 33,-63 0,-29 -19,-49 -19,-20 -48,-21 -19,0 -30,10 -11,10 -11,30 0,20 11,34 11,14 22,21 11,7 14,6 h 1 q 0,2 -6,6 -6,4 -21,8 -15,4 -34,4 -30,0 -57,-14 -21,-9 -43,-31 -44,-44 -64,-124 -20,-80 -21,-116 0,-46 26,-69 22,-24 58,-24 h 4 q 112,0 185,85 9,10 12,10 4,0 13,-9 9,-9 10,-14 1,-5 -9,-15 Q 410,73 391,55 372,37 346,25 320,13 282,0 244,-13 202,-11 127,-11 81,37 35,85 34,159 Z" />
+    <path
+       id="MJX-33-TEX-I-1D451"
+       d="m 366,683 q 1,0 72,5 71,5 73,6 12,0 12,-8 0,-7 -73,-302 -73,-295 -75,-301 -2,-6 -1,-15 0,-42 28,-42 9,1 20,9 21,20 41,96 6,20 10,21 2,1 10,1 h 4 4 q 15,0 15,-8 0,-5 -3,-16 Q 490,79 473,48 456,17 445,8 434,-1 417,-8 q -8,-2 -24,-2 -34,0 -57,15 -23,15 -30,31 l -6,15 q -1,1 -4,-1 -2,-2 -4,-4 -59,-56 -120,-56 -55,0 -97,40 -42,40 -42,127 0,48 20,98 20,50 48,86 47,57 94,79 47,22 85,22 56,0 84,-42 5,-6 5,-4 1,4 27,109 26,105 28,111 0,13 -7,16 -7,3 -39,5 h -21 q -6,6 -6,8 0,2 2,19 5,19 13,19 z M 352,326 q -23,79 -75,79 -35,0 -67,-31 -32,-31 -50,-81 -29,-79 -41,-164 0,-3 0,-11 0,-8 -1,-12 0,-45 18,-62 18,-17 43,-18 54,0 111,72 l 8,11 z" />
+    <path
+       id="MJX-33-TEX-N-21D2"
+       d="m 580,514 q 0,11 16,11 5,0 8,0 3,0 5,0 2,0 4,-1 2,-1 2,-1 0,0 2,-3 2,-3 2,-3 0,0 3,-5 37,-74 98,-131 61,-57 111,-81 50,-24 96,-37 17,-5 17,-13 0,-8 -9,-11 -9,-3 -37,-11 -28,-8 -58,-24 -144,-70 -218,-216 -4,-9 -7,-10 -3,-1 -15,-2 -20,0 -20,7 0,4 5,17 35,69 86,123 l 10,10 H 70 q -14,7 -14,20 0,15 16,20 h 653 l 10,8 q 39,30 117,69 -1,1 -18,9 -17,8 -45,24 -28,16 -54,36 l -10,8 H 72 q -16,5 -16,20 0,13 14,20 h 611 l -10,10 q -33,35 -62,81 -29,46 -29,56 z" />
+    <path
+       id="MJX-33-TEX-N-22C5"
+       d="m 78,250 q 0,24 17,42 17,18 43,18 24,0 42,-16 18,-16 19,-43 0,-25 -17,-43 -17,-18 -43,-18 -26,0 -43,17 -17,17 -18,43 z" />
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow29725712885662444"
+       markerWidth="3.325"
+       markerHeight="2.4181817"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="Arrow29725712885662444">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#c8c8c8;fill-rule:evenodd;stroke:#c8c8c8"
+         id="path4811" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow29725712885663865"
+       markerWidth="3.325"
+       markerHeight="2.4181817"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       id="Arrow29725712885663865">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:#c8c8c8;fill-rule:evenodd;stroke:#c8c8c8"
+         id="path4814" />
+    </marker>
+  </defs>
+  <g
+     id="g6869">
+    <path
+       style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:97.1087;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow29725712885663865)"
+       d="M 711.72264,42.89935 2115.9695,-711.71935"
+       id="path4294"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:97.1087;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow29725712885662444)"
+       d="M 711.72264,-808.5473 2115.9695,-53.9286"
+       id="path376"
+       sodipodi:nodetypes="cc" />
+    <g
+       data-mml-node="mi"
+       transform="matrix(1,0,0,-1,99.702226,-676)"
+       id="g193"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <use
+         data-c="1D44E"
+         xlink:href="#MJX-33-TEX-I-1D44E"
+         id="use191" />
+    </g>
+    <g
+       data-mml-node="mi"
+       transform="matrix(1,0,0,-1,149.70223,354.47297)"
+       id="g197"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <use
+         data-c="1D44F"
+         xlink:href="#MJX-33-TEX-I-1D44F"
+         id="use195" />
+    </g>
+    <rect
+       width="729"
+       height="60"
+       x="-0.29777387"
+       y="441.01801"
+       id="rect199"
+       transform="scale(1,-1)"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <use
+       data-c="3D"
+       xlink:href="#MJX-33-TEX-N-3D"
+       id="use203"
+       transform="matrix(1,0,0,-1,1126.5022,-221.01802)"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <g
+       data-mml-node="mi"
+       transform="matrix(1,0,0,-1,2445.8022,-676)"
+       id="g209"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <use
+         data-c="1D450"
+         xlink:href="#MJX-33-TEX-I-1D450"
+         id="use207" />
+    </g>
+    <g
+       data-mml-node="mi"
+       transform="matrix(1,0,0,-1,2402.3022,354.47297)"
+       id="g213"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <use
+         data-c="1D451"
+         xlink:href="#MJX-33-TEX-I-1D451"
+         id="use211" />
+    </g>
+    <rect
+       width="720"
+       height="60"
+       x="2302.3022"
+       y="441.01801"
+       id="rect215"
+       transform="scale(1,-1)"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+  </g>
+  <g
+     id="g3696"
+     transform="translate(100.72025,-221.01802)">
+    <g
+       id="g3668"
+       transform="translate(552.54505)">
+      <use
+         data-c="1D44E"
+         xlink:href="#MJX-33-TEX-I-1D44E"
+         id="use223"
+         transform="matrix(1,0,0,-1,5149.627,0)"
+         style="fill:#000000;stroke:#000000;stroke-width:0" />
+      <use
+         data-c="22C5"
+         xlink:href="#MJX-33-TEX-N-22C5"
+         id="use227"
+         transform="matrix(1,0,0,-1,5740.6135,0)"
+         style="fill:#000000;stroke:#000000;stroke-width:0" />
+      <use
+         data-c="1D451"
+         xlink:href="#MJX-33-TEX-I-1D451"
+         id="use231"
+         transform="matrix(1,0,0,-1,6069.6,0)"
+         style="fill:#000000;stroke:#000000;stroke-width:0" />
+    </g>
+    <use
+       data-c="3D"
+       xlink:href="#MJX-33-TEX-N-3D"
+       id="use235"
+       transform="matrix(1,0,0,-1,7330.886,0)"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <g
+       id="g3679">
+      <use
+         data-c="1D44F"
+         xlink:href="#MJX-33-TEX-I-1D44F"
+         id="use239"
+         transform="matrix(1,0,0,-1,8254.627,0)"
+         style="fill:#000000;stroke:#000000;stroke-width:0" />
+      <use
+         data-c="22C5"
+         xlink:href="#MJX-33-TEX-N-22C5"
+         id="use243"
+         transform="matrix(1,0,0,-1,8754.1135,0)"
+         style="fill:#000000;stroke:#000000;stroke-width:0" />
+      <use
+         data-c="1D450"
+         xlink:href="#MJX-33-TEX-I-1D450"
+         id="use247"
+         transform="matrix(1,0,0,-1,9074.6,0)"
+         style="fill:#000000;stroke:#000000;stroke-width:0" />
+    </g>
+  </g>
+  <path
+     style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:313.23780434;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2)"
+     d="m 3473.0838,-452.88347 1215.3156,1.5239"
+     id="path3710"
+     sodipodi:nodetypes="cc" />
+</svg>

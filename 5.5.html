@@ -67,13 +67,13 @@
                             <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
                         </li>
                         <li>
-                            <a href="3.3.html">3.3 Formulas</a>
+                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
                         </li>
                     </ul>
                     Chapter 4 Intermediate Equations
                     <ul>
                         <li>
-                            <a href="4.1.html">4.1 Multi-Step Linear Equations</a>
+                            <a href="4.1.html">4.1 Solving through Simplification</a>
                         </li>
                         <li>
                             <a href="4.2.html">4.2 Factorable Equations</a>
@@ -212,36 +212,52 @@
 <h3>Solving Equations Graphically</h3>
 <p>Since a graph represents all of the \(x,y\) pairs that make an equation true, finding a solution to an equation often involves nothing more than locating the appropriate point on the graph of the equation.</p>
 
-<p>For instance, you'll recall that we often solved quadratic equations of the form \(ax^2+bx+c=0\), either by factoring or by the quadratic formula. Graphically, this is equivalent to finding the \(x\)-intercepts of \(y=ax^2+bx+c\), since all \(x\)-intercepts have a \(y\)-coordinate of \(0\)!</p>
+<p>Let's start with a simple example and solve \(x+3=4\).  You can probably tell, either from mental math or by subtracting \(3\) from both sides, that the answer is \(x=1\), but how could that be done graphically?</p>
 
-<p>To demonstate this, let's solve \(x^2+8x+15=0\), which can be done with factoring.</p>
+<p>All that needs to be done is to examine the graph of the line \(y=x+3\) and locate the point on that line that has a \(y\)-coordinate of \(4\).  The best way to find that point is to graph both \(y=x+3\) and \(y=4\).  The \(x\)-coordinate of the point where these two lines cross is the solution to the equation.</p>
 
-\begin{align}
-    && x^2 + 8x + 15 &= 0 &&&& \quad \color{#5fa2ce} {\text{Original equation}}\\
-    && (x+5)(x+3) &= 0 &&&& \quad \color{#5fa2ce} {\text{Factored equation}}\\
-    x+5 = 0 && \text{ or } && x+3 &= 0 && \quad \color{#5fa2ce} {\text{Apply Zero-Product Property}}\\
-    x = -5 && \text{ or }  && x   &= -3 && \quad \color{#5fa2ce} {\text{Solve each equation}}
-\end{align}
-
-<p>If you type \(y=x^2+8x+15\) into the active Desmos window below and find the \(x\)-intercepts, you will see they are at \((-5,0)\) and \((-3,0)\).</p>
+<p>Type both of those into the active Desmos window below and verify that they cross when \(x=1\).</p>
 <p style="text-align: center;"><iframe src="https://www.desmos.com/calculator" width="80%" height="400"></iframe></p>
 
-<p>In this case, factoring is likely much quicker than graphing the equation, especially if the intercepts aren't immediately visiable and you need to adjust the viewing window.</p>
-
-<p>But what do we do if the equation isn't equal to zero, something like \(3x+2=6-x\)? One choice is to rearrange the equation so that it does equal zero, and then find the \(x\)-intercept. Another option is to graph both sides of the equation separately and find the point where they cross.</p>
+<p>We can expand this simple example to encompass more complicated equations.  The general process is to graph both sides of the equation separately and find the point where they cross.</p>
 
 <p>In the case of \(3x+2=6-x\), we would graph \(y=3x+2\) and \(y=6-x\). The \(x\)-coordinate of the point where these two lines cross is the solution to the equation. Problems with two equations, like this, are sometimes called <strong>systems</strong> of equations.</p>
 
 <p>On a TI calculator the command for finding the intersection of two graphs is in the <span style="background-color:#69c2da;font-family: 'Lucida Console', 'Courier New', monospace;font-weight:600;font-size:1.1em;padding:0.1em 0.5em;">CALC</span> menu and is listed as <span style="background-color:#D3D3D3;font-family: 'Lucida Console', 'Courier New', monospace;font-weight:600;font-size:1.1em;padding:0.1em 0.5em;">5:intersect</span>.  The figure below demonstates solving \(3x+2=6-x\) by finding the intersection of \(y=3x+2\) and \(y=6-x\).</p>
 
-<p style="text-align: center;"><img src="images/TI84_intersection.gif" alt="TI Calculator. Calculate intersection of two lines" width="400px" /></p>
+<p style="text-align: center;"><img src="images/TI-Intersection.gif" alt="TI Calculator. Calculate intersection of two lines" width="400px" /></p>
 
 <p>The solution is \(x=1\), at which point both sides of the equation would equal \(5\).  Sometimes when solving a system both the \(x\) and \(y\) values are asked for.</p>
+
+
+
+<p>We can also use a graph to solve equations that are set equal to zero.  For instance, you'll recall that we often solved quadratic equations of the form \(ax^2+bx+c=0\), either by factoring or by the quadratic formula.</p>
+
+<p>Graphically, this is equivalent to finding the \(x\)-intercepts of \(y=ax^2+bx+c\), since all \(x\)-intercepts have a \(y\)-coordinate of \(0\)!</p>
+
+<p>To demonstate this, let's solve \(x^2+8x+15=0\), which can be done with factoring.</p>
+
+\begin{align}
+    && x^2 + 8x + 15 &= 0 &&&& \quad \small \color{#5fa2ce} {\text{Original equation}}\\
+    && (x+5)(x+3) &= 0 &&&& \quad \small \color{#5fa2ce} {\text{Factored equation}}\\
+    x+5 = 0 && \text{ or } && x+3 &= 0 && \quad \small \color{#5fa2ce} {\text{Apply Zero-Product Property}}\\
+    x = -5 && \text{ or }  && x   &= -3 && \quad \small \color{#5fa2ce} {\text{Solve each equation}}
+\end{align}
+
+<p>If you type \(y=x^2+8x+15\) into the active Desmos window below and find the \(x\)-intercepts, you will see they are at \((-5,0)\) and \((-3,0)\).</p>
+<p style="text-align: center;"><iframe src="https://www.desmos.com/calculator" width="80%" height="400"></iframe></p>
+
+<p>In this case, factoring is likely much quicker than graphing the equation.  This is true more often than you might expect.</p> 
+
+<p>Solving by graphing is often slower than other techniques, especially if the points we need to find aren't immediately visiable and/or the viewing window needs to be adjusted.</p>
+ 
 
 <h3>Conclusion</h3>
 <p>As we've seen, graphical methods of solving are powerful, particularly for complex equations that are challenging to solve algebraically.</p>
 
-<p>We've only scratched the surface of what is possible with graphing and it's connections to solving equations.  In the future, whenever you encounter an equation remember that it has a graphical representation as well as the algebraic representation. Often properties and features observed from the graph can help solve equations and their applications.</p>
+<p>We've only scratched the surface of what is possible with graphing and it's connections to solving equations.  A surprising number of situations in real life applications lead to equations that cannot be solved with inverse algebraic operations, and entire fields of math have been created to solve them using graphical and numerical methods.</p>
+
+<p>In the future, whenever you encounter an equation, remember that it has a graphical representation as well as the algebraic representation. Often properties and features observed from the graph can help solve equations and their applications.</p>
 
 </div>
 </div>
