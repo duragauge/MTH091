@@ -6,8 +6,8 @@ This is the basic Table of Contents
 
 Chapter 1 - Real Numbers
 1.1 Subsets of Real Numbers
-1.2 Operations with Integers
-1.3 Operations with Fractions
+1.2 Working with Integers
+1.3 Working with Fractions
 
 Chapter 2 - Algebraic Expressions
 2.1 Algebra Terminology
@@ -24,13 +24,13 @@ Chapter 3 - Elementary Equations
 
 Chapter 4 - Intermediate Equations
 4.1 Solving through Simplification
-4.2 Factorable Equations
+4.2 Solving by Factoring
 4.3 The Quadratic Formula
-4.4 Special Cases
+4.4 Beyond the Basics
 
 Chapter 5 - Graphing
 5.1 The Cartesian Coordinate System
-5.2 Slope
+5.2 Understanding Slope
 5.3 Graphing Linear Equations
 5.4 Graphing Quadratic Equations
 5.5 Graphing Equations with Technology
@@ -45,12 +45,12 @@ and a more detailed TOC with learning objectives.
 - Use a number line to compare numbers and use inequalities to represent that relationship.
 - Use a number line to find the absolute value of a number.
 
-## 1.2 Operations with Integers
+## 1.2 Working with Integers
 **Objectives:**
 - Add, subtract, multiply, and divide integers.
 - Evaluate powers and simple roots without a calculator.
 
-## 1.3 Operations with Fractions
+## 1.3 Working with Fractions
 **Objectives:**
 - Multiplying Fractions
 - Dividing Fractions
@@ -130,7 +130,7 @@ and a more detailed TOC with learning objectives.
 - Solve linear equations by combining like terms.
 - Solve linear equations using distribution.
 
-## 4.2 Factorable Equations
+## 4.2 Solving by Factoring
 **Objectives:**
 - Solve equations using the zero factor principle.
 - Solve quadratic equations by factoring.
@@ -139,7 +139,7 @@ and a more detailed TOC with learning objectives.
 **Objectives:**
 - Use the quadratic formula to solve quadratic equations.
 
-## 4.4 Special Cases
+## 4.4 Beyond the Basics
 **Objectives:**
 - Solve equations with a variable in the Subtrahend.
 - Solve equations with a variable in the Denominator.
@@ -155,7 +155,7 @@ and a more detailed TOC with learning objectives.
 - Graph linear and quadratic equations by creating tables of values and plotting points.
 - Identify the coordinates of x-intercepts and y-intercepts.
 
-## 5.2 Slope
+## 5.2 Understanding Slope
 **Objectives:**
 - Find the slope given a graph.
 - Find the slope given two points.
