@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="173.82671"
-   height="26.848"
-   viewBox="0 -1118 9604.1072 1483.473"
-   aria-hidden="true"
-   version="1.1"
-   id="svg255"
-   sodipodi:docname="cross_multiplication.svg"
+   inkscape:export-ydpi="600"
+   inkscape:export-xdpi="600"
+   inkscape:export-filename="..\..\..\..\Desktop\cross_multiplication5.png"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="cross_multiplication.svg"
+   id="svg255"
+   version="1.1"
+   aria-hidden="true"
+   viewBox="0 -1118 9604.1072 1483.473"
+   height="26.848"
+   width="173.82671"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -23,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="4.210251"
-     inkscape:cx="17.457391"
-     inkscape:cy="17.813665"
+     inkscape:zoom="5.9541941"
+     inkscape:cx="80.363521"
+     inkscape:cy="17.802577"
      inkscape:window-width="1920"
      inkscape:window-height="986"
      inkscape:window-x="-11"
@@ -60,48 +63,10 @@
        refX="0"
        refY="0"
        orient="auto-start-reverse"
-       inkscape:stockid="Arrow29725712885662444"
-       markerWidth="3.325"
-       markerHeight="2.4181817"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid"
-       id="Arrow29725712885662444">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:#c8c8c8;fill-rule:evenodd;stroke:#c8c8c8"
-         id="path4811" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Arrow29725712885663865"
-       markerWidth="3.325"
-       markerHeight="2.4181817"
-       viewBox="0 0 7.7 5.6"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid"
-       id="Arrow29725712885663865">
-      <path
-         transform="scale(0.7)"
-         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
-         style="fill:#c8c8c8;fill-rule:evenodd;stroke:#c8c8c8"
-         id="path4814" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
        inkscape:stockid="Arrow24940"
-       markerWidth="3.3247497"
-       markerHeight="3.418"
-       viewBox="0 0 7.7 5.6"
+       markerWidth="4.2571731"
+       markerHeight="4.3753786"
+       viewBox="0 0 9.8594589 7.1685551"
        inkscape:isstock="true"
        inkscape:collect="always"
        preserveAspectRatio="none"
@@ -115,136 +80,126 @@
     </marker>
   </defs>
   <g
-     id="g6869">
-    <path
-       style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:97.1087;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow29725712885663865)"
-       d="M 711.72264,42.89935 2115.9695,-711.71935"
-       id="path4294"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:97.1087;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow29725712885662444)"
-       d="M 711.72264,-808.5473 2115.9695,-53.9286"
-       id="path376"
-       sodipodi:nodetypes="cc" />
-    <g
-       data-mml-node="mi"
-       transform="matrix(1,0,0,-1,99.702226,-676)"
-       id="g193"
-       style="fill:#000000;stroke:#000000;stroke-width:0">
-      <use
-         data-c="1D44E"
-         xlink:href="#MJX-33-TEX-I-1D44E"
-         id="use191" />
-    </g>
-    <g
-       data-mml-node="mi"
-       transform="matrix(1,0,0,-1,149.70223,354.47297)"
-       id="g197"
-       style="fill:#000000;stroke:#000000;stroke-width:0">
-      <use
-         data-c="1D44F"
-         xlink:href="#MJX-33-TEX-I-1D44F"
-         id="use195" />
-    </g>
-    <rect
-       width="729"
-       height="60"
-       x="-0.29777387"
-       y="441.01801"
-       id="rect199"
-       transform="scale(1,-1)"
-       style="fill:#000000;stroke:#000000;stroke-width:0" />
+     data-mml-node="mi"
+     transform="matrix(1,0,0,-1,99.702226,-676)"
+     id="g193"
+     style="fill:#ff0000;stroke:#000000;stroke-width:0">
     <use
-       data-c="3D"
-       xlink:href="#MJX-33-TEX-N-3D"
-       id="use203"
-       transform="matrix(1,0,0,-1,1126.5022,-221.01802)"
-       style="fill:#000000;stroke:#000000;stroke-width:0" />
-    <g
-       data-mml-node="mi"
-       transform="matrix(1,0,0,-1,2445.8022,-676)"
-       id="g209"
-       style="fill:#000000;stroke:#000000;stroke-width:0">
-      <use
-         data-c="1D450"
-         xlink:href="#MJX-33-TEX-I-1D450"
-         id="use207" />
-    </g>
-    <g
-       data-mml-node="mi"
-       transform="matrix(1,0,0,-1,2402.3022,354.47297)"
-       id="g213"
-       style="fill:#000000;stroke:#000000;stroke-width:0">
-      <use
-         data-c="1D451"
-         xlink:href="#MJX-33-TEX-I-1D451"
-         id="use211" />
-    </g>
-    <rect
-       width="720"
-       height="60"
-       x="2302.3022"
-       y="441.01801"
-       id="rect215"
-       transform="scale(1,-1)"
-       style="fill:#000000;stroke:#000000;stroke-width:0" />
+       data-c="1D44E"
+       xlink:href="#MJX-33-TEX-I-1D44E"
+       id="use191"
+       style="fill:#ff0000" />
   </g>
   <g
-     id="g3696"
-     transform="translate(100.72025,-221.01802)">
-    <g
-       id="g3668"
-       transform="translate(552.54505)">
-      <use
-         data-c="1D44E"
-         xlink:href="#MJX-33-TEX-I-1D44E"
-         id="use223"
-         transform="matrix(1,0,0,-1,5149.627,0)"
-         style="fill:#000000;stroke:#000000;stroke-width:0" />
-      <use
-         data-c="22C5"
-         xlink:href="#MJX-33-TEX-N-22C5"
-         id="use227"
-         transform="matrix(1,0,0,-1,5740.6135,0)"
-         style="fill:#000000;stroke:#000000;stroke-width:0" />
-      <use
-         data-c="1D451"
-         xlink:href="#MJX-33-TEX-I-1D451"
-         id="use231"
-         transform="matrix(1,0,0,-1,6069.6,0)"
-         style="fill:#000000;stroke:#000000;stroke-width:0" />
-    </g>
+     data-mml-node="mi"
+     transform="matrix(1,0,0,-1,149.70223,354.47297)"
+     id="g197"
+     style="fill:#0000ff;stroke:#000000;stroke-width:0">
     <use
-       data-c="3D"
-       xlink:href="#MJX-33-TEX-N-3D"
-       id="use235"
-       transform="matrix(1,0,0,-1,7330.886,0)"
-       style="fill:#000000;stroke:#000000;stroke-width:0" />
-    <g
-       id="g3679">
-      <use
-         data-c="1D44F"
-         xlink:href="#MJX-33-TEX-I-1D44F"
-         id="use239"
-         transform="matrix(1,0,0,-1,8254.627,0)"
-         style="fill:#000000;stroke:#000000;stroke-width:0" />
-      <use
-         data-c="22C5"
-         xlink:href="#MJX-33-TEX-N-22C5"
-         id="use243"
-         transform="matrix(1,0,0,-1,8754.1135,0)"
-         style="fill:#000000;stroke:#000000;stroke-width:0" />
-      <use
-         data-c="1D450"
-         xlink:href="#MJX-33-TEX-I-1D450"
-         id="use247"
-         transform="matrix(1,0,0,-1,9074.6,0)"
-         style="fill:#000000;stroke:#000000;stroke-width:0" />
-    </g>
+       data-c="1D44F"
+       xlink:href="#MJX-33-TEX-I-1D44F"
+       id="use195"
+       style="fill:#0000ff" />
   </g>
+  <rect
+     width="729"
+     height="60"
+     x="-0.29777387"
+     y="441.01801"
+     id="rect199"
+     transform="scale(1,-1)"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="3D"
+     xlink:href="#MJX-33-TEX-N-3D"
+     id="use203"
+     transform="matrix(1,0,0,-1,1126.5022,-221.01802)"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <g
+     data-mml-node="mi"
+     transform="matrix(1,0,0,-1,2445.8022,-676)"
+     id="g209"
+     style="fill:#0000ff;stroke:#000000;stroke-width:0">
+    <use
+       data-c="1D450"
+       xlink:href="#MJX-33-TEX-I-1D450"
+       id="use207"
+       style="fill:#0000ff" />
+  </g>
+  <g
+     data-mml-node="mi"
+     transform="matrix(1,0,0,-1,2402.3022,354.47297)"
+     id="g213"
+     style="fill:#ff0000;stroke:#000000;stroke-width:0">
+    <use
+       data-c="1D451"
+       xlink:href="#MJX-33-TEX-I-1D451"
+       id="use211"
+       style="fill:#ff0000" />
+  </g>
+  <rect
+     width="720"
+     height="60"
+     x="2302.3022"
+     y="441.01801"
+     id="rect215"
+     transform="scale(1,-1)"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="1D44E"
+     xlink:href="#MJX-33-TEX-I-1D44E"
+     id="use223"
+     transform="matrix(1,0,0,-1,5802.8923,-221.01802)"
+     style="fill:#ff0000;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="22C5"
+     xlink:href="#MJX-33-TEX-N-22C5"
+     id="use227"
+     transform="matrix(1,0,0,-1,6393.8788,-221.01802)"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="1D451"
+     xlink:href="#MJX-33-TEX-I-1D451"
+     id="use231"
+     transform="matrix(1,0,0,-1,6722.8653,-221.01802)"
+     style="fill:#ff0000;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="3D"
+     xlink:href="#MJX-33-TEX-N-3D"
+     id="use235"
+     transform="matrix(1,0,0,-1,7431.6063,-221.01802)"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="1D44F"
+     xlink:href="#MJX-33-TEX-I-1D44F"
+     id="use239"
+     transform="matrix(1,0,0,-1,8355.3473,-221.01802)"
+     style="fill:#0000ff;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="22C5"
+     xlink:href="#MJX-33-TEX-N-22C5"
+     id="use243"
+     transform="matrix(1,0,0,-1,8854.8338,-221.01802)"
+     style="fill:#000000;stroke:#000000;stroke-width:0" />
+  <use
+     data-c="1D450"
+     xlink:href="#MJX-33-TEX-I-1D450"
+     id="use247"
+     transform="matrix(1,0,0,-1,9175.3203,-221.01802)"
+     style="fill:#0000ff;stroke:#000000;stroke-width:0" />
   <path
-     style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:313.23780434;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow24940)"
+     style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:221.01803093;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow24940)"
      d="m 3473.0838,-452.88347 1215.3156,1.5239"
      id="path3710"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:97.1087;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow24940);marker-end:url(#Arrow24940)"
+     d="M 915.88111,-816.57193 2115.9695,-131.55272"
+     id="path376"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#727272;fill-opacity:0.701961;stroke:#c8c8c8;stroke-width:97.1087;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow24940);marker-end:url(#Arrow24940)"
+     d="M 2115.9695,-816.57193 915.88111,-131.55272"
+     id="path1993"
      sodipodi:nodetypes="cc" />
 </svg>
