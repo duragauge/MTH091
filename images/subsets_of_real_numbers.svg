@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="263.48215mm"
+   height="99.91713mm"
+   viewBox="0 0 263.48214 99.917127"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="Subsets of real numbers.svg"
+   inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Algebraic Literacy\Subsets of real numbers.png"
+   inkscape:export-xdpi="119.847"
+   inkscape:export-ydpi="119.847"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.77858292"
+     inkscape:cx="445.0393"
+     inkscape:cy="73.209929"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <path
+       id="MJX-34-TEX-I-3C0"
+       d="m 132,-11 q -34,0 -34,33 v 11 l 13,28 q 75,158 109,273 l 8,24 h -32 q -38,0 -54,-3 -16,-3 -39,-19 -11,-7 -22,-18 -11,-11 -19,-21 -8,-10 -9,-12 -2,-1 -15,-1 -19,0 -19,10 0,6 19,35 19,29 55,62 36,33 71,38 7,2 225,2 160,0 164,-1 20,-7 20,-28 0,-31 -32,-42 -6,-2 -69,-2 h -64 l -3,-17 q -12,-72 -12,-119 0,-52 9,-93 9,-41 19,-64 10,-23 10,-28 0,-17 -14,-32 -14,-15 -36,-15 -11,0 -18,3 -7,3 -16,24 -9,21 -16,60 -1,9 -1,44 0,49 9,105 9,56 18,92 9,36 10,40 h -98 l -1,-4 q 0,-3 -19,-79 Q 230,199 206,114 182,29 175,17 164,-11 132,-11 Z" />
+    <path
+       id="MJX-34-TEX-N-221A"
+       d="m 95,178 q -6,0 -14,8 -8,8 -9,14 -1,6 31,30 32,24 66,50 34,26 38,29 2,2 5,2 h 1 q 6,0 14,-17 8,-17 54,-117 19,-43 31,-69 l 85,-185 q 1,0 104,213 103,213 206,429 103,216 107,221 6,14 20,14 7,0 12,-6 5,-6 7,-12 v -6 L 620,293 385,-193 q -4,-7 -19,-7 -9,0 -12,3 -2,2 -98,212 L 160,225 144,214 Q 129,202 113,190 97,178 95,178 Z" />
+    <path
+       id="MJX-34-TEX-N-32"
+       d="m 109,429 q -27,0 -43,18 -16,18 -16,44 0,71 53,123 53,52 132,52 91,0 152,-56 61,-56 62,-145 0,-43 -20,-82 -20,-39 -48,-68 -28,-29 -80,-74 -36,-31 -100,-92 l -59,-56 76,-1 q 157,0 167,5 7,2 24,89 v 3 h 40 v -3 Q 448,183 436,95 424,7 421,3 V 0 H 50 v 19 12 q 0,7 6,15 6,8 30,35 29,32 50,56 9,10 34,37 25,27 34,37 9,10 29,33 20,23 28,34 8,11 23,30 15,19 21,32 6,13 15,29 9,16 13,32 4,16 7,30 3,14 3,33 0,63 -34,109 -34,46 -97,46 -33,0 -58,-17 -25,-17 -35,-33 -10,-16 -10,-19 0,-1 5,-1 18,0 37,-14 19,-14 19,-46 0,-25 -16,-42 -16,-17 -45,-18 z" />
+    <path
+       id="MJX-34-TEX-N-34"
+       d="M 462,0 Q 444,3 333,3 217,3 199,0 h -9 v 46 h 31 q 20,0 27,0 7,0 17,2 10,2 14,5 4,3 7,8 1,2 1,54 v 50 H 28 v 46 l 151,231 q 153,232 155,233 2,2 21,2 h 18 l 6,-6 V 211 h 92 v -46 h -92 v -51 q 0,-41 0,-48 0,-7 6,-12 8,-7 57,-8 h 29 V 0 Z M 293,211 V 545 L 74,212 183,211 Z" />
+    <path
+       id="MJX-34-TEX-N-33"
+       d="m 127,463 q -27,0 -42,17 -15,17 -16,44 0,55 48,98 48,43 116,43 35,0 44,-1 74,-12 113,-53 39,-41 40,-89 0,-52 -34,-101 -34,-49 -94,-71 l -3,-2 q 0,-1 9,-3 9,-2 29,-9 20,-7 38,-21 82,-53 82,-140 0,-79 -62,-138 -62,-59 -157,-59 -80,0 -138,43 -58,43 -58,109 0,28 18,45 18,17 45,18 28,0 46,-18 18,-18 18,-45 0,-11 -3,-20 -3,-9 -7,-16 -4,-7 -11,-12 -7,-5 -12,-8 -5,-3 -10,-4 -5,-1 -8,-3 l -4,-1 q 51,-45 124,-45 55,0 83,53 17,33 17,101 v 20 q 0,95 -64,127 -15,6 -61,7 l -42,1 -3,2 q -2,3 -2,16 0,18 8,18 28,0 58,5 34,5 62,42 28,37 28,112 v 8 q 0,57 -35,79 -22,14 -47,14 -32,0 -59,-11 -27,-11 -38,-23 -11,-12 -11,-12 h 3 q 3,-1 8,-2 5,-1 10,-5 5,-4 12,-7 7,-3 10,-11 3,-8 8,-15 5,-7 3,-20 0,-22 -14,-39 -14,-17 -45,-18 z" />
+    <path
+       id="MJX-34-TEX-N-2212"
+       d="m 84,237 q 0,0 0,13 0,13 14,20 h 581 q 15,-8 15,-20 0,-12 -15,-20 H 98 q -14,7 -14,20 z" />
+    <path
+       id="MJX-34-TEX-N-31"
+       d="m 213,578 -13,-5 q -14,-5 -40,-10 -26,-5 -58,-7 H 83 v 46 h 19 q 47,2 87,15 40,13 56,24 16,11 28,22 2,3 12,3 9,0 17,-6 V 361 l 1,-300 q 7,-7 12,-9 5,-2 24,-4 19,-2 62,-2 h 26 V 0 H 416 Q 395,3 257,3 121,3 100,0 H 88 v 46 h 26 q 22,0 38,0 16,0 25,1 9,1 16,3 7,2 8,2 1,0 6,5 5,5 6,4 z" />
+    <path
+       id="MJX-34-TEX-N-35"
+       d="m 164,157 q 0,-24 -16,-40 -16,-16 -39,-16 h -7 q 46,-79 122,-79 70,0 102,60 19,33 19,128 0,103 -27,139 -26,33 -58,33 h -6 q -78,0 -118,-68 -4,-7 -7,-8 -3,-1 -15,-2 -17,0 -19,6 -2,4 -2,175 v 129 q 0,50 5,50 2,2 4,2 1,0 21,-8 20,-8 55,-16 35,-8 75,-8 71,0 136,28 8,4 13,4 8,0 8,-18 v -13 q -82,-97 -205,-97 -31,0 -56,6 l -10,2 V 374 q 19,14 30,22 11,8 36,16 25,8 51,8 81,0 137,-65 56,-65 56,-154 0,-92 -64,-157 -64,-65 -156,-66 -81,0 -130,54 -49,54 -49,122 0,24 11,38 11,14 23,18 12,4 23,4 25,0 41,-17 16,-17 16,-40 z" />
+    <path
+       id="MJX-34-TEX-N-30"
+       d="m 96,585 q 56,81 153,81 48,0 96,-26 48,-26 78,-92 37,-83 37,-228 0,-155 -43,-237 -20,-42 -55,-67 -35,-25 -61,-31 -26,-6 -51,-7 -26,0 -52,6 -26,6 -61,32 -35,26 -55,67 -43,82 -43,237 0,174 57,265 z m 225,12 q -30,32 -71,32 -42,0 -72,-32 -25,-26 -33,-72 -8,-46 -8,-192 0,-158 8,-208 8,-50 36,-79 28,-30 69,-30 40,0 68,30 29,30 36,84 7,54 8,203 0,145 -8,191 -8,46 -33,73 z" />
+    <path
+       id="MJX-34-TEX-N-2E"
+       d="m 78,60 q 0,24 17,42 17,18 43,18 24,0 42,-16 Q 198,88 199,61 199,36 182,18 165,0 139,0 113,0 96,17 79,34 78,60 Z" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.096972,-34.603377)">
+    <rect
+       style="fill:#999999;fill-opacity:0.54;stroke:#000000;stroke-width:0.7;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect66199"
+       width="262.78214"
+       height="99.217133"
+       x="44.446972"
+       y="34.953377"
+       rx="7.997478"
+       ry="10.009295"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847" />
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,195.08496,8.2447815)"
+       id="g65756"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65754" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,197.99487,8.2447815)"
+       id="g65760"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65758" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,200.90479,8.2447815)"
+       id="g65764"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65762" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,217.77667,8.2447815)"
+       id="g65782"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65780" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,220.68659,8.2447815)"
+       id="g65786"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65784" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,223.5965,8.2447815)"
+       id="g65790"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65788" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,245.70686,8.2447815)"
+       id="g65812"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65810" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,248.61573,8.2447815)"
+       id="g65816"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65814" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,251.52565,8.2447815)"
+       id="g65820"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65818" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,286.44049,8.2447815)"
+       id="g65844"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65842" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,289.35041,8.2447815)"
+       id="g65848"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65846" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,292.26032,8.2447815)"
+       id="g65852"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65850" />
+    </g>
+    <rect
+       style="fill:#80be75;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect64936"
+       width="74.265701"
+       height="79.265709"
+       x="231.08228"
+       y="53.300156"
+       rx="8"
+       ry="8"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="236.51418"
+       y="66.385925"
+       id="text65154"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847"><tspan
+         sodipodi:role="line"
+         id="tspan65152"
+         style="font-size:8.81944px;stroke-width:0.264583"
+         x="236.51418"
+         y="66.385925">Irrational:  </tspan></text>
+    <g
+       data-mml-node="mi"
+       id="g65752"
+       transform="matrix(0.01357466,0,0,-0.01357466,244.19062,80.521355)"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <use
+         xlink:href="#MJX-34-TEX-I-3C0"
+         id="use65750"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       data-mml-node="msqrt"
+       transform="matrix(0.00949678,0,0,-0.00949678,285.78408,66.412676)"
+       id="g65778"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         transform="translate(833)"
+         id="g65770">
+        <g
+           data-mml-node="mn"
+           id="g65768">
+          <use
+             xlink:href="#MJX-34-TEX-N-32"
+             id="use65766"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+      <g
+         data-mml-node="mo"
+         transform="translate(0,7.7)"
+         id="g65774">
+        <use
+           xlink:href="#MJX-34-TEX-N-221A"
+           id="use65772"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <rect
+         width="500"
+         height="60"
+         x="833"
+         y="747.79999"
+         id="rect65776" />
+    </g>
+    <g
+       id="g66197"
+       transform="matrix(0.9066255,0,0,0.9066255,42.588329,99.543912)">
+      <g
+         data-mml-node="mn"
+         transform="matrix(0.01047487,0,0,-0.01047487,226.50642,8.2447815)"
+         id="g65794"
+         style="fill:#000000;stroke:#000000;stroke-width:0">
+        <use
+           xlink:href="#MJX-34-TEX-N-34"
+           id="use65792"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         data-mml-node="msqrt"
+         transform="matrix(0.01047487,0,0,-0.01047487,231.74386,8.2447815)"
+         id="g65808"
+         style="fill:#000000;stroke:#000000;stroke-width:0">
+        <g
+           transform="translate(833)"
+           id="g65800">
+          <g
+             data-mml-node="mn"
+             id="g65798">
+            <use
+               xlink:href="#MJX-34-TEX-N-33"
+               id="use65796"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+        <g
+           data-mml-node="mo"
+           transform="translate(0,-3.8)"
+           id="g65804">
+          <use
+             xlink:href="#MJX-34-TEX-N-221A"
+             id="use65802"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <rect
+           width="500"
+           height="60"
+           x="833"
+           y="736.29999"
+           id="rect65806" />
+      </g>
+    </g>
+    <g
+       id="g66156"
+       transform="matrix(0.9066255,0,0,0.9066255,32.738233,82.217969)">
+      <g
+         data-mml-node="mo"
+         transform="matrix(0.01047487,0,0,-0.01047487,256.76309,8.2447815)"
+         id="g65824"
+         style="fill:#000000;stroke:#000000;stroke-width:0">
+        <use
+           xlink:href="#MJX-34-TEX-N-2212"
+           id="use65822"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         data-mml-node="msqrt"
+         transform="matrix(0.01047487,0,0,-0.01047487,267.24005,8.2447815)"
+         id="g65840"
+         style="fill:#000000;stroke:#000000;stroke-width:0">
+        <g
+           transform="translate(833)"
+           id="g65832">
+          <g
+             data-mml-node="mn"
+             id="g65830">
+            <use
+               xlink:href="#MJX-34-TEX-N-31"
+               id="use65826"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" />
+            <use
+               xlink:href="#MJX-34-TEX-N-35"
+               transform="translate(500)"
+               id="use65828"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+        <g
+           data-mml-node="mo"
+           transform="translate(0,-3.2)"
+           id="g65836">
+          <use
+             xlink:href="#MJX-34-TEX-N-221A"
+             id="use65834"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <rect
+           width="1000"
+           height="60"
+           x="833"
+           y="736.79999"
+           id="rect65838" />
+      </g>
+    </g>
+    <g
+       id="g66186"
+       transform="matrix(0.9066255,0,0,0.9066255,26.141118,27.77327)">
+      <g
+         data-mml-node="mn"
+         transform="matrix(0.01047487,0,0,-0.01047487,230.30739,106.00908)"
+         id="g65878"
+         style="fill:#000000;stroke:#000000;stroke-width:0">
+        <use
+           xlink:href="#MJX-34-TEX-N-30"
+           id="use65854"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-2E"
+           transform="translate(500)"
+           id="use65856"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-31"
+           transform="translate(778)"
+           id="use65858"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-30"
+           transform="translate(1278)"
+           id="use65860"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-31"
+           transform="translate(1778)"
+           id="use65862"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-30"
+           transform="translate(2278)"
+           id="use65864"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-30"
+           transform="translate(2778)"
+           id="use65866"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-31"
+           transform="translate(3278)"
+           id="use65868"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-30"
+           transform="translate(3778)"
+           id="use65870"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-30"
+           transform="translate(4278)"
+           id="use65872"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-30"
+           transform="translate(4778)"
+           id="use65874"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#MJX-34-TEX-N-31"
+           transform="translate(5278)"
+           id="use65876"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+      <g
+         id="g66164"
+         transform="translate(-63.798721,97.994747)">
+        <g
+           data-mml-node="mo"
+           transform="matrix(0.01047487,0,0,-0.01047487,355.69404,8.2447815)"
+           id="g65882"
+           style="fill:#000000;stroke:#000000;stroke-width:0">
+          <use
+             xlink:href="#MJX-34-TEX-N-2E"
+             id="use65880"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <g
+           data-mml-node="mo"
+           transform="matrix(0.01047487,0,0,-0.01047487,360.35117,8.2447815)"
+           id="g65886"
+           style="fill:#000000;stroke:#000000;stroke-width:0">
+          <use
+             xlink:href="#MJX-34-TEX-N-2E"
+             id="use65884"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <g
+           data-mml-node="mo"
+           transform="matrix(0.01047487,0,0,-0.01047487,365.00934,8.2447815)"
+           id="g65890"
+           style="fill:#000000;stroke:#000000;stroke-width:0">
+          <use
+             xlink:href="#MJX-34-TEX-N-2E"
+             id="use65888"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.3369px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310107"
+       x="139.34343"
+       y="46.690334"
+       id="text69724"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847"><tspan
+         sodipodi:role="line"
+         id="tspan69722"
+         style="font-weight:normal;font-size:10.3369px;stroke-width:0.310107"
+         x="139.34343"
+         y="46.690334">Real Numbers</tspan></text>
+    <rect
+       style="fill:#f0e442;fill-opacity:0.75;stroke:#000000;stroke-width:0.7;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14979"
+       width="179.33511"
+       height="79.335106"
+       x="46.016918"
+       y="53.265457"
+       rx="7.2050414"
+       ry="8.0140104"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847" />
+    <g
+       id="g2291"
+       transform="translate(1.3188848,19.61662)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.80141px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264042"
+         x="54.356068"
+         y="46.154709"
+         id="text1207"
+         inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+         inkscape:export-xdpi="119.847"
+         inkscape:export-ydpi="119.847"
+         transform="scale(0.99793136,1.0020729)"><tspan
+           sodipodi:role="line"
+           id="tspan1205"
+           style="font-size:8.80141px;stroke-width:0.264042"
+           x="54.356068"
+           y="46.154709">Rational:  <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264042"
+   id="tspan1203" /></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:8.97475px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.224368"
+         x="127.06149"
+         y="45.84465"
+         id="text1211"
+         inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+         inkscape:export-xdpi="119.847"
+         inkscape:export-ydpi="119.847"
+         transform="scale(0.99793138,1.0020729)"><tspan
+           sodipodi:role="line"
+           id="tspan1209"
+           style="stroke-width:0.224368"
+           x="127.06149"
+           y="45.84465">-1.25</tspan></text>
+      <g
+         id="g1221"
+         transform="matrix(0.84625275,0,0,0.84976486,33.164497,22.527528)"
+         inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+         inkscape:export-xdpi="119.847"
+         inkscape:export-ydpi="119.847">
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+           x="155.36382"
+           y="28.426188"
+           id="text1215"><tspan
+             sodipodi:role="line"
+             id="tspan1213"
+             style="stroke-width:0.264583"
+             x="155.36382"
+             y="28.426188">0.523</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:13.3273px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.333183"
+           x="134.7533"
+           y="22.25699"
+           id="text1219"
+           transform="scale(1.2592753,0.79410754)"><tspan
+             sodipodi:role="line"
+             id="tspan1217"
+             style="stroke-width:0.333183"
+             x="134.7533"
+             y="22.25699">_</tspan></text>
+      </g>
+      <g
+         id="g1241"
+         transform="matrix(0.99589077,0,0,1.0000239,79.093255,-0.71094247)"
+         inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+         inkscape:export-xdpi="119.847"
+         inkscape:export-ydpi="119.847">
+        <text
+           xml:space="preserve"
+           style="font-size:8.50404px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.212602"
+           x="125.64389"
+           y="42.032104"
+           id="text1225"><tspan
+             sodipodi:role="line"
+             id="tspan1223"
+             style="stroke-width:0.212602"
+             x="125.64389"
+             y="42.032104">_</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:8.50404px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.212602"
+           x="125.72279"
+           y="50.564327"
+           id="text1233"><tspan
+             sodipodi:role="line"
+             id="tspan1227"
+             style="stroke-width:0.212602"
+             x="125.72279"
+             y="50.564327">2</tspan><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.212602"
+             x="125.72279"
+             y="61.194378"
+             id="tspan1229" /><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.212602"
+             x="125.72279"
+             y="71.824425"
+             id="tspan1231" /></text>
+        <text
+           xml:space="preserve"
+           style="font-size:8.50404px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.212602"
+           x="125.82659"
+           y="42.410858"
+           id="text1239"><tspan
+             sodipodi:role="line"
+             id="tspan1235"
+             style="stroke-width:0.212602"
+             x="125.82659"
+             y="42.410858">7</tspan><tspan
+             sodipodi:role="line"
+             style="stroke-width:0.212602"
+             x="125.82659"
+             y="53.040909"
+             id="tspan1237" /></text>
+      </g>
+      <g
+         id="g1267"
+         inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+         inkscape:export-xdpi="119.847"
+         inkscape:export-ydpi="119.847"
+         transform="matrix(0.99589077,0,0,1.0000239,1.7833066,-20.110336)">
+        <g
+           id="g1261"
+           transform="matrix(0.80353429,0,0,0.80353429,90.357953,51.972656)">
+          <text
+             xml:space="preserve"
+             style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+             x="13.821172"
+             y="22.399675"
+             id="text1249"><tspan
+               sodipodi:role="line"
+               id="tspan1243"
+               style="stroke-width:0.264583"
+               x="13.821172"
+               y="22.399675">5</tspan><tspan
+               sodipodi:role="line"
+               style="stroke-width:0.264583"
+               x="13.821172"
+               y="35.628799"
+               id="tspan1245" /><tspan
+               sodipodi:role="line"
+               style="stroke-width:0.264583"
+               x="13.821172"
+               y="48.857925"
+               id="tspan1247" /></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+             x="13.950363"
+             y="12.252666"
+             id="text1255"><tspan
+               sodipodi:role="line"
+               id="tspan1251"
+               style="stroke-width:0.264583"
+               x="13.950363"
+               y="12.252666">3</tspan><tspan
+               sodipodi:role="line"
+               style="stroke-width:0.264583"
+               x="13.950363"
+               y="25.481791"
+               id="tspan1253" /></text>
+          <text
+             xml:space="preserve"
+             style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+             x="13.722987"
+             y="11.781307"
+             id="text1259"><tspan
+               sodipodi:role="line"
+               id="tspan1257"
+               style="stroke-width:0.264583"
+               x="13.722987"
+               y="11.781307">_</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:10.5833px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
+           x="96.234818"
+           y="65.445747"
+           id="text1265"><tspan
+             sodipodi:role="line"
+             id="tspan1263"
+             style="stroke-width:0.264583"
+             x="96.234818"
+             y="65.445747">-</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="fill:#0072b2;fill-opacity:0.75;stroke:#000000;stroke-width:0.7;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1201"
+       width="149.34615"
+       height="59.346146"
+       x="47.598896"
+       y="71.67244"
+       rx="7.0570531"
+       ry="7.9126306"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="55.649498"
+       y="83.066589"
+       id="text8795"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847"><tspan
+         sodipodi:role="line"
+         id="tspan8793"
+         style="font-size:8.81944px;stroke-width:0.264583"
+         x="55.649498"
+         y="83.066589">Integer:  <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+   id="tspan10649">..., -3, -2, -1, 0, 1, 2, 3, ...</tspan></tspan></text>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,193.5128,9.7347817)"
+       id="g65756-6"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65754-7" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,196.42271,9.7347817)"
+       id="g65760-5"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65758-3" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,199.33263,9.7347817)"
+       id="g65764-6"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65762-9" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,216.20451,9.7347817)"
+       id="g65782-1"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65780-0" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,219.11443,9.7347817)"
+       id="g65786-5"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65784-9" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,222.02434,9.7347817)"
+       id="g65790-7"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65788-9" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,244.1347,9.7347817)"
+       id="g65812-5"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65810-9" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,247.04357,9.7347817)"
+       id="g65816-0"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65814-7" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,249.95349,9.7347817)"
+       id="g65820-9"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65818-6" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,284.86833,9.7347817)"
+       id="g65844-4"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65842-5" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,287.77825,9.7347817)"
+       id="g65848-3"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65846-3" />
+    </g>
+    <g
+       data-mml-node="mstyle"
+       transform="matrix(0.01047487,0,0,-0.01047487,290.68816,9.7347817)"
+       id="g65852-8"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <g
+         data-mml-node="mspace"
+         id="g65850-4" />
+    </g>
+    <rect
+       style="fill:#cc79a7;fill-opacity:0.75;stroke:#000000;stroke-width:0.7;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8671"
+       width="119.35886"
+       height="39.35886"
+       x="49.180038"
+       y="90.078575"
+       rx="6.8205066"
+       ry="7.8717718"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="56.221519"
+       y="101.75039"
+       id="text1869"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847"><tspan
+         sodipodi:role="line"
+         id="tspan1867"
+         style="font-size:8.81944px;stroke-width:0.264583"
+         x="56.221519"
+         y="101.75039">Whole:  <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+   id="tspan1865">0, 1, 2, 3, ...</tspan></tspan></text>
+    <rect
+       style="fill:#d85e00;fill-opacity:0.75;stroke:#000000;stroke-width:0.7;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8589"
+       width="89.380409"
+       height="19.380413"
+       x="50.756763"
+       y="108.4803"
+       rx="6.5003939"
+       ry="7.7134628"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.81944px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="55.648777"
+       y="120.16289"
+       id="text3717"
+       inkscape:export-filename="C:\Users\Nolan Mitchell\Desktop\Linear Algebra\Subets of Rational Numbers.png"
+       inkscape:export-xdpi="119.847"
+       inkscape:export-ydpi="119.847"><tspan
+         sodipodi:role="line"
+         id="tspan3715"
+         style="font-size:8.81944px;stroke-width:0.264583"
+         x="55.648777"
+         y="120.16289">Natural:  <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+   id="tspan14897">1, 2, 3, ...</tspan></tspan></text>
+  </g>
+</svg>
