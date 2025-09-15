@@ -1,140 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy â€" 2.2 Using Algebraic Expressions</title
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         <h1>2.2 Using Algebraic Expressions</h1>
 
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 <p>According to the website Know Your Meme, one of the oldest math-related memes got its start on April 7, 2011 when a parent posted the following question from their son's homework to a local message board.</p>
 
-<img src="images/order_of_operations_meme.png" alt="Meme showing a math problem: 48 ÷ 2(9+3)" style="width:600px;border: 2px solid #555;border-radius:15px;margin:1.2em;padding:0px 10px 0px 10px;"/>
+<img loading="lazy" src="images/order_of_operations_meme.png" alt="Meme showing a math problem: 48 Ã· 2(9+3)" style="width:600px;border: 2px solid #555;border-radius:15px;margin:1.2em;padding:0px 10px 0px 10px;">
 
 <p>The answers were split, with nearly half saying \(48\div 2(9+3)=2\) and the other half thinking \(48 \div 2(9+3)=288\).  Who was right?  And how can we avoid this type of confusion ourselves?  That's one of the major things we'll examine in this section.</p>
 
-<h3>Applying the Order of Operations</h3>
+<div class="keep-together">
+<h2>Applying the Order of Operations</h2>
 
 <p>As we saw in the previous section, to evaluate an expression means to determine its value when specific values have been used for each variable.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 1</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Evaluate the expression \(x-y\) for the values \(x=2\) and \(y=-3.\)</p>
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-        x-y & = 2 -(-3) && \small \color{#5fa2ce} {\text{Substitute the values.}} \\
-        &= 2 + 3 && \small \color{#5fa2ce} {\text{Using the rule for subtracting negative integers.}} \\
-        &= 5 && \small \color{#5fa2ce} {\text{Simplify.}} \\
+        x-y & = 2 -(-3) && \hint{\text{Substitute the values.}} \\
+        &= 2 + 3 && \hint{\text{Using the rule for subtracting negative integers.}} \\
+        &= 5 && \hint{\text{Simplify.}} \\
     \end{align}
 </div>
 
@@ -142,9 +42,10 @@
 
 <p>Often expressions will involve multiple operations. Take, for instance, the expression \(5x-3\).  It involves two operations: a multiplication and a subtraction. Which one do we do first?</p>
 
-<p>It's that very dilemma that causes confusion with the meme in the introduction.  Fortunately, mathematicians have agreed on a set of rules that tell us which to do first.  These rules are called the <strong>standard order of operations</strong>.
+<div class="keep-together">
+<p>Fortunately, mathematicians have agreed on a set of rules that tell us which to do first.  These rules are called the <strong>standard order of operations</strong>.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#d8f7d8; border-radius:15px; border:2px solid #228b22; padding:10px;">
+<div class="box box--idea">
         <strong>The Standard Order of Operations</strong>
         <ol>
             <li>Perform any operations within groupings. Groupings are typically shown within parentheses or brackets. Less commonly, groupings will involve an operation in an exponent or in the numerator (top) or denominator (bottom) of a fraction.</li>
@@ -153,159 +54,182 @@
             <li>Apply any addition or subtraction operations from left to right.</li>
         </ol>
 </div>
+</div>
 
-<p>There are several different acronyms used across the world to help people remember the order of operations (PEMDAS, BODMAS, GEMS) and the one we will use: <b>GEMDAS</b>.</p>
+<div class="keep-together">
+<p>To remember the order of operations, people around the world use several different acronyms, such as PEMDAS, BODMAS, and GEMS. For our purposes, we'll be using the <b>GEMDAS</b> acronym.
 
 <ul>
     <li><strong>G</strong> stands for <b>G</b>roupings: Perform calculations inside grouping symbols first.</li>
     <li><strong>E</strong> stands for <b>E</b>xponents: Calculate any exponents or powers next.</li>
-    <li><strong>MD</strong> stands for <b>M</b>ultiplication and <b>D</b>ivision: Do multiplication and division from left to right.</li>
-    <li><strong>AS</strong> stands for <b>A</b>ddition and <b>S</b>ubtraction: Finally, perform addition and subtraction from left to right.</li>
+    <li><strong>MD</strong> stands for <b>M</b>ultiplication and <b>D</b>ivision: Do multiplication and division from left to right since they have the same priority.</li>
+    <li><strong>AS</strong> stands for <b>A</b>ddition and <b>S</b>ubtraction: Finally, perform addition and subtraction from left to right since they have the same priority.</li>
 </ul>
+</div>
 
-<p>The final two steps are where the confusion from the meme arises.  If an expression has more than one operation with equal priority (like multiplication/division or addition/subtraction) then you work with them from left to right.  An example should help illustrate this.<p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-        <strong>Example 2</strong>
+<p>If an expression has more than one operation with equal priority (like multiplication/division or addition/subtraction) then you work with them from left to right.</p>
+
+<div class="keep-together">
+</p>The following example should help illustrate this rule.</p>
+
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
         <p>Use the order of operations to evaluate</p>
         \[20 - 8 \div 2 \times 3 + 5\]
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-        20 - 8 \div 2 \times 3 + 5 &= 20 - 4 \times 3 + 5 && \small \color{#5fa2ce} {\text{First, divide: } 8 \div 2 = 4} \\
-        &= 20 - 12 + 5 && \small \color{#5fa2ce} {\text{Then, multiply: } 4 \times 3 = 12} \\
-        &= 8 + 5 && \small \color{#5fa2ce} {\text{After that, subtract: } 20 - 12 = 8} \\
-        &= 13 && \small \color{#5fa2ce} {\text{Finally, add: } 8 + 5 = 13}
+        20 - 8 \div 2 \times 3 + 5 &= 20 - 4 \times 3 + 5 && \hint{\text{First, divide: } 8 \div 2 = 4} \\
+        &= 20 - 12 + 5 && \hint{\text{Then, multiply: } 4 \times 3 = 12} \\
+        &= 8 + 5 && \hint{\text{After that, subtract: } 20 - 12 = 8} \\
+        &= 13 && \hint{\text{Finally, add: } 8 + 5 = 13}
     \end{align}
 </div>
+</div>
 
+<div class="keep-together">
 <p>We are now ready to see which answer to the meme is correct.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 3</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use the order of operations to evaluate</p>
     \[48\div 2(9+3)\]
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-        48 \div 2(9+3) &= 48 \div 2 \times 12 && \small \color{#5fa2ce} {\text{First, add: } 9 + 3 = 12} \\
-        &= 24 \times 12 && \small \color{#5fa2ce} {\text{Then, divide: } 48 \div 2 = 24} \\
-        &= 288 && \small \color{#5fa2ce} {\text{Finally, multiply: } 24 \times 12 = 288}
+        48 \div 2(9+3) &= 48 \div 2 \times 12 && \hint{\text{First, add: } 9 + 3 = 12} \\
+        &= 24 \times 12 && \hint{\text{Then, divide: } 48 \div 2 = 24} \\
+        &= 288 && \hint{\text{Finally, multiply: } 24 \times 12 = 288}
     \end{align}
+</div>
 </div>
 
 <p>Notice that we started with what was inside the parenthesis since those are a grouping symbol.  That left us with a division and a multiplication.  Since those are operations with the same level of importance, we evaluated them from left to right: dividing next and lastly multiplying.</p>
 
-<p>More importantly, the confusion could have been avoided entirely by using proper grouping symbols.  It should have been asked as \(\frac{48}{2}(9+3)\) if they wanted the answer to be \(288\) or as \(\frac{48}{2(9+3)}\) if they wanted an answer of \(2\). In algebra and beyond, it is very rare to see the \(\div\) symbol used which prevents this type of ambiguity.</p>
+<p>More importantly, the confusion could have been avoided entirely by using proper grouping symbols.  It should have been written as \(\dfrac{48}{2}(9+3)\) if they wanted the answer to be \(288\) or as \(\dfrac{48}{2(9+3)}\) if they wanted an answer of \(2\). In algebra and beyond, it is very rare to see the \(\div\) symbol used which prevents this type of ambiguity.</p>
 
-<h3>Evaluating Algebraic Expressions with the Order of Operations</h3>
+<div class="keep-together">
+<h2>Evaluating Algebraic Expressions with the Order of Operations</h2>
 <p>When substituting values into an exprssion with variables, it is helpful to place parenthesis around any inserted values. Doing so will help maintain the order of operations in the expression, as we'll see in the next two examples.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-<strong>Example 4</strong>
+<div class="keep-together">
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Carefully evaluate \(7(2-x)\) for \(x=-5\).</p>
-
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-        7(2-x) &= 7(2-(-5)) && \small \color{#5fa2ce} {\text{Substitute } -5 \text{ for } x} \\
-        &= 7(7) &&  \small \color{#5fa2ce} {\text{Subtract } 2-(-5)=7} \\
-        &= 49 && \small \color{#5fa2ce} {\text{Simplify.}}
+        7(2-x) &= 7(2-(-5)) && \hint{\text{Substitute } -5 \text{ for } x} \\
+        &= 7(7) &&  \hint{\text{Subtract } 2-(-5)=7} \\
+        &= 49 && \hint{\text{Simplify.}}
     \end{align}
 </div>
 
-Here \(2-(-5)\) was grouped together with the parentheses, so we evaluated that subtraction first before multiplying by \(7\). 
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 5</strong>
-        <p>Carefully evaluate \(\) for \(x=-3\).</p>
-    
-    <hr>
-    <strong>Solution</strong>
+<p>Here \(2-(-5)\) was grouped together with the parentheses, so we evaluated that subtraction first before multiplying by \(7\).</p>
+</div>
+
+<div class="keep-together">
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Carefully evaluate \(4-5x^2\) for \(x=-3\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-        4-5x^2 &= 4-5(-3)^2 && \small \color{#5fa2ce} {\text{Substitute } -3 \text{ for } x} \\
-        &= 4-5 \cdot 9 &&  \small \color{#5fa2ce} {\text{Evaluate the exponent first} (-3)^2=9} \\
-        &= 4-45 && \small \color{#5fa2ce} {\text{Multiply next.}} \\
-        &= -41 && \small \color{#5fa2ce} {\text{Subtract.}}
+        4-5x^2 &= 4-5(-3)^2 && \hint{\text{Substitute } -3 \text{ for } x} \\
+        &= 4-5 \cdot 9 &&  \hint{\text{Evaluate the exponent first} (-3)^2=9} \\
+        &= 4-45 && \hint{\text{Multiply next.}} \\
+        &= -41 && \hint{\text{Subtract.}}
     \end{align}
 </div>
    
-<p>In this example there were no groupings so we evaluated the exponent first.</p>
-
-<h3>Creating and Using Algebraic Expressions</h3>
-<p>Now that we know some of the terminology of algebra and how to order operations, we can start to write expressions that match situations in real life.  In a sense, algebraic expressions can be seen as recipes, formulas, or instructions for how to calculate a specific result.</p>
-
-<p>Part of the challenge in creating a expression for a situation is recognizing the operations from the description.  You'll also want to choose variables to represent unknown quantities.  While there is no set formal process for doing this, seeing a list of commonly used phrases and might help.</p>
-
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#d8f7d8; border-radius:15px; border:2px solid #228b22; padding:10px;">
-    <h5>Addition</h5>
-    <ul>
-        <li>The <b>sum</b> of two exam scores: \(s_1+s_2\)</li>
-        <li>The <b>total</b> cost of a shirt and pants: \(s + p\)</li>
-        <li>The <b>combined</b> number of apples and bananas: \(a + b\)</li>
-    </ul>
-    <h5>Subtraction</h5>
-    <ul>
-        <li>The price <b>decreased</b> by \(\$3\): \(p-3\)</li>
-        <li>The team scored \(10\) <b>fewer</b> points: \(s-10\)</li>
-        <li>The <b>difference</b> between the high and low temperatures: \(H-L\)</li>
-    </ul>
-    <h5>Multiplication</h5>
-    <ul>
-        <li>The <b>product</b> of length, width and height: \(l \cdot w \cdot h\)</li>
-        <li><b>Each</b> movie ticket costs \(\$12\) : \(12 \cdot t\)</li>
-        <li>A used car is \(2/3\) the price <b>of</b> a new one: \(\frac{2}{3}\cdot c\)</li>
-        <li>A mechanic charges \(\$80\) per hour: \(80 \cdot h\)</li>
-    </ul>
-    <h5>Division</h5>
-    <ul>
-        <li>The <b>ratio</b> of wins to losses: \(\frac{w}{l}\)</li>
-        <li>Distance <b>divided</b> time: \(\frac{D}{T}\)</li>
-        <li>The <b>quotient</b> of cookies and people:  \(\frac{c}{p}\)</li>
-        <li>The cost of dinner is <b>split evenly</b> between a number of friends: \(\frac{c}{n}\)</li>
-    </ul>
+<p>In this last example there were no groupings so we evaluated the exponent first.</p>
 </div>
 
+
+<h2>Creating and Using Algebraic Expressions</h2>
+<p>We are now ready to start writing expressions to match real-life situations. The challenge is recognizing the operations from the description and choosing variables for unknown quantities.</p>
+
+<div class="keep-together">
+<p>There's no set process for this, but seeing some examples may help. This list shows common phrases that are often used to indicate a specific algebraic operation.  We've included a sample scenario and one that situation could be written as an algebraic expression.</p>
+
+<div class="box box--idea">
+    <strong>Addition</strong>
+    <ul>
+        <li><strong>sum</strong>: The sum of two exam scores: \(e_1+e_2\)</li>
+        <li><strong>total</strong>: The total cost of a shirt and pants: \(s + p\)</li>
+        <li><strong>combined</strong>: The combined number of apples and bananas: \(a + b\)</li>
+    </ul>
+
+    <strong>Subtraction</strong>
+    <ul>
+        <li><strong>decreased by</strong>: The price decreased by 3 dollars: \(p-3\)</li>
+        <li><strong>fewer than</strong>: The team scored 10 fewer points: \(s - 10\)</li>
+        <li><strong>difference</strong>: The difference between the high and low temperatures: \(H - L\)</li>
+    </ul>
+
+    <strong>Multiplication</strong>
+    <ul>
+        <li><strong>product</strong>: The product of length, width, and height: \(l \cdot w \cdot h\)</li>
+        <li><strong>each</strong>: Each movie ticket costs 12 dolars: \(12t\)</li>
+        <li><strong>of</strong>: A used car is 2/3 the price of a new one: \(\dfrac{2}{3}c\)</li>
+        <li><strong>per</strong>: A mechanic charges 80 dollars per hour: \(80h\)</li>
+    </ul>
+
+    <strong>Division</strong>
+    <ul>
+        <li><strong>ratio</strong>: The ratio of wins to losses: \(\dfrac{w}{l}\)</li>
+        <li><strong>divided by</strong>: Distance divided by time: \(\dfrac{D}{T}\)</li>
+        <li><strong>quotient</strong>: The quotient of cookies and people: \(\dfrac{c}{p}\)</li>
+        <li><strong>split evenly</strong>: The cost of dinner is split evenly among a number of friends: \(\dfrac{c}{n}\)</li>
+    </ul>
+</div>
+</div>
+
+<div class="keep-together">
 <p>Often situations will involve more than one operations and you will have to be careful to place them in the proper order when creating a representative expression.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-<strong>Example 6</strong>
-    <p>The cost to hire a plumber involves a \(\$65\) call-out fee on top of a labor charge of \(\$85\) per hour. Write an expression that would give the total cost to hire a repair technician for \(x\) hours. Use your expression to calculate the cost for the technician for \(1\), \(3\), and \(5\) hours.</p>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>The cost to hire a plumber involves a \(\$65\) call-out fee on top of a labor charge of \(\$85\) per hour. Write an expression that would give the total cost to hire a repair technician for \(x\) hours. Use your expression to calculate the cost for the technician for \(5\) hours.</p>
 
 <strong>Solution</strong>
-    <p>The \(\$85\) rate per hour should multiply the number of hours worked.  The \(\$65\) call-out fee is added to that total.  So the cost of hiring this plumber for \(x\) hours could be calculated with the expression: \(85x+65.\)</p>
-    
-    <p>The total cost for \(1\) hour would be</p>
-        \[85 \cdot (1)+65 = 85+65 = $150\]
-    <p>The total cost for 3 hours would be</p>
-         \(85 \cdot (3)+65 = 255+65 = $320\)
+    <p>The \(\$85\) rate per hour should multiply the number of hours worked.  The \(\$65\) call-out fee is then  added to that total.  So the cost of hiring this plumber for \(x\) hours could be calculated with the expression: \(85x+65.\)</p>
+
     <p>The total cost for 5 hours would be</p>
-        \(85 \cdot (5)+65 = 425+65 = $490\)
+        \[85 \cdot (5)+65 = 425+65 = $490\]
+</div>
 </div>
 
-<p>Expressions can also be written for situations where there are several different quantities that need to be represented by variables.</p>
+<div class="keep-together">
+<p>Expressions can also be written when there are several different quantities that need to be represented by variables.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
+<div class="box box--example">
     <strong>Example 7</strong>
-    <p>A store earns \(\$25\) for every shirt sold, \(\$40\) for every pair of jeans and \(\$10\) for belts. Write an expression for the total amout of money earned based on the number of shirts, jeans and belts that were sold.<p>
+    <p>A store earns \(\$25\) for every shirt sold, \(\$40\) for every pair of jeans and \(\$10\) for belts. Write an expression for the total amout of money earned based on the number of shirts, jeans and belts that were sold.</p>
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>We need to multiply the number of items sold by their individual prices and then add the results.  This gives us an expression of</p>
     \[25s+40j+10b\]
     <p>if we use \(s\), \(j\) and \(b\) for the number of shirts, jeans and belts sold.</p>
 </div>
+</div>
 
-In that example each item had its own price, and those prices were different.  In our final example we will see the same thing occuring twice, which will give us two different, but equivalent expressions.
+<div class="keep-together">
+<p>In our final example we will see two different, but equivalent, expressions that both represent the same thing.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 8</strong>
+
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
         <p>An employee earns \(\$18\) per hour. They get paid every two weeks and worked \(27\) hours last week. Write an expression for what their total pay will be if they work \(x\) hours this week. Use your expression to calculate the employee's pay if they work \(30\) hours this week.</p>
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>There are two different ways to think about this.  We could either calculate their pay each week and add the results, or we could total up their hours for both weeks and then calculate the pay.  The first method gives the expression</p>
             \[18 \cdot 27+18x\]
     <p>while the other is</p>
@@ -316,31 +240,20 @@ In that example each item had its own price, and those prices were different.  I
             \[18(27+30)=18(57)=1026\]
     <p>In either case, the employee would earn \(\$1026\).</p>
 </div>
- 
-<h3>Looking Ahead</h3>
+</div>
+
+<div class="keep-together">
+<h2>Looking Ahead</h2>
 <p>Thinking about our previous example, it is easy to see where the need to solve an equation comes from. If the employee wanted to earn a certain amount they would have to figure out what to plug in for \(x\) to have this expression equal that amount.  In the following chapter we'll go through methods for finding answers to questions like that.</p>
 
 <p>But first we'll need to learn and practice more techniques for working with and simplifying expressions, and that's what the next few sections are for.</p>
+</div>
 
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="2.2-practice.html"> Open 2.2 Practice
+	</a>
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
-
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
-
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+</div>
 </body>
 </html>

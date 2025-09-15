@@ -1,277 +1,436 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy – 1.3 Working with Fractions</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         
 <h1>1.3 Working with Fractions</h1>
 
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 <p>In section 1.1 we reintroduced you to several different sets of numbers that we use regularly in math.  Of all these sets of numbers, it is quite possible that the fractions are the ones that have caused the most frustration for students.</p>
 
-<p>In fact, a <a href="https://files.eric.ed.gov/fulltext/ED500486.pdf#page=46">2008 report</a> to the US Department of Education found that "the most important foundational skill not presently developed appears to be proficiency with fractions".  So if you struggle with fractions, you are not alone.</p>
+<p>In fact, a <a href="https://files.eric.ed.gov/fulltext/ED500486.pdf#page=46">2008 report</a> to the US Department of Education found that "the most important foundational skill not presently developed appears to be proficiency with fractions".  So if you struggle with fractions, just know you are not alone.</p>
 
 <p>It is widely believed that the ancient Greek mathematician Pythagoras was the first person to rigorously explore fractions; though he did so in a purely geometric way, often with triangles.</p>
 
-<p>We've come a long way since then--no doubt you have a calculator or smart phone that can do all sorts of things with fractions without you having to think much about it.  Even so, having a basic understanding of how fractions work, <em>without</em> having to rely on technology, will speed you on your way to success.</p>
+<p>We've come a long way since then.  No doubt you have a calculator or smart phone that can do all sorts of things with fractions without you having to think much about it.  Even so, having a basic understanding of how fractions work, <em>without</em> having to rely on technology, will speed you on your way to success.</p>
 
-<h3>Reviewing Basic Fraction Concepts</h3>
+<div class="keep-together">
+<h2>Reviewing Basic Fraction Concepts</h2>
 <p>Before we get into the nuts and bolts of working with fractions, let's start by reviewing some basic concepts and terminology.</p>
+</div>
 
-<p>Fractions are a way of representing parts of a whole. They consist of a <strong>numerator</strong> (the top number) and a <strong>denominator</strong> (the bottom number). For example, in the fraction \( \frac{3}{4}\), the number \(3\) is the numerator and \(4\) is the denominator.</p>
+<p>Fractions are a way of representing parts of a whole. They consist of a <strong>numerator</strong> (the top number) and a <strong>denominator</strong> (the bottom number). For example, in the fraction \( \dfrac{3}{4}\), the number \(3\) is the numerator and \(4\) is the denominator.</p>
 
-<p>Fractions that represent values less than 1 are called <strong>proper fractions</strong>, and those with values greater than or equal to 1 are referred to as <strong>improper fractions</strong>.</p>
+<p>Fractions that represent values less than 1 are matter <strong>proper fractions</strong>, and those with values greater than or equal to 1 are referred to as <strong>improper fractions</strong>.</p>
 
-<p>Earlier in your education you may have come across <em>mixed numbers</em>, ones in which there is a whole number part and a fraction part, like \(3 \frac{1}{2}\).  Almost without exception, mixed numbers are <strong>not used</strong> in algebra, calculus or statistics.</p>
+<p>Earlier in your education you may have come across <em>mixed numbers</em>, ones in which there is a whole number part and a fraction part, like \(3 \dfrac{1}{2}\).  Almost without exception, mixed numbers are <strong>not used</strong> in algebra, calculus or statistics.</p>
 
 <p>And now on to some examples of things you might be asked to do.</p>
 
-<h3>Simplifying Fractions</h3>
+<div class="keep-together">
+<h2>Simplifying Fractions</h2>
 
-<p>Sometimes the numerator and denominator of a fraction are both multiples of the same number.  To <strong>simplify</strong> a fraction means expressing it in its simplest form by dividing both the numerator and denominator by that number, which is called the greatest common divisor (GCD).  Once you've done that, the numerator and denominator will have been reduced to their smallest possible values.</p>
+<p>Sometimes the numerator and denominator of a fraction share a common factor, in other words, they are both multiples of the same smaller number. If we divide both of them by that number, we end up with an equivalent fraction that is said to be <strong>simpler</strong> than the original fraction.</p>
+</div>
 
-<p>Let's say we want to simplify the fraction \( \frac{20}{45}\).  Here's how we do that.</p>
+<div class="keep-together">
+<p>To completely <strong>simplify</strong> we should divide out the largest piece they both share, which is matter the <strong>greatest common factor (GCF)</strong>. Some books call this the greatest common divisor (GCD), since it is what we divide by, but they mean the same thing.</p>
+</div>
+
+<p>The result is the equivalent fraction where the numerator and denominator have been reduced to their smallest possible values.</p>
+
+<div class="keep-together">
+<p>Let's say we want to simplify the fraction \( \dfrac{20}{45}\).  Here's how we do that.</p>
 
 <ol>
-  <li>Find the GCD: Since \(20=4\cdot5\) and \(45=9\cdot5\), the GCD of \(20\) and \(45\) is \(5\).</li>
-  <li>Divide the numerator by the GCD: \(20 \div 5 = 4\)</li>
-  <li>Divide the denominator by the GCD: \(45 \div 5 = 9\)</li>
-  <li>Rewrite the fraction: \(\frac{20}{45} = \frac{4}{9}\).</li>
+  <li>Find the GCF: Since \(20=4\cdot5\) and \(45=9\cdot5\), the GCF of \(20\) and \(45\) is \(5\).</li>
+  <li>Divide the numerator by the GCF: \(20 \div 5 = 4\)</li>
+  <li>Divide the denominator by the GCF: \(45 \div 5 = 9\)</li>
+  <li>Rewrite the fraction: \(\dfrac{20}{45} = \dfrac{4}{9}\).</li>
 </ol>
+</div>
 
-<p>and now we know \( \frac{20}{45}\) simplifies to \( \frac{4}{9}\).  Both fractions represent the same number, just in different formats.</p>
+<p>and now we know \( \dfrac{20}{45}\) simplifies to \( \dfrac{4}{9}\).  Both fractions represent the same number, just in different formats.</p>
 
 <p>It's standard practice to reduce fractions as much as possible as you work through a problem.</p>
 
-<h3>Multiplying Fractions</h3>
-<p>Multiplying fractions is very straightforward and has a simple rule.  To multiply fractions, you simply multiply the numerators together to get the new numerator and multiply the denominators together to get the new denominator. 
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Simplify \(\dfrac{18}{24}\).</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+<p>The GCF of \(18\) and \(24\) is \(6\), so:</p>
+\begin{align}
+\frac{18}{24} &= \frac{18 \div 6}{24 \div 6} && \hint{\text{Divide top and bottom by GCF }6} \\
+&= \frac{3}{4}
+\end{align}
+</div>
 
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;"><strong>Multiplying Fractions</strong>
+<div class="keep-together">
+<p>If you don't instantly recognize the GCF don't worry, you can begin the simplification by dividing by any common divisor, and repeating that process until no common factors remain.</p>
+
+<div class="box box--example">
+  <div class="example-title"></div>
+    <p>Simplify \( \dfrac{144}{180} \).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr>
+    \begin{align}
+        \frac{144}{180} &= \frac{72}{90} && \hint{\text{Dividing top and bottom by }2} \\
+        &= \frac{36}{45} && \hint{\text{Dividing top and bottom again by }2} \\
+        &= \frac{12}{15} && \hint{\text{Dividing top and bottom by }3} \\
+        &= \frac{4}{5} && \hint{\text{Dividing top and bottom again by }3} \\
+        &= \frac{4}{5}
+    \end{align}
+    <p>The same result could have been found in one step if we'd known \(36\) was the GCF.</p>
+</div>
+</div>
+
+<div class="keep-together">
+<h2>Multiplying Fractions</h2>
+<p>Multiplying fractions is very straightforward and has a simple rule.  To multiply fractions, you simply multiply the numerators together to get the new numerator and multiply the denominators together to get the new denominator.</p>
+
+<div class="box box--idea"><strong>Multiplying Fractions</strong>
 \[
     \frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}
  \]
 </div>
+</div>
 
-For example:</p>
+<div class="keep-together">
+<p>Let's consider a few examples.</p>
 
-\[    \frac{2}{3} \cdot \frac{5}{7} = \frac{10}{21}  \]
-
-
-<h3>Dividing Fractions</h3>
-<p>To divide fractions, you multiply the first fraction by the reciprocal (flipped version) of the second fraction. 
-
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;"><strong>Dividing Fractions</strong>
+<div class="ex-group">
+  <div class="box box--example">
+    <div class="example-title"></div>
+    <p>Find \(\dfrac{1}{3} \cdot \dfrac{5}{4}\)</p>
+    <h4 class="sr-only">Solution</h4>
+    <hr>
 \begin{align}
-    \frac{a}{b} \div \frac{c}{d} &= \frac{a}{b} \cdot \frac{d}{c} \\
-    &= \frac{a \cdot d}{b \cdot c}
+    \frac{1}{3} \cdot \frac{5}{4} &= \frac{1 \cdot 5}{3 \cdot 4} && \hint{\text{Multiply across}} \\
+    &= \frac{5}{12}
+\end{align}
+  </div>
+
+  <div class="box box--example">
+    <div class="example-title"></div>
+    <p>Find \(\dfrac{2}{3} \cdot \dfrac{5}{7}\)</p>
+    <h4 class="sr-only">Solution</h4>
+    <hr>
+\begin{align}	
+	\frac{2}{3} \cdot \frac{5}{7} &= \frac{2 \cdot 5}{3 \cdot 7}  && \hint{\text{Multiply across}} \\
+	&= \frac{10}{21}
+\end{align}
+  </div>
+</div>
+</div>
+
+<p>And, of course, we should keep our eye out for opportunities to simplify.</p>
+
+<div class="box box--example">
+  <div class="example-title"></div>
+    <p>Multiply \( \dfrac{4}{9} \cdot \dfrac{3}{8} \).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr>
+    \begin{align}
+        \frac{4}{9}\cdot \frac{3}{8} &= \frac{12}{72} && \hint{\text{Multiply across}} \\
+                                     &= \frac{1}{6} && \hint{\text{Simplify by dividing top and bottom by }12}
+    \end{align}
+</div>
+
+<div class="keep-together">
+<h2>Dividing Fractions</h2>
+<p>Unlike multiplication, when dividing we do not divide corresponding parts of each fraction. Instead, we first flip the second fraction upside down to create its reciprocal, and then multiply the first fraction by the reciprocal of the second one.</p>
+</div>
+
+<div class="keep-together">
+<p>When we want to divide by a fraction like \(\dfrac{2}{5}\), we actually multiply by its reciprocal, \(\dfrac{5}{2}\). The reciprocal of a fraction is created by flipping the numerator and denominator.</p>
+
+<div class="box box--idea"><strong>Dividing Fractions</strong>
+\[ \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c} \]
+</div>
+</div>
+
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Calculate \(\dfrac{5}{6} \div \dfrac{2}{3}\). Simplify if needed.</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+<p>The reciprocal of \(\dfrac{2}{3}\) is \(\dfrac{3}{2}\).</p>
+\begin{align}
+    \frac{5}{6} \div \frac{2}{3} &= \frac{5}{6} \cdot \frac{3}{2} && \hint{\text{Multiply by reciprocal}} \\
+    &= \frac{15}{12} && \hint{\text{Multiply across}} \\
+    &= \frac{5}{4} && \hint{\text{Simplify by dividing by }3}
 \end{align}
 </div>
+
+<div class="box box--example">
+  <div class="example-title"></div>
+    <p>Divide \( \dfrac{5}{6} \div \dfrac{10}{9} \). Simplify if needed.</p>
+    <h4 class="sr-only">Solution</h4>
+<hr>
+    \begin{align}
+        \frac{5}{6} \div \frac{10}{9} &= \frac{5}{6}\cdot \frac{9}{10} && \hint{\text{Multiply by reciprocal}} \\
+        &= \frac{45}{60} && \hint{\text{Multiply across}} \\
+        &= \frac{3}{4} && \hint{\text{Simplify by dividing by }15}
+    \end{align}
+</div>
+</div>
+
+<div class="keep-together">
+<h2>Adding and Subtracting Fractions with the Same Denominator</h2>
+<p>When adding or subtracting fractions with the same denominator, you simply add or subtract the numerators while keeping the denominator unchanged.</p>
     
-For example:</p>
-
-\begin{align}
-    \frac{3}{4} \div \frac{2}{5} &= \frac{3}{4} \cdot \frac{5}{2} \\
-    &= \frac{15}{8}
-\end{align}
-
-
-
-<h3>Adding and Subtracting Fractions with the Same Denominator</h3>
-<p>When adding or subtracting fractions with the same denominator, you simply add or subtract the numerators while keeping the denominator unchanged. 
-    
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+<div class="box box--idea">
     <strong>Adding and Subtracting Fractions with the Same Denominators</strong>
     \[\frac{a}{b} \pm \frac{c}{b} =\frac{a \pm c}{b}\]
 </div>
+</div>
     
-As long as you <em>do not</em> add or subtract the denominators, you should be alright.  Here's an example of addition</p>
+<p>As long as you <em>do not</em> add or subtract the denominators, you should be alright. Again, to add or subtract just combine the numerators and leave the denominator unchanged.</p>
 
+<p>Let's try a few examples, starting with addition.</p>
+
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Add \( \dfrac{1}{5} + \dfrac{2}{5} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
 \begin{align}
     \frac{1}{5} + \frac{2}{5} &= \frac{1+2}{5} \\
     &= \frac{3}{5}
 \end{align}
+</div>
 
-<p>and one with subtraction</p>
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Add \( \dfrac{9}{4} + \dfrac{7}{4} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    \frac{9}{4} + \frac{7}{4} &= \frac{9+7}{4} && \hint{\text{Add numerators, keep denominator}} \\
+                              &= \frac{16}{4} \\
+                              &= 4
+\end{align}
+</div>
+</div>
 
+<div class="keep-together">
+<p>The next examples are both subtraction.<p>
+
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Subtract \( \dfrac{7}{8} - \dfrac{3}{8} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
 \begin{align}
     \frac{7}{8} - \frac{3}{8} &= \frac{7-3}{8} \\
     &= \frac{4}{8} \\
     &= \frac{1}{2}
 \end{align}
+</div>
 
-<h3>Adding and Subtracting Fractions with Different Denominators</h3>
-<p>If we need to add fractions that do not have the same denominator, what do we do?  The answer is that we rewrite them so that they do have the same denominator.  The process is kind of like simplifying but in reverse.  A quick example will illustrate the idea, then we'll go through the details.  For this example, all you need to know is that \(\frac{20}{40}={1}{2}\) (which you can verify by simplifying.)<p>
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Subtract \( \dfrac{2}{7} - \dfrac{5}{7} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    \frac{2}{7} - \frac{5}{7} &= \frac{2-5}{7} && \hint{\text{Subtract numerators, keep denominator}} \\
+                              &= \frac{-3}{7}
+\end{align}
+</div>
+</div>
+</div>
+
+<div class="keep-together">
+<h2>Adding and Subtracting Fractions with Different Denominators</h2>
+<p>If we need to add fractions that do not have the same denominator, what do we do?  The answer is that we rewrite them so that they do have the same denominator.  The process is kind of like simplifying but in reverse.</p>
+</div>
+
+<div class="keep-together">
+<p>A quick example will illustrate the idea, then we'll go through the details.  For this example, all you need to know is that \(\dfrac{20}{40}={1}{2}\) (which you can verify by simplifying.)</p>
 
 \begin{align}
-    \frac{1}{2}+\frac{13}{40} &= \frac{20}{40}+\frac{13}{40} && \small \color{#5fa2ce} {\text{replacing } \frac{1}{2} \text{ with } \frac{20}{40}} \\
-    &= \frac{20+13}{40} && \small \color{#5fa2ce} {\text{add the numerators}} \\
+    \frac{1}{2}+\frac{13}{40} &= \frac{20}{40}+\frac{13}{40} && \hint{\text{replacing } \frac{1}{2} \text{ with } \frac{20}{40}} \\
+    &= \frac{20+13}{40} && \hint{\text{add the numerators}} \\
     &= \frac{33}{40}
 \end{align}
+</div>
 
-</p>The trick was being able to rewrite \(\frac{1}{2}\) as \(\frac{20}{40}\) so that both fractions had a denominator of \(40\).  In this case, \(40\) was the smallest multiple that both denominators share, or <strong>least common multiple</strong> (LCM).</p>
+<p>The trick was being able to rewrite \(\dfrac{1}{2}\) as \(\dfrac{20}{40}\) so that both fractions had a denominator of \(40\).  In this case, \(40\) was the smallest multiple that both denominators share, or <strong>least common multiple</strong> (LCM).</p>
 
 <p>The LCM can always be used as the common denominator, but so can any common multiple of the denominators.  As long as we can rewrite one (or both) of the fractions so that they have the same denominator, we can do the addition or subtraction.</p>
 
+<div class="keep-together">
 <p>The fastest way to rewrite both fractions so they have a common denominator is to multiply each part of the fraction by the denominator of the other one.  Let's see how that works.</p>
 
 \begin{align}
-    \frac{1}{2}+\frac{4}{3} &= \frac{1}{2}\cdot \frac{3}{3}+\frac{4}{3} \cdot \frac{2}{2} && \small \color{#5fa2ce} {\text{multiplying each part by the denominator of the other fraction}}\\
-    &= \frac{3}{6} + \frac{8}{6} && \small \color{#5fa2ce} {\text{now our factions have the same denominator}} \\
+    \frac{1}{2}+\frac{4}{3} &= \frac{1}{2}\cdot \frac{3}{3}+\frac{4}{3} \cdot \frac{2}{2} && \hint{\text{multiplying each part by the denominator of the other fraction}}\\
+    &= \frac{3}{6} + \frac{8}{6} && \hint{\text{now our factions have the same denominator}} \\
     &= \frac{11}{6}
 \end{align}
+</div>
 
-We summarize this technique below.
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+<div class="keep-together">
+<p>We summarize this technique below.</p>
+</div>
+<div class="box box--idea">
     <strong>Adding and Subtracting Fractions with Different Denominators</strong>
     \[\frac{a}{b} \pm \frac{c}{d} =\frac{a \cdot d \pm c \cdot b}{b \cdot d}\]
 </div>
 
-<h3>Powers and Roots of Fractions</h3>
+<p>Let's try a few examples.</p>
+
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Add \( \dfrac{5}{12} + \dfrac{7}{18} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    \frac{5}{12} + \frac{7}{18} &= \frac{15}{36} + \frac{14}{36} && \hint{\text{Rewrite with LCM }36} \\
+                                &= \frac{29}{36}
+\end{align}
+</div>
+
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Subtract \( \dfrac{11}{6} - \dfrac{7}{4} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    \frac{11}{6} - \frac{7}{4} &= \frac{22}{12} - \frac{21}{12} && \hint{\text{Rewrite with LCM }12} \\
+                               &= \frac{1}{12}
+\end{align}
+</div>
+</div>
+
+<div class="keep-together">
+<h2>Powers and Roots of Fractions</h2>
 <p>Lastly, we'll touch on something that will come up again in a later section:  powers and roots of fractions.</p>
+</div>
 
-<p>The rules for these are straighfoward:  we simply apply the power or root to both parts of the fraction.</p>
+<div class="keep-together">
+<p>The rules for these are straightfoward:  we simply apply the power or root to both parts of the fraction.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+<div class="box box--idea">
     <strong>Powers and Roots of Fractions</strong>
     \[\left(\frac{a}{b}\right)^n=\frac{a^n}{b^n}\]
     <p>and</p>
     \[\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}\]
 </div>
 
-For instance, 
+<p>Let's see how this works with powers first.</p>
+
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Evaluate \(\left(\dfrac{5}{3}\right)^2\)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
 \begin{align}
     \left(\frac{5}{3}\right)^2 &= \frac{5^2}{3^2} \\
     &= \frac{25}{9}
 \end{align}
+</div>
 
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Evaluate \( \left(\dfrac{2}{5}\right)^3 \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    \left(\frac{2}{5}\right)^3 &= \frac{2^3}{5^3} && \hint{\text{Apply exponent to numerator and denominator}} \\
+                               &= \frac{8}{125}
+\end{align}
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
 
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
 
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+
+<div class="ex-group">
+<div class="keep-together">
+<p>Now let's try roots of fractions.</p>
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Simplify \( \sqrt{\dfrac{49}{100}} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    \sqrt{\frac{49}{100}} &= \frac{\sqrt{49}}{\sqrt{100}} && \hint{\text{Take square root of numerator and denominator}} \\
+                          &= \frac{7}{10}
+\end{align}
+</div>
+</div>
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Simplify \( \sqrt[3]{\dfrac{8}{27}} \)</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    \sqrt[3]{\frac{8}{27}} &= \frac{\sqrt[3]{8}}{\sqrt[3]{27}} && \hint{\text{Take cube root of numerator and denominator}} \\
+                           &= \frac{2}{3}
+\end{align}
+</div>
+</div>
+
+
+
+<h2>Unit Conversion</h2>
+<p>One common use of fractions is converting between different units of measurement. This always involves multiplying by fractions that equal \(1\), once you take into consideration the units of the numerator and denominator.  Such fractions are known as <strong>conversion factors</strong>.</p>
+</div>
+
+<div class="keep-together">
+<p>For example, since \(1 \text{foot} = 12 \text{inches}\), the fractions \(\dfrac{1 \text{ foot}}{12 \text{ inches}}\) and \(\dfrac{12 \text{ inches}}{1 \text{ foot}}\) are both equal to \(1\) and can be used as conversion factors.  Since they equal \(1\), multiplying by them doesn't change the value of what we're measuring, it only changes the units.</p>
+</div>
+
+<p>The general strategy is to choose a conversion factor that will cancel out the units we don't want and leave us with the units we do want.</p>
+
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>Convert 8 feet to inches.</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    8 \text{ feet} &= 8 \text{ feet} \cdot \frac{12 \text{ inches}}{1 \text{ foot}} \\
+    &= \frac{8 \cdot 12 \text{ inches}}{1} \\
+    &= 96 \text{ inches}
+\end{align}
+<p>Notice how "feet" cancels out, leaving us with inches.</p>
+</div>
+
+<div class="box box--example">
+  <div class="example-title"></div>
+<p>A recipe calls for 2.5 cups of flour, but you only have a measuring spoon that measures tablespoons. How many tablespoons of flour do you need if there are 16 tablespoons in 1 cup?</p>
+<h4 class="sr-only">Solution</h4>
+<hr>
+\begin{align}
+    2.5 \text{ cups} &= 2.5 \text{ cups} \cdot \frac{16 \text{ tablespoons}}{1 \text{ cup}} \\
+    &= 2.5 \cdot 16 \text{ tablespoons} \\
+    &= 40 \text{ tablespoons}
+\end{align}
+</div>
+
+<h2>Conclusion</h2>
+<p>Fractions are fundamental building blocks in math and we'll frequently encounter them as parts of larger problems. And while calculators can handle operations with fractions, understanding how the underlying concepts work gives you insight and reasoning skills that technology cannot replace, and help you spot when the technology makes a mistake!</p>
+
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="1.3-practice.html"> Open 1.3 Practice
+	</a>
+</div>
+</div>
+</div>
 </body>
 </html>

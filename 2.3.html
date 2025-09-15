@@ -1,140 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy — 2.3 Exponents</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         <h1>2.3 Exponents</h1>
 
-<h3>Introduction</h3>
-<p>Earlier in this chapter we saw that terms can be added and subtracted only when they have the same variables and the same powers.  We called those <b>like terms</b>.</p>
+<h2>Introduction</h2>
+<p>Earlier in this chapter we saw that terms can be added and subtracted only when they have the same variables and the same powers.  We matter those <b>like terms</b>.</p>
 
 <p>Things get a bit more interesting when we start multiplying and dividing terms because there is no requirement that the powers and variables match.</p>
 
-<h3>Definition of an Exponent</h3>
+<div class="keep-together">
+<h2>Definition of an Exponent</h2>
 <p>The nice thing about every rule for exponents is that if you ever forget one you can always figure it out by going back to the basic definition of an exponent.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+<div class="box box--idea">
     <strong>Definition of an Exponent</strong>
     
     <p>For any natural number \(n\), the expression \(b^n\) means \(b \cdot b \cdot b \cdot \ldots \cdot b\) where \(b\) is a factor \(n\) times.</p>
     
-    <p style="padding-left: 80px;"><img src="images/exponent_definition.svg" alt="image" width="315" height="93" /></p>
+    <p style="padding-left: 80px;"><img loading="lazy" src="images/exponent_definition.svg" alt="Definition of exponent notation showing b^n structure" width="315" height="93"></p>
     
     <p>We call \(b\) the base and \(n\) the exponent and say that \(b\) is being raised to the \(n \text{th}\) power.</p>
 </div>
 
-<p>In fact, we'll use this definition to spot the patterns that make up the rules.</p>
+<p>By using this definition we'll be able to spot the patterns that make up the shortcut rules we can use to simplify complicated exponential expressions.</p>
 
-<h3>The Product Rule</h3>
+<div class="keep-together">
+<h2>The Product Rule</h2>
 <p>Consider the product \(b^3 \cdot b^4\). Both terms have the same base, \(b\), but are raised to different exponents. Notice what happens when we expand each of them using the definition of an exponent.</p>
 
 \begin{align}
@@ -143,26 +44,40 @@
     &= b^7
 \end{align}
 
-<p>Is there a pattern we could use as a shortcut to go from \(b^3 \cdot b^4\) to \(b^7\) without having to expand each term?</p>
+<p>Is there a pattern we could use as a shortcut to go from \(b^3 \cdot b^4\) to \(b^7\) without having to expand each term?  Notice that \(3+4=7\). That's the shortcut!</p> 
 
-<p>Notice that \(3+4=7\).  That's the shortcut!  When multiplying exponential expressions with the same base, the result has the same base and the new power is the sum of the two exponents. This is the <strong>product rule</strong> of exponents.
+<div class="keep-together">
+<p>When multiplying expressions with the same base, we simply keep the base and add the two powers.  This is the <strong>product rule</strong> of exponents and can be written as \(b^m\cdot b_n=b^{m+n}\).  We will use this in our next example.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 1</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use the product rule to simplify \(2^3 \cdot 2^8\).</p>
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
         2^3 \cdot 2^8 &= 2^{3+8} \\
         &= 2^{11} \\
         &= 2048
     \end{align}
 </div>
-    
+</div>
 
-<h3>The Quotient Rule</h3>
-<p>Let's try a similar technique on the quotient of two terms. Consider the example \(\frac{b^5}{b^3}\).  Just like we did above, we'll expand both parts, simplify the result, and look for a pattern to use as a shortcut.</p>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Simplify \(x^5 \cdot x^3\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    \begin{align}
+        x^5 \cdot x^3 &= x^{5+3} \\
+        &= x^8
+    \end{align}
+</div>
+
+<div class="keep-together">
+<h2>The Quotient Rule</h2>
+<p>Let's try a similar technique on the quotient of two terms. We'll expand \(\frac{b^5}{b^3}\) just as we did above, simplify, and look for a pattern.</p>
 
 \begin{align}
     \frac{b^5}{b^3} &= \frac{b \cdot b \cdot b \cdot b \cdot b}{b \cdot b \cdot b} \\
@@ -172,26 +87,39 @@
     &= b^2
 \end{align}
 
-<p>Notice that the final exponent is \(2\), which also happens to be the difference of the original powers \(5-3=2\). That's the shortcut!</p>
+<p>Notice that the final exponent is \(2\), which also happens to be the difference of the original powers \(5-3=2\). When dividing exponential expressions with the same base, the result has the same base and the power is the top exponent minus the bottom exponent. 
 
-<p>When dividing exponential expressions with the same base, the result has the same base and the power is the top exponent minus the bottom exponent. This is the <strong>quotient rule</strong> for exponents.
+<div class="keep-together">
+<p>We call this the <strong>quotient rule</strong> for exponents and it can be expressed as \(\dfrac{b^m}{b^n}=b^{m-n}\).</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 2</strong>
-    <p>Use the quotient rule to simplify \(\frac{{5^6}}{{5^2}}\).</p>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Use the quotient rule to simplify \(\dfrac{{5^6}}{{5^2}}\).</p>
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
         \frac{{5^6}}{{5^2}} &= 5^{6-2} \\
         &= 5^4 \\
         &= 625
     \end{align}
 </div>
+</div>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Simplify \(\dfrac{y^9}{y^4}\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    \begin{align}
+        \frac{y^9}{y^4} &= y^{9-4} \\
+        &= y^5
+    \end{align}
+</div>
 
+<div class="keep-together">
+<h2>Power of a Power Rule</h2>
+<p>Next, let's explore raising a term with a power to another power. For example, what happens if we raise \(b^3\) to the 4th power?  This would mean repeating \(b^3\) as a factor \(4\) times and then expanding each of those \(b^3\).</p>
 
-<h3>Power of a Power Rule</h3>
-<p>Next, let's explore raising a term with a power to another power. For example, what happens if we raise \(b^3\) to the 4th power?  This would mean repeating \(b^3\) as a factor 4 times and then expanding each of those \(b^3\).</p>
 
 \begin{align}
 (b^3)^4 &= b^3 \cdot b^3 \cdot b^3 \cdot b^3  \\ 
@@ -199,54 +127,77 @@
     &= \underbrace{b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b}_{12 \ times} \\
     &= b^{12}
 \end{align}
+</div>
 
-<p>That was a lot of expanding, but hopefully, you can spot the shortcut.  The shortcut is simply to multiply the exponents.</p>
+<div class="keep-together">
+<p>That was a lot of expanding but, hopefully you can spot the shortcut.  The shortcut is simply to multiply the exponents: \(\left(b^m\right)^n=b^{m\cdot n}\).  This is called the <strong>power of a power rule</strong>.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 3</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Simplify \((5^2)^3\).</p>
-
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
     (5^2)^3 &= 5^{2 \cdot 3} \\
         &= 5^6 \\
         &= 15625
     \end{align}
 </div>
+</div>
 
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Simplify \((a^4)^6\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    \begin{align}
+    (a^4)^6 &= a^{4 \cdot 6} \\
+        &= a^{24}
+    \end{align}
+</div>
 
-<h3>Power of a Product Rule</h3>
+<div class="keep-together">
+<h2>Power of a Product Rule</h2>
 <p>When a product of variables and/or real numbers is in parentheses and raised to a power, then all the factors are raised to that power.  This rule, like the others, becomes apparent by going back to the definition of an exponent and making use the commutative property of multiplication.</p>
 
-<p>For instance, </p>
 
 \begin{align}
-    (4b)^3 &= (4b)(4b)(4b) && \small \color{#5fa2ce} {\text{Use the definition of an exponent}} \\
-    &= 4 \cdot 4 \cdot 4 \cdot b \cdot b \cdot b && \small \color{#5fa2ce} {\text{Apply the commutative property of multiplication}}\\
-    &= 4^3 \, b^3 && \small \color{#5fa2ce} {\text{Use the definition of an exponent}} \\
+    (4b)^3 &= (4b)(4b)(4b) && \hint{\text{Use the definition of an exponent}} \\
+    &= 4 \cdot 4 \cdot 4 \cdot b \cdot b \cdot b && \hint{\text{Apply the commutative property of multiplication}}\\
+    &= 4^3 \, b^3 && \hint{\text{Use the definition of an exponent}} \\
     &= 64 b^3
 \end{align}
+</div>
 
-<p>The shortcut here, of course, is that the power could have been applied to each part of the product.</p>
+<div class="keep-together">
+<p>The shortcut here, of course, is that the power could have been applied to each part of the product: \((a\cdot b)^n=a^n\cdot b^n\).  This is how we deal with the <strong>power of a product</strong>.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 4</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Simplify \((5xy)^3\).</p>
-
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
     (5xy)^3 &= 5^3 \, x^3 \, y^3  \\
         &= 125 \, x^3 \, y^3 
     \end{align}
 </div>
+</div>
 
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Simplify \((3xy^2)^4\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    \begin{align}
+    (3xy^2)^4 &= 3^4 \cdot x^4 \cdot (y^2)^4 \\
+        &= 81x^4y^8
+    \end{align}
+</div>
 
-<h3>Power of a Quotient Rule</h3>
-<p>When a quotient of variables and/or real numbers is in parentheses and raised to a power, then that power applies to all parts of the quotient.</p>  
-
-<p>This works the same as it did for the power of a product rule and can be seen by expanding and simplifying.</p>
+<div class="keep-together">
+<h2>Power of a Quotient Rule</h2>
+<p>Let's see if a similar thing works if we take the power of a quotient.</p>
 
 \begin{align}
     \left(\frac{2}{b}\right)^5 &= \left(\frac{2}{b}\right)\left(\frac{2}{b}\right)\left(\frac{2}{b}\right)\left(\frac{2}{b}\right)\left(\frac{2}{b}\right) \\
@@ -254,27 +205,77 @@
     &= \frac{2^5}{b^5} \\
     &= \frac{32}{b^5}
 \end{align}
+</div>
+<p>Notice how it would have been much shorter to simply apply a power of \(5\) to all parts of the quotient.</p>
 
-<p>Notice how it would have been much shorter to simply apply the power of \(5\) to all parts of the quotient.</p>
+<div class="keep-together">
+<p>Thus, the rule for finding the <strong>power of a quotient</strong> is \(\left(\dfrac{a}{b}\right)^n=\dfrac{a^n}{b^n}\).  In simple terms, when a quotient is raised to a power, then that power applies to all parts of the quotient.</p>  </p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 5</strong>
-    <p>Simplify \(\left(\frac{3a}{4}\right)^2\).</p>
-
-    <hr>
-    <strong>Solution</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Simplify \(\left(\dfrac{2x^3}{y}\right)^5\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-    \left(\frac{3a}{4}\right)^2 &= \frac{3^2 \, a^2}{4^2} \\
-        &= \frac{9 \, a^2}{16} 
+    \left(\frac{2x^3}{y}\right)^5 &= \frac{(2x^3)^5}{y^5} \\
+        &= \frac{2^5 \cdot (x^3)^5}{y^5} \\
+        &= \frac{32x^{15}}{y^5}
     \end{align}
 </div>
+</div>
 
-<h3>Simplifying Exponents</h3>
+<div class="keep-together">
+<h2>Application: Unit Conversion</h2>
+<p>The rules for powers of products and quotients are useful in real-world situations where you need to convert between units for area or volume.  In such cases, rather than finding a new conversion factor, we simply start with the regular conversion factor and then apply the appropriate power to the entire factor—both the numbers and the units.</p>
+
+
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+  <p>A box has a volume of \(1000\ \text{in}^3\). Convert this to cubic centimeters. Use \(1\text{ in} = 2.54\text{ cm}\).</p>
+  <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+  \begin{align}
+	&1000\ \text{in}^3 \times \left(\frac{2.54\ \text{cm}}{1\ \text{in}}\right)^3 && \qquad \hint{\text{Cube the conversion factor}} \\
+	&=1000\ \text{in}^3 \times \frac{16.387\ \text{cm}^3}{1\ \text{in}^3} && \qquad \hint{\text{Apply the power}} \\	
+	&= 1000 \times 16.387\ \text{cm}^3 && \qquad \hint{\text{Simplify the units}}\\
+    &= 16{,}387\ \text{cm}^3 && \qquad \hint{\text{Multiply}}
+  \end{align}
+</div>
+</div>
+
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+  <p>A rectangular room measures \(12\) feet by \(15\) feet. Find its area in square meters. Use \(1\text{ ft} = 0.3048\text{ m}\).</p>
+  <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+  <p>First, multiply the two given dimensions to get the area in square feet, then convert to square meters:</p>
+  \begin{align}
+	12\ \text{ft} \times 15\ \text{ft}&= 180\ \text{ft}^2 && \qquad \hint{\text{Area in square feet}} \\
+		&= 180\ \text{ft}^2 \times \left(\frac{0.3048\ \text{m}}{1\ \text{ft}}\right)^2 && \qquad \hint{\text{Square the conversion factor}} \\
+		&= 180\ \text{ft}^2 \times \frac{0.0929\ \text{m}^2}{1\ \text{ft}^2}&& \qquad \hint{\text{Apply the power}} \\
+		&= 180\ \times 0.0929\ \text{m}^2 && \qquad \hint{\text{Simplify the units}} \\
+		&\approx 16.7\ \text{m}^2 && \qquad \hint{\text{Multiply}}
+  \end{align}
+</div>
+
+<p>Alternatively, we could convert both measurements to meters first, then multiply to find the area:</p>
+\begin{align}
+&\left(12\ \text{ft} \times \frac{0.3048\ \text{m}}{1\ \text{ft}}\right)\cdot \left(15\ \text{ft}\times \frac{0.3048\ \text{m}}{1\ \text{ft}}\right) \\
+&= \left(12 \times 0.3048\ \text{m}\right) \cdot \left(15 \times 0.3048\ \text{m}\right) \\
+&\approx 16.7\ \text{m}^2
+\end{align}
+
+<p>Both methods produce the same result, so choose whichever approach feels more natural to you.</p>
+
+<div class="keep-together">
+<h2>Simplifying Exponents</h2>
 <p>While our examples so far have focused on each property individually, there's no reason to expect that will always be the case.  In many instances we will need to deploy multiple rules in order to fully simplify an expression with exponents.</p>
 
+<div class="keep-together">
 <p>Before we finish with one of these more complicated examples, let's list all of the rules we've discovered so far.</p>
+</div>
 
-<div style="margin: 1.2em;min-width:600px;width:80%;padding:5px 10px 10px 10px;border: 2px solid #228b22; border-radius: 15px; overflow: hidden;background:#d8f7d8;">
+<div class="box box--idea">
     <strong>Rules of Exponents</strong>
     <table style="width: 100%; border-collapse: collapse; border: 2px solid #d8f7d8;; border-radius: 15px; overflow: hidden; ">
     <tr>
@@ -289,8 +290,8 @@
     </tr>
     <tr>
       <td style="border: 1px solid #228b22; padding: 8px;">Quotient of Powers</td>
-      <td style="border: 1px solid #228b22; padding: 8px;">\(\frac{b^m}{b^n} = b^{m-n}\)</td>
-      <td style="border: 1px solid #228b22; padding: 8px;">\(\frac{5^7}{5^2} = 5^{7-2}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(\dfrac{b^m}{b^n} = b^{m-n}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(\dfrac{5^7}{5^2} = 5^{7-2}\)</td>
     </tr>
     <tr>
       <td style="border: 1px solid #228b22; padding: 8px;">Power of a Power</td>
@@ -304,51 +305,45 @@
     </tr>
     <tr>
       <td style="border: 1px solid #228b22; padding: 8px;">Power of a Quotient</td>
-      <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}\)</td>
-      <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\frac{6}{3}\right)^4 = \frac{6^4}{3^4}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\dfrac{6}{3}\right)^4 = \dfrac{6^4}{3^4}\)</td>
     </tr>
   </table>
 </div>
+</div>
 
+<div class="keep-together">
 <p>Now that we have all of the rules available for quick reference, we'll dive into our final example.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 6</strong>
-    <p>Simplify \(\left(\frac{-3 w^3}{5w}\right)^4 \).</p>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Simplify \(\left(\dfrac{-3 w^3}{5w}\right)^4 \).</p>
 
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-    \left(\frac{-3 w^3}{5w}\right)^4 &= \left(\frac{-3 w^2}{5}\right)^4 && \small \color{#5fa2ce} {\text{Use the Quotient Rule to simplify } \frac{w^3}{w}=w^2} \\
-    &= \frac{\left(-3 w^2 \right)^4}{5^4} && \small \color{#5fa2ce} {\text{Use the Power of a Quotient Rule.}} \\
-    &= \frac{(-3)^4 \left(w^2 \right)^4}{5^4} && \small \color{#5fa2ce} {\text{Use the Power of a Product Rule.}} \\
-    &= \frac{(-3)^4 w^8}{5^4} && \small \color{#5fa2ce} {\text{Use the Power of a Power Rule.}} \\
-    &= \frac{81 w^8}{625} && \small \color{#5fa2ce} {\text{Evaluate the powers.}} \\
+    \left(\frac{-3 w^3}{5w}\right)^4 &= \left(\frac{-3 w^2}{5}\right)^4 && \hint{\text{Use the Quotient Rule to simplify } \frac{w^3}{w}=w^2} \\
+    &= \frac{\left(-3 w^2 \right)^4}{5^4} && \hint{\text{Use the Power of a Quotient Rule.}} \\
+    &= \frac{(-3)^4 \left(w^2 \right)^4}{5^4} && \hint{\text{Use the Power of a Product Rule.}} \\
+    &= \frac{(-3)^4 w^8}{5^4} && \hint{\text{Use the Power of a Power Rule.}} \\
+    &= \frac{81 w^8}{625} && \hint{\text{Evaluate the powers.}} \\
     \end{align}
 </div>
 
-<p>It's important to emphasize that there is no fixed sequence for simplifying exponents. In many cases, especially when dealing with intricate expressions, multiple pathways can lead to the final answer. And when in doubt, a reliable approach is to revert back to the fundamental definition of an exponent, expand the expression, and then simplify. That same strategy will continue help us in the next section as we tackle negative exponents.</p>
+<p>It's important to emphasize that there is no fixed sequence for simplifying exponents. In many cases, especially when dealing with intricate expressions, multiple pathways can lead to the final answer. And when in doubt, a reliable approach is to revert back to the fundamental definition of an exponent, expand the expression, and then simplify.</p>
+
+<div class="keep-together">
+<h2>Looking Ahead</h2>
+<p>The strategies we've learned for working with positive exponents will continue to serve us well in the next section as we tackle negative exponents. We'll discover that the same fundamental principles apply, even when the exponents themselves are negative numbers.</p>
+</div>
 
 
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="2.3-practice.html"> Open 2.3 Practice
+	</a>
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
-
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
-
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+</div>
 </body>
 </html>

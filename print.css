@@ -1,0 +1,222 @@
+/* =========================================================
+   MTH091 — print.css  (Paged.js—friendly)
+   Goal: full-bleed cover; blank + TOC unnumbered; numbering
+         starts at 1 on the next chapter; tidy H1 spacing.
+   ========================================================= */
+
+/**** 1) GLOBAL RESET & PRINT HARDENING ******************************************/
+html, body {
+  background: #fff !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Hide screen-only elements & practice buttons in print */
+.main-header,
+.navigation,
+#dropdown-button,
+#dropdown-content,
+.no-print,
+.practice-nav-container,
+a.practice-button,
+button.practice-button,
+[aria-label="Practice navigation"] { display: none !important; }
+
+/* Uniform link look in print (no visited color) */
+a, a:link, a:visited, a:hover, a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+/**** 2) PAGE BOX DEFINITIONS ******************************************/
+/* Default page: margins, but NO header/footer content defined here */
+@page {
+  size: letter;
+  margin: 0.875in 0.625in; /* top/bottom, left/right */
+}
+
+/* Numbered content pages (body) — define footer number & optional header */
+@page body {
+  size: letter;
+  margin: 0.875in 0.625in;
+  counter-increment: folio;                      /* custom page number */
+  @top-left      { content: string(chapter); font-size: 10pt; }
+  @bottom-center { content: counter(folio);  font-size: 9pt; }
+}
+
+/* Full-bleed pages (no numbers) */
+@page cover { size: letter; margin: 0; }
+@page back  { size: letter; margin: 0; }
+
+/* Unnumbered front-matter/blank pages (normal margins, no numbers) */
+@page front { size: letter; margin: 0.875in 0.625in; }
+@page blank { size: letter; margin: 0.875in 0.625in; }
+
+/* Auto-inserted blanks (e.g., from recto/verso rules) should also be unnumbered */
+@page :blank {
+  margin: 0.875in 0.625in;
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+/* Suppress header/footer content explicitly on non-numbered named pages */
+@page cover, @page back, @page front, @page blank {
+  @top-left { content: none; }
+  @bottom-center { content: none; }
+}
+
+/**** 3) PAGE ASSIGNMENTS & FLOW CONTROL ******************************************/
+/* Front cover: full-bleed; explicit blank follows in the HTML */
+#cover {
+  page: cover;
+  break-after: auto;
+}
+#cover, #cover * { break-inside: avoid; }
+
+/* Explicit blank page after the cover — exactly one empty sheet */
+#blank-page {
+  page: blank;
+  break-before: page;
+  break-after: page;
+  height: 0;
+  margin: 0; padding: 0; border: 0; background: transparent;
+}
+
+/* All main content uses the numbered body page template by default */
+.book-wrapper { page: body; }
+
+/* Optional back cover selector(s) if present */
+#back-cover,
+.back-cover,
+.book-wrapper > .back-cover,
+.book-wrapper > section.back-cover {
+  page: back;
+  break-before: left;
+  break-inside: avoid;
+}
+
+/**** 4) CHAPTER NUMBERING & PAGINATION ******************************************/
+/* Treat the first chapter as TOC/front-matter: keep it unnumbered */
+.book-wrapper > .chapter:first-child { page: front; }
+
+/* Start numbering at 1 on the chapter AFTER the TOC.
+   We use a custom counter 'folio' so earlier pages don't affect it. */
+.book-wrapper > .chapter:first-child + .chapter {
+  counter-reset: folio 0;   /* this chapter's first page shows 1 */
+  page: body;               /* ensure it's on the numbered page type */
+}
+
+/* Chapters: start on recto (modern) with legacy fallback */
+.book-wrapper > .chapter:not(:first-child),
+.book-wrapper > section.chapter:not(:first-of-type) {
+  break-before: right;          /* recto */
+  page-break-before: always;    /* legacy engines */
+}
+
+/* Let the first chapter (TOC) flow naturally */
+.book-wrapper > .chapter:first-child,
+.book-wrapper > section.chapter:first-of-type {
+  break-before: auto;
+  page-break-before: auto;
+}
+
+/**** 5) RUNNING HEADERS & CONTENT FLOW ******************************************/
+/* Running header source (chapter title) */
+.chapter h1:first-of-type { string-set: chapter content(text); }
+
+/* H1 top spacing fix (remove container padding) */
+.main-content { padding-top: 0 !important; }
+.main-content > h1:first-child,
+.main-content > h2:first-child,
+.main-content > h3:first-child { margin-top: 0 !important; }
+
+/* Keep H1s modest elsewhere */
+.chapter h1 { margin-top: 0; margin-bottom: 0.4em; }
+
+:where(.main-content, .chapter) h2 { margin: 2rem 0 0; padding-bottom: 0.375rem; }
+:where(.main-content, .chapter) h2 + :where(p, ul, ol, figure, blockquote, .box, .box--example) {
+  margin-top: 0; 
+}
+
+
+/**** 6) PAGINATION HYGIENE & BREAK CONTROL ******************************************/
+/* Prevent unwanted breaks */
+h1, h2, h3, h4, h5, h6 { break-after: avoid; }
+figure, figcaption, table, thead, tr, img, pre, code, blockquote { break-inside: avoid; }
+hr { break-inside: avoid; }
+
+.embedwrap {
+  break-inside: avoid;
+  page-break-inside: avoid; /* legacy fallback */
+}
+
+/* Paragraph orphan/widow control */
+p { orphans: 3; widows: 3; }
+
+/* Keep-together utility */
+.keep-together {
+  break-inside: avoid;
+  page-break-inside: avoid; /* legacy fallback */
+}
+
+/**** 7) BOX COMPONENTS & SOLUTION SEPARATORS ******************************************/
+.box {
+  break-inside: avoid;
+  page-break-inside: avoid; /* legacy fallback */
+}
+
+.box--example{
+  padding: 8pt 10pt;
+}
+
+.box--example hr{
+  border: 0;
+  border-top: 1.2pt solid var(--box-border);
+  margin: 3pt 0 3pt;
+  border-radius: 1px;
+  -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+}
+
+.box--example .example-title {
+  margin-bottom: 0em;
+}
+
+.box--example .example-title + p {
+  margin-top: 0.25em; margin-bottom: 0.25em; 
+}
+
+/**** 8) TYPOGRAPHY & CONTENT ELEMENTS ******************************************/
+/* Math & Code */
+mjx-container { overflow: visible !important; }
+mjx-container[display="false"] { white-space: normal; }
+pre, code { white-space: pre-wrap; word-break: break-word; }
+
+/* Images & Figures */
+img, svg { max-width: 100%; height: auto; }
+figure { margin: 1em 0; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 0.35em 0.5em; vertical-align: top; }
+thead { display: table-header-group; }
+tfoot { display: table-footer-group; }
+
+details,summary {
+  display: block !important;
+}
+
+details:not([open]) > :not(summary) {
+  display: block !important;
+}
+
+#toc h1 { margin-top: 0; margin-bottom: 0.3rem; font-size: 1.6rem;}
+#toc h2 { margin-top: 0.4rem; margin-bottom: 0.2rem; font-size: 1.2rem;}
+#toc p { margin-bottom: 0.2rem; line-height: 1.10; }
+
+#back-cover {
+  page: cover;
+  break-before: right; /* Forces start on left/even page */
+}

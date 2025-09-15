@@ -1,130 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy – 5.3 Graphing Linear Equations</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         <h1>5.3 Graphing Linear Equations</h1>
 
-<h3>Introduction</h3>
-<p>In the preceeding section, we used equations to plot points and saw that some generate graphs of lines while others create graphs with curves.  In this section, we will introduce a powerful tool that allows us to easily extract important information about a line just by looking at its equation, without having to calculate multiple points.  That tool is called the <strong>slope-intercept</strong> form of a line.</p>
+<h2>Introduction</h2>
+<p>In the preceding section, we used equations to plot points and saw that some generate graphs of lines while others create graphs with curves.  In this section, we will introduce a powerful tool that allows us to easily extract important information about a line just by looking at its equation, without having to calculate multiple points.  That tool is called the <strong>slope-intercept</strong> form of a line.</p>
 
+<div class="keep-together">
+<h2>The Slope Intercept Form</h2>
+<p>Let's begin with a practical situation.  As we walk through this carefully we'll uncover exactly what this slope intercept form is and what makes it useful.</p>
+</div>
 
-<h3>The Slope Intercept Form</h3>
-<p>Let's begin with a practical situation.  As we walk through this carefully we'll uncover exacty what this slope intercept form is and what makes it useful.</p>
-
-<p>Imagine a landscape supply company charges \(\$25\) per cubic yard for bark mulch and an additional flat \(\$35\) delivery fee. Then, when ordering bark, the total cost will start at \(\$35\) and will go up at a rate of \($25\) for each cubic yard ordered.</p>
+<p>Imagine a landscape supply company charges \(\$25\) per cubic yard for bark mulch and an additional flat \(\$35\) delivery fee. Then, when ordering bark, the total cost will start at \(\$35\) and will go up at a rate of \(\$25\) for each cubic yard ordered.</p>
 
 <p>If we let \(x\) represent the number of cubic yards of bark and let \(y\) represent the total cost, then the equation for total cost becomes \(y=25x+35\).</p>
 
+<div class="keep-together">
 <p>Continuing what we did in the last section, let's make a table of values.</p>
 
 <table style="border-collapse: collapse; margin:1.2em;" border="1">
@@ -149,16 +49,20 @@
         <td style="text-align: center; padding: 5px;">$285</td>
     </tr>
 </table>
+</div>
 
+<div class="keep-together">
+<p>Plotting these points shows that the relationship between the amount of bark ordered and the total cost is a perfectly straight line.</p>
 
-<p>If we plot these points, we see that the relationship between the amount of bark ordered and the total cost is a perfectly straight line.</p>
-
-<p style="margin-left: auto; margin-right: auto;"><img src="images/desmos-graph_46.png" alt="" width="378" height="378" /></p>
+<p style="margin-left: auto; margin-right: auto;width: 320px; height: auto;"><img loading="lazy" src="images/desmos-graph_46.png" alt="Plot of data points with a line drawn through them starting.  Horizontal axis is labeled for 'cubic yards of bark' and vertical axis is 'costs."></p>
 
 <p>A close examination of this example where \(y=25x+35\) will give us insight into how all linear equations behave.</p>
+</div>
+
 
 <p>Notice that the point where the line crosses the \(y\)-axis is \((0,35)\). We call this the \(y\)-intercept and the \(y\)-coordinate of this point is the constant in our equation. It represents the fixed \(\$35\) delivery fee added to every order.</p>
 
+<div class="keep-together">
 <p>What is the slope of the line? We can use any two points from the table to find out. Let's use \((5, 160)\) and \((10, 285\)).</p> 
 \begin{align}
     m &= \frac{y_2 - y_1}{x_2 - x_1} \\
@@ -168,10 +72,11 @@
 \end{align}
 
 <p>Remarkably, this value is also in our equation as the coefficient of \(x\).  In our scenario, it represents the rate of change of the cost: \(\$25\) <em>per</em> cubic yard of bark.</p>
+</div>
 
-<p>The fact that both the slope and \(y\)-intercept can both be identified just from the equation is an amazing shortcut. This holds true for any equation in the form \(y=mx+b\).
+<p>The fact that both the slope and \(y\)-intercept can both be identified just from the equation is an amazing shortcut. This holds true for any equation in the form \(y=mx+b\).</p>
 
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+<div class="box box--idea">
     <strong>Linear Equations:</strong>
     <p>Any equation that can be put in the form \(y=mx+b\) is a <strong>linear equation</strong>.  Its graph will be a straight line.  Additionally,</p>
     <ul>
@@ -183,102 +88,112 @@
 
 <p>The slope-intercept form is a powerful tool for understanding and working with linear equations and their graphs.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 1</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Identify the slope and \(y\)-intercept of the following lines.</p>
-    <p><b>(a)</b> \(y=-2x+31\)</p>
-    <p><b>(b)</b> \(y=\frac{2}{5}x-7\)</p>
-    <hr>
-    <strong>Solution:</strong>
+    <p><b>a.</b> \(y=-2x+31\)</p>
+    <p><b>b.</b> \(y=\frac{2}{5}x-7\)</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>Since both equations are in the slope-intercept form, the slope and \(y\)-intercept can be identified from the equation without any calculations.</p>
-    <p><b>(a)</b> \(y=-2x+31\) has a slope of \(m=-2\) and a \(y\)-intercept at \((0,31)\).</p>
-    <p><b>(b)</b> \(y=\frac{2}{5}x-7\) has a slope of \(m=\frac{2}{5}\) and a \(y\)-intercept at \((0,-7)\).</p>
+    <p><b>a.</b> \(y=-2x+31\) has a slope of \(m=-2\) and a \(y\)-intercept at \((0,31)\).</p>
+    <p><b>b.</b> \(y=\frac{2}{5}x-7\) has a slope of \(m=\frac{2}{5}\) and a \(y\)-intercept at \((0,-7)\).</p>
 </div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 2</strong>
-    <p><b>(a)</b> Write the equation of a line with a slope of \(3\) and a \(y\)-intercept at \((0,12)\).</p>
-    <p><b>(b)</b> Write the equation of a line with a slope of \(\frac{-5}{6}\) and a \(y\)-intercept at \((0,8)\).</p>
-    <hr>
-    <strong>Solution:</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p><b>a.</b> Write the equation of a line with a slope of \(3\) and a \(y\)-intercept at \((0,12)\).</p>
+    <p><b>b.</b> Write the equation of a line with a slope of \(\frac{-5}{6}\) and a \(y\)-intercept at \((0,8)\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>If we use the slope intercept form, the values for \(m\) and \(b\) can be substituted in directly.</p>
-    <p><b>(a)</b> \(y=3x+12\) has a slope of \(m=3\) and a \(y\)-intercept at \((0,12)\).</p>
-    <p><b>(b)</b> \(y=\frac{-5}{6}x+8\) has a slope of \(m=\frac{-5}{6}\) and a \(y\)-intercept at \((0,8)\).</p>
+    <p><b>a.</b> \(y=3x+12\) has a slope of \(m=3\) and a \(y\)-intercept at \((0,12)\).</p>
+    <p><b>b.</b> \(y=\frac{-5}{6}x+8\) has a slope of \(m=\frac{-5}{6}\) and a \(y\)-intercept at \((0,8)\).</p>
 </div>
 
 
-<h3>Graphing Linear Equations in Slope-Intercept Form</h3>
+<h2>Graphing Linear Equations in Slope-Intercept Form</h2>
 <p>Graphing linear equations becomes intuitive when they're in slope-intercept form.</p>
+
 
 <p>To graph a line in slope-intercept form, first plot the point \((0,b)\), which is the \(y\)-intercept. Then, starting from the \(y\)-intercept, use the rise of the slope to move up or down and the run of the slope to move side-to-side and plot a second point.  Use those two points to draw the line.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 3</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Graph the line \(y=\frac{3}{2}x+1\).</p>
-    <hr>
-    <strong>Solution:</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>Since this is in the slope-intercept form we know the \(y\)-intercept is \(\color{blue}{(0,1)}\). Starting from that point we'll use the slope \(\color{red}{\frac{3}{2}}\) and move up \(\color{red}{3}\) spaces and right \(\color{red}{2}\) to plot a second point.</p>
-    <img src="images/slope_intercept_example_1.svg" alt="graph of a line through the points (2,1) and (5,6)" style="display: block; width: 350px; margin: 1.2em;"> 
+    <img loading="lazy" src="images/slope_intercept_example_1.svg" alt="graph of a line through the points (2,1) and (5,6)" style="display: inline-block; width: 320px; height: auto; margin: 1.2em;"> 
 </div>
 
-
-<h3>Writing the Slope-Intercept Form of a Line Given Its Graph</h3>
-<p>If you're given the graph of a line, it's possible to extract the slope and \(y\)-intercept directly from it.  The \(y\)-intercept should be straighforward to spot, since it is where the line crosses the \(y\)-aixis.  The slope is not much harder, but we need to be precise.</p>
+<div class="keep-together">
+<h2>Writing the Slope-Intercept Form of a Line Given Its Graph</h2>
+<p>If you're given the graph of a line, it's possible to extract the slope and \(y\)-intercept directly from it.  The \(y\)-intercept should be straightforward to spot, since it is where the line crosses the \(y\)-aixis.  The slope is not much harder, but we need to be precise.</p>
+</div>
 
 <p>To find the slope, find another point on the line where you are confident of it's coordinates.  Then carefully count the rise and run between that point and your \(y\)-intercept.  Make sure the sign of your final slope value matches the direction of the line.  As we saw in the last section, lines with positive slope rise when moving left to right while lines with negative slope go down.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 4</strong>
-    <p>Find the equation of each line graphed below.</p>
-    <table>
-        <tr>
-            <th>(a)</th>
-            <th>(b)</th>
-        </tr>
-        <tr>
-            <td><img src="images/slope_intercept_example_2.svg" alt="graph of a line through the points (-4,3) and (2,-5)" style="width: 300px; margin: 1.2em;"></td>
-            <td><img src="images/slope_intercept_example_3.svg" alt="graph of a line through the points (-2,-2) and (0,3)" style="width: 300px; margin: 1.2em;"></td>
-        </tr>
-    </table>
-    <hr>
-    <strong>Solution:</strong>
-    <p><b>(a)</b> The \(y\)-intercept is \((0,2)\), so \(b=2\). The slope appears to be \(m=\frac{-4}{3}\). From this we conclude the equation of the line must be</p>
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Find the equation of the line graphed below.</p>
+    <img loading="lazy" src="images/slope_intercept_example_2.svg" alt="graph of a line through the points (-4,3) and (2,-5)" style="width: 320px; height: auto; margin: 1.2em;">
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>The \(y\)-intercept is \((0,2)\), so \(b=2\). The slope appears to be \(m=\frac{-4}{3}\). From this we conclude the equation of the line must be</p>
     \[y=\frac{-4}{3}x+2\]
-    <p><b>(b)</b></p> The \(y\)-intercept is \((0,3)\), so \(b=3\). The slope appears to be \(m=\frac{5}{2}\). From this we conclude the equation of the line must be</p>
+</div>
+
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Find the equation of the line graphed below.</p>
+    <img loading="lazy" src="images/slope_intercept_example_3.svg" alt="graph of a line through the points (-2,-2) and (0,3)" style="width: 320px; height: auto; margin: 1.2em;">
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>The \(y\)-intercept is \((0,3)\), so \(b=3\). The slope appears to be \(m=\frac{5}{2}\). From this we conclude the equation of the line must be</p>
     \[y=\frac{5}{2}x+3\]
+</div>
+</div>
+
+<div class="keep-together">
+<h2>Finding the Slope-Intercept Form Given Two Points</h2>
+<p>If we are given two points instead of a graph then it's still possible to find the equation of the line that goes through them.  It is an involved process, so we'll walk through the process together.</p>
 </div>
 
 
-<h3>Finding the Slope-Intercept Form Given Two Points</h3>
-<p>If we are given two points instead of a graph then it's still possible to find the equation of the line that goes through them.  It is an involved process, so we'll walk through the process together.</p>
-
+<div class="keep-together">
 <p>For our example, let's use the points \((2,5)\) as \((x_1,y_1)\) and \((6,-1)\) as \((x_2,y_2)\).  We'll start with the slope formula.</p>
 
 \[
   \begin{align}
-    m &= \frac{y_2-y_1}{x_2-x_1} && \small \color{#5fa2ce} {\text{slope formula}} \newline
-    &= \frac{-1 - 5}{6-2} && \small \color{#5fa2ce} {\text{insert coordinates of the two points}} \newline
-    &= \frac{-6}{4} && \small \color{#5fa2ce} {\text{evaluate the subtractions}} \newline
-    &= -\frac{3}{2} && \small \color{#5fa2ce} {\text{reduce the fraction}} \newline
+    m &= \frac{y_2-y_1}{x_2-x_1} && \hint{\text{slope formula}} \newline
+    &= \frac{-1 - 5}{6-2} && \hint{\text{insert coordinates of the two points}} \newline
+    &= \frac{-6}{4} && \hint{\text{evaluate the subtractions}} \newline
+    &= -\frac{3}{2} && \hint{\text{reduce the fraction}} \newline
   \end{align}
 \] 
+</div>
 
-<p>The only part of the slope-intercept form that is missing is the \(y\)-intercept \(b\).  Since neither of our points was the \(y\)-intercept, we will need to put the coordinates of one of our points, along with the slope we just calculated, into the slope-intercept equation and solve for $b$.  We will use the point \((2,5)\) and, of course, \(m = \frac{-3}{2}\).<p>
+<div class="keep-together">
+<p>The only part of the slope-intercept form that is missing from our equation is the \(y\)-intercept \(b\).  Since neither of our points was the \(y\)-intercept, we will need to put the coordinates of one of our points, along with the slope we just calculated, into the slope-intercept equation and solve for $b$.  We will use the point \((2,5)\) and, of course, \(m = \frac{-3}{2}\).</p>
 
 \[
   \begin{align}
-    y &= m x + b && \small \color{#5fa2ce} {\text{slope-intercept form}} \newline
-    5 &= -\frac{3}{2}(2)+b && \small \color{#5fa2ce} {\text{insert the slope and the coordinates of the point}} \newline
-    5 &= -3+b && \small \color{#5fa2ce} {\text{simplify}} \newline
-    8 &= b && \small \color{#5fa2ce} {\text{add $3$ to both sides}}
+    y &= m x + b && \hint{\text{slope-intercept form}} \newline
+    5 &= -\frac{3}{2}(2)+b && \hint{\text{insert the slope and the coordinates of the point}} \newline
+    5 &= -3+b && \hint{\text{simplify}} \newline
+    8 &= b && \hint{\text{add $3$ to both sides}}
   \end{align}
 \]
+</div>
 
 <p>With both \(m\) and \(b\) in hand, we can now say that $y=\frac{-3}{2}x+8$ is the line that goes through the points \((2,5)\) and \((6,-1)\).</p>
 
-
-<h3>Interpreting the Slope and Y-Intercept</h3>
+<div class="keep-together">
+<h2>Interpreting the Slope and Y-Intercept</h2>
 <p>Linear equations are used to model various real-world situations. Understanding what the slope and y-intercept mean in context can allow us to construct an equation in slope-intercept form for a given scenario.</p>
+</div>
 
 <p>As we discussed in section 5.2, slope is a rate of change. A <strong>rate</strong> is ratio of two quantities.  Such rates are often described using the word <em>per</em> (miles <em>per</em> gallon, servings <em>per</em> package, dollars <em>per</em> hour, feet <em>per</em> second) or something equivalent (two tickets <em>for each</em> person, ten-thousand steps <em>every</em> day, etc.).</p>
 
@@ -286,42 +201,28 @@
 
 <p>Since the \(y\)-intercept occurs when \(x=0\), the value \(b\) is usually a starting value or an initial amount.  In our bark example \(b=35\) because every order started with a flat deliery charge of \(\$35\).</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 5</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Suppose a gym has an initial joining fee of \(\$50\) and monthly membership fee of \(\$20\). Construct an equation in slope-intercept form that represents the situation.</p>
-    <hr>
-    <strong>Solution:</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>In this scenario, the initial signup fee is the \(y\)-intercept and the monthly fee is the slope.  Using \(m=20\) and \(b=50\), the equation of the line is:</p>
     \[ y = 20x + 50 \]
      <p>This linear equation allows us to calculate the total cost of being a member at the gym membership for \(x\) months.</p>
 </div>
 
-
-<h3>Conclusion</h3>
+<div class="keep-together">
+<h2>Conclusion</h2>
 <p>The slope-intercept form of a line stands as the most used linear model across math, science, engineering, and countless other fields. Almost anytime anyone asks for a line, they are likely looking for \(y=mx+b\).</p>
 
 <p>In the next section our focus shifts and we'll begin looking at graphs of nonlinear quadratic equations.</p>
+</div>
 
-
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="5.3-practice.html"> Open 5.3 Practice
+	</a>
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
-
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
-
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+</div>
 </body>
 </html>

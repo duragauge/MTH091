@@ -1,130 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy – 3.2 Solving Multi – Step Equations by Inverse Operations</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         <h1>3.2 Solving Multi-Step Equations by Inverse Operations</h1>
 
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 <p>In the previous section we discussed inverse operations and how to perform an operation <em>on both sides</em> of an equation in order to solve it.</p>
 
 <p>All of the examples in that section had a single operation, so it was fairly straightforward to know which inverse operation to use.  Now, however, we will encounter equations with multiple operations.  When solving these types of equations not only will we need to find the inverse operations, but we will have to deploy them in the proper order.</p>
 
 <p>In this section, we will delve into the process of solving multi-step equations using inverse operations.</p>
 
-<h3>Identifying the Order of Operations</h3>
+<div class="keep-together">
+<h2>Identifying the Order of Operations</h2>
 <p>Before we discuss the theory behind solving multi-step equations, we need to make sure we know the correct order of operations. This was covered in detail in the previous chapter (see section 2.2), but here's a quick review:</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#d8f7d8; border-radius:15px; border:2px solid #228b22; padding:10px;">
+<div class="box box--idea">
     <strong>The Standard Order of Operations</strong>
     <ol>
         <li>Perform any operations within groupings. Groupings are typically shown within parentheses or brackets. Less commonly, groupings will involve an operation in an exponent or in the numerator (top) or denominator (bottom) of a fraction.</li>
@@ -134,42 +34,58 @@
     </ol>
 </div>
 
+<div class="keep-together">
 <p>Not only is it important to be able to <em>perform</em> operations in the correct order, it's also important to be able to <em>identify</em> the operations that are taking place in an equation, in the correct order.  To do this, focus on what is happening to the variable.</p>
+</div>
 
-
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 1</strong>
-    <p>Identify, in the correct order, the operations happening to the variable in each expression.</p>
-    <p><b>(a)</b> \(5x - 48\)</p>
-    <p><b>(b)</b> \(\frac{3n+2}{7}\)</p> 
-    <p><b>(c)</b> \((p-16)^2 + 9\)</p>
-    <hr>
-	<strong>Solution</strong>
-    <p><b>(a)</b> In \(5x-48\), since multiplication happens before subtraction, we know that the operations happening to the variable \(x\) are:</p>
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>What's the order of operations for the variable \(x\) in the expression \(5x - 48\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>Since multiplication happens before subtraction, the order of operations is :</p>
     <ol>
-        <li>Multiply by 5</li>
-        <li>Subtract 48</li>
-    </ol>
-    <p><b>(b)</b> With the expression \(\frac{3n+2}{7}\) the fraction acts as a grouping. So the operations happening to the variable are applied in the following order:</p>
-    <ol>
-        <li>Multiply by 3</li>
-        <li>Add 2</li>
-        <li>Divide by 7</li>
-    </ol>
-    <p><b>(c)</b> With the expression \((p-16)^2 + 9\) the parenthesis should be done first, then the eponent and lastly the addition.</p>
-    <ol>
-        <li>Subtract 16</li>
-        <li>Exponent of 2</li>
-        <li>Add 9</li>
+        <li>Multiply by \(5\)</li>
+        <li>Subtract \(48\)</li>
     </ol>
 </div>
 
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Identify the correct order of operations for the variable \(n\) in the expression \(\dfrac{3n+2}{7}\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>The fraction bar acts as a grouping symbol, so the correct order of operations is:</p>
+    <ol>
+        <li>Multiply by \(3\)</li>
+        <li>Add \(2\)</li>
+        <li>Divide by \(7\)</li>
+    </ol>
+</div>
 
-<h3>Solving Multi-Step Equations</h3>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>List the proper order of operations for the variable \(p\) in \((p-16)^2 + 9\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>Since operations in parentheses should be done first, the proper order is:</p>
+    <ol>
+        <li>Subtract \(16\)</li>
+        <li>Exponent of \(2\)</li>
+        <li>Add \(9\)</li>
+    </ol>
+</div>
+</div>
+
+<div class="keep-together">
+<h2>Solving Multi-Step Equations</h2>
 <p>As the name implies, a multi-step equation requires that we perform multiple operations in order to find the solution. We discussed inverse operations in the previous section. Now, it's time to learn about <em>inverse processes</em>.</p>
+</div>
 
-<p>It will help if we start with something everyone is familar with: putting on socks and shoes.</p>
+<p>It will help if we start with something everyone is familiar with: putting on socks and shoes.</p>
 
+<div class="keep-together">
 <p>When getting dressed, socks must be put on before shoes. But what do you do when getting undressed?  The <em>inverse process</em> is to remove shoes first and then socks.</p>
 
 <p>Notice that this process requires undoing each step in the reverse order.  Shoes were the last things to be put on, for instance, but they are the first things that must be taken off.</p>
@@ -191,27 +107,30 @@
         <td>Take off Shoes</td>
       </tr>
       <tr>
-        <td colspan="4" style="text-align: center;">\(\longrightarrow\)</td></tr>
+        <td colspan="4" style="text-align: center;">\(\longrightarrow\)</td>
       </tr>
     </tbody>
   </table>
+</div>
 
 <p>This illustrates the notion of an inverse process: In order to undo a multi-step process, the steps must be undone in the <em>reverse order</em> of how they were originally done.</p>
 
 <p>This is exactly how we will solve multi-step equations.  Once we have identified the operations taking place and the order in which they occur, we will apply the inverse operations in the reverse order.</p>
 
-<p>There's no better place to start than with the first equation ever printed. It comes from the 1557 book <a href="https://www.loc.gov/resource/rbctos.2017english06305/?sp=252">The Whetstone of Witte</a> by Robert Recorden, and happens to be on the same page where he invented the equal sign.</p>
+<div class="keep-together">
+<p>There's no better place to start than with the first equation ever printed. It comes from Robert Recorde's <a href="https://www.loc.gov/resource/rbctos.2017english06305/?sp=252"><cite>The Whetstone of Witte</cite></a> (1557), on the very same page where he introduced the equal sign.</p>
 
-<img src="images/first_equation.png" alt="First Equation" style="display: block; max-width: 100%;width: 600px; margin: 1.2em; border-radius: 15px; overflow: hidden;">
-
+<img alt="First printed equation from Recorde's The Whetstone of Witte (1557)" loading="lazy" src="images/first_equation.png" style="display: inline-block; width: 500px; margin-left:auto; margin-right:auto; border-radius: 15px;"/>
+</div>
 
 <p>He wrote it a bit fancier than we do today, but the equation is \(14x+15=71\).  Let's solve it!</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 2</strong>
+<div class="keep-together">
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use inverse operations to solve \(14x+15=71\) for \(x\).</p>
-    <hr>
-	<strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>The operations happening to \(x\) are </p>
     <ol>
         <li>Multiply by \(14\)</li>
@@ -224,120 +143,112 @@
     </ol>
     <p>Remembering to do those operations on both sides, we get the following:</p>
     \begin{align}
-        14x+15 &= 71 && \small \color{#5fa2ce} {\text{Original equation}} \\
-        14x +15 - 15 &= 71 - 15 && \small \color{#5fa2ce} {\text{Subtract } } \\
-        14x &= 56 && \small \color{#5fa2ce} {\text{Simplify}} \\
-        \frac{14x}{14} &= \frac{56}{14} && \small \color{#5fa2ce} {\text{Divide by }14} \\
-        x &= 4 && \small \color{#5fa2ce} {\text{Simplify}} \\
+        14x+15 &= 71 && \hint{\text{Original equation}} \\
+        14x +15 - 15 &= 71 - 15 && \hint{\text{Subtract }15 } \\
+        14x &= 56 && \hint{\text{Simplify}} \\
+        \frac{14x}{14} &= \frac{56}{14} && \hint{\text{Divide by }14} \\
+        x &= 4 && \hint{\text{Simplify}} \\
     \end{align}
+</div>
 </div>
 
 <p>And just like that we've solved the first equation ever printed!</p>
 
-<p>In the following examples we will solve equations involving the three expressions we analyized in Example 1.</p>
+<div class="keep-together">
+<p>In the following examples we will solve equations involving the three expressions we analyzed in Examples 1-3.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 3</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use inverse operations to solve \(5x - 48 = -23\) for \(x\).</p>
-    <hr>
-	<strong>Solution</strong>
-    <p>We analyzed the operations of \(5x - 48 \) in Example 1a.  All that remains is to do the opposite operations in the reverse order.</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>We analyzed the operations of \(5x - 48 \) in Example 1.  All that remains is to do the opposite operations in the reverse order.</p>
     \begin{align}
-        5x - 48 &= -23 && \small \color{#5fa2ce} {\text{Original equation}} \\
-        5x -48 + 48 &= -23 + 48 && \small \color{#5fa2ce} {\text{Add } 48} \\
-        5x &= 25 && \small \color{#5fa2ce} {\text{Simplify}} \\
-        \frac{5x}{5} &= \frac{25}{5} && \small \color{#5fa2ce} {\text{Divide by }5} \\
-        x &= 5 && \small \color{#5fa2ce} {\text{Simplify}} \\
+        5x - 48 &= -23 && \hint{\text{Original equation}} \\
+        5x -48 + 48 &= -23 + 48 && \hint{\text{Add } 48} \\
+        5x &= 25 && \hint{\text{Simplify}} \\
+        \frac{5x}{5} &= \frac{25}{5} && \hint{\text{Divide by }5} \\
+        x &= 5 && \hint{\text{Simplify}} \\
+    \end{align}
+</div>
+</div>
+
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Use inverse operations to solve \(\dfrac{3n+2}{7} = 5\)</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>We analyzed the operations of \(\dfrac{3n+2}{7}\) in Example 2.  All that remains is to do the opposite operations in the reverse order.</p>
+    \begin{align}
+        \frac{3n+2}{7} &= 5 && \hint{\text{Original equation}} \\
+        7\cdot\frac{3n+2}{7} &= 7\cdot5 && \hint{\text{Multiply by }7} \\
+        3n+2 &= 35 && \hint{\text{Simplify}} \\
+        3n+2-2 &= 35-2 && \hint{\text{Subtract }2} \\
+        3n &= 33 && \hint{\text{Simplify}} \\
+        \frac{3n}{3} &= \frac{33}{3} && \hint{\text{Divide by }3} \\
+        n &= 11 && \hint{\text{Simplify}}
     \end{align}
 </div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 4</strong>
-    <p>Use inverse operations to solve \(\frac{3n+2}{7} = 5\)</p>
-    <hr>
-	<strong>Solution</strong>
-    <p>We analyzed the operations of \(\frac{3n+2}{7}\) in Example 1b.  All that remains is to do the opposite operations in the reverse order.</p>
-    \begin{align}
-        \frac{3n+2}{7} &= 5 && \small \color{#5fa2ce} {\text{Original equation}} \\
-        7\cdot\frac{3n+2}{7} &= 7\cdot5 && \small \color{#5fa2ce} {\text{Multiply by }7} \\
-        3n+2 &= 35 && \small \color{#5fa2ce} {\text{Simplify}} \\
-        3n+2-2 &= 35-2 && \small \color{#5fa2ce} {\text{Subtract }2} \\
-        3n &= 33 && \small \color{#5fa2ce} {\text{Simplify}} \\
-        \frac{3n}{3} &= \frac{33}{3} && \small \color{#5fa2ce} {\text{Divide by }3} \\
-        n &= 11 && \small \color{#5fa2ce} {\text{Simplify}}
-    \end{align}
-</div>
-
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 5</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use inverse operations to solve \((p-16)^2 + 9 = 73\)</p>
-    <hr>
-	<strong>Solution</strong>  
-    <p>We analyzed the operations of \((p-16)^2 + 9\) in Example 1c.  All that remains is to do the opposite operations in the reverse order.</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">  
+    <p>We analyzed the operations of \((p-16)^2 + 9\) in Example 3.  All that remains is to do the opposite operations in the reverse order.</p>
     \begin{align}
-        (p-16)^2 + 9 &= 73 && \small \color{#5fa2ce} {\text{Original equation}} \\
-        (p-16)^2 + 9-9  &= 73-9 && \small \color{#5fa2ce} {\text{Subtract }9} \\
-        (p-16)^2 &= 64 && \small \color{#5fa2ce} {\text{Simplify}} \\        
-        \sqrt{(p-16)^2} &= \pm \sqrt{64} && \small \color{#5fa2ce} {\text{Square root}} \\
-        p-16 &= \pm 8 && \small \color{#5fa2ce} {\text{Simplify}} \\
-        p-16+16 &= \pm 8 + 16 && \small \color{#5fa2ce} {\text{Add }16} \\ \\
-        p &= 8 + 16 = 24 && \small \color{#5fa2ce} {\text{Calculate both solutions}} \\
+        (p-16)^2 + 9 &= 73 && \hint{\text{Original equation}} \\
+        (p-16)^2 + 9-9  &= 73-9 && \hint{\text{Subtract }9} \\
+        (p-16)^2 &= 64 && \hint{\text{Simplify}} \\        
+        \sqrt{(p-16)^2} &= \pm \sqrt{64} && \hint{\text{Square root}} \\
+        p-16 &= \pm 8 && \hint{\text{Simplify}} \\
+        p-16+16 &= \pm 8 + 16 && \hint{\text{Add }16} \\ \\
+        p &= 8 + 16 = 24 && \hint{\text{Calculate both solutions}} \\
         &\text{ and } \\
         p &= -8 + 16 = 8
     \end{align}    
     <p></p>
 </div>
 
-<p>Note that at the end of the solving process in Example 5 we had two equations to solve.  We did not simply find one value and say the answer was \(\pm\) of that number.  We had to evaluate both \(8+16\) and \(-8+16\).</p>
-    
+
+<p>Note that at the end of the solving process in Example 7 we had two equations to solve.  We did not simply find one value and say the answer was \(\pm\) of that number.  We had to evaluate both \(8+16\) and \(-8+16\).</p>
+
+<div class="keep-together">
 <p>In our final example we'll look at an equation that comes from a realistic scenario.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 6</strong>
-    <p>Suppose the cost to hire a plumber involves a \(\$65\) call-out fee on top of a labor charge of \(\$85\) per hour. Let's say that \(c\) represents the total cost to hire a plumber.  Then the equation for the total cost would be \(c=85x+65\) for \(x\) hours.  If you recieve an invoice for \($660\), how many hours did the plumber put on the bill?</p>
-    <hr>
-	<strong>Solution</strong> 
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Suppose the cost to hire a plumber involves a \(\$65\) call-out fee on top of a labor charge of \(\$85\) per hour. Let's say that \(c\) represents the total cost to hire a plumber.  Then the equation for the total cost would be \(c=85h+65\) for \(h\) hours.  If you receive an invoice for \($660\), how many hours did the plumber put on the bill?</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep"> 
     <p>To find the answer we need to solve the equation when \(c=660\).</p>
     \begin{align*}
-        660 &= 85h + 65 && \small \color{#5fa2ce} {\text{Starting equation}} \\
-        595 &= 85h && \color{#5fa2ce} {\text{Subtract } 65} \\
-        \frac{595}{85} &= \frac{85h}{85} && \color{#5fa2ce} {\text{Divide by } 85} \\
-        h &= 7 && \color{#5fa2ce} {\text{Simplify}} \\
+        660 &= 85h + 65 && \hint{\text{Starting equation}} \\
+        595 &= 85h && \hint{\text{Subtract } 65} \\
+        \frac{595}{85} &= \frac{85h}{85} && \hint{\text{Divide by } 85} \\
+        h &= 7 && \hint{\text{Simplify}} \\
     \end{align*}
     <p>Let's check our answer.</p>
     \begin{align*}
-        C &= 85h + 65 && \small \color{#5fa2ce} {\text{Starting equation}} \\
-        &= 85 \cdot 7 + 65 && \small \color{#5fa2ce} {\text{Substitute }h=7} \\
+        c &= 85h + 65 && \hint{\text{Starting equation}} \\
+        &= 85 \cdot 7 + 65 && \hint{\text{Substitute }h=7} \\
         &= 595 + 65 \\
         &= 660
     \end{align*}
     <p>We can now say that the plumber must have billed \(7\) hours of labor if the total cost was $660.</p>
 </div>
+</div>
 
-
-<h3>Conclusion</h3>
+<div class="keep-together">
+<h2>Conclusion</h2>
 <p>It is important to note that using inverse processes to solve multi-step equations is a good approach to use if the variable only occurs once in the equation.  In more complicated equations, such as \(x^2 + 7x - 12 = 6\), where the variable appears more than once, we'll have to use other strategies.  Those techniques will be explored in detail in Chapter 4.</p>
+</div>
 
-
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="3.2-practice.html"> Open 3.2 Practice
+	</a>
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
-
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
-
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+</div>
 </body>
 </html>

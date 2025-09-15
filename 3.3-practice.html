@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <script src="head-common.js?v=1"></script>
+ <link rel="stylesheet" href="stylesheet.css">
+ <title>MTH091 Algebraic Literacy – 3.3 Practice</title>
+
+ <!-- minimal layout helpers for auto-resizing frames -->
+ <style>
+   .embedwrap { position: relative; overflow: visible; }
+   .embedwrap > iframe { position: absolute; width: 100%; border: none; }
+ </style>
+</head>
+<body>
+ <div class="wrapper">
+   <div id="site-header"></div>
+   <div class="main-content" role="main">
+
+     <h1>3.3 Formulas – Practice</h1>
+
+     <!-- ======================= Solving for a Variable ======================= -->
+     <h2 id="solving-for-variable">Solving for a Variable</h2>
+
+     <!-- Group Q1: pick 1 of 3 without replacement -->
+     <p class="mom-number">Exercise 1</p>
+     <div id="59070wrap" class="embedwrap"><iframe id="59070" src="https://www.myopenmath.com/embedq2.php?id=59070&frame_id=59070&embedcheck=1" title="Evaluate linear formula in two variables: P = 2l+2w given P and w" loading="lazy"></iframe></div>
+     <!-- (Alternates in group: 212538, 65568) -->
+
+     <!-- Group Q2: pick 1 of 3 without replacement -->
+     <p class="mom-number">Exercise 2</p>
+     <div id="25939wrap" class="embedwrap"><iframe id="25939" src="https://www.myopenmath.com/embedq2.php?id=25939&frame_id=25939&embedcheck=1" title="Evaluate formula for Volume of a cylinder (Sousa)" loading="lazy"></iframe></div>
+     <!-- (Alternates in group: 1276, 13795) -->
+
+     <p class="mom-number">Exercise 3</p>
+     <div id="252437wrap" class="embedwrap"><iframe id="252437" src="https://www.myopenmath.com/embedq2.php?id=252437&frame_id=252437&embedcheck=1" title="Solve the formula (literal equation) for variable (Sousa)" loading="lazy"></iframe></div>
+
+     <p class="mom-number">Exercise 4</p>
+     <div id="252438wrap" class="embedwrap"><iframe id="252438" src="https://www.myopenmath.com/embedq2.php?id=252438&frame_id=252438&embedcheck=1" title="Solve the formula (literal equation) for variable (Sousa)" loading="lazy"></iframe></div>
+
+     <p class="mom-number">Exercise 5</p>
+     <div id="252450wrap" class="embedwrap"><iframe id="252450" src="https://www.myopenmath.com/embedq2.php?id=252450&frame_id=252450&embedcheck=1" title="Solve the formula (literal equation) for variable (Sousa)" loading="lazy"></iframe></div>
+
+     <!-- Group Q6: pick 1 of 3 without replacement -->
+     <p class="mom-number">Exercise 6</p>
+     <div id="1174129wrap" class="embedwrap"><iframe id="1174129" src="https://www.myopenmath.com/embedq2.php?id=1174129&frame_id=1174129&embedcheck=1" title="Solve the formula (literal equation) for variable (HCCMathHelp)" loading="lazy"></iframe></div>
+     <!-- (Alternates in group: 252447, 119811) -->
+
+     <p class="mom-number">Exercise 7</p>
+     <div id="1174130wrap" class="embedwrap"><iframe id="1174130" src="https://www.myopenmath.com/embedq2.php?id=1174130&frame_id=1174130&embedcheck=1" title="Solve the formula (literal equation) for variable (HCCMathHelp)" loading="lazy"></iframe></div>
+
+     <p class="mom-number">Exercise 8</p>
+     <div id="119810wrap" class="embedwrap"><iframe id="119810" src="https://www.myopenmath.com/embedq2.php?id=119810&frame_id=119810&embedcheck=1" title="Solve the formula (literal equation) for variable (Sousa)" loading="lazy"></iframe></div>
+
+     <!-- ======================= Applications ======================= -->
+     <h2 id="applications">Applications</h2>
+
+     <p class="mom-number">Exercise 9</p>
+     <div id="1174139wrap" class="embedwrap"><iframe id="1174139" src="https://www.myopenmath.com/embedq2.php?id=1174139&frame_id=1174139&embedcheck=1" title="Solving formulas application: Solve Ohm's Law (Organic Chemistry Tutor)" loading="lazy"></iframe></div>
+
+     <p class="mom-number">Exercise 10</p>
+     <div id="1174136wrap" class="embedwrap"><iframe id="1174136" src="https://www.myopenmath.com/embedq2.php?id=1174136&frame_id=1174136&embedcheck=1" title="Solving formulas application: Solve area formula of triangle for base or height (Sousa)" loading="lazy"></iframe></div>
+
+     <p class="mom-number">Exercise 11</p>
+     <div id="1174170wrap" class="embedwrap"><iframe id="1174170" src="https://www.myopenmath.com/embedq2.php?id=1174170&frame_id=1174170&embedcheck=1" title="Solving formulas application: Solve perimeter of rectangle formula (Sousa)" loading="lazy"></iframe></div>
+
+     <p class="mom-number">Exercise 12</p>
+     <div id="1174002wrap" class="embedwrap"><iframe id="1174002" src="https://www.myopenmath.com/embedq2.php?id=1174002&frame_id=1174002&embedcheck=1" title="Solving formulas application: Solve random packing density formula for candies (HCCMathHelp)" loading="lazy"></iframe></div>
+
+     <p class="mom-number">Exercise 13</p>
+     <div id="1174148wrap" class="embedwrap"><iframe id="1174148" src="https://www.myopenmath.com/embedq2.php?id=1174148&frame_id=1174148&embedcheck=1" title="Solving formulas application: Solve kinetic energy formula for mass (Step by Step Science)" loading="lazy"></iframe></div>
+
+   </div>
+ </div>
+
+ <!-- Auto-resize listener (plain JS) -->
+ <script>
+ (function () {
+   window.addEventListener("message", function (e) {
+     if (typeof e.data !== "string" || !e.data.includes("lti.frameResize")) return;
+     try {
+       var payload = JSON.parse(e.data);
+       if (!payload || !payload.frame_id) return;
+       var id = String(payload.frame_id);
+       var ifr  = document.getElementById(id);
+       var wrap = document.getElementById(id + "wrap");
+       if (ifr && payload.height)     ifr.style.height  = payload.height + "px";
+       if (wrap && payload.wrapheight) wrap.style.height = payload.wrapheight + "px";
+     } catch (_) { /* ignore non-JSON */ }
+   });
+ })();
+ </script>
+</body>
+</html>

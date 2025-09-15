@@ -1,174 +1,81 @@
-<div style="max-width: 900px; margin: 0 auto; padding: 5vw 7vw 0;">
-
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy – 5.4 Graphing Quadratic Equations</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         <h1>5.4 Graphing Quadratic Equations</h1>
 
-<h3>Introduction</h3>
-<div style="float:right; text-align:center; width:300px; margin:1.2em;">
+<h2>Introduction</h2>
+<div style="float:right; text-align:center; width:200px; margin:1.2em;">
     <a href='https://www.flickr.com/photos/nrcs_oregon/34903945890/' target='_blank'>
-        <img src='images/filbert_trees.jpg' alt='Ioka Farms Orchard Cover Crops by NRCS Oregon, on Flickr' border='0' style="display: block; width: 100%; border-radius: 15px; overflow: hidden;"/>
+        <img loading="lazy" src='images/filbert_trees.jpg' alt='Ioka Farms Orchard Cover Crops by NRCS Oregon, on Flickr' border='0' style="display: block; width: 100%; border-radius: 15px; overflow: hidden;">
     </a><br/>
     <a href='https://www.flickr.com/photos/nrcs_oregon/34903945890/' target='_blank'>Photo by NRCS Oregon</a><br />
     (<a rel='license' href='https://creativecommons.org/licenses/by-nd/2.0/' target='_blank'>CC BY-ND 2.0</a>)
-</div><p>When farmers plant an orchard, they're concerned about how to achieve the largest possible harvest. They don't want to plant too few trees—that's obvious—but they also don't want to plant too many, because overcrowded trees don't produce as much. So how do they determine the right number to maximize the harvest?</p>
+</div>
+
+<div class="keep-together">
+<p>When farmers plant an orchard, they're concerned about how to achieve the largest possible harvest. They don't want to plant too few trees—that's obvious—but they also don't want to plant too many, because overcrowded trees don't produce as much. So how do they determine the right number to maximize the harvest?</p>
 
 <p>Questions like this, where optimizing results is important, are often modeled by quadratic equations, and the coordinates of the vertex often hold the answers we are looking for.</p>
+</div>
 
-
-<h3>Graphing a Quadratic Equation with a Table</h3>
+<div class="keep-together">
+<h2>Graphing a Quadratic Equation with a Table</h2>
 <p>We discussed graphing in section 5.1, but a short review is in order.  The general process is to use the equation make a table of values, convert those values into \((x,y)\) points, plot the points and then draw a smooth line or curve between them.</p>
+</div>
+<p>To make a table of values we need to pick several \(x\)-values and insert each one to the equation. Keep in mind that the choice of \(x\)-values is always up to us; we can pick any values we want.  If the values we choose don't give us a enough points, we can always go back and compute more.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;overflow:auto;clear:both">
-    <strong>Example 1</strong>
-    <p>Make a table of values and a graph of \(y=x^2-6x+5\).</p>
-    <hr>
-    <strong>Solution:</strong>
-    <p>To make a table of values we need to pick several \(x\)-values and insert each one to the equation. The choice of \(x\)-values is always up to us; we can pick any values we want. For this example we'll start with \(0\) through \(6\). If those don't give us a enough points, we'll return and compute more.</p>
-    <p>For \(x=0\) through \(x=6\), the values of \(y=x^2-6x+5\) are shown in the table below.</p>
-    <table border="1" style="margin: 1.2em;">
+<div class="ex-group">
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Make a table of values for \(y=x^2-6x+5\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p>For this example we'll choose \(x=0\) through \(x=6\), and calculate the values of \(y=x^2-6x+5\).</p>
+    <table data-borders="on" class="compact" style="margin: 1.2em;">
         <tbody>
             <tr>
-                <th style="padding: 10px; text-align: center;">\(x\)</th>
-                <td style="padding: 10px; text-align: center;">\(0\)</td>
-                <td style="padding: 10px; text-align: center;">\(1\)</td>
-                <td style="padding: 10px; text-align: center;">\(2\)</td>
-                <td style="padding: 10px; text-align: center;">\(3\)</td>
-                <td style="padding: 10px; text-align: center;">\(4\)</td>
-                <td style="padding: 10px; text-align: center;">\(5\)</td>
-                <td style="padding: 10px; text-align: center;">\(6\)</td>
+                <th style="text-align: center;">\(x\)</th>
+                <td style="text-align: center;">\(0\)</td>
+                <td style="text-align: center;">\(1\)</td>
+                <td style="text-align: center;">\(2\)</td>
+                <td style="text-align: center;">\(3\)</td>
+                <td style="text-align: center;">\(4\)</td>
+                <td style="text-align: center;">\(5\)</td>
+                <td style="text-align: center;">\(6\)</td>
             </tr>
             <tr>
-                <th style="padding: 10px; text-align: center;">\(y\)</th>
-                <td style="padding: 10px; text-align: center;">\(5\)</td>
-                <td style="padding: 10px; text-align: center;">\(0\)</td>
-                <td style="padding: 10px; text-align: center;">\(-3\)</td>
-                <td style="padding: 10px; text-align: center;">\(-4\)</td>
-                <td style="padding: 10px; text-align: center;">\(-3\)</td>
-                <td style="padding: 10px; text-align: center;">\(0\)</td>
-                <td style="padding: 10px; text-align: center;">\(5\)</td>
+                <th style="text-align: center;">\(y\)</th>
+                <td style="text-align: center;">\(5\)</td>
+                <td style="text-align: center;">\(0\)</td>
+                <td style="text-align: center;">\(-3\)</td>
+                <td style="text-align: center;">\(-4\)</td>
+                <td style="text-align: center;">\(-3\)</td>
+                <td style="text-align: center;">\(0\)</td>
+                <td style="text-align: center;">\(5\)</td>
             </tr>
         </tbody>
     </table>
-    
-    <p>After plotting the points and connecting them with a smooth curve we get the parabola below.</p>
-    <p><img style="display: block;margin-left: auto; margin-right: auto;" src="images/plot_parabola_1.svg" alt="plot of a parabola" width="368" height="368" /></p>
+ </div>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div> 
+    <p>Use the table of values from part <b>a</b> to graph \(y=x^2-6x+5\).</p>
+	    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p><img loading="lazy" style="display: block;margin-left: auto; margin-right: auto; width:300px, height: auto;" src="images/plot_parabola_1.svg" alt="plot of a parabola"></p>
+</div>
 </div>
 
-
-<h3>Identifying Parts of a Parabola</h3>
+<div class="keep-together">
+<h2>Identifying Parts of a Parabola</h2>
 <p>Every quadratic equation has a graph similar to the one above.  That U-shaped graph is called a <strong>parabola</strong>.</p>
 
 <p>The graph of a parabola has several key features. Similar to any graph, the \(y\)-intercept is the point where the graph crosses the \(y\)-axis.  Additionally, any point where it comes in contact with the \(x\)-axis is an \(x\)-intercept. A parabola may have as many as two \(x\)-intercepts or none at all.</p>
@@ -179,36 +86,40 @@
 
 <p>All of these features are clearly labeled in the image below.</p>
 
-<p style="margin-left: auto; margin-right: auto;"><img src="images/parabola_parts.svg" alt="" width="400"/></p>
+<img style="display: block; margin: 0 auto; width: 400px; height: auto;" loading="lazy" src="images/parabola_parts.svg" alt="Parabola with labeled vertex, axis of symmetry, and intercepts">
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 1</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Identify the intercepts and vertex of each parabola graphed below.</p>
     <table>
         <tr>
-            <th>(a)</th>
-            <th>(b)</th>
+            <th>a.</th>
+            <th>b.</th>
         </tr>
         <tr>
-            <td><img src="images/parabola_example_1.svg" alt="Parabola Example 1a" style="width: 300px; margin: 1.2em;"></td>
-            <td><img src="images/parabola_example_2.svg" alt="Parabola Example 1b" style="width: 300px; margin: 1.2em;"></td>
+            <td><img loading="lazy" src="images/parabola_example_1.svg" alt="Parabola Example 1a" style="width: 260px; height: auto; margin: 1.2em;"></td>
+            <td><img loading="lazy" src="images/parabola_example_2.svg" alt="Parabola Example 1b" style="width: 260px; height: auto; margin: 1.2em;"></td>
         </tr>
     </table>
-    <hr>
-    <strong>Solution:</strong>
-    <p><b>(a)</b> The \(x\)-intercepts are at \((-1,0)\) and \((7,0)\). The \(y\)-intercept appears to be around \((0,2.5)\), but it's hard to be exact.  The vertex is at \((3,6)\).</p>
-    <p><b>(b)</b> This parabola does not have any \(x\)-intercepts. The \(y\)-intercept is \((0,3)\).  The vertex is at \((2,1)\).</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
+    <p><b>a.</b> The \(x\)-intercepts are at \((-1,0)\) and \((7,0)\). The \(y\)-intercept appears to be around \((0,2.5)\), but it's hard to be exact.  The vertex is at \((3,6)\).</p>
+    <p><b>b.</b> This parabola does not have any \(x\)-intercepts. The \(y\)-intercept is \((0,3)\).  The vertex is at \((2,1)\).</p>
 </div>
 
-<h3>Locating Key Points on a Parabola</h3>
+<div class="keep-together">
+<h2>Locating Key Points on a Parabola</h2>
 <p>In contrast to the straightforward slope-intercept form of a line, determining most features of a parabola from its equation \(y=ax^2+bx+c\) can be challenging, but two are straightforward.</p>
+</div>
 
 <p>Parabolas either open up, like a cup, or down, like a frown.  That direction is determined entirely by the leading coefficient \(a\).  If it is positive, \(a \gt 0\), then the parabola opens upward.  If it is negative, \(a \lt 0\), then the parabola opens downward.</p>
 
 <p>The only point that is simple to find is the \(y\)-intercept. If \(y=ax^2+bx+c\), then the constant value \(c\) is always the \(y\)-intercept.</p>
 
+
 <p>Since \(x\)-intercepts always have a \(y\)-coordinate of \(0\), they are solutions to the equation \(0=ax^2+bx+c\).  To find them we either solve by factoring or by using the quadratic formula.</p>
 
+<div class="keep-together">
 <p>For the vertex it is common to use \((h,k)\) for its coordinates.  Each coordinate is computed separately.  Starting with the \(x\)-coordinate of the vertex, we use the formula</p>
 
 \[h=\frac{-b}{2a}\]  
@@ -216,60 +127,68 @@
 <p>Once we know \(h\), we substitute it back into the quadratic equation to get the \(y\)-coordinate of the vertex.</p>
 
 \[k=a(h)^2+b(h)+c\]
-
-<p>An alternate way to calculate the \(y\)-coordinate of the vertex is to substitute \(\frac{-b}{2a}\) into the quadratic equation to obtain this equivalent formula for \(k\)</p>  
+</div>
+<div class="keep-together">
+<p>An alternate way to calculate the \(y\)-coordinate of the vertex is to use this formula.</p>  
 
 \[k=c-\frac{b^2}{4a}\]
 
-<p>Some people find it more straightforward to recall that substituting \(h\) into the original quadratic equation yields \(k\), while others prefer using this equivalent formula. Since both methods lead to identical values, you have the flexibility to choose the approach that suits your personal preference.</p>
-
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 2</strong>
-    <p>Find the intercepts and vertex of \(y=2x^{2}-4x-16\).</p>
-    <hr>
-    <strong>Solution:</strong>
-    <p>Since the constant \(c=-16\), the \(y\)-intercept is at \((0,-16)\).</p>
-    <p>The \(x\)-intercepts can be found using the quadratic formula with \(a = 2\), \(b = -4\), and \(c = -16\).</p>
-        \begin{align}
-            x &= \frac{-b \pm \sqrt{b^2-4ac}}{2a} && \small \color{#5fa2ce} {\text{The quadratic formula}} \\
-            x &= \frac{-(-4) \pm \sqrt{(-4)^2-4(2)(-16)}}{2(2)} && \small \color{#5fa2ce} {\text{Substitute } a = 2, b = -4, c = -16} \\
-            x &= \frac{4 \pm \sqrt{144}}{4} && \small \color{#5fa2ce} {\text{Simplify}} \\
-            x &= \frac{4 \pm 12}{4} && \small \color{#5fa2ce} {\text{Evaluate the square root}} \\
-            x &= \frac{4 + 12}{4} \text{ or } x = \frac{4 - 12}{4} && \small \color{#5fa2ce}{\text{Write as two equations.}} \\
-            x &= 4 \text{ or } x = -2 && \small \color{#5fa2ce} {\text{Compute}}
-        \end{align}
-    <p>To find the \(x\)-coordinate of the vertex we use the formula \(h=\frac{-b}{2a}\).</p>
-    \begin{align}
-        h &= \frac{-b}{2a} && \small \color{#5fa2ce} {\text{Formula for }h}\\
-        &= \frac{-(-4)}{2(2)} && \small \color{#5fa2ce} {\text{Substitute } a = 2, b = -4} \\
-        &= \frac{4}{4} && \small \color{#5fa2ce} {\text{Simplify}} \\
-        &= 1
-    \end{align}
-    <p>Finally, to obtain the \(y\)-coordinate of the vertex we can either put this value into the equation or use the formula given earlier.  We will do both just to demonstrate that they produce identical results.  Starting with substituting \(h=1\) into the original equation we have:</p>
-    \begin{align}
-        k &= 2x^{2}-4x-16 && \small \color{#5fa2ce} {\text{Original equation}} \\
-        &= 2(1)^2-4(1)-16 && \small \color{#5fa2ce} {\text{Substitute }h=1 \text{ for }x} \\
-        &= 2 - 4 - 16 \\
-        &= -18
-    \end{align}
-    <p>Now, using the alternative formula for \(k\), we get</p>
-    \begin{align}
-        k &= c-\frac{b^2}{4a} && \small \color{#5fa2ce} {\text{Alternative formula for }k} \\
-        &= (-16) - \frac{(-4)^2}{4(2)} && \small \color{#5fa2ce} {\text{Substitute } a = 2, b = -4, c = -16} \\
-        &= -16 - \frac{16}{8} && \small \color{#5fa2ce} {\text{Simplfy}}\\
-        &= -16 - 2 && \small \color{#5fa2ce} {\text{Reduce the fraction}}\\
-        &= -18
-    \end{align}
+<p>While some people prefer memorizing this alternative formula, the recommended method is the prior one where you substitute \(h\) into the original quadratic equation to get \(k\), as it requires memorizing one less formula. But since both methods lead to identical values, you have the flexibility to choose the approach that suits your personal preference.</p>
 </div>
 
+<div class="ex-group">
+    <div class="box box--example">
+        <div class="example-title"><span class="sr-only">Example </span></div>
+        <p>Find the intercepts and vertex of \(y=2x^{2}-4x-16\).</p>
+        <p>a. Find the y-intercept.</p>
+        <hr class="solution-sep">
+        <p>Since the constant term is \(c=-16\), the \(y\)-intercept is at \((0,-16)\).</p>
+    </div>
 
-<h3>Graphing with Symmetry</h3>
+    <div class="box box--example">
+        <div class="example-title"><span class="sr-only">Example </span></div>
+        <p>b. Find the x-intercepts.</p>
+        <hr class="solution-sep">
+        <p>The \(x\)-intercepts can be found using the quadratic formula with \(a = 2\), \(b = -4\), and \(c = -16\).</p>
+        \begin{align*}
+        x &= \frac{-b \pm \sqrt{b^2-4ac}}{2a} \\
+        x &= \frac{-(-4) \pm \sqrt{(-4)^2-4(2)(-16)}}{2(2)} \\
+        x &= \frac{4 \pm \sqrt{144}}{4} \\
+        x &= \frac{4 \pm 12}{4}
+        \end{align*}
+        <p>This gives us two x-intercepts:</p>
+        \begin{align*}
+        x = \frac{4 + 12}{4} = 4 \quad &\text{or} \quad x = \frac{4 - 12}{4} = -2
+        \end{align*}
+        <p>So the x-intercepts are at \((4, 0)\) and \((-2, 0)\).</p>
+    </div>
+
+    <div class="box box--example">
+        <div class="example-title"><span class="sr-only">Example </span></div>
+        <p>c. Find the vertex.</p>
+        <hr class="solution-sep">
+        <p>First, find the x-coordinate of the vertex using \(h=\frac{-b}{2a}\):</p>
+        \begin{align*}
+        h &= \frac{-b}{2a} = \frac{-(-4)}{2(2)} = \frac{4}{4} = 1
+        \end{align*}
+        <p>Next, find the y-coordinate by substituting \(x = 1\) into the original equation:</p>
+        \begin{align*}
+        k &= 2(1)^{2}-4(1)-16 \\
+        &= 2 - 4 - 16 \\
+        &= -18
+        \end{align*}
+        <p>Therefore, the vertex is at \((1, -18)\).</p>
+    </div>
+</div>
+<div class="keep-together">
+<h2>Graphing with Symmetry</h2>
 <p>You might have noticed something intriguing about the values in the table from Example 1. However, if you didn't spot it, don't worry. Let's take another look at the table for \(y=x^2-6x+5\), this time with a splash of color.</p>
+</div>
 
 <table border="1" style="margin: 1.2em;">
     <tbody>
         <tr>
-            <th style="padding: 10px; text-align: center;">\(x\)</th>
+            <th style="padding: px; text-align: center;">\(x\)</th>
             <td style="padding: 10px; text-align: center;">\(0\)</td>
             <td style="padding: 10px; text-align: center;">\(1\)</td>
             <td style="padding: 10px; text-align: center;">\(2\)</td>
@@ -291,11 +210,13 @@
     </tbody>
 </table>
 
+<div class="keep-together">
 <p>Notice the matching colors that highlight the repeated \(y\)-coordinates. The reason some values are repeated lies in the fact that the vertex rests upon the axis of symmetry. This axis serves as a dividing line, and every point to the right of it has a mirror copy on the left-hand side. As a consequence, \(x\)-values that are equally distanced from the vertex will have the same \(y\)-value.  In essence, if you know where the vertex is you can reduce the number of calculations needed by half.</p>  
 
 <p>Combining symmetry with our previous discoveries gives an efficient process for graphing quadratic equations precisely with a minimum of effort.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+<div class="box box--idea">
     <strong>Efficiently Graphing Quadratics</strong>
     <ol>
         <li>Notice the sign of the leading coefficient \(a\). This will guide the general shape of the parabola, whether it opens upward (\(a \gt 0\)) or downward (\(a \lt 0\)).</li>
@@ -307,8 +228,8 @@
     </ol>
 </div>
 
-
-<h3>Other Quadratic Forms</h3>
+<div class="keep-together">
+<h2>Other Quadratic Forms</h2>
 <p>While our focus here has been on quadratics in the standard form \(y=ax^2+bx+c\), you should know that quadratics can come in many formats, each with it's own pros and cons.  We will mention two here for your reference.</p>
 
 <p>A factored quadratic would have the form \(y=a(x-x_1)(x-x_2)\).  In that form it is easy to find the two \(x\)-intercepts, \((x_1, 0)\) and \((x_2, 0)\), but more challenging to locate the vertex.</p>
@@ -316,77 +237,79 @@
 <p>Another form, called the <strong>vertex form</strong>, makes it easy to find the vertex \((h,k)\), but more challenging to locate the \(x\)-intercepts.  That form is \(y=a(x-h)^2+k\).</p>
 
 <p>The factored and vertex forms represent alternative ways to express quadratic equations.  And while you might encounter them in other settings, we will not discuss them further.</p>
+</div>
 
-
-<h3>Practical Application of Vertex</h3>
-<div style="float:right; text-align:center; width:300px; margin:1.2em;">
-    <a href='https://www.flickr.com/photos/19779889@N00/15791806529/' target='_blank'><img  src='images/filbert_nuts.jpg' alt='Oregon Filberts by arbyreed, on Flickr' border='0'style="display: block; width: 100%; border-radius: 15px; overflow: hidden;"/>
-    </a><br/>
-    <a href='https://www.flickr.com/photos/19779889@N00/15791806529/' target='_blank'>Photo by abbyreed</a><br />
-    (<a rel='license' href='https://creativecommons.org/licenses/by-nc-sa/2.0/' target='_blank'>CC BY-NC-SA 2.0</a>
+<div class="keep-together">
+<h2>Practical Application of Vertex</h2>
+<div style="float:right; text-align:center; width:200px; margin:1.2em;">
+    <a href='https://www.flickr.com/photos/19779889@N00/15791806529/' target='_blank'><img loading="lazy"  src='images/filbert_nuts.jpg' alt='Oregon Filberts by arbyreed, on Flickr' border='0'style="display: block; width: 100%; border-radius: 15px; overflow: hidden;">
+    </a>
 </div>
 
 <p>We will finish this section by returning to the example in the introduction.</p>
 
 <p>Growers in Oregon's Willamette Valley produce over \(99\%\) of all the hazelnuts (also called filberts) eaten in the United States.  The rich volcanic soils and moderate climate are perfect combination for large harvests.</p>
+</div>
 
 <p>A mature hazelnut tree (\(12\) years or older) can produce \(32\) pounds of nuts per year if has plenty of space.  In fact, putting \(80\) trees on an acre of land provides enough space to produce the maximum yield of \(32\) pounds of nuts per tree.</p>
 
-<p>But hazelnut farmers don't plant \(80\) trees per acre. Why? Because their goal is not to make sure each individual tree has a maximum yield, but rather to maximize the yield of each acre of land.It may make sense to plant a few more trees per acre, even if doing so means each tree doesn't give the full \(32\) pounds.</p>
+<p>But hazelnut farmers don't plant \(80\) trees per acre. Why? Because their goal is not to make sure each individual tree has a maximum yield, but rather to maximize the yield of each acre of land. It may make sense to plant a few more trees per acre, even if doing so means each tree doesn't give the full \(32\) pounds.</p>
 
 <p>If the average yield per tree drops \(0.2\) pounds for each extra tree planted, then the total pounds of hazelnuts harvested per acre is given by \(y=-0.2x^2+16x+2560\) where \(x\) is the number of extra trees planted above \(80\).</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;clear:both">
-    <strong>Example 3</strong>
-    <p><b>(a)</b> In the scenario described above, what will the harvest per acre be if no additional trees are planted?</p>
-    <p><b>(b)</b> How many additional trees should be planted per acre in order to maximize the harvest?</p>
-    <p><b>(c)</b> What is the size of that maximum harvest per acre?</p>
-    <hr>
-    <strong>Solution:</strong>
-    <p><b>(a)</b> If no additional trees are planted then \(x=0\), so finding the \(y\)-intercept would give us the answer.  Since the constant is \(c=2560\), the \(y\)-intercept is at \((0,2560)\), so \(2560\) pounds of hazelnuts would be harvested if no additional trees were planted.</p>
-    <p>The maximum harvest occurs at the vertex of \(y=-0.2x^2+16x+2560\). The \(x\)-coordinate will tell us how many extra trees to plant and the \(y\)-coordinate gives the size of the harvest.</p>
-    <p><b>(b)</b> Since the \(x\)-coordinate of the vertex is</p>
-    \begin{align}
+<div class="ex-group">
+    <div class="box box--example">
+        <div class="example-title"><span class="sr-only">Example </span></div>
+        <p>In the scenario described above, what will the harvest per acre be if no additional trees are planted?</p>
+        <hr class="solution-sep">
+        <p>If no additional trees are planted then \(x=0\), so finding the \(y\)-intercept of \(y=-0.2x^2+16x+2560\) would give us the answer. Since the constant is \(c=2560\), the \(y\)-intercept is at \((0,2560)\).  So if no additional trees are planted, \(2560\) pounds of hazelnuts would be harvested per acre.</p>
+    </div>
+
+    <div class="box box--example">
+        <div class="example-title"><span class="sr-only">Example </span></div>
+        <p>How many additional trees should be planted per acre in order to maximize the harvest?</p>
+        <hr class="solution-sep">
+        <p>The maximum harvest occurs at the vertex of \(y=-0.2x^2+16x+2560\). The \(x\)-coordinate of the vertex tells us how many extra trees to plant.</p>
+        \begin{align*}
         h &= \frac{-b}{2a}\\
-        &= \frac{-16}{2(0.2)}\\
+        &= \frac{-16}{2(-0.2)}\\
+        &= \frac{-16}{-0.4}\\
         &= 40
-    \end{align}
-    <p>we can see that \(40\) extra trees should be planted.</p>
-    <p><b>(c)</b> Lastly, since the \(y\)-coordinate of the vertex is</p>        
-    \begin{align}
-        k &= -0.2h^2+16h+2560 \\
+        \end{align*}
+        <p>Therefore, \(40\) additional trees should be planted to maximize the harvest.</p>
+    </div>
+
+    <div class="box box--example">
+        <div class="example-title"><span class="sr-only">Example </span></div>
+        <p>What is the size of that maximum harvest per acre?</p>
+        <hr class="solution-sep">
+        <p>To find the maximum harvest, we find the \(y\)-coordinate of the vertex by substituting \(x = 40\) into the original equation:</p>
+        \begin{align*}
+        k &= -0.2x^2+16x+2560 \\
         &= -0.2(40)^2+16(40)+2560 \\
+        &= -0.2(1600)+640+2560 \\
+        &= -320+640+2560 \\
         &= 2880
-    \end{align}
-    <p>then the maximum harvest would be \(2880\) pounds per acre.</p>
-    <p>In summary, planting \(40\) additional trees beyond the initial \(80\) (\(120\) total) will lead to the maximum harvest of \(2880\) pounds per acre, significantly more than the \(2560\) pounds we started with.</p>
+        \end{align*}
+        <p>The maximum harvest would be \(2880\) pounds per acre.</p>
+    </div>
 </div>
 
-<h3>Conclusion</h3>
+<p><strong>Summary:</strong> Planting \(40\) additional trees beyond the initial \(80\), for a total of \(120\) trees, will lead to the maximum harvest of \(2880\) pounds per acre, which is significantly more than the \(2560\) pounds we started with.</p>
+
+
+<div class="keep-together">
+<h2>Conclusion</h2>
 <p>In this section we've seen how to graph quadratic equations and identify features of their graphs. We've also seen how to locate those points precisely from the equation and interpret their meaning in real life situations.</p>
 
 <p>In our next, and final, section, we will explore different ways technology can be used to simplify the process even further.</p>
+</div>
 
-
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="5.4-practice.html"> Open 5.4 Practice
+	</a>
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
-
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
-
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+</div>
 </body>
 </html>

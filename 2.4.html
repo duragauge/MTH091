@@ -1,223 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy – 2.4 Negative Exponents</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         <h1>2.4 Negative Exponents</h1>
 
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 <p>Building on our experience using definition of an exponent to find rules for positive powers, in this section we'll look into zero powers and negative exponents.</p>
-
 <p>Then, equipped with those new tools, we'll discuss a special notation used in science that allows us to describe both values of immense measure and values of minuscule size with the same level of precision.</p>
 
-
-<h3>The Zero Exponent Rule</h3>
+<div class="keep-together">
+<h2>The Zero Exponent Rule</h2>
 <p>Let's start this section by reminding you of a very basic rule of arithmetic that we've used many times before: <em>anything (except \(0\)) divided by itself equals \(1\).</em></p>  
+</div>
    
-<p>You're used to using that rule to simplify expressions with numbers like \(\frac{13}{13}=1\), but you may not have realized it works for any type of expression, provided it doesn't equal \(0\).  For instance, \(\frac{2x+3}{2x+3}=1\) as long as \(2x+3 \neq 0\) (since division by \(0\) is undefined).</p>
+<p>You're used to using that rule to simplify expressions with numbers like \(\dfrac{13}{13}=1\), but you may not have realized it works for any type of expression, provided it doesn't equal \(0\).  For instance, \(\dfrac{2x+3}{2x+3}=1\) as long as \(2x+3 \neq 0\) (since division by \(0\) is undefined).</p>
 
-<p>So then, what can we make of an expression like \(\frac{b^3}{b^3}\)?  As long as \(b \neq 0\), this has to equal \(1\).</p>
+<p>So then, what can we make of an expression like \(\dfrac{b^3}{b^3}\)?  As long as \(b \neq 0\), this has to equal \(1\). That seems simple enough, but how does it help us find a rule for a zero exponent?</p>
 
-\[\frac{b^3}{b^3}=1\]
-
-<p>That seems simple enough, but how does it help us find a rule for a zero exponent?</p>
-
-<p>In the last section we learned about the quotient rule. Look at what happens when we simplify the same expression \(\frac{b^3}{b^3}\) using the quotient rule.</p>
+<div class="keep-together">
+<p>In the last section we learned about the quotient rule. Look at what happens when we simplify the same expression \(\dfrac{b^3}{b^3}\) using the quotient rule.</p>
 
 \begin{align}
-   \frac{b^3}{b^3} &= b^{3-3} && \small \color{#5fa2ce} {\text{Use the quotient rule: } \frac{b^m}{b^n} = b^{m-n}} \\
-   &= b^0 && \small \color{#5fa2ce} {\text{Simplify}}
+   \frac{b^3}{b^3} &= b^{3-3} && \hint{\text{Use the quotient rule: } \frac{b^m}{b^n} = b^{m-n}} \\
+   &= b^0 && \hint{\text{Simplify}}
 \end{align}
 
-<p>Putting the two answers together we see that \(b^0=1\). This is our rule for a zero exponent and is true as long as \(b\) is not zero.</p>
+<p>We've just seen that \(\dfrac{b^3}{b^3}=b^0\) but we also have \(\dfrac{b^3}{b^3}=1\).  Putting these two answers together we see that \(b^0=1\). This is our rule for a zero exponent and is true as long as \(b\) is not zero.</p>
+</div>
 
-<p>Just in case you were wondering, \(0^0\) does not have a defined value.  It's considered "indeterminate" and just happens to be one of the things studied in a calculus course.</p>
+<p>Just in case you were wondering, \(0^0\) does not have a defined value.  It's considered "indeterminate" and is studied more in a calculus course.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-   <strong>Example 1</strong>
-   <p>Simplify each expression.</p>
-   <p>1. \(\frac{a^4}{b^0}\)</p>
-   <p>2. \(\frac{x^3 y^5}{x^3}\)</p>
+<div class="keep-together">
+<p>Let's see how the zero exponent rule applies in different situations.</p>
+
+<div class="ex-group">
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Simplify \(\dfrac{6^4}{11^0}\). Assume all variables are nonzero.</p>
+   <h4 class="sr-only">Solution</h4>
    <hr>
-   <strong>Solution</strong>
-   <p>For part 1:</p>
    \begin{align}
-      \frac{a^4}{b^0} &= \frac{a^4}{1} && \small \color{#5fa2ce} {\text{Since } b^0=1} \\
-         &= a^4
+      \frac{6^4}{11^0} &= \frac{6^4}{1} && \hint{\text{Since } 11^0=1} \\
+         &= 1296
    \end{align}
-   <p>For part 2:</p>
+</div>
+
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Simplify \(\dfrac{x^3 y^5}{x^3}\). Assume all variables are nonzero.</p>
+   <h4 class="sr-only">Solution</h4>
+   <hr>
    \begin{align}
-      \frac{x^3 y^5}{x^3} &= x^0y^5 && \small \color{#5fa2ce} {\text{Use the quotient rule}} \\
-      &= 1 \cdot y^5 && \small \color{#5fa2ce} {\text{Use the zero exponent rule}} \\
+      \frac{x^3 y^5}{x^3} &= x^0y^5 && \hint{\text{Use the quotient rule}} \\
+      &= 1 \cdot y^5 && \hint{\text{Use the zero exponent rule}} \\
       &= y^5
    \end{align}
 </div>
+</div>
+</div>
 
-
-<h3>The Negative Power Rule</h3>
+<div class="keep-together">
+<h2>The Negative Power Rule</h2>
 <p>The strategy of simplifying expression two different ways and equating the results is a major way identities and rules are discovered in math.  We just used that method to uncover the rule for a zero power, and we will continue to use it to find rules for negative powers.</p>
+</div>
 
-<p>Consider, for example, the expression \(\frac{b^4}{b^7}\).  One way to simplify this is to use the definition of an exponent.</p>
+<div class="keep-together">
+<p>Consider, for example, the expression \(\dfrac{b^4}{b^7}\).  One way to simplify this is to use the definition of an exponent.</p>
 
 \begin{align}
-   \frac{b^4}{b^7} &= \frac{b \cdot b \cdot b \cdot b}{b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b} && \small \color{#5fa2ce} {\text{Use the definition of an exponent}} \\
-   &= \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{1}{b \cdot b \cdot b} && \small \color{#5fa2ce} {\text{Use the commutative property of multiplication}}\\
-   &= 1 \cdot 1 \cdot 1 \cdot 1 \frac{1}{b \cdot b \cdot b} && \small \color{#5fa2ce} {\text{Since } \frac{b}{b}=1} \\
+   \frac{b^4}{b^7} &= \frac{b \cdot b \cdot b \cdot b}{b \cdot b \cdot b \cdot b \cdot b \cdot b \cdot b} && \hint{\text{Use the definition of an exponent}} \\
+   &= \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{b}{b} \cdot \frac{1}{b \cdot b \cdot b} && \hint{\text{Use the commutative property of multiplication}}\\
+   &= 1 \cdot 1 \cdot 1 \cdot 1 \frac{1}{b \cdot b \cdot b} && \hint{\text{Since } \frac{b}{b}=1} \\
    &= \frac{1}{b \cdot b \cdot b}
 \end{align}
+</div>
 
+<div class="keep-together">
 <p>Now watch what happens when we simplify the same expression using the quotient rule for exponents.</p>
    
- \begin{align}
-   \frac{b^4}{b^7} &= b^{4-7} && \small \color{#5fa2ce} {\text{Use the quotient rule}} \\
-   &= b^{-3} && \small \color{#5fa2ce} {\text{Simplify}} \\
+\begin{align}
+   \frac{b^4}{b^7} &= b^{4-7} && \hint{\text{Use the quotient rule}} \\
+   &= b^{-3} && \hint{\text{Simplify}} \\
 \end{align}
 
-<p>Putting the answers together, we have \(b^{-3}=\frac{1}{b^3}\).  This is an example of the rule for negative powers.  Simply put, \(b^{-n}=\frac{1}{b^n}\), provided \(b\neq 0\).</p>
+<p>Putting the answers together, we have \(b^{-3}=\dfrac{1}{b^3}\).  This is an example of the rule for negative powers.  Simply put, \(b^{-n}=\dfrac{1}{b^n}\), provided \(b\neq 0\).</p>
+</div>
 
+
+<div class="ex-group">
 <p>Whenever we are asked to "simplify" an expresssion with negative exponents, it's standard practice to rewrite the expression so that the final answer only has positive exponents.</p>
-
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-   <strong>Example 2</strong>
-   <p>Simplify each expression and write the answers with positive exponents..</p>
-   <p>1. \(z^{-1} \cdot w^3\)</p>
-   <p>2. \(b^2 \cdot b^{-8}\)</p>
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Simplify \(z^{-1} \cdot w^3\) and write the answer with positive exponents.</p>
+   <h4 class="sr-only">Solution</h4>
    <hr>
-   <strong>Solution</strong>
-   <p>For part 1:</p>
    \begin{align}
-      z^{-1}w^3 &= \frac{w^3}{z} && \small \color{#5fa2ce} {\text{Since } z^{-1}=\frac{1}{z}} \\
-   \end{align}
-   <p>For part 2:</p>
-   \begin{align}
-      b^2 \cdot b^{-8} &= b^{2+(-8)} && \small \color{#5fa2ce} {\text{Use the product rule}} \\
-      &= b^{-6} && \small \color{#5fa2ce} {\text{Simplify}} \\
-      &= \frac{1}{b^6} && \small \color{#5fa2ce} {\text{Since } b^{-6}=\frac{1}{b^6}} \\
+      z^{-1}w^3 &= \frac{w^3}{z} && \hint{\text{Since } z^{-1}=\frac{1}{z}} \\
    \end{align}
 </div>
 
-<p>Occasionally we might come across and expression that has a negative exponent on the bottom of a fraction, something like \(\frac{1}{b^{-3}}\).  How should we deal with that?  A careful application of the zero exponent rule and the quotient will give the answer.</p>
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Simplify \(b^2 \cdot b^{-8}\) and write the answer with positive exponents.</p>
+   <h4 class="sr-only">Solution</h4>
+   <hr>
+   \begin{align}
+      b^2 \cdot b^{-8} &= b^{2+(-8)} && \hint{\text{Use the product rule}} \\
+      &= b^{-6} && \hint{\text{Simplify}} \\
+      &= \frac{1}{b^6} && \hint{\text{Since } b^{-6}=\frac{1}{b^6}} \\
+   \end{align}
+</div>
+</div>
+
+<div class="keep-together">
+<p>Occasionally we might come across an expression that has a negative exponent on the bottom of a fraction, something like \(\dfrac{1}{b^{-3}}\).  How should we deal with that?  A careful application of the zero exponent rule and the quotient will give the answer.</p>
 
 \begin{align}
-   \frac{1}{b^{-3}} &= \frac{b^0}{b^{-3}} && \small \color{#5fa2ce} {\text{Since } b^0=1} \\
-   &= b^{0-(-3)} && \small \color{#5fa2ce} {\text{Use the quotient rule}} \\
-   &= b^3 && \small \color{#5fa2ce} {\text{Simplify}} \\
+   \frac{1}{b^{-3}} &= \frac{b^0}{b^{-3}} && \hint{\text{Since } b^0=1} \\
+   &= b^{0-(-3)} && \hint{\text{Use the quotient rule}} \\
+   &= b^3 && \hint{\text{Simplify}} \\
 \end{align}
 
-<p>How about that? The result had a positive exponent! In general, \(\frac{1}{b^{-n}}=b^n\).  This is a matching counterpart to the usual rule for negative exponents. An easy way to remember both rules is to notice that a term with a negative exponent transforms into a term with a positive exponent if we shift it across the fraction line, whether it's moving from the numerator to the denominator or the other way around.</p>
-   
-<p>With this result in hand, we are finally ready to make a complete list of all the rules of exponents.</p> 
+<p>How about that? The result has a positive exponent! In general, \(\dfrac{1}{b^{-n}}=b^n\).  This is a matching counterpart to the usual rule \(b^{-n}=\dfrac{1}{b^n}\) for negative exponents.</p>
+</div>
 
-<div style="margin: 1.2em;min-width:600px;width:80%;;padding:5px 10px 10px 10px;border: 2px solid #228b22; border-radius: 15px; overflow: hidden;background:#d8f7d8;">
+<p>An easy way to remember both rules is to notice that a term with a negative exponent transforms into a term with a positive exponent if we shift it up or down across the fraction line.</p>
+
+<div class="keep-together">
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Simplify \(\dfrac{4a^{-5}}{b^{-3}}\) and write the answer with positive exponents.</p>
+   <h4 class="sr-only">Solution</h4>
+   <hr>
+   \begin{align}
+      \frac{4a^{-5}}{b^{-3}} &= \frac{4b^3}{a^5}
+   \end{align}
+</div>
+   
+<p>You might be wondering why the \(4\) didn't get moved to the bottom.  The reason is that in \(4a^{-5}\) it's only the \(a\) that has a negative exponent.  If it had been \((4a)^{-5}\) then the power would have applied to both and we would have moved it all to the denominator.</p>
+</div>
+
+<div class="keep-together">
+<p>With this result in hand, we are finally ready to make a complete list of all the rules of exponents.</p>
+
+<div class="box box--idea">
    <strong>Rules of Exponents</strong>
    <table style="width: 100%; border-collapse: collapse; border: 2px solid #d8f7d8;; border-radius: 15px; overflow: hidden; ">
    <tr>
@@ -232,8 +166,8 @@
    </tr>
    <tr>
      <td style="border: 1px solid #228b22; padding: 8px;">Quotient of Powers</td>
-     <td style="border: 1px solid #228b22; padding: 8px;">\(\frac{b^m}{b^n} = b^{m-n}\)</td>
-     <td style="border: 1px solid #228b22; padding: 8px;">\(\frac{5^7}{5^2} = 5^{7-2}\)</td>
+     <td style="border: 1px solid #228b22; padding: 8px;">\(\dfrac{b^m}{b^n} = b^{m-n}\)</td>
+     <td style="border: 1px solid #228b22; padding: 8px;">\(\dfrac{5^7}{5^2} = 5^{7-2}\)</td>
    </tr>
    <tr>
      <td style="border: 1px solid #228b22; padding: 8px;">Power of a Power</td>
@@ -247,8 +181,8 @@
    </tr>
    <tr>
      <td style="border: 1px solid #228b22; padding: 8px;">Power of a Quotient</td>
-     <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}\)</td>
-     <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\frac{6}{3}\right)^4 = \frac{6^4}{3^4}\)</td>
+     <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}\)</td>
+     <td style="border: 1px solid #228b22; padding: 8px;">\(\left(\dfrac{6}{3}\right)^4 = \dfrac{6^4}{3^4}\)</td>
   </tr>
    <tr>
       <td style="border: 1px solid #228b22; padding: 8px;">Zero Exponent Rule</td>
@@ -257,103 +191,115 @@
     </tr>
     <tr>
       <td style="border: 1px solid #228b22; padding: 8px;">Negative Exponent Rule</td>
-      <td style="border: 1px solid #228b22; padding: 8px;">\(b^{-n} = \frac{1}{{b^n}}\)<br>and<br>\(\frac{1}{b^{-n}}=b^n\)<br></td>
-      <td style="border: 1px solid #228b22; padding: 8px;">\(2^{-3} = \frac{1}{{2^3}}\)</td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(b^{-n} = \dfrac{1}{{b^n}}\)<br>and<br>\(\dfrac{1}{b^{-n}}=b^n\)<br></td>
+      <td style="border: 1px solid #228b22; padding: 8px;">\(2^{-3} = \dfrac{1}{{2^3}}\)</td>
     </tr>
  </table>
 </div>
+</div>
 
-<p>All of the rules we learned in the last section still apply when working with negative exponents.  In fact, though we will not prove this, the rules apply to all nonzero real number exponents.</p>
+<p>All of the rules we learned in the last section still apply when working with negative exponents.</p>
 
+<div class="keep-together">
 <p>In the next examples we will need to use several of these rules.</p>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-   <strong>Example 3</strong>
-   <p>Simplify each expression and write the answers with positive exponents..</p>
-   <p>1. \(\frac{4a^{-5}}{b^{-3}}\)</p>
-   <p>2. \(\left(\frac{x^8 \cdot y^{-5}}{z^9}\right)^{-2}\)</p>
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Simplify \(\left(\dfrac{x^8 \cdot y^{-5}}{z^9}\right)^{-2}\) and write the answer with positive exponents.</p>
+   <h4 class="sr-only">Solution</h4>
    <hr>
-   <strong>Solution</strong>
-   <p>For part 1:</p>
    \begin{align}
-      \frac{4a^{-5}}{b^{-3}} &= \frac{4b^3}{a^5}
-   \end{align}
-   <p>For part 2:</p>
-   \begin{align}
-   \left(\frac{x^8 \cdot y^{-5}}{z^9}\right)^{-2} &= \frac{\left(x^8\right)^{-2} \cdot \left(y^{-5}\right)^{-2}}{\left(z^9\right)^{-2}} && \small \color{#5fa2ce} {\text{Use the power of a quotient rule}} \\
-      &= \frac{x^{-16} \cdot y^{10}}{z^{-18}} && \small \color{#5fa2ce} {\text{Using the power of powers rule}} \\
-      &= \frac{y^{10} \cdot z^{18}}{x^{16}} && \small \color{#5fa2ce} {\text{Using negative power rule}} \\
+   \left(\frac{x^8 \cdot y^{-5}}{z^9}\right)^{-2} &= \frac{\left(x^8\right)^{-2} \cdot \left(y^{-5}\right)^{-2}}{\left(z^9\right)^{-2}} && \hint{\text{Use the power of a quotient rule}} \\
+      &= \frac{x^{-16} \cdot y^{10}}{z^{-18}} && \hint{\text{Using the power of powers rule}} \\
+      &= \frac{y^{10} \cdot z^{18}}{x^{16}} && \hint{\text{Using negative power rule}} \\
    \end{align}
 </div>
-   
-<p>In the first part, you might be wondering why the \(4\) didn't get moved to the bottom.  The reason is that in \(4a^{-5}\) it's only the \(a\) that has a negative exponent.  If it had been \((4a)^{-5}\) then the power would have applied to both and we would have moved it all to the denominator.</p>
+</div>
 
 
-<h3>Scientific Notation</h3>
+
+<div class="keep-together">
+<h2>Scientific Notation</h2>
 <p>We've been exploring the theoretical framework around exponents, and it's now time to step into a common application: scientific notation.</p>
-
-<p>Scientific notation is a compact way of writing very small numbers and very large numbers that are too long to comfortably write normally.  For instance, the distance from Earth to Jupiter is \(708,823,486,000\) meters and the nearest star, Alpha Centauri, is \(40,208,000,000,000,000\) meters away.  Or, on the other end of the spectrum, diameter of a hydrogen atom is about \(0.000000000106\) meters.</p>
-
-<p>Imagine how easy it would be to make a mistake copying down one of those numbers, not to mention the difficulty in adding, multiplying or dividing them.</p>
-
-<p>Scientific notation makes the numbers easier to write and easier to compare, by separating them into two parts: a number and a power of \(10\).  The number part always has exactly one nonzero digit on the left of the decimal.  This is multiplied by an appropriate power of \(10\) to make the new format equal to the original number.</p>
-
-<p>It sounds more complicated than it actually is. This is one of those things that's easier to see than to read about.  The following numbers are written in standard decimal format and in scientific notation.</p>
-
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius: 15px; border:2px solid #0066ff; padding:5px 10px 10px 10px;">
-   \begin{align}
-      && \textbf{Original Number} & & & \textbf{Scientific Notation} \\ \\
-      && 53200 & & & 5.32 \times 10^4 \\ \\
-      && 40,208,000,000,000,000 &  & & 4.0208 \times 10^{16} \\ \\
-      && 0.0000077 & & & 7.7 \times 10^{-6} \\ \\
-      && 0.00138 & & & 1.38 \times 10^{-3} \\ \\
-   \end{align}
 </div>
-   
- <p>Again, there are two key things to notice.  First, the number part must be a decimal number between \(1\) and \(10\).  If your starring number isn't between \(1\) and \(10\), then you move the decimal place until it is.  Second, count the number of places, \(n\), that you moved the decimal point and multiply the decimal number by \(10\) raised to a power of \(n\). The sign of \(n\) should be positive if you started with a large number and negative if you started with a small number.</p>
 
-  <div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#d8f7d8; border-radius:15px; border:2px solid #228b22; padding:10px;">
+<p>Scientific notation is a compact way of writing very small numbers and very large numbers that are too long to comfortably write normally.  For instance, the distance from Earth to the nearest star, Alpha Centauri, is \(40,208,000,000,000,000\) meters away.  Or, on the other end of the spectrum, diameter of a hydrogen atom is about \(0.000000000106\) meters. Imagine how easy it would be to make a mistake copying down one of those numbers, not to mention the difficulty in doing arithmetic with them.</p>
+
+<p>Scientific notation makes the numbers easier to write and easier to compare, by separating them into two parts: a number and a power of \(10\).</p>
+
+<div class="box box--idea">
    <strong>Scientific Notation</strong>
    <p>A number is in scientific notation if it is written in the form</p>
    \[a \times 10^n\]
    <p>where \(1 \lt a \lt 10\) and \(n\) is an integer.</p>
- </div>
- 
+</div>
 
- <div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-   <strong>Example 4</strong>
-   <p>1.  Change \(0.00000000000047\) and \(92,960,000\) into scientific notation.</p>
-   <p>2.  Change \(5.88 \times  10^{12}\) and \(7.53 \times  10^{-10}\) into standard notation.</p>
+<p>Notice that the number part always has exactly one nonzero digit on the left of the decimal. It sounds more complicated than it actually is. This is one of those things that's easier to see than to read about.  The following numbers are written in standard decimal format and in scientific notation.</p>
+
+<div class="box box--idea">
+   \begin{align}
+    &  \textbf{Original Number} & & \textbf{Scientific Notation} \\ \\
+    &  53200 & & 5.32 \times 10^4 \\ \\
+    &  40,208,000,000,000,000 & & 4.0208 \times 10^{16} \\ \\
+    &  0.0000077 & & 7.7 \times 10^{-6} \\ \\
+    &  0.00138 & & 1.38 \times 10^{-3} \\ \\
+   \end{align}
+</div>
+   
+<p>Again, there are two key things to notice.  First, the number part must be a decimal number between \(1\) and \(10\).  If your starting number isn't between \(1\) and \(10\), then you move the decimal place until it is.  Second, count the number of places, \(n\), that you moved the decimal point and multiply the decimal number by \(10\) raised to a power of \(n\). The sign of \(n\) should be positive if you started with a large number and negative if you started with a small number.</p>
+
+<p>Let's start with a few examples where we begin with a number in standard format and convert it into scientific notation.</p> 
+
+<div class="ex-group">
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Change \(0.00000000000047\) into scientific notation.</p>
+   <h4 class="sr-only">Solution</h4>
    <hr>
-   <strong>Solution</strong>
-   <p>For part 1:</p>
    \[0.00000000000047 = 4.7 \times 10^{-13}\]
+</div>
+
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Change \(92,960,000\) into scientific notation.</p>
+   <h4 class="sr-only">Solution</h4>
+   <hr>
    \[92,960,000 = 9.296 \times 10^7\]
-   <p>For part 2:</p>
+</div>
+</div>
+
+<p>In these final examples we will do the reverse, starting with a number in scientific notation and turning it back into a number in standard form.</p>
+
+<div class="ex-group">
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Change \(5.88 \times  10^{12}\) into standard notation.</p>
+   <h4 class="sr-only">Solution</h4>
+   <hr>
    \[5.88 \times  10^{12}=5,880,000,000,000\]
+</div>
+
+<div class="box box--example">
+   <div class="example-title"></div>
+   <p>Change \(7.53 \times  10^{-10}\) into standard notation.</p>
+   <h4 class="sr-only">Solution</h4>
+   <hr>
    \[7.53 \times  10^{-10}=0.000000000753\]
- </div>
-
-
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
 
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
+<div class="keep-together">
+<h2>Conclusion</h2>
+<p>Zero and negative exponents complete our foundation of exponent rules. What started as simple repeated multiplication now extends to handle any integer exponent. In fact, though we will not prove this, the rules apply to all nonzero real number exponents.</p>
+</div>
 
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+<p>This mathematical elegance, where patterns extend logically to new situations, is a hallmark of algebra. And as we continue through algebra, using patterns like these will be essential for simplifying expressions and solving equations.</p>
+
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="2.4-practice.html"> Open 2.4 Practice
+	</a>
+</div>
+</div>
+</div>
 </body>
 </html>

@@ -1,161 +1,225 @@
-html {
-    background-color: #eeead9;
+/**** 1) CSS VARIABLES & GLOBAL RESETS ******************************************/
+:root{
+  --page-bg: #eeead9;
+  --card-bg: #fefefe;
+  --brand-teal: #00b1c1;
+  --brand-gold: #efcb36;
+  --brand-orange: #c94d00;
+  --hint-blue: #0066cc;
+  --box-green-bg: #d8f7d8; --box-green-border:#228b22;
+  --box-blue-bg:  #f0f8ff; --box-blue-border:#0066ff;
+  --shadow-menu: 0 6px 6px 6px rgba(0,0,0,.4);
 }
 
-body {
-    margin: 0;
-    font-family: Lato, sans-serif;
-    font-display: swap;
-    font-size: 1rem;
-    line-height: 1.6em;
-}
+*{ box-sizing: border-box; }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #c94d00;
+/**** 2) BASE TYPOGRAPHY & LAYOUT ******************************************/
+html{ background-color: var(--page-bg); }
+body{
+  margin:0; font-family:Lato, sans-serif; font-display:swap;
+  font-size:1rem; line-height:1.6em;
 }
+h1,h2,h3,h4,h5,h6{ color: var(--brand-orange); }
+img, svg{ max-width:100%; height:auto; } /* keep images responsive */
 
-.title {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.wrapper {
-    max-width: 1080px;
-    margin: 0 auto;
-    background-color: #fefefe;
-    border-radius: 10px;
-}
-
-.wrapper a:hover {
-    background-color: #efcb36;
-    color: black;
-}
-
-.main-content {
-    padding: 2vw 5vw;
-}
-
-.main-header {
-    display: flex;
-    border-radius: 10px 10px 0px 0px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #00b1c1;
-    color: #fff;
-    top: 0;
-    left: 0;
-    padding: 1em;
-}
-
-.main-header a {
-    float: left;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 25px;
-    border-radius: 4px;
-    color: white;
-}
-
-.main-header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.main-header a:hover {
-    background-color: #efcb36;
-    color: black;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color: #00b1c1;
-    color: white;
-    border: 0;
-    cursor: pointer;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-    justify-content: flex-end;
-}
-
-.dropbtn:hover {
-    background-color: #efcb36;
-    color: black;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #00b1c1;
-    min-width: 200px;
-    overflow: auto;
-    box-shadow: 0px 6px 6px 6px rgba(0, 0, 0, 0.4);
-    right: 0;
-    z-index: 1;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px;
-    margin: 1.2em;
-    line-height: 1.3em;
-}
-
-.dropdown-content ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    line-height: 1.3em;
-}
-
-.dropdown-content li {
-    padding-left: 0px;
-    font-size: 14px;
-    font-weight: normal;
-    display: flex;
-    line-height: 1.3em;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 0 16px;
-    display: block;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.3em;
-}
-
-.dropdown-content a:hover {
-    background-color: #efcb36;
-}
-
-.show {
-    display: block;
+:where(.main-content, .chapter) h2 { margin: 2rem 0 0; padding-bottom: 0.375rem; }
+:where(.main-content, .chapter) h2 + :where(p, ul, ol, blockquote, figure) {
+  margin-top: 0; 
 }
 
 
-footer {
-    background-color: #ccc;
-    padding: 6px;
-    text-align: center;
-    color: #333;
-  }
+/**** 3) PAGE LAYOUT STRUCTURE ******************************************/
+.wrapper{
+  max-width:1080px; margin:0 auto; background:var(--card-bg);
+  border-radius:10px;
+}
+.main-content{ padding:2vw 5vw; }
+
+/**** 4) HEADER & NAVIGATION ******************************************/
+.main-header{
+  display:flex; justify-content:space-between; align-items:center;
+  padding:1em; border-radius:10px 10px 0 0; color:#fff;
+  background:var(--brand-teal);
+}
+.title{ font-size:24px; font-weight:bold; }
+.main-header a{
+  float:left; text-align:center; padding:12px; text-decoration:none;
+  font-size:24px; line-height:25px; border-radius:4px; color:#fff;
+}
+.wrapper a:hover,
+.main-header a:hover{ background:var(--brand-gold); color:#000; }
+
+/**** 5) DROPDOWN MENU SYSTEM ******************************************/
+.navigation{ position:relative; }
+.dropbtn{
+  background:var(--brand-teal); color:#fff; border:0; cursor:pointer;
+  padding:12px; font-size:18px; line-height:25px; border-radius:4px;
+}
+.dropbtn:hover{ background:var(--brand-gold); color:#000; }
+.dropbtn:focus-visible{ outline:2px solid var(--brand-gold); outline-offset:2px; }
+
+.dropdown-content{
+  display:none; position:absolute; right:0; top:100%;
+  background:var(--brand-teal); min-width:200px; z-index:1000;
+  box-shadow: var(--shadow-menu);
+  font-size:16px; font-weight:bold; padding:10px; margin:1.2em; line-height:1.3em;
+}
+.dropdown-content.show{ display:block; }
+.dropdown-content ul{ margin:0; padding:0; list-style:none; line-height:1.3em; }
+.dropdown-content li{
+  padding-left:0; font-size:14px; font-weight:normal; display:flex; line-height:1.3em;
+}
+.dropdown-content a{
+  color:#fff; padding:0 16px; display:block; text-decoration:none;
+  font-size:14px; font-weight:normal; line-height:1.3em;
+}
+.dropdown-content a:hover{ background:var(--brand-gold); color:#000; }
+
+/**** 6) BOX COMPONENTS (CORE) ******************************************/
+.box{
+  --box-bg:#fff; --box-border:#444;
+  margin:1.2em 0; padding:10px; border-radius:12px;
+  border:2px solid var(--box-border); background:var(--box-bg);
+  overflow:visible;
+}
+.box > :first-child{ margin-top:0; }
+.box > :last-child{ margin-bottom:0; }
+.box--idea{ --box-bg: var(--box-green-bg); --box-border: var(--box-green-border); }
+.box--example{ --box-bg: var(--box-blue-bg);  --box-border: var(--box-blue-border); }
 
 
-@media (max-width: 720px) {
-    .wrapper {
-        font-size: 14px;
-        max-width: 100%;
-    }
-    .main-content {
-        padding: 0 10px;
-	}
+/* Automatic example numbering per section:
+   - standalone pages: .main-content
+   - compiled book:    .chapter
+*/
+:where(.chapter, .main-content){ counter-reset: ex; }
+
+/* Default: standalone examples => “Example 1, 2, 3 …” */
+.box--example{ counter-increment: ex; }
+.box--example .example-title::before{
+  content: "Example " counter(ex);
+  font-weight: 700;
+}
+
+.box--example { display: flow-root; }
+
+/* Grouped sub-examples => “Example 2a, 2b, 2c …” */
+.ex-group{ counter-increment: ex; counter-reset: sub; }
+/* optional hardening: ex 0 */
+.ex-group > .box--example{ counter-increment: sub; /* or: ex 0 sub */ }
+.ex-group > .box--example .example-title::before{
+  content: "Example " counter(ex) counter(sub, lower-alpha);
+  font-weight: 700;
+}
+
+
+
+/**** 7) BOX CONTENT STYLING ******************************************/
+/* Reduce margins only for lists inside boxes */
+.box ul {
+  margin: 0.25em 0;
+}
+
+/* Tables in boxes */
+.box table{ width:100%; border-collapse:collapse; border:0; margin:.25em 0 .5em; }
+.box th, .box td{ border:none; padding:.4em .6em; vertical-align:top; }
+.box tr{ break-inside:avoid; }
+
+/* Consolidated border rules for both box types */
+.box table[data-borders="on"],
+.box table[data-borders="on"] th,
+.box table[data-borders="on"] td { border: 1px solid #bbb; }
+
+/* Consolidated compact table rules for both box types */
+.box table.compact {
+  width: auto;              /* don't stretch to 100% */
+  display: inline-table;    /* shrink-to-fit width */
+  table-layout: auto;       /* let content size the columns */
+  margin: 1.2em auto;       /* center it */
+}
+
+
+
+/**** 8) SOLUTION SEPARATORS ******************************************/
+/* Solution separator inside example boxes */
+.box--example hr {   
+  border: 0;
+  border-top: 1.2pt solid var(--box-border);  /* inherits the box border color */
+  margin: 6px 0 6px;         /* left-aligned (no auto margins) */
+  border-radius: 1px;         /* subtle smoothing; harmless if ignored */
+}
+
+/* Accessible but invisible label, e.g., <p class="sr-only">Solution.</p> */
+.sr-only{
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+/**** 9) SECTION HEADINGS & ANCHORS ******************************************/
+.main-content h2 { position: relative; }
+.main-content h2 .heading-anchor {
+  margin-left: .35em;
+  text-decoration: none;
+  opacity: 0;
+  font-size: .8em;
+}
+.main-content h2:hover .heading-anchor,
+.main-content h2:focus-within .heading-anchor { opacity: 1; }
+
+/* When you jump to an id, keep it from hugging the top */
+.main-content [id] { scroll-margin-top: 1.25rem; }
+
+/**** 10) PRACTICE & INTERACTIVE COMPONENTS ******************************************/
+.mom-number {
+  margin-block-start: 1em;
+  margin-block-end: 0;
+  padding: 0.25em;
+  background-color: #b2d9ff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+/* Make iframes fill the row and be visibly framed */
+.embedwrap iframe{
+  display: block;
+  width: 100%;
+  min-height: 360px;         /* safe starting size */
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.practice-nav-container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin: 1.5em 0;
+}
+
+.practice-button {
+  background-color: var(--box-blue-bg) !important;
+  color: #000 !important;
+  border: 2px solid var(--box-blue-border);   /* uses CSS variable */
+  border-radius: 12px;         /* same rounding as boxes */
+  padding: 0.6em 1.2em;        /* make the button bigger */
+  font-size: 1em;
+  font-weight: 600;
+  text-decoration: none;       /* remove underline */
+  display: inline-block;       /* behaves like a button */
+  cursor: pointer;
+}
+.practice-button:hover {
+  background-color: var(--brand-gold) !important;
+  color: #000 !important;
+}
+
+/**** 11) MATHJS STYLING ******************************************/
+mjx-container[jax="CHTML"] .hint{
+  color: var(--hint-blue);
+  font-size: .9em; /* like \small */
+}
+
+/**** 12) FOOTER ******************************************/
+footer{
+  background:#ccc; padding:6px; text-align:center; color:#333;
 }

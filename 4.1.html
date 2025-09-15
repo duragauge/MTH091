@@ -1,332 +1,249 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="stylesheet.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
-	<script async type="text/x-mathjax-config">
-	           MathJax.Hub.Config({
-	               tex2jax: {
-	                   inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-	                   displayMath: [ ['\\[','\\]'], ['$$','$$'] ],
-	                   processEscapes: true,
-	                   skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-	               }
-	           });
-	</script>
-	<title>MTH091 Algebraic Literacy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="head-common.js?v=1"></script>
+  <title>MTH091 Algebraic Literacy – 4.1 Solving through Simplification</title>
 </head>
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <div class="title"><a href="./">MTH091 Algebraic Literacy</a></div>
-            <nav class="navigation">
-                <button class="dropbtn" id="dropdown-button">Content</button>
-                <div class="dropdown-content" id="dropdown-content">
-                    Chapter 1 Real Numbers
-                    <ul>
-                        <li>
-                            <a href="1.1.html">1.1 Subsets of Real Numbers</a>
-                        </li>
-                        <li>
-                            <a href="1.2.html">1.2 Working with Integers</a>
-                        </li>
-                        <li>
-                            <a href="1.3.html">1.3 Working with Fractions</a>
-                        </li>
-                    </ul>
-                    Chapter 2 Algebraic Expressions
-                    <ul>
-                        <li>
-                            <a href="2.1.html">2.1 The Language of Algebra</a>
-                        </li>
-                        <li>
-                            <a href="2.2.html">2.2 Using Algebraic Expressions</a>
-                        </li>
-                        <li>
-                            <a href="2.3.html">2.3 Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.4.html">2.4 Negative Exponents</a>
-                        </li>
-                        <li>
-                            <a href="2.5.html">2.5 The Distributive Property</a>
-                        </li>
-                        <li>
-                            <a href="2.6.html">2.6 Factoring</a>
-                        </li>
-                    </ul>
-                    Chapter 3 Elementary Equations
-                    <ul>
-                        <li>
-                            <a href="3.1.html">3.1 One-Step Equations</a>
-                        </li>
-                        <li>
-                            <a href="3.2.html">3.2 Solving Multi-Step Equations by Inverse Operations</a>
-                        </li>
-                        <li>
-                            <a href="3.3.html">3.3 Solving Literal Equations and Formulas</a>
-                        </li>
-                    </ul>
-                    Chapter 4 Intermediate Equations
-                    <ul>
-                        <li>
-                            <a href="4.1.html">4.1 Solving through Simplification</a>
-                        </li>
-                        <li>
-                            <a href="4.2.html">4.2 Solving by Factoring</a>
-                        </li>
-                        <li>
-                            <a href="4.3.html">4.3 The Quadratic Formula</a>
-                        </li>
-                        <li>
-                            <a href="4.4.html">4.4 Beyond the Basics</a>
-                        </li>
-                    </ul>
-                    Chapter 5 Graphing
-                    <ul>
-                        <li>
-                            <a href="5.1.html">5.1 The Cartesian Coordinate System</a>
-                        </li>
-                        <li>
-                            <a href="5.2.html">5.2 Understanding Slope</a>
-                        </li>
-                        <li>
-                            <a href="5.3.html">5.3 Graphing Linear Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.4.html">5.4 Graphing Quadratic Equations</a>
-                        </li>
-                        <li>
-                            <a href="5.5.html">5.5 Graphing Equations with Technology</a>
-                        </li>
-                    </ul>
-                    Glossary
-                    <ul>
-                        <li><a href="Glossary.html">Glossary of Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="main-content">
+        <div id="site-header"></div>
+    <div class="main-content" role="main">
         <h1>4.1 Solving through Simplification</h1>
 
+<h2>Introduction</h2>
+<p>Up until now we have explored "elementary" equations that could be solved using inverse operations alone.</p>
 
-<h3>Introduction</h3>
-<p>In the previous sections, we explored equations where the variable only appeared once. In this chapter, we are moving on to equations where the variable occurs in multiple places and could even appear on both sides of the equation, which presents a new set of challenges and techniques.</p>
+<p>In this chapter, we begin looking at "intermediate" equations where the variable occurs in multiple terms, with different powers, or where other complications arise that require additional techniques.</p>
 
-<p>In this section we will focus on using the skills we developed in Chapter 2 (combining like terms, distribution, etc.) to simplify complicated equations to the point where we can solve them the same way we did in Chapter 3.</p>
+<p>We'll start by using the skills we developed in Chapter 2 (combining like terms, distribution, etc.) to collect all the variable terms together into simplified equations that can be solved the same way we did in Chapter 3.</p>
 
+<div class="keep-together">
+<h2>Solving Equations by Combining Like Terms</h2>
+<p>When an equation involves multiple terms with the same variable on the same side of the equation, we should try to combine those terms before solving.  Combining any like terms can simplify the equation, making it easier to solve.</p>
+</div>
 
-<h3>Solving Equations by Combining Like Terms</h3>
-<p>When an equation involves multiple terms with the same variable on the same side of the equation, we should try to combine those terms before solving., combining like terms can simplify the equation, making it easier to solve.</p>
-
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 1</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Solve the equation \(5x + 4 -7x = 15\) by first combining like terms.</p>
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-        5x + 4 -7x &= 15 && \small \color{#5fa2ce} {\text{Original equation}} \\
-        -2x + 4 &= 15 && \small \color{#5fa2ce} {\text{Combine }5x-7x=-2x} \\
-        -2x &= 11 && \small \color{#5fa2ce} {\text{Subtract }4} \\
-        x &= \frac{11}{-2} && \small \color{#5fa2ce} {\text{Divide by }-2}
+        5x + 4 -7x &= 15 && \hint{\text{Original equation}} \\
+        -2x + 4 &= 15 && \hint{\text{Combine }5x-7x=-2x} \\
+        -2x &= 11 && \hint{\text{Subtract }4} \\
+        x &= \frac{11}{-2} && \hint{\text{Divide by }-2}
     \end{align}
 </div>
 
+<div class="keep-together">
 <p>When combining like terms, remember that it's only possible to combine terms that have the same variables raised to the same powers.  We cannot combine \(2x\) and \(3y\) (different variables) nor can we combine \(2x\) with \(3x^2\) (different powers).</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 2</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Solve the equation \(3x^2 - 2x + 5 + 6x^2 +2x = 86\) by first combining like terms.</p>
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
-        3x^2 - 2x + 5 + 6x^2 +2x &= 86 && \small \color{#5fa2ce} {\text{Original equation}} \\
-        9x^2 + 5 &= 86 && \small \color{#5fa2ce} {\text{Combine like terms}} \\
-        9x^2 &= 81 && \small \color{#5fa2ce} {\text{Subtract }5} \\
-        x^2 &= 9 && \small \color{#5fa2ce} {\text{Divide by }9} \\
-        x &= \pm \sqrt{9} && \small \color{#5fa2ce} {\text{Square root}} \\
-        x &= \pm 3 && \small \color{#5fa2ce} {\text{Simplify}}
+        3x^2 - 2x + 5 + 6x^2 +2x &= 86 && \hint{\text{Original equation}} \\
+        9x^2 + 5 &= 86 && \hint{\text{Combine like terms}} \\
+        9x^2 &= 81 && \hint{\text{Subtract }5} \\
+        x^2 &= 9 && \hint{\text{Divide by }9} \\
+        x &= \pm \sqrt{9} && \hint{\text{Square root}} \\
+        x &= \pm 3 && \hint{\text{Simplify}}
     \end{align}
 </div>
 
-
-<h3>Solving Equations with the Variable on Both Sides</h3>
+<div class="keep-together">
+<h2>Solving Equations with the Variable on Both Sides</h2>
 <p>Up until now, all of our equations only had the variable on one side. But what if the variable appears on both sides of the equation?</p>
 
 <p>If we could move all the variable terms to one side of the equation then we could combine the like terms and solve, so that's what we'll do!!  It doesn't matter which side the variable terms end up as long as they are on the same side.</p>
+</div>
 
+<div class="keep-together">
 <p>This is done by adding or subtracting the term we want to move.  For instance, if \(5x + 6 = 2x\) and we wanted to move \(2x\) to the left side, we would subtract \(2x\) from both sides</p>
 
 \begin{align}
     5x + 6 &= 2x \\
-    5x - 2x + 6 &= 2x - 2x  && \small \color{#5fa2ce} {\text{Subtract }2x} \\
-    3x + 6 &= 0  && \small \color{#5fa2ce} {\text{Simplify}}
+    5x - 2x + 6 &= 2x - 2x  && \hint{\text{Subtract }2x} \\
+    3x + 6 &= 0  && \hint{\text{Simplify}}
 \end{align}
 
 <p>and then we could proceed to solve like normal.  Or, if we wanted to move \(5x\) over to the right side we would subtract it from both sides.</p>
 
 \begin{align}
     5x + 6 &= 2x \\
-    5x - 5x + 6 &= 2x - 5x  && \small \color{#5fa2ce} {\text{Subtract }5x} \\
-    6 &= -3x  && \small \color{#5fa2ce} {\text{Simplify}}
+    5x - 5x + 6 &= 2x - 5x  && \hint{\text{Subtract }5x} \\
+    6 &= -3x  && \hint{\text{Simplify}}
 \end{align}
 
 <p>Both of those equations have the same solution, so it doesn't mater which we use.  The important thing is to get all of the variable terms on the same side.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 3</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Solve the equation: \(4x + 5 = 3x + 10\).</p>
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>We will solve this both ways to show the answers are identical. First we'll subtracting \(3x\) so that all of the variables end up on the left.</p>
     \begin{align}
         4x + 5 &= 3x + 10 \\
-        4x - 3x + 5 &= 3x - 3x + 10  && \small \color{#5fa2ce} {\text{Subtract }3x} \\
-        x + 5 &= 10  && \small \color{#5fa2ce} {\text{Simplify}} \\
-        x &= 5  && \small \color{#5fa2ce} {\text{Subtract }5}
+        4x - 3x + 5 &= 3x - 3x + 10  && \hint{\text{Subtract }3x} \\
+        x + 5 &= 10  && \hint{\text{Simplify}} \\
+        x &= 5  && \hint{\text{Subtract }5}
     \end{align}
     <p>Now we will solve it again, this time by subtracting \(4x\) so that all the variable terms end up on the right.</p>
     \begin{align}
         4x + 5 &= 3x + 10 \\
-        4x - 4x + 5 &= 3x - 4x + 10  && \small \color{#5fa2ce} {\text{Subtract }4x} \\
-        5 &= -x + 10  && \small \color{#5fa2ce} {\text{Simplify}} \\
-        -5 &= -x  && \small \color{#5fa2ce} {\text{Subtract }10} \\
-        5 &= x  && \small \color{#5fa2ce} {\text{Divide by }-1}
+        4x - 4x + 5 &= 3x - 4x + 10  && \hint{\text{Subtract }4x} \\
+        5 &= -x + 10  && \hint{\text{Simplify}} \\
+        -5 &= -x  && \hint{\text{Subtract }10} \\
+        5 &= x  && \hint{\text{Divide by }-1}
     \end{align}
 </div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-	<strong>Example 4</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Consider the equation: \(2x + 3 - x = 5x - 2\). Let's combine the like terms on each side:</p>
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
         2x + 3 - x &= 5x - 2\\
-        x + 3 &= 5x - 2  && \small \color{#5fa2ce} {\text{Combine like terms on the left}} \\
-        -4x + 3 &= -2  && \small \color{#5fa2ce} {\text{Subtract }5x} \\
-        -4x &= -5  && \small \color{#5fa2ce} {\text{Subtract }3} \\
-        x &= \frac{5}{4}  && \small \color{#5fa2ce} {\text{Divide by }-4}
+        x + 3 &= 5x - 2  && \hint{\text{Combine like terms on the left}} \\
+        -4x + 3 &= -2  && \hint{\text{Subtract }5x} \\
+        -4x &= -5  && \hint{\text{Subtract }3} \\
+        x &= \frac{5}{4}  && \hint{\text{Divide by }-4}
     \end{align}
 </div>
 
-
-<h3>Solving Equations Using Distribution</h3>
+<div class="keep-together">
+<h2>Solving Equations Using Distribution</h2>
 <p>Distribution, also known as the distributive property, allows us to simplify equations by distributing a value across terms within parentheses allowing us to move terms around and combine them.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 5</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use distribution to solve the equation \(2(x + 3) = 10\).</p>
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
         2(x + 3) &= 10\\
-        2x + 6 &= 10   && \small \color{#5fa2ce} {\text{Distribute the }2} \\
-        2x &= 4  && \small \color{#5fa2ce} {\text{Subtract }6} \\
-        x &= 2  && \small \color{#5fa2ce} {\text{Divide by }2}
+        2x + 6 &= 10   && \hint{\text{Distribute the }2} \\
+        2x &= 4  && \hint{\text{Subtract }6} \\
+        x &= 2  && \hint{\text{Divide by }2}
     \end{align}
 </div>
 
+<div class="keep-together">
 <p>The equation in Example 5 could have been solved using inverse operations and bypassing distribution entirely.</p>
 
 \begin{align}
     2(x + 3) &= 10\\
-    x + 3 &= 5   && \small \color{#5fa2ce} {\text{Divide by }2} \\
-    x &= 2  && \small \color{#5fa2ce} {\text{Subtract }3}
+    x + 3 &= 5   && \hint{\text{Divide by }2} \\
+    x &= 2  && \hint{\text{Subtract }3}
 \end{align}
 
 <p>So why don't we do it that way all of the time?  Early division certainly can be an effective option, especially if doing so will simplify both sides, but frequently it will generate fractions which can make the equation unnecessarily complicated.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 6</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use distribution to solve the equation \(5(x - 2) = 3x - 14\).</p>
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
         5(x - 2) &= 3x - 14\\
-        5x -10 &= 3x -14   && \small \color{#5fa2ce} {\text{Distribute the }5} \\
-        2x -10 &= -14  && \small \color{#5fa2ce} {\text{Subtract }3x} \\
-        2x &= -4  && \small \color{#5fa2ce} {\text{Add }10} \\
-        x &= -2  && \small \color{#5fa2ce} {\text{Divide by }2}
+        5x -10 &= 3x -14   && \hint{\text{Distribute the }5} \\
+        2x -10 &= -14  && \hint{\text{Subtract }3x} \\
+        2x &= -4  && \hint{\text{Add }10} \\
+        x &= -2  && \hint{\text{Divide by }2}
     \end{align}
 </div>
 
-<p>Notice that if we had chose to divide by \(5\) as our first step, then the resulting equation \(x-2=\frac{3x}{2}-7\) would now have a fraction in it and we would need to be extra careful with the rest of the solving steps.</p>
+<div class="keep-together">
+<p>Notice that if we had chose to divide by \(5\) as our first step, then the resulting equation \(x-2=\dfrac{3x}{2}-7\) would now have a fraction in it and we would need to be extra careful with the rest of the solving steps.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 7</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
     <p>Use distribution to solve the equation \(3-2(x+8)=23 - 11x\).</p>
-    <hr>
-    <strong>Solution</strong>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     \begin{align}
         3-2(x+8) &= 23-11x\\
-        3 - 2x - 16 &= 23-11x   && \small \color{#5fa2ce} {\text{Distribute the }-2} \\
-        -2x -13 &= 23-11x  && \small \color{#5fa2ce} {\text{Combine }3-16=-13} \\
-        9x -13 &= 23  && \small \color{#5fa2ce} {\text{Add }11x} \\
-        9x &= 36  && \small \color{#5fa2ce} {\text{Add }13} \\
-        x &= 4  && \small \color{#5fa2ce} {\text{Divide by }9}
+        3 - 2x - 16 &= 23-11x   && \hint{\text{Distribute the }-2} \\
+        -2x -13 &= 23-11x  && \hint{\text{Combine }3-16=-13} \\
+        9x -13 &= 23  && \hint{\text{Add }11x} \\
+        9x &= 36  && \hint{\text{Add }13} \\
+        x &= 4  && \hint{\text{Divide by }9}
     \end{align}
 </div>
 
+<div class="keep-together">
 <p>In this problem, distributing first helped us avoid accidentally combining the \(3\) and  \(-2\), which is a very common mistake. It's tempting to do that subtraction, but it cannot be done since \(-2\) is multiplying \(x+8\).</p>
 
 <p>Another common mistake that is unique to distribution is attempting to distribute when there is a power or a root around an expression.  It is not possible to use distribution in cases like \(5(x+2)^3\) or \(5\sqrt{x+2}\).  Distribution applies to multiplication over addition or subtraction, which doesn't directly work with powers or roots.</p>
+</div>
 
-
-<h3>Solving Equations by Clearing Fractions</h3>
+<div class="keep-together">
+<h2>Solving Equations by Clearing Fractions</h2>
 <p>This last technique can be used to remove many of the fractions in an equation, making it easier to solve.  Fractions in equations can sometimes complicate the solving process, so eliminating them can be a helpful strategy.</p>
 <p>To clear fractions from an equation, we need to multiply <em>every</em> term in the equation by the least common multiple (LCM) of the denominators of the fractions in the equation. This effectively eliminates the fractions, and you can proceed to solve the resulting equation using the methods we've discussed earlier.</p>
 
 <p>Let's see how this works in a few examples.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 8</strong>
-    <p>Solve the equation \(\frac{3}{2}x - \frac{1}{4} = \frac{5}{6}\) by clearing fractions.</p>
-    <hr>
-    <strong>Solution</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Solve the equation \(\dfrac{3}{2}x - \dfrac{1}{4} = \dfrac{5}{6}\) by clearing fractions.</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>The denominators are \(2\), \(4\), and \(6\), and their LCM is \(12\). Multiplying both sides of the equation by \(12\) will clear the fractions:</p>
     \begin{align}
         \frac{3}{2}x - \frac{1}{4} = \frac{5}{6} \\
-        12 \cdot \left(\frac{3}{2}x - \frac{1}{4}\right) &= 12 \cdot \frac{5}{6} && \small \color{#5fa2ce} {\text{Multiply both sides by the LCM }12} \\
-        12 \cdot \frac{3}{2}x - 12 \cdot \frac{1}{4} &= 12 \cdot \frac{5}{6} && \small \color{#5fa2ce} {\text{On the left, distribute }12} \\
-        \frac{36}{2}x - \frac{12}{4} &= \frac{60}{6} && \small \color{#5fa2ce} {\text{Perform the multiplications}} \\
-        18x - 3 &= 10 && \small \color{#5fa2ce} {\text{Simplify each fraction}}
+        12 \cdot \left(\frac{3}{2}x - \frac{1}{4}\right) &= 12 \cdot \frac{5}{6} && \hint{\text{Multiply both sides by the LCM }12} \\
+        12 \cdot \frac{3}{2}x - 12 \cdot \frac{1}{4} &= 12 \cdot \frac{5}{6} && \hint{\text{On the left, distribute }12} \\
+        \frac{36}{2}x - \frac{12}{4} &= \frac{60}{6} && \hint{\text{Perform the multiplications}} \\
+        18x - 3 &= 10 && \hint{\text{Simplify each fraction}}
     \end{align}
     Now, we can solve for \(x\) as usual:
     \begin{align}
         18x - 3 &= 10 && \\
-        18x &= 13 && \small \color{#5fa2ce} {\text{Add }3} \\
-        x &= \frac{13}{18} && \small \color{#5fa2ce} {\text{Divide by }18}
+        18x &= 13 && \hint{\text{Add }3} \\
+        x &= \frac{13}{18} && \hint{\text{Divide by }18}
     \end{align}
 </div>
 
+<div class="keep-together">
 <p>Clearing fractions might introduce larger coefficients, but that's generally a worthwhile tradeoff.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin-top:1.2em;margin-bottom:1.2em; background:#f0f8ff; border-radius:15px; border:2px solid #0066ff;  padding:5px 10px 10px 10px;">
-    <strong>Example 9</strong>
-    <p>Solve the equation \(\frac{2}{3}x + \frac{1}{5} = \frac{x}{4} + \frac{3}{10}\) by clearing fractions.</p>
-    <hr>
-    <strong>Solution</strong>
+<div class="box box--example">
+  <div class="example-title"><span class="sr-only">Example </span></div>
+    <p>Solve the equation \(\dfrac{2}{3}x + \dfrac{1}{5} = \dfrac{x}{4} + \dfrac{3}{10}\) by clearing fractions.</p>
+    <h4 class="sr-only">Solution</h4>
+<hr class="solution-sep">
     <p>The denominators are \(3\), \(5\), and \(4\), and their LCM is \(60\).</p>
     \begin{align}
-        60 \cdot \left(\frac{2}{3}x + \frac{1}{5}\right) &= 60 \cdot \left(\frac{x}{4} + \frac{3}{10}\right) && \small \color{#5fa2ce} {\text{Multiply side by the LCM }60} \\
-        60 \cdot \frac{2}{3}x + 60 \cdot \frac{1}{5} &= 60 \cdot \frac{x}{4} + 60 \cdot \frac{3}{10} && \small \color{#5fa2ce} {\text{Distribute }60\text{ to each term}} \\
-        \frac{120}{3}x + \frac{60}{5} &= \frac{60x}{4} + \frac{180}{10} && \small \color{#5fa2ce} {\text{Perform the multiplications}} \\        
-        40x + 12 &= 15x + 18 && \small \color{#5fa2ce} {\text{Simplify each fraction}} \\
-        40x - 15x + 12 &= 18 && \small \color{#5fa2ce} {\text{Subtract }15x} \\
-        40x - 15x &= 18 - 12 && \small \color{#5fa2ce} {\text{Subtract }12} \\
-        25x &= 6 && \small \color{#5fa2ce} {\text{Combine like terms}} \\
-        x &= \frac{6}{25} && \small \color{#5fa2ce} {\text{Divide by }25} \\
+        60 \cdot \left(\frac{2}{3}x + \frac{1}{5}\right) &= 60 \cdot \left(\frac{x}{4} + \frac{3}{10}\right) && \hint{\text{Multiply side by the LCM }60} \\
+        60 \cdot \frac{2}{3}x + 60 \cdot \frac{1}{5} &= 60 \cdot \frac{x}{4} + 60 \cdot \frac{3}{10} && \hint{\text{Distribute }60\text{ to each term}} \\
+        \frac{120}{3}x + \frac{60}{5} &= \frac{60x}{4} + \frac{180}{10} && \hint{\text{Perform the multiplications}} \\        
+        40x + 12 &= 15x + 18 && \hint{\text{Simplify each fraction}} \\
+        40x - 15x + 12 &= 18 && \hint{\text{Subtract }15x} \\
+        40x - 15x &= 18 - 12 && \hint{\text{Subtract }12} \\
+        25x &= 6 && \hint{\text{Combine like terms}} \\
+        x &= \frac{6}{25} && \hint{\text{Divide by }25} \\
     \end{align}
 </div>
 
+<div class="keep-together">
 <p>We now have a fairly robust set of tools for solving equations.</p>
+</div>
 
-<div style="min-width:600px;width:100%;margin: 1.2em; background: #d8f7d8; border-radius: 15px; border: 2px solid #228b22; padding: 10px;">
+<div class="box box--idea">
     <strong>Equation Solving Process</strong>
 <ul>
     <li>Use distribution to remove any parenthesis.</li>
@@ -337,30 +254,18 @@
 </ul>
 </div>
 
+<div class="keep-together">
+<h2>Looking Ahead</h2>
+<p>The techniques we've learned work well when the variable appears only once, or when we can combine terms so that the variable only appears once.</p>   
 
-<h3>Conclusion</h3>
-<p>The next step in our progression is solving equations where it isn't possible to combine the variable terms because of the roots or powers attached to them. Even so, we'll take what we've learned here with us and try to incorporate an old skill: factoring.</p>
+<p>But what if we come across equations like \(x^2 + 5x + 6 = 0\), where we can't combine \(x^2\) with \(5x\)?  As we'll see in the next section, we combine what we've learned here with an old skill: factoring.</p>
+</div>
 
-
+<div class="practice-nav-container" aria-label="Practice navigation">
+	<a class="practice-button" href="4.1-practice.html"> Open 4.1 Practice
+	</a>
 </div>
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const dropdownButton = document.getElementById("dropdown-button");
-        const dropdownContent = document.getElementById("dropdown-content");
-
-        dropdownButton.addEventListener("click", function() {
-            dropdownContent.classList.toggle("show");
-        });
-
-        window.addEventListener("click", function(event) {
-            if (!event.target.matches("#dropdown-button")) {
-                if (dropdownContent.classList.contains("show")) {
-                    dropdownContent.classList.remove("show");
-                }
-            }
-        });
-    });
-</script>
+</div>
 </body>
 </html>
