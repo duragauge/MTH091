@@ -9,6 +9,7 @@ What it does
 • Reads a list of files (sections.txt) and/or positional args IN ORDER.
 • Accepts both HTML sections and SVG pages in the list.
    - The first SVG is treated as the COVER automatically, or mark a line "cover: path.svg".
+   - The last SVG is treated as the BACK COVER automatically.
    - Additional SVGs become full-page plates (zero margins).
 • Extracts ONLY the main content area from HTML (default selector: div.main-content).
 • Wraps each HTML section as <section class="chapter" id="..."> for clean page breaks.
@@ -218,6 +219,15 @@ def main():
                 entries.pop(i)   # remove from normal flow; it's the cover now
                 break
 
+    # NEW: Detect back cover (last SVG in remaining entries)
+    back_cover_path = None
+    for i in reversed(range(len(entries))):  # Search backwards
+        kind, p = entries[i]
+        if kind == "svg":
+            back_cover_path = p
+            entries.pop(i)  # Remove from normal processing
+            break
+
     # Build sections
     chapters_html: list[str] = []
     html_count = 0
@@ -233,6 +243,16 @@ def main():
         else:
             print(f"[WARN] Cover specified but empty/unreadable: {cover_path}", file=sys.stderr)
 
+    # NEW: Optional back cover (inline SVG)
+    back_cover_html = ""
+    if back_cover_path:
+        svg_text = read_text_or_warn(back_cover_path)
+        if svg_text.strip():
+            back_cover_html = f'<section id="back-cover" style="page: cover;">\n{svg_text}\n</section>'
+            print(f"[INFO] Using back cover: {back_cover_path}")
+        else:
+            print(f"[WARN] Back cover specified but empty/unreadable: {back_cover_path}", file=sys.stderr)
+
     # Process remaining entries
     for kind, p in entries:
         text = read_text_or_warn(p)
@@ -247,7 +267,7 @@ def main():
         elif kind == "svg":
             # Additional SVG pages — full-page, zero margins (reuse @page cover rules).
             block = (
-                '<section class="svg-page" style="page: cover; break-after: right;">\n'
+                '<section class="svg-page" style="page: cover;">\n'
                 f"{text}\n</section>"
             )
             chapters_html.append(block)
@@ -268,36 +288,39 @@ def main():
         base_tag=base_tag
     )
 
-    # Compose document (cover OUTSIDE the wrapper so it can be full-bleed)
+    # Compose document with back cover OUTSIDE wrapper
     final_html = [
-    HTML_DOCTYPE,
-    '<html lang="en">',
-    '<head>',
-    head_html,          # <-- this is DEFAULT_HEAD.format(...)
-    '</head>',
-    '<body>',
-    cover_html,
-    '\n<section id="blank-page" aria-hidden="true" role="presentation"></section>\n' if cover_html else "",
-    '<div class="wrapper book-wrapper">',
-    "\n".join(chapters_html),
-    ATTRIBUTION_HTML,
-    '</div>',
-    '</body>',
-    '</html>',
-]
+        HTML_DOCTYPE,
+        '<html lang="en">',
+        '<head>',
+        head_html,          # <-- this is DEFAULT_HEAD.format(...)
+        '</head>',
+        '<body>',
+        cover_html,
+        '\n<section id="blank-page" aria-hidden="true" role="presentation"></section>\n' if cover_html else "",
+        '<div class="wrapper book-wrapper">',
+        "\n".join(chapters_html),
+        ATTRIBUTION_HTML,
+        '</div>',
+        back_cover_html,  # NEW: Back cover outside wrapper
+        '</body>',
+        '</html>',
+    ]
 
     # Write output
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    if not cover_html and not chapters_html:
+    if not cover_html and not chapters_html and not back_cover_html:
         print("[ERROR] No readable inputs found. Nothing to write.", file=sys.stderr)
         sys.exit(2)
 
     out_path.write_text("\n".join(final_html), encoding="utf-8")
     print(
         f"[DONE] Wrote {out_path.resolve()}  "
-        f"(HTML sections: {html_count}, SVG pages: {svg_count}, Cover: {'yes' if cover_html else 'no'})"
+        f"(HTML sections: {html_count}, SVG pages: {svg_count}, "
+        f"Cover: {'yes' if cover_html else 'no'}, "
+        f"Back Cover: {'yes' if back_cover_html else 'no'})"
     )
 
 if __name__ == "__main__":

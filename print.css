@@ -87,15 +87,15 @@ a, a:link, a:visited, a:hover, a:active {
 /* All main content uses the numbered body page template by default */
 .book-wrapper { page: body; }
 
-/* Optional back cover selector(s) if present */
-#back-cover,
-.back-cover,
-.book-wrapper > .back-cover,
-.book-wrapper > section.back-cover {
-  page: back;
-  break-before: left;
+#back-cover {
+  page: back !important;   /* beat the inline page: cover */
+  break-before: left;       /* force verso so no trailing filler */
+  break-after: auto;        /* belt & suspenders: don’t push another page */
   break-inside: avoid;
 }
+
+
+
 
 /**** 4) CHAPTER NUMBERING & PAGINATION ******************************************/
 /* Treat the first chapter as TOC/front-matter: keep it unnumbered */
@@ -215,8 +215,3 @@ details:not([open]) > :not(summary) {
 #toc h1 { margin-top: 0; margin-bottom: 0.3rem; font-size: 1.6rem;}
 #toc h2 { margin-top: 0.4rem; margin-bottom: 0.2rem; font-size: 1.2rem;}
 #toc p { margin-bottom: 0.2rem; line-height: 1.10; }
-
-#back-cover {
-  page: cover;
-  break-before: right; /* Forces start on left/even page */
-}
