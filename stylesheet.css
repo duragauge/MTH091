@@ -35,6 +35,7 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
 }
 .main-content{ padding:2vw 5vw; }
 
+
 /**** 4) HEADER & NAVIGATION ******************************************/
 .main-header{
   display:flex; justify-content:space-between; align-items:center;
@@ -48,6 +49,7 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
 }
 .wrapper a:hover,
 .main-header a:hover{ background:var(--brand-gold); color:#000; }
+
 
 /**** 5) DROPDOWN MENU SYSTEM ******************************************/
 .navigation{ position:relative; }
@@ -74,6 +76,7 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
   font-size:14px; font-weight:normal; line-height:1.3em;
 }
 .dropdown-content a:hover{ background:var(--brand-gold); color:#000; }
+
 
 /**** 6) BOX COMPONENTS (CORE) ******************************************/
 .box{
@@ -113,7 +116,6 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
 }
 
 
-
 /**** 7) BOX CONTENT STYLING ******************************************/
 /* Reduce margins only for lists inside boxes */
 .box ul {
@@ -137,7 +139,6 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
   table-layout: auto;       /* let content size the columns */
   margin: 1.2em auto;       /* center it */
 }
-
 
 
 /**** 8) SOLUTION SEPARATORS ******************************************/
@@ -169,6 +170,7 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
 /* When you jump to an id, keep it from hugging the top */
 .main-content [id] { scroll-margin-top: 1.25rem; }
 
+
 /**** 10) PRACTICE & INTERACTIVE COMPONENTS ******************************************/
 .mom-number {
   margin-block-start: 1em;
@@ -188,6 +190,11 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
   border: 1px solid #ccc;
   border-radius: 12px;
 }
+
+/* Make iframes for MyOpenMath fit and autoresize correctly */
+.practice .embedwrap { position: relative; overflow: visible; }
+.practice .embedwrap > iframe { position: absolute; width: 100%; border: none; }
+
 
 .practice-nav-container {
   display: flex;
@@ -213,11 +220,13 @@ img, svg{ max-width:100%; height:auto; } /* keep images responsive */
   color: #000 !important;
 }
 
+
 /**** 11) MATHJS STYLING ******************************************/
 mjx-container[jax="CHTML"] .hint{
   color: var(--hint-blue);
   font-size: .9em; /* like \small */
 }
+
 
 /**** 12) FOOTER ******************************************/
 footer{

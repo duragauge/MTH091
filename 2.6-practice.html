@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+ <link rel="preconnect" href="https://www.myopenmath.com">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="head-common.js?v=1"></script>
   <link rel="stylesheet" href="stylesheet.css">
-  <title>MTH091 Algebraic Literacy – 2.6 Practice</title>
-
-  <!-- minimal layout helpers for auto-resizing frames -->
-  <style>
-    .embedwrap { position: relative; overflow: visible; }
-    .embedwrap > iframe { position: absolute; width: 100%; border: none; }
-  </style>
+  <title>MTH091 Algebraic Literacy — 2.6 Practice</title>
 </head>
-<body>
+<body class="practice">
   <div class="wrapper">
     <div id="site-header"></div>
     <div class="main-content" role="main">
@@ -66,7 +61,7 @@
       <p class="mom-number">Exercise 11</p>
       <div id="124730wrap" class="embedwrap"><iframe id="124730" src="https://www.myopenmath.com/embedq2.php?id=124730&frame_id=124730&embedcheck=1" title="Factor out the GCF (simple binomial, Sousa)" loading="lazy"></iframe></div>
 
-      <!-- Group Q12–Q14: pick 3 of 4 without replacement -->
+      <!-- Group Q12—Q14: pick 3 of 4 without replacement -->
       <p class="mom-number">Exercise 12</p>
       <div id="124738wrap" class="embedwrap"><iframe id="124738" src="https://www.myopenmath.com/embedq2.php?id=124738&frame_id=124738&embedcheck=1" title="Factor out the GCF (simple trinomial, Sousa)" loading="lazy"></iframe></div>
 
@@ -119,21 +114,6 @@
   </div>
 
   <!-- Auto-resize listener (plain JS) -->
-  <script>
-  (function () {
-    window.addEventListener("message", function (e) {
-      if (typeof e.data !== "string" || !e.data.includes("lti.frameResize")) return;
-      try {
-        var payload = JSON.parse(e.data);
-        if (!payload || !payload.frame_id) return;
-        var id = String(payload.frame_id);
-        var ifr  = document.getElementById(id);
-        var wrap = document.getElementById(id + "wrap");
-        if (ifr && payload.height)     ifr.style.height  = payload.height + "px";
-        if (wrap && payload.wrapheight) wrap.style.height = payload.wrapheight + "px";
-      } catch (_) { /* ignore non-JSON */ }
-    });
-  })();
-  </script>
+<script src="footer-common.js"></script>
 </body>
 </html>

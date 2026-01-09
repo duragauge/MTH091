@@ -39,7 +39,8 @@ ATTRIBUTION_HTML = (
     "Page content authored by the course team. -->"
 )
 
-# ---------- <head> ----------
+# ---------- <head>
+ <link rel="preconnect" href="https://www.myopenmath.com"> ----------
 DEFAULT_HEAD = """\
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -292,7 +293,8 @@ def main():
     final_html = [
         HTML_DOCTYPE,
         '<html lang="en">',
-        '<head>',
+        '<head>
+ <link rel="preconnect" href="https://www.myopenmath.com">',
         head_html,          # <-- this is DEFAULT_HEAD.format(...)
         '</head>',
         '<body>',

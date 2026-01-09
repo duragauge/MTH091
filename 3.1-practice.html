@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+ <link rel="preconnect" href="https://www.myopenmath.com">
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <script src="head-common.js?v=1"></script>
  <link rel="stylesheet" href="stylesheet.css">
- <title>MTH091 Algebraic Literacy – 3.1 Practice</title>
-
- <!-- minimal layout helpers for auto-resizing frames -->
- <style>
-   .embedwrap { position: relative; overflow: visible; }
-   .embedwrap > iframe { position: absolute; width: 100%; border: none; }
- </style>
+ <title>MTH091 Algebraic Literacy — 3.1 Practice</title>
 </head>
-<body>
+<body class="practice">
  <div class="wrapper">
    <div id="site-header"></div>
    <div class="main-content" role="main">
 
-     <h1>3.1 One-Step Equations – Practice</h1>
+     <h1>3.1 One-Step Equations — Practice</h1>
 
      <!-- ======================= Inverse Operations ======================= -->
      <h2 id="inverse-operations">Inverse Operations</h2>
@@ -109,21 +104,6 @@
  </div>
 
  <!-- Auto-resize listener (plain JS) -->
- <script>
- (function () {
-   window.addEventListener("message", function (e) {
-     if (typeof e.data !== "string" || !e.data.includes("lti.frameResize")) return;
-     try {
-       var payload = JSON.parse(e.data);
-       if (!payload || !payload.frame_id) return;
-       var id = String(payload.frame_id);
-       var ifr  = document.getElementById(id);
-       var wrap = document.getElementById(id + "wrap");
-       if (ifr && payload.height)     ifr.style.height  = payload.height + "px";
-       if (wrap && payload.wrapheight) wrap.style.height = payload.wrapheight + "px";
-     } catch (_) { /* ignore non-JSON */ }
-   });
- })();
- </script>
+<script src="footer-common.js"></script>
 </body>
 </html>
