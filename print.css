@@ -19,9 +19,12 @@ html, body {
 #dropdown-content,
 .no-print,
 .practice-nav-container,
+.page-nav,
 a.practice-button,
 button.practice-button,
-[aria-label="Practice navigation"] { display: none !important; }
+[aria-label="Practice navigation"] {
+  display: none !important;
+}
 
 /* Uniform link look in print (no visited color) */
 a, a:link, a:visited, a:hover, a:active {
